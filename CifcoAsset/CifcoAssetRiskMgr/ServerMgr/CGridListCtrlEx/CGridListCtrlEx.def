@@ -1,0 +1,6 @@
+; CGridListCtrlEx.def : Declares the module parameters for the DLL.
+
+LIBRARY      "CGridListCtrlEx"
+
+EXPORTS
+    ; Explicit exports can go here

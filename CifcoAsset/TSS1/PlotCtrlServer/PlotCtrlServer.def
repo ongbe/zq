@@ -1,0 +1,9 @@
+LIBRARY	"PlotCtrlServer"
+
+EXPORTS
+	InitFunc
+	ReleaseFunc
+	TcpSvrAcceptFunc
+	TcpSvrDisconnFunc
+	TcpSvrOntimeFunc
+	TcpSvrRecvFunc

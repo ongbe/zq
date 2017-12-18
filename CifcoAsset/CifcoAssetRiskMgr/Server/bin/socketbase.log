@@ -1,0 +1,81 @@
+2016-11-02 17:24:19.183 : CTcpServerWorker,02,CTcpServerWorker(192.168.220.128/0,16,...)
+2016-11-02 17:24:19.215 : CUdpSimpleWorker,02,CUdpSimpleWorker(192.168.220.128/0,...)
+2016-11-02 17:24:19.246 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=f0
+2016-11-02 17:25:35.011 : CTcpServerWorker,02,CTcpServerWorker(192.168.220.128/0,16,...)
+2016-11-02 17:25:35.058 : CUdpSimpleWorker,02,CUdpSimpleWorker(192.168.220.128/0,...)
+2016-11-02 17:25:35.058 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=f0
+2016-11-02 17:27:27.886 : CTcpServerWorker,02,CTcpServerWorker(192.168.220.128/0,16,...)
+2016-11-02 17:27:27.902 : CUdpSimpleWorker,02,CUdpSimpleWorker(192.168.220.128/0,...)
+2016-11-02 17:27:27.902 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=f0
+2016-11-04 15:37:03.097 : CTcpServerWorker,02,CTcpServerWorker(192.168.220.128/0,16,...)
+2016-11-04 15:37:03.191 : CUdpSimpleWorker,02,CUdpSimpleWorker(192.168.220.128/0,...)
+2016-11-04 15:37:03.535 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=f0
+2016-11-10 16:22:34.562 : CTcpServerWorker,02,CTcpServerWorker(192.168.220.128/0,16,...)
+2016-11-10 16:22:34.656 : CUdpSimpleWorker,02,CUdpSimpleWorker(192.168.220.128/0,...)
+2016-11-10 16:22:34.703 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=f0
+2016-11-11 15:41:09.229 : CTcpServerWorker,02,CTcpServerWorker(192.168.220.128/0,16,...)
+2016-11-11 15:41:09.526 : CUdpSimpleWorker,02,CUdpSimpleWorker(192.168.220.128/0,...)
+2016-11-11 15:41:09.557 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=f0
+2016-11-29 10:51:50.937 : CTcpServerWorker,02,CTcpServerWorker(192.168.220.128/0,16,...)
+2016-11-29 10:51:51.093 : CUdpSimpleWorker,02,CUdpSimpleWorker(192.168.220.128/0,...)
+2016-11-29 10:51:51.093 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=f0
+2016-12-06 10:01:18.764 : CTcpServerWorker,02,CTcpServerWorker(192.168.220.128/0,16,...)
+2016-12-06 10:01:18.858 : CUdpSimpleWorker,02,CUdpSimpleWorker(192.168.220.128/0,...)
+2016-12-06 10:01:18.874 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=f0
+2016-12-23 15:57:28.503 : CTcpServerWorker,02,CTcpServerWorker(192.168.220.128/0,16,...)
+2016-12-23 15:57:28.566 : CUdpSimpleWorker,02,CUdpSimpleWorker(192.168.220.128/0,...)
+2016-12-23 15:57:28.581 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=f0
+2016-12-26 08:31:10.234 : CTcpServerWorker,02,CTcpServerWorker(192.168.220.128/0,16,...)
+2016-12-26 08:31:09.959 : CUdpSimpleWorker,02,CUdpSimpleWorker(192.168.220.128/0,...)
+2016-12-26 08:31:09.975 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=f0
+2017-02-27 11:17:51.328 : CTcpServerWorker,02,CTcpServerWorker(192.168.109.128/0,16,...)
+2017-02-27 11:17:51.421 : CUdpSimpleWorker,02,CUdpSimpleWorker(192.168.109.128/0,...)
+2017-02-27 11:17:51.421 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=f4
+2017-02-27 11:48:44.341 : CTcpServerWorker,02,CTcpServerWorker(192.168.109.128/0,16,...)
+2017-02-27 11:48:44.373 : CUdpSimpleWorker,02,CUdpSimpleWorker(192.168.109.128/0,...)
+2017-02-27 11:48:44.404 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=f0
+2017-02-27 11:50:33.828 : CTcpServerWorker,02,CTcpServerWorker(192.168.109.128/0,16,...)
+2017-02-27 11:50:33.859 : CUdpSimpleWorker,02,CUdpSimpleWorker(192.168.109.128/0,...)
+2017-02-27 11:50:33.875 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=f0
+2017-02-27 11:52:56.437 : CTcpServerWorker,02,CTcpServerWorker(192.168.109.128/0,16,...)
+2017-02-27 11:52:56.468 : CUdpSimpleWorker,02,CUdpSimpleWorker(192.168.109.128/0,...)
+2017-02-27 11:52:56.484 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=f0
+2017-02-27 11:59:11.647 : CTcpServerWorker,02,CTcpServerWorker(192.168.109.128/0,16,...)
+2017-02-27 11:59:11.804 : CUdpSimpleWorker,02,CUdpSimpleWorker(192.168.109.128/0,...)
+2017-02-27 11:59:11.835 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=f0
+2017-02-27 15:13:06.031 : CTcpServerWorker,02,CTcpServerWorker(192.168.109.128/0,16,...)
+2017-02-27 15:13:06.187 : CUdpSimpleWorker,02,CUdpSimpleWorker(192.168.109.128/0,...)
+2017-02-27 15:13:06.234 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=f0
+2017-03-15 09:05:20.078 : CTcpServerWorker,02,CTcpServerWorker(192.168.109.128/0,16,...)
+2017-03-15 09:05:20.546 : CUdpSimpleWorker,02,CUdpSimpleWorker(192.168.109.128/0,...)
+2017-03-15 09:05:20.546 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=f0
+2017-04-06 14:29:09.068 : CTcpServerWorker,02,CTcpServerWorker(192.168.109.128/0,16,...)
+2017-04-06 14:29:09.225 : CUdpSimpleWorker,02,CUdpSimpleWorker(192.168.109.128/0,...)
+2017-04-06 14:29:09.225 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=f0
+2017-04-11 16:42:26.546 : CTcpServerWorker,02,CTcpServerWorker(192.168.109.128/0,16,...)
+2017-04-11 16:42:26.687 : CUdpSimpleWorker,02,CUdpSimpleWorker(192.168.109.128/0,...)
+2017-04-11 16:42:26.703 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=f0
+2017-05-25 15:42:35.953 : CTcpServerWorker,02,CTcpServerWorker(192.168.109.128/0,16,...)
+2017-05-25 15:42:36.062 : CUdpSimpleWorker,02,CUdpSimpleWorker(192.168.109.128/0,...)
+2017-05-25 15:42:36.109 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=f0
+2017-06-01 11:09:52.890 : CTcpServerWorker,02,CTcpServerWorker(192.168.109.128/0,16,...)
+2017-06-01 11:09:53.015 : CUdpSimpleWorker,02,CUdpSimpleWorker(192.168.109.128/0,...)
+2017-06-01 11:09:53.015 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=f0
+2017-06-11 11:41:05.921 : CTcpServerWorker,02,CTcpServerWorker(192.168.109.128/0,16,...)
+2017-06-11 11:41:05.984 : CUdpSimpleWorker,02,CUdpSimpleWorker(192.168.109.128/0,...)
+2017-06-11 11:41:05.984 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=f0
+2017-06-28 10:33:38.515 : CTcpServerWorker,02,CTcpServerWorker(192.168.109.128/0,16,...)
+2017-06-28 10:33:38.578 : CUdpSimpleWorker,02,CUdpSimpleWorker(192.168.109.128/0,...)
+2017-06-28 10:33:38.593 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=f0
+2017-10-25 11:46:24.578 : CTcpServerWorker,02,CTcpServerWorker(192.168.140.129/0,16,...)
+2017-10-25 11:46:24.640 : CUdpSimpleWorker,02,CUdpSimpleWorker(192.168.140.129/0,...)
+2017-10-25 11:46:24.640 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=f0
+2017-11-02 14:57:35.453 : CTcpServerWorker,02,CTcpServerWorker(192.168.140.129/0,16,...)
+2017-11-02 14:57:35.515 : CUdpSimpleWorker,02,CUdpSimpleWorker(192.168.140.129/0,...)
+2017-11-02 14:57:35.515 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=f0
+2017-11-28 14:26:26.640 : CTcpServerWorker,02,CTcpServerWorker(192.168.140.129/0,16,...)
+2017-11-28 14:26:26.734 : CUdpSimpleWorker,02,CUdpSimpleWorker(192.168.140.129/0,...)
+2017-11-28 14:26:26.750 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=f0
+2017-12-06 10:58:01.593 : CTcpServerWorker,02,CTcpServerWorker(192.168.140.129/0,16,...)
+2017-12-06 10:58:01.640 : CUdpSimpleWorker,02,CUdpSimpleWorker(192.168.140.129/0,...)
+2017-12-06 10:58:01.640 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=f0

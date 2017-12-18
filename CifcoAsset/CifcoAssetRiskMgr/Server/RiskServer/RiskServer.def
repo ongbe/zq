@@ -1,0 +1,10 @@
+LIBRARY	"RiskServer"
+
+EXPORTS
+	InitFunc
+	ReleaseFunc
+	TcpSvrAcceptFunc
+	TcpSvrDisconnFunc
+	TcpSvrOntimeFunc
+	TcpSvrRecvFunc
+	UdpRecvFunc
