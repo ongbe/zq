@@ -1,0 +1,10 @@
+; TPriceList.def : Declares the module parameters for the DLL.
+
+LIBRARY      "TPriceList"
+
+EXPORTS
+	CreateWnd
+	SetOptionInstruments
+	NewMarketData
+	Get_Del_ClickParam
+	SetColorMode

@@ -1,0 +1,9 @@
+<Plusin>
+	<APPID>AlgoAutoOrder</APPID>
+	<StartWhenRegist>1</StartWhenRegist>
+	<!--插件菜单可以显示在如下位置：None、MainMenu、Quote。要显示在多个位置时，每个位置之间用半角逗号分隔，如 MainMenu,Quote表示同时在主菜单和报价表右键菜单中显示，None不能与其他位置同时使用-->
+	<MenuPosition>MainMenu,Quote</MenuPosition>
+	<MenuName>盯盘建仓平仓</MenuName>
+	<Summary>用鼠标快速下单</Summary>
+	<Description>用鼠标快速下单</Description>
+</Plusin>

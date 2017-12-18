@@ -1,0 +1,3 @@
+#include "stdafx.h"
+
+DEFINE_EVENT_TYPE(wxEVT_GET_NEW_CONTENT)

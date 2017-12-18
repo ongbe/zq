@@ -1,0 +1,54 @@
+<InstrumentGroup id="568">
+	<xmlversion>1.7.2.1</xmlversion>
+    <Group name="我的合约" id="568" Visibility="1" />
+    <Group name="郑商所合约" id="564" Visibility="1">
+        <Instrument id="CF409" />
+        <Instrument id="FG409" />
+        <Instrument id="JR405" />
+        <Instrument id="ME405" />
+        <Instrument id="OI409" />
+        <Instrument id="PM409" />
+        <Instrument id="RI405" />
+        <Instrument id="RM409" />
+        <Instrument id="RS409" />
+        <Instrument id="SR409" />
+        <Instrument id="TA409" />
+        <Instrument id="TC409" />
+        <Instrument id="WH405" />
+    </Group>
+    <Group name="大商所合约" id="565" Visibility="1">
+        <Instrument id="a1409" />
+        <Instrument id="b1409" />
+        <Instrument id="bb1405" />
+        <Instrument id="c1405" />
+        <Instrument id="fb1405" />
+        <Instrument id="i1409" />
+        <Instrument id="j1409" />
+        <Instrument id="jd1409" />
+        <Instrument id="jm1409" />
+        <Instrument id="l1409" />
+        <Instrument id="m1409" />
+        <Instrument id="p1409" />
+        <Instrument id="pp1409" />
+        <Instrument id="v1405" />
+        <Instrument id="y1409" />
+    </Group>
+    <Group name="上期所合约" id="566" Visibility="1">
+        <Instrument id="ag1406" />
+        <Instrument id="al1406" />
+        <Instrument id="au1406" />
+        <Instrument id="bu1406" />
+        <Instrument id="cu1406" />
+        <Instrument id="fu1406" />
+		<Instrument id="hc1410" />
+        <Instrument id="pb1405" />
+        <Instrument id="rb1410" />
+        <Instrument id="ru1409" />
+        <Instrument id="wr1409" />
+        <Instrument id="zn1406" />
+    </Group>
+    <Group name="中金所合约" id="567" Visibility="1">
+        <Instrument id="IF1405" />
+        <Instrument id="TF1406" />
+    </Group>
+</InstrumentGroup>

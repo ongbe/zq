@@ -1,0 +1,33 @@
+<ServerParam current="0" language="2">
+	<xmlversion>1.7.2.1</xmlversion>
+    <UniServer>127.0.0.1:6000</UniServer>
+	<VersionStr>STD_VIP2</VersionStr>		
+    <Server>
+        <Name>SVR_TELE_INET</Name>
+        <CTPSimulate>0</CTPSimulate>
+        <BrokerID>8090</BrokerID>
+        <InvestorID></InvestorID>
+        <Trading>
+            <item>180.169.101.98:41205</item>
+            <item>180.169.101.108:41205</item>
+        </Trading>
+        <MarketData>
+            <item>180.169.101.98:41213</item>
+            <item>180.169.101.108:41213</item>
+        </MarketData>
+    </Server>
+    <Server>
+        <Name>SVR_UNI_INET</Name>
+        <CTPSimulate>0</CTPSimulate>
+        <BrokerID>8090</BrokerID>
+        <InvestorID></InvestorID>
+        <Trading>
+            <item>140.206.101.81:41205</item>
+            <item>140.206.101.85:41205</item>
+        </Trading>
+        <MarketData>
+            <item>140.206.101.81:41213</item>
+            <item>140.206.101.85:41213</item>
+        </MarketData>
+    </Server>
+</ServerParam>

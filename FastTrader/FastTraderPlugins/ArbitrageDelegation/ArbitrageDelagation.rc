@@ -1,0 +1,264 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\NationalInstPrompt.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\NationalInstPrompt.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ARBITRAGEDELEGATION_DIALOG DIALOGEX 0, 0, 748, 209
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "套利委托"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,0,0,681,189
+    PUSHBUTTON      "自主套利",IDC_BUTTON_ARBITRAGE,690,46,47,14
+    PUSHBUTTON      "修改",IDC_BUTTON_MODIFY,690,70,47,14,WS_DISABLED
+    PUSHBUTTON      "撤单(套利)",IDC_BUTTON_REVOKE,690,96,47,14,WS_DISABLED
+    PUSHBUTTON      "委托明细",IDC_BUTTON_DELEGATEDETAIL,690,124,47,14,WS_DISABLED
+    CONTROL         "显示撤单（今天）",IDC_CHECK_DISPLAYREVOKE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,194,74,10
+    CONTROL         "已触发（今天）",IDC_CHECK_TRIGGERED,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,96,194,72,10
+END
+
+IDD_OPTSETUPDLG DIALOGEX 0, 0, 477, 258
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "价差套利触发单"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,174,233,50,14
+    PUSHBUTTON      "取消",IDCANCEL,253,233,50,14
+    LTEXT           "套利类型:1.价差缩小套利(在两只合约价差较大时开仓，价差较小时平仓的套利行为)\n                 2.价差扩大套利(在两只合约价差较小时开仓，价差较大时平仓的套利行为)",IDC_STATIC_TEXT1,42,13,326,16
+    LTEXT           "套利类型",IDC_STATIC,15,121,33,8
+    LTEXT           "触发价差",IDC_STATIC,15,143,33,8
+    EDITTEXT        IDC_EDIT_TRIGGER,70,140,58,14,ES_AUTOHSCROLL
+    LTEXT           "偏离板价",IDC_STATIC,15,167,33,8
+    EDITTEXT        IDC_EDIT_DEVIATE,70,164,58,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_DATETIMEPICKER_VALIDATE,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,70,188,71,15
+    LTEXT           "有效期至",IDC_STATIC,15,191,33,8
+    COMBOBOX        IDC_COMBO_OFFSET,70,97,71,43,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "开平",IDC_STATIC,15,99,17,8
+    GROUPBOX        "合约1",IDC_STATIC,166,88,143,133
+    GROUPBOX        "合约2",IDC_STATIC,322,88,143,133
+    EDITTEXT        IDC_EDIT_COUNT1,218,138,80,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_DIRECTION1,218,120,80,47,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "合约",IDC_STATIC,179,104,17,8
+    LTEXT           "买卖",IDC_STATIC,179,122,17,8
+    LTEXT           "委托数量",IDC_STATIC,179,141,33,8
+    LTEXT           "滑动价差",IDC_STATIC,179,162,33,8
+    EDITTEXT        IDC_EDIT_DELEGATE1,218,160,66,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_UPPERPRICE1,218,180,80,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "涨停价格",IDC_STATIC,179,182,33,8
+    EDITTEXT        IDC_EDIT_LOWPRICE1,218,199,80,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "跌停价格",IDC_STATIC,179,201,33,8
+    EDITTEXT        IDC_EDIT_COUNT2,375,138,80,12,ES_AUTOHSCROLL | WS_DISABLED
+    COMBOBOX        IDC_COMBO_DIRECTION2,375,119,80,47,CBS_DROPDOWNLIST | CBS_SORT | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "合约",IDC_STATIC,336,103,17,8
+    LTEXT           "买卖",IDC_STATIC,336,122,17,8
+    LTEXT           "委托数量",IDC_STATIC,336,140,33,8
+    LTEXT           "滑动价差",IDC_STATIC,336,162,33,8
+    EDITTEXT        IDC_EDIT_DELEGATE2,375,158,66,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_UPPERPRICE2,375,179,80,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "涨停价格",IDC_STATIC,336,181,33,8
+    EDITTEXT        IDC_EDIT_LOWPRICE2,375,198,80,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "跌停价格",IDC_STATIC,336,199,33,8
+    LTEXT           "偏离板价:满足套利价差条件时，两只合约的价格必需大于跌停价和小于涨停价的差值",IDC_STATIC_TEXT2,42,34,300,8
+    LTEXT           "委托价差:在满足套利价差条件并触发时，合约委托申报时的浮动价差",IDC_STATIC_TEXT3,42,50,244,8
+    CONTROL         "",IDC_SPIN_TRIGGER,"msctls_updown32",UDS_ARROWKEYS,131,140,10,14
+    CONTROL         "",IDC_SPIN_DEVIATE,"msctls_updown32",UDS_ARROWKEYS,130,164,11,14
+    CONTROL         "",IDC_SPIN_DELEGATE1,"msctls_updown32",UDS_ARROWKEYS,287,160,11,14
+    CONTROL         "",IDC_SPIN_DELEGATE2,"msctls_updown32",UDS_ARROWKEYS,444,159,11,14
+    LTEXT           ">=",IDC_STATIC_SIGN,53,143,12,8
+    COMBOBOX        IDC_COMBO_ARBITRAGETYPE,70,117,71,43,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_STATIC_LINE,"Static",SS_BLACKRECT,0,71,477,6,WS_EX_TRANSPARENT
+    COMBOBOX        IDC_COMBO_INST1,218,102,80,120,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_INST2,375,101,80,120,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DELEGATIONDETAIL_DIALOG DIALOGEX 0, 0, 683, 201
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "明细委托查询"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "退出",IDOK,239,186,50,14
+    CONTROL         "",IDC_LIST_DETAIL,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,1,1,682,181
+    PUSHBUTTON      "撤单",IDC_BUTTON_REVOKE,171,186,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ARBITRAGEDELEGATION_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 747
+    END
+
+    IDD_DELEGATIONDETAIL_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 320
+        BOTTOMMARGIN, 200
+        HORZGUIDE, 173
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_BKG          BITMAP                  "res\\bitmapBkg.bmp"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "NationalInstPrompt.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "NationalInstPrompt.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\NationalInstPrompt.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

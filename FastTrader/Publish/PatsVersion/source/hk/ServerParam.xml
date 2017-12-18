@@ -1,0 +1,17 @@
+<ServerParam current="0">
+	<xmlversion>1.7.2.1</xmlversion>
+    <UniServer></UniServer>
+    <VersionStr>real</VersionStr>	
+    <Server>
+        <Name>SVR_CIFCO_HK1</Name>
+        <Simulate>0</Simulate>
+        <BrokerID>0</BrokerID>
+        <InvestorID></InvestorID>
+        <Trading>
+            <item>210.177.196.168:8990</item>
+        </Trading>
+        <MarketData>
+            <item>210.177.196.167:2000</item>
+        </MarketData>
+    </Server>
+</ServerParam>

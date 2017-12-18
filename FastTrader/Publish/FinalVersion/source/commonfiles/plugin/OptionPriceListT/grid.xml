@@ -1,0 +1,12 @@
+<root>
+    <NormalGrid>
+        <Column ID="0" />
+        <Column ID="1" />
+        <Column ID="2" />
+        <Column ID="3" />
+        <Column ID="4" />
+        <Column ID="5" />
+        <Column ID="6" />
+        <Column ID="7" />
+    </NormalGrid>
+</root>

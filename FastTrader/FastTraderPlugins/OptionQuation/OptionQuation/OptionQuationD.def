@@ -1,0 +1,6 @@
+; OptionQuation.def : Declares the module parameters for the DLL.
+
+LIBRARY      "OptionQuationD"
+
+EXPORTS
+    ; Explicit exports can go here

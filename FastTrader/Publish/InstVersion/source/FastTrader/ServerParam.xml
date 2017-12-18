@@ -1,0 +1,16 @@
+<ServerParam current="4">
+	<xmlversion>1.7.2.1</xmlversion>
+	<VersionStr>机构版</VersionStr>	
+    <Server>
+        <Name>机构版</Name>
+        <CTPSimulate>1</CTPSimulate>
+        <BrokerID>8090</BrokerID>
+        <InvestorID></InvestorID>
+        <Trading>
+            <item>115.182.37.147:7010</item>
+        </Trading>
+        <MarketData>
+            <item>115.182.37.147:7011</item>
+        </MarketData>
+    </Server>
+</ServerParam>

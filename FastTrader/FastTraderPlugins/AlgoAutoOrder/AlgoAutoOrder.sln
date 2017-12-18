@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlgoAutoOrder", "AlgoAutoOrder.vcproj", "{C4F64ABD-F611-491E-8D3C-DB7B4277FF95}"
+	ProjectSection(ProjectDependencies) = postProject
+		{86E881CD-82F6-46C9-B10F-E05A7E43D14D} = {86E881CD-82F6-46C9-B10F-E05A7E43D14D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tools", "..\..\FastTrader\Tools\Tools.vcproj", "{86E881CD-82F6-46C9-B10F-E05A7E43D14D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlusinAPI", "..\..\FastTrader\PlusinAPI\PlusinDll.vcproj", "{1AA8A44F-3F29-475D-85D6-19FE49E9F497}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4F64ABD-F611-491E-8D3C-DB7B4277FF95}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C4F64ABD-F611-491E-8D3C-DB7B4277FF95}.Debug|Win32.Build.0 = Debug|Win32
+		{C4F64ABD-F611-491E-8D3C-DB7B4277FF95}.Release|Win32.ActiveCfg = Release|Win32
+		{C4F64ABD-F611-491E-8D3C-DB7B4277FF95}.Release|Win32.Build.0 = Release|Win32
+		{86E881CD-82F6-46C9-B10F-E05A7E43D14D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{86E881CD-82F6-46C9-B10F-E05A7E43D14D}.Debug|Win32.Build.0 = Debug|Win32
+		{86E881CD-82F6-46C9-B10F-E05A7E43D14D}.Release|Win32.ActiveCfg = Release|Win32
+		{86E881CD-82F6-46C9-B10F-E05A7E43D14D}.Release|Win32.Build.0 = Release|Win32
+		{1AA8A44F-3F29-475D-85D6-19FE49E9F497}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1AA8A44F-3F29-475D-85D6-19FE49E9F497}.Debug|Win32.Build.0 = Debug|Win32
+		{1AA8A44F-3F29-475D-85D6-19FE49E9F497}.Release|Win32.ActiveCfg = Release|Win32
+		{1AA8A44F-3F29-475D-85D6-19FE49E9F497}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

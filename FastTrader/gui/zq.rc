@@ -1,0 +1,59 @@
+#include <windows.h>
+//发布前先更新下面版本信息
+#include "../inc/gui-common/VersionDefine.h"
+aaaaa                           ICON "rc/zq.ico"
+zqICON_MAIN                     ICON "rc/zq.ico"
+zqICON_UP                       ICON "rc/xs.ico"
+zqICON_DWON                     ICON "rc/xx.ico"
+
+//zqBMP_LOGIN_STANDARD            BITMAP "rc/login_standard.bmp"
+//zqBMP_LOGIN_SIMULATE            BITMAP "rc/login_simulate.bmp"
+//zqBMP_LOGIN_PATSAPI             BITMAP "rc/login_patsapi.bmp"
+//zqBMP_LOGIN_CME                 BITMAP "rc/login_cme.bmp"
+//zqBMP_LOGIN_SIMULATE_CFFEX		BITMAP "rc/login_gzfz.bmp"
+//zqBMP_LOGIN_STANDARD_PLUGINS	BITMAP "rc/login_mncj.bmp"
+//zqBMP_LOGIN_SIMULATE_PLUGINS	BITMAP "rc/login_bzcj.bmp"
+//zqBMP_LOGIN_STANDARD_EXTRA		BITMAP "rc/login_bzzq.bmp"
+//zqBMP_LOGIN_SIMULATE_EXTRA		BITMAP "rc/login_mnzq.bmp"
+
+zqBMP_ENGLISH1                  BITMAP "rc/english1.bmp"
+zqBMP_ENGLISH2                  BITMAP "rc/english2.bmp"
+zqBMP_CHINESE1                  BITMAP "rc/chinese1.bmp"
+zqBMP_CHINESE2                  BITMAP "rc/chinese2.bmp"
+zqBMP_TRADITION1                BITMAP "rc/tradition1.bmp"
+zqBMP_TRADITION2                BITMAP "rc/tradition2.bmp"
+zqBMP_CHECKBOX                  BITMAP "rc/checkbox.bmp"
+zqBMP_UNCHECKBOX                BITMAP "rc/uncheckbox.bmp"
+zqICON_LIST                     ICON "rc/list.ico"
+zqSORT_UP                       ICON "rc/up.ico"
+zqSORT_DOWN                     ICON "rc/down.ico"
+zqBITMAP_UP                     BITMAP "rc/up.bmp"
+zqBITMAP_DOWN                   BITMAP "rc/down.bmp"
+IDR_XML_CONTENT_HTML			XML  "rc/content.html"
+IDR_XML_BG2						XML  "rc/bg2.JPG"
+IDR_XML_LOGIN					XML  "rc/login.JPG"
+IDR_XML_KEYBG					XML  "rc/VirtualKeyBackground.JPG"
+1 VERSIONINFO
+FILEVERSION VER_VALUE
+PRODUCTVERSION VER_VALUE
+FILETYPE VFT_APP
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+            VALUE "CompanyName", "中期信息技术服务有限公司"
+            VALUE "FileVersion", VER_STRING
+            VALUE "FileDescription", "中国国际期货网上交易终端"
+            VALUE "LegalCopyright", "Copyright (C) 2010-2011"
+            VALUE "OriginalFilename", "FastTrader.exe"
+            VALUE "ProductName", "中国国际期货网上交易终端"
+            VALUE "ProductVersion", VER_STRING
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 1252
+    END
+END
+

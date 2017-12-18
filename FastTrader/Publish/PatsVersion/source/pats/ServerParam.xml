@@ -1,0 +1,17 @@
+<ServerParam current="0">
+	<xmlversion>1.7.2.1</xmlversion>
+    <UniServer></UniServer>
+    <VersionStr>test</VersionStr>	
+    <Server>
+        <Name>SVR_PATS_TEST</Name>
+        <Simulate>0</Simulate>
+        <BrokerID>2030</BrokerID>
+        <InvestorID>APPID_2139</InvestorID>
+        <Trading>
+            <item>217.169.38.85:3000</item>
+        </Trading>
+        <MarketData>
+            <item>217.169.38.87:2000</item>
+        </MarketData>
+    </Server>
+</ServerParam>

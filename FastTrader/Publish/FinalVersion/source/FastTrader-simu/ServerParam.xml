@@ -1,0 +1,18 @@
+<ServerParam current="4">
+	<xmlversion>1.7.2.1</xmlversion>
+	<version>1.7.2.1</version>
+    <UniServer>127.0.0.1:6000</UniServer>
+	<VersionStr>simu</VersionStr>	
+    <Server>
+        <Name>SVR_SH_CTP_SIMU</Name>
+        <CTPSimulate>1</CTPSimulate>
+        <BrokerID>2020</BrokerID>
+        <InvestorID></InvestorID>
+        <Trading>
+            <item>asp-sim2-front1.financial-trading-platform.com:26205</item>
+        </Trading>
+        <MarketData>
+            <item>asp-sim2-md1.financial-trading-platform.com:26213</item>
+        </MarketData>
+    </Server>
+</ServerParam>

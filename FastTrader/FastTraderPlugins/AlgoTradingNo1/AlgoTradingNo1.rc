@@ -1,0 +1,309 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\AlgoTradingNo1.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\AlgoTradingNo1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 AlgoTradingNo1"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "AlgoTradingNo1，1.0 版",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2012",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_ALGOTRADINGNO1_DIALOG DIALOGEX 0, 0, 602, 349
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "算法交易 1号系统"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT1,76,18,60,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,76,34,60,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,76,50,60,12,ES_AUTOHSCROLL | ES_NUMBER
+    COMBOBOX        IDC_COMBO1,76,64,60,43,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO2,76,80,60,43,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO3,76,96,60,43,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT4,212,18,60,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,212,34,60,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT7,212,50,60,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT8,212,66,60,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT9,212,82,60,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT10,324,26,60,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT11,324,42,60,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT12,324,76,60,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "计算",IDC_BUTTON3,31,123,50,14
+    PUSHBUTTON      "执行交易",IDC_BUTTON1,108,123,50,14
+    PUSHBUTTON      "中止交易",IDC_BUTTON2,185,123,50,14
+    LTEXT           "合约名称：",IDC_STATIC,16,20,60,8
+    LTEXT           "初始价格(S0)：",IDC_STATIC,16,36,60,8
+    LTEXT           "买/卖：",IDC_STATIC,16,68,60,8
+    LTEXT           "开仓/平仓：",IDC_STATIC,16,84,60,8
+    LTEXT           "手数(X0)：",IDC_STATIC,16,52,60,8
+    LTEXT           "完成时间(T日)：",IDC_STATIC,152,20,60,8
+    LTEXT           "时间分段(N)：",IDC_STATIC,152,36,60,8
+    LTEXT           "τ:",IDC_STATIC,416,20,24,8
+    EDITTEXT        IDC_EDIT6,440,18,60,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP
+    LTEXT           "日波动率(σ)：",IDC_STATIC,152,52,60,8
+    LTEXT           "日收益(α)：",IDC_STATIC,152,68,60,8
+    LTEXT           "风险偏好(λ)：",IDC_STATIC,152,84,60,8
+    GROUPBOX        "短期冲击成本参数",IDC_STATIC_Epsilon,288,16,106,42,0,WS_EX_TRANSPARENT
+    LTEXT           "ε：",IDC_STATIC,300,28,24,8
+    LTEXT           "η：",IDC_STATIC,300,44,24,8
+    GROUPBOX        "长期冲击成本参数",IDC_STATIC,288,66,106,27,0,WS_EX_TRANSPARENT
+    LTEXT           "γ：",IDC_STATIC,300,78,24,8
+    LTEXT           "ηbar:",IDC_STATIC,416,52,24,8
+    EDITTEXT        IDC_EDIT13,440,50,60,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP
+    LTEXT           "xbar:",IDC_STATIC,416,36,24,8
+    EDITTEXT        IDC_EDIT14,440,34,60,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP
+    LTEXT           "k^2:",IDC_STATIC,510,52,16,8
+    EDITTEXT        IDC_EDIT15,440,82,60,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP
+    LTEXT           "k:",IDC_STATIC,510,68,16,8
+    EDITTEXT        IDC_EDIT16,440,66,60,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP
+    LTEXT           "kT:",IDC_STATIC,510,20,16,8
+    EDITTEXT        IDC_EDIT17,526,18,60,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP
+    LTEXT           "kτ:",IDC_STATIC,510,36,16,8
+    EDITTEXT        IDC_EDIT18,526,34,60,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP
+    CONTROL         "",IDC_TAB1,"SysTabControl32",0x0,7,147,588,195
+    LTEXT           "E(X):",IDC_STATIC,416,84,24,8
+    EDITTEXT        IDC_EDIT19,526,50,60,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP
+    LTEXT           "V(X):",IDC_STATIC,416,68,24,8
+    EDITTEXT        IDC_EDIT20,526,66,60,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP
+    EDITTEXT        IDC_EDIT21,444,98,56,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP
+    LTEXT           "E(X)α:",IDC_STATIC,416,100,28,8
+    LTEXT           "交易依据：",IDC_STATIC,16,100,60,8
+END
+
+IDD_DIALOG1 DIALOGEX 0, 0, 316, 180
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,7,302,166
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 241, 148
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "Custom1",IDC_CUSTOM1,"ChartCtrlClass",WS_TABSTOP,7,7,227,134
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "AlgoTradingNo1.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "AlgoTradingNo1.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_ALGOTRADINGNO1_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 595
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 342
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 173
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 234
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 141
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_ALGOTRADINGNO1_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 3, 0
+0xf2c2, "\000" 
+    IDC_COMBO1, 0x403, 3, 0
+0xf4c2, "\000" 
+    IDC_COMBO2, 0x403, 5, 0
+0xaabf, 0xd6b2, "\000" 
+    IDC_COMBO2, 0x403, 5, 0
+0xbdc6, 0xd6b2, "\000" 
+    IDC_COMBO2, 0x403, 5, 0
+0xbdc6, 0xf1bd, "\000" 
+    IDC_COMBO3, 0x403, 7, 0
+0xdece, 0xf7c7, 0xc6ca, "\000" 
+    IDC_COMBO3, 0x403, 7, 0
+0xd0d3, 0xf7c7, 0xc6ca, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 AlgoTradingNo1(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\AlgoTradingNo1.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

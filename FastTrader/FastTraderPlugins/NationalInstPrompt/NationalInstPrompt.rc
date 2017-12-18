@@ -1,0 +1,232 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\NationalInstPrompt.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\NationalInstPrompt.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_NATIONALINSTPROMPT_DIALOG DIALOGEX 0, 0, 443, 209
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "国债期现套利"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,0,0,443,189
+    PUSHBUTTON      "新增",IDC_BUTTON_ADD,16,191,50,14
+    PUSHBUTTON      "修改",IDC_BUTTON_MODIFY,73,191,50,14
+    PUSHBUTTON      "删除",IDC_BUTTON_DELETE,130,191,50,14
+    PUSHBUTTON      "启用",IDC_BUTTON_APPLY,338,191,50,14
+    CONTROL         "",IDC_SPIN1,"msctls_updown32",UDS_ARROWKEYS | NOT WS_VISIBLE,212,192,11,14
+    LTEXT           "现券价格触发事件测试使用",IDC_STATIC,228,195,97,8,NOT WS_VISIBLE
+END
+
+IDD_OPTSETUPDLG DIALOGEX 0, 0, 460, 361
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "参数设置"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT_BANDCODE,76,18,71,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BANDINSTRUMENT,76,46,71,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_IRR,76,74,71,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_INTERESTRATES,229,74,71,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BANDPRICE,76,102,71,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TRANSFERFACTOR,229,102,71,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_YEARINTERESTCOUNT,359,103,71,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_DATETIMEPICKER_PREDELIVDATE,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,75,139,71,15
+    CONTROL         "",IDC_DATETIMEPICKER_NEXTDELIVDATE,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,227,137,71,15
+    CONTROL         "",IDC_DATETIMEPICKER_DELIVDATE,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,76,169,71,15
+    CONTROL         "报警",IDC_CHECK_ALARM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,43,232,32,10
+    CONTROL         "自动下单",IDC_CHECK_AUTOORDER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,158,232,48,10
+    EDITTEXT        IDC_EDIT_INSTRUMENT,76,257,71,14,ES_AUTOHSCROLL | WS_DISABLED
+    COMBOBOX        IDC_COMBO_PRICE,219,260,71,34,CBS_DROPDOWNLIST | CBS_SORT | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_COUNT,347,260,71,14,ES_AUTOHSCROLL | WS_DISABLED
+    COMBOBOX        IDC_COMBO_DIRECTION,75,281,71,47,CBS_DROPDOWNLIST | CBS_SORT | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_OFFSETID,219,285,71,43,CBS_DROPDOWNLIST | CBS_SORT | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "确定",IDOK,138,336,50,14
+    PUSHBUTTON      "取消",IDCANCEL,217,336,50,14
+    LTEXT           "现券代码",IDC_STATIC,35,20,33,8
+    LTEXT           "合约",IDC_STATIC,35,49,17,8
+    LTEXT           "IRR",IDC_STATIC,35,77,13,8
+    LTEXT           "现券价格",IDC_STATIC,35,105,33,8
+    EDITTEXT        IDC_EDIT_QUOTPRICE,229,46,71,14,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "现价",IDC_STATIC,182,49,17,8
+    LTEXT           "票面利率",IDC_STATIC,182,77,33,8
+    LTEXT           "年付息次数",IDC_STATIC,313,106,41,8
+    LTEXT           "上一付息日",IDC_STATIC,33,142,41,8
+    LTEXT           "转换因子",IDC_STATIC,182,105,33,8
+    LTEXT           "交割日",IDC_STATIC,37,172,25,8
+    LTEXT           "合约",IDC_STATIC,44,260,17,8
+    LTEXT           "买卖",IDC_STATIC,44,284,17,8
+    LTEXT           "价格",IDC_STATIC,188,262,17,8
+    LTEXT           "开平",IDC_STATIC,188,286,17,8
+    LTEXT           "手数",IDC_STATIC,315,263,17,8
+    GROUPBOX        "策略参数设置",IDC_STATIC,18,4,422,191
+    GROUPBOX        "触发设置",IDC_STATIC,13,212,423,108
+    LTEXT           "(IRR,票面利率为0~1之间的数)",IDC_STATIC,311,77,106,8
+    LTEXT           "下一付息日",IDC_STATIC,178,140,41,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_NATIONALINSTPROMPT_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 409
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "NationalInstPrompt.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "NationalInstPrompt.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\NationalInstPrompt.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

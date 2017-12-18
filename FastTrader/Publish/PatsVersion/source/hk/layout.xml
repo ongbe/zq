@@ -1,0 +1,10 @@
+<splitterlayout style="3">
+	<xmlversion>1.7.2.1</xmlversion>
+    <splitter dir="horizontal" position="0.42" gravity="0.5">
+        <page>8100S</page>
+        <splitter dir="vertical" position="0.74" gravity="0.5">
+            <page>8114,8102,8113,8128,8110,8106</page>
+            <page>8101</page>
+        </splitter>
+    </splitter>
+</splitterlayout>

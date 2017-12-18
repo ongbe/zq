@@ -1,0 +1,449 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\ModuleBookOrder.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""          // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Module-BookOrder.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "退出(&X)",                      ID_APP_EXIT
+    END
+    POPUP "编辑(&E)"
+    BEGIN
+        MENUITEM "撤消(&U)\tCtrl+Z",              ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "剪切(&T)\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "粘贴(&P)\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于 Module-BookOrder(&A)...",  ID_APP_ABOUT
+    END
+END
+
+IDR_MENU_PRICELISTHEAD MENU 
+BEGIN
+    POPUP "价格表头右键菜单"
+    BEGIN
+        MENUITEM "自动调整列宽",                      ID_MENU_PLH_AUTOFITCOLWIDTH
+        MENUITEM "撤销全部委托单",                     ID_MENU_PLH_CANCELALLORDER
+        MENUITEM "撤销全部条件单",                     ID_MENU_PLH_CANCELALLCOND
+        MENUITEM "批量撤销委托单",                     ID_MENU_PLH_BATCHCANCELORDER
+        MENUITEM "批量撤销条件单",                     ID_MENU_PLH_BATCHCANCELCOND
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 Module-BookOrder"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "Module-BookOrder, Version 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2012",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_BOOKORDER DIALOGEX 0, 0, 298, 739
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_SYSMENU | WS_THICKFRAME
+FONT 9, "宋体", 400, 0, 0x86
+BEGIN
+    CONTROL         "",IDC_FRAME_ORDER,"Static",SS_GRAYFRAME | NOT WS_VISIBLE,0,99,297,327
+    LTEXT           "一键下单 -- ",IDC_LABEL_TITLE,6,8,158,13
+    CONTROL         "置顶",IDC_CHECK_TOMOSTTOP,"Button",BS_OWNERDRAW | WS_TABSTOP,261,5,12,14
+    CONTROL         "价格列固定",IDC_CHECK_FIXPRICE,"Button",BS_AUTOCHECKBOX | BS_FLAT | NOT WS_VISIBLE | WS_TABSTOP,174,17,56,10
+    CONTROL         "关闭",ID_CLOSE,"Button",BS_OWNERDRAW | WS_TABSTOP,277,3,16,16
+    CONTROL         "Custom1",IDC_GRIDACCOUNT,"MFCGridCtrl",WS_DISABLED | WS_TABSTOP,0,25,297,32
+    CONTROL         "Custom1",IDC_GRIDPOSITION,"MFCGridCtrl",WS_TABSTOP,0,56,297,43
+    CONTROL         "一键下单/撤单",IDC_CHECK_ALLOW_ORDER,"Button",BS_OWNERDRAW | WS_TABSTOP,211,4,41,16
+    LTEXT           "合约",IDC_STATIC,5,105,17,8
+    EDITTEXT        IDC_EDIT_INSTRUMENTID,24,103,89,12,ES_AUTOHSCROLL
+    LTEXT           "手数",IDC_STATIC,121,105,17,8
+    EDITTEXT        IDC_EDIT_QTY_LEFT,140,103,46,13,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_RIGHT
+    CONTROL         "",IDC_SPIN_QTY_LEFT,"msctls_updown32",UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,176,104,10,12
+    CONTROL         "",IDC_BTN_SETTING,"Button",BS_OWNERDRAW | WS_TABSTOP,193,103,11,11
+    CONTROL         "Custom1",IDC_GRIDPRICE,"MFCGridCtrl",WS_TABSTOP,0,119,297,307
+END
+
+IDD_INSTRUMENTIDLIST DIALOGEX 0, 0, 124, 186
+STYLE DS_SETFONT | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP
+EXSTYLE WS_EX_STATICEDGE | WS_EX_NOACTIVATE
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LISTBOX         IDC_INSTRUMENTIDLIST,15,36,84,98,LBS_SORT | LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Button4",IDC_INSTRUMENTID_GROUP,11,9,50,14,NOT WS_VISIBLE
+END
+
+IDD_QTYLIST DIALOGEX 0, 0, 116, 82
+STYLE DS_SETFONT | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP
+EXSTYLE WS_EX_STATICEDGE | WS_EX_NOACTIVATE
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Cancel",ID_QTY_GROUP,9,10,50,14,NOT WS_VISIBLE
+END
+
+IDD_CANCELORDERS DIALOGEX 0, 0, 215, 108
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "批量撤单"
+FONT 10, "宋体", 400, 0, 0x86
+BEGIN
+    PUSHBUTTON      "确定",IDOK,138,90,30,14
+    PUSHBUTTON      "取消",IDCANCEL,172,90,30,14
+    CONTROL         "",IDC_LISTORDERS,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,2,14,210,72
+    LTEXT           "可撤挂单列表：",IDC_STATIC,4,5,53,8
+    PUSHBUTTON      "全选",ID_SELECTALL,7,90,39,14
+    PUSHBUTTON      "取消全选",ID_CANCELSELECTALL,49,90,39,14
+END
+
+IDD_DLG_SETTING DIALOGEX 0, 0, 161, 145
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "设置"
+FONT 9, "新宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,75,122,36,14
+    PUSHBUTTON      "关闭",IDCANCEL,115,122,36,14
+    LTEXT           "仅当前窗口有效:",IDC_STATIC,9,108,66,8
+    CONTROL         "",IDC_CHECK_HASLOCALSETTING,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,77,106,9,12
+    LTEXT           "自动开平快捷键:",IDC_STATIC,9,9,66,8
+    LTEXT           "开仓快捷键:",IDC_STATIC,9,26,66,8
+    LTEXT           "平仓快捷键:",IDC_STATIC,9,42,66,8
+    COMBOBOX        IDC_COMBO_AutoOCKey,77,7,76,13,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_OpenKey,77,23,76,13,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_CloseKey,77,39,76,13,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "下单偏移:",IDC_STATIC,9,82,42,8
+    EDITTEXT        IDC_EDIT_ORDEROFFSET,77,78,65,14,ES_AUTOHSCROLL
+    LTEXT           "触发下单价格:",IDC_STATIC,9,64,66,8
+    COMBOBOX        IDC_COMBO_CondOrderPriceMode,77,61,76,13,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_CANCELCONDITIONS DIALOGEX 0, 0, 215, 108
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "宋体", 400, 0, 0x86
+BEGIN
+    PUSHBUTTON      "确定",IDOK,138,90,30,14
+    PUSHBUTTON      "取消",IDCANCEL,172,90,30,14
+    CONTROL         "",IDC_LISTORDERS,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,2,14,210,72
+    LTEXT           "可撤条件单列表：",IDC_STATIC,4,5,60,8
+    PUSHBUTTON      "全选",ID_SELECTALL,7,90,39,14
+    PUSHBUTTON      "取消全选",ID_CANCELSELECTALL,49,90,39,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,7
+ PRODUCTVERSION 1,0,0,7
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "Comments", "一键下单"
+            VALUE "CompanyName", "中期信息技术服务有限公司"
+            VALUE "FileDescription", "一键下单"
+            VALUE "FileVersion", "1.0.0.7"
+            VALUE "InternalName", "Module-BookOrder.exe"
+            VALUE "LegalCopyright", "(C) 中期信息技术服务有限公司。保留所有权利。"
+            VALUE "OriginalFilename", "Module-BookOrder.exe"
+            VALUE "ProductName", "FastTrader 系列"
+            VALUE "ProductVersion", "1.0.0.7"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_BOOKORDER, DIALOG
+    BEGIN
+        RIGHTMARGIN, 297
+        BOTTOMMARGIN, 426
+    END
+
+    IDD_INSTRUMENTIDLIST, DIALOG
+    BEGIN
+        RIGHTMARGIN, 123
+        BOTTOMMARGIN, 185
+    END
+
+    IDD_QTYLIST, DIALOG
+    BEGIN
+        RIGHTMARGIN, 115
+    END
+
+    IDD_DLG_SETTING, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 144
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BTNCLOSE_C1         BITMAP                  "res\\按钮\\浅色\\关闭浅色背景.bmp"
+IDB_BTNCLOSE_C2         BITMAP                  "res\\按钮\\深色\\关闭深色背景.bmp"
+IDB_BTNNOTOPMOST_C1     BITMAP                  "res\\按钮\\浅色\\置顶按下浅色背景.bmp"
+IDB_BTNTOPMOST_C1       BITMAP                  "res\\按钮\\浅色\\置顶未按浅色背景.bmp"
+IDB_BTNNOTOPMOST_C2     BITMAP                  "res\\按钮\\深色\\置顶按下深色背景.bmp"
+IDB_BTNTOPMOST_C2       BITMAP                  "res\\按钮\\深色\\置顶未按深色背景.bmp"
+IDB_BTNORDERSTOP_C1     BITMAP                  "res\\按钮\\浅色\\OFF浅色背景.bmp"
+IDB_BTNORDERSTART_C1    BITMAP                  "res\\按钮\\浅色\\ON浅色背景.bmp"
+IDB_BTNORDERSTOP_C2     BITMAP                  "res\\按钮\\深色\\OFF深色背景.bmp"
+IDB_BTNORDERSTART_C2    BITMAP                  "res\\按钮\\深色\\ON深色背景.bmp"
+IDB_BTNSETTING_C1       BITMAP                  "res\\按钮\\浅色\\设置浅色背景.bmp"
+IDB_BTNSETTING_C2       BITMAP                  "res\\按钮\\深色\\设置深色背景.bmp"
+IDB_CELLPRICEUNLOCK_C1  BITMAP                  "res\\按钮\\浅色\\行情解锁浅色背景.bmp"
+IDB_CELLPRICELOCK_C1    BITMAP                  "res\\按钮\\浅色\\行情锁定浅色背景.bmp"
+IDB_CELLPRICEUNLOCK_C2  BITMAP                  "res\\按钮\\深色\\行情解锁深色背景.bmp"
+IDB_CELLPRICELOCK_C2    BITMAP                  "res\\按钮\\深色\\行情锁定深色背景.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+1                       RT_MANIFEST             "Module-BookOrder.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE 初始化失败。请确保 OLE 库是正确的版本。"
+END
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "Module-BookOrder"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Module-BookOrder"
+    AFX_IDS_IDLEMESSAGE     "就绪"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "显示程序信息、版本号和版权\n关于"
+    ID_APP_EXIT             "退出应用程序；提示保存文档\n退出"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回上一个窗格\n上一窗格"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "将活动窗口拆分为多个窗格\n拆分"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "清除选定内容\n清除"
+    ID_EDIT_CLEAR_ALL       "清除全部内容\n全部清除"
+    ID_EDIT_COPY            "复制选定内容并将其放到剪贴板上\n复制"
+    ID_EDIT_CUT             "剪切选定内容并将其放到剪贴板上\n剪切"
+    ID_EDIT_FIND            "查找指定的文本\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复上一操作\n重复"
+    ID_EDIT_REPLACE         "用其他文本替换特定的文本\n替换"
+    ID_EDIT_SELECT_ALL      "选定整个文档\n全选"
+    ID_EDIT_UNDO            "撤消上一操作\n撤消"
+    ID_EDIT_REDO            "恢复上次撤消的操作\n重做"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "更改窗口大小"
+    AFX_IDS_SCMOVE          "更改窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小为图标"
+    AFX_IDS_SCMAXIMIZE      "使窗口最大化显示"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到前一个文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动窗口并提示保存文档"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "将窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务列表"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\ModuleBookOrder.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"          // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

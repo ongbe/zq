@@ -1,0 +1,58 @@
+<InstrumentGroup id="568">
+	<xmlversion>1.7.2.1</xmlversion>
+    <Group name="我的合约" id="568" Visibility="1" />
+    <Group name="郑商所合约" id="564" Visibility="1">
+        <Instrument id="CF505" />
+        <Instrument id="FG506" />
+        <Instrument id="JR501" />
+        <Instrument id="LR505" />
+        <Instrument id="MA506" />
+        <Instrument id="ME505" />
+        <Instrument id="OI505" />
+        <Instrument id="PM505" />
+        <Instrument id="RI501" />
+        <Instrument id="RM505" />
+        <Instrument id="RS509" />
+        <Instrument id="SF501" />
+        <Instrument id="SM501" />
+        <Instrument id="SR505" />
+        <Instrument id="TA505" />
+        <Instrument id="TC501" />
+        <Instrument id="WH501" />
+    </Group>
+    <Group name="大商所合约" id="565" Visibility="1">
+        <Instrument id="a1505" />
+        <Instrument id="b1505" />
+        <Instrument id="bb1501" />
+        <Instrument id="c1505" />
+        <Instrument id="fb1501" />
+        <Instrument id="i1505" />
+        <Instrument id="j1505" />
+        <Instrument id="jd1505" />
+        <Instrument id="jm1505" />
+        <Instrument id="l1505" />
+        <Instrument id="m1505" />
+        <Instrument id="p1505" />
+        <Instrument id="pp1505" />
+        <Instrument id="v1505" />
+        <Instrument id="y1505" />
+    </Group>
+    <Group name="上期所合约" id="566" Visibility="1">
+        <Instrument id="ag1506" />
+        <Instrument id="al1502" />
+        <Instrument id="au1506" />
+        <Instrument id="bu1506" />
+        <Instrument id="cu1503" />
+        <Instrument id="fu1503" />
+		<Instrument id="hc1505" />
+        <Instrument id="pb1502" />
+        <Instrument id="rb1505" />
+        <Instrument id="ru1505" />
+        <Instrument id="wr1504" />
+        <Instrument id="zn1502" />
+    </Group>
+    <Group name="中金所合约" id="567" Visibility="1">
+        <Instrument id="IF1501" />
+        <Instrument id="TF1503" />
+    </Group>
+</InstrumentGroup>

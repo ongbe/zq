@@ -1,0 +1,180 @@
+<hq>
+    <exchange>
+        <group id="shfe" time="9:00-10:15 10:30-11:30 13:00-15:00" />
+        <group id="czce" time="9:00-10:15 10:30-11:30 13:00-15:00" />
+        <group id="dce" time="9:00-10:15 10:30-11:30 13:00-15:00" />
+        <group id="cffex" time="9:15-11:30 13:00-15:15" />
+    </exchange>
+    <kline>
+        <leftspanwidth>66</leftspanwidth>
+        <color>
+            <background>0, 0, 0</background>
+            <border>192,0,0</border>
+            <redline>240, 0, 0</redline>
+            <greenline>0,255,255</greenline>
+            <dashline>76,40,40</dashline>
+            <curselline>200,200,200</curselline>
+            <tipbk>0,0,128</tipbk>
+            <linename>192,192,192</linename>
+            <sar>255,255,255</sar>
+            <leftpanelname>255, 255, 255</leftpanelname>
+            <leftpaneltime>82, 255, 255</leftpaneltime>
+            <leftpanelzhang>255, 82, 82</leftpanelzhang>
+            <leftpaneldie>82, 255, 82</leftpaneldie>
+            <leftpanelhengpan>255, 255, 255</leftpanelhengpan>
+            <cltrangleup>255, 0, 0</cltrangleup>
+            <cltrangledown>0, 128, 0</cltrangledown>
+            <cllinecolor0>200, 200, 200</cllinecolor0>
+            <cllinecolor1>255, 255, 255</cllinecolor1>
+            <cllinecolor2>74, 203, 76</cllinecolor2>
+            <cllinecolor3>181, 52, 179</cllinecolor3>
+            <cllinecolor4>241, 240, 113</cllinecolor4>
+            <cllinecolor5>124, 192, 255</cllinecolor5>
+            <cllinecolor6>100, 100, 100</cllinecolor6>
+            <cllinecolor7>194, 106, 105</cllinecolor7>
+        </color>
+    </kline>
+    <kvolume>
+        <color>
+            <background>0, 0, 0</background>
+            <border>192,0,0</border>
+            <redline>240,0,0</redline>
+            <greenline>0,255,255</greenline>
+            <dashline>76,40,40</dashline>
+            <curselline>200,200,200</curselline>
+            <tipbk>0,0,128</tipbk>
+            <linename>192,192,192</linename>
+            <cltrangleup>255, 0, 0</cltrangleup>
+            <cltrangledown>0, 128, 0</cltrangledown>
+            <cllinecolor0>200, 200, 200</cllinecolor0>
+            <cllinecolor1>255, 255, 255</cllinecolor1>
+            <cllinecolor2>74, 203, 76</cllinecolor2>
+            <cllinecolor3>181, 52, 179</cllinecolor3>
+            <cllinecolor4>241, 240, 113</cllinecolor4>
+            <cllinecolor5>124, 192, 255</cllinecolor5>
+            <cllinecolor6>100, 100, 100</cllinecolor6>
+            <cllinecolor7>194, 106, 105</cllinecolor7>
+        </color>
+    </kvolume>
+    <ktechindex>
+        <color>
+            <background>0, 0, 0</background>
+            <border>192,0,0</border>
+            <redline>240,0,0</redline>
+            <greenline>0,255,255</greenline>
+            <dashline>76,40,40</dashline>
+            <curselline>200,200,200</curselline>
+            <tipbk>0,0,128</tipbk>
+            <linename>192,192,192</linename>
+            <cltrangleup>255, 0, 0</cltrangleup>
+            <cltrangledown>0, 128, 0</cltrangledown>
+            <cllinecolor0>200, 200, 200</cllinecolor0>
+            <cllinecolor1>255, 255, 255</cllinecolor1>
+            <cllinecolor2>74, 203, 76</cllinecolor2>
+            <cllinecolor3>181, 52, 179</cllinecolor3>
+            <cllinecolor4>241, 240, 113</cllinecolor4>
+            <cllinecolor5>124, 192, 255</cllinecolor5>
+            <cllinecolor6>100, 100, 100</cllinecolor6>
+            <cllinecolor7>194, 106, 105</cllinecolor7>
+            <macdzhang>255, 84, 84</macdzhang>
+            <macddie>84, 255, 255</macddie>
+        </color>
+    </ktechindex>
+    <kscales>
+        <color>
+            <background>0, 0, 0</background>
+            <border>192,0,0</border>
+            <redline>240,0,0</redline>
+            <greenline>0,255,255</greenline>
+            <curselline>200,200,200</curselline>
+            <tipbk>0,0,128</tipbk>
+            <linename>192,192,192</linename>
+            <cltrangle>255,255,0</cltrangle>
+        </color>
+    </kscales>
+    <tline>
+        <leftspanwidth>66</leftspanwidth>
+        <line>
+            <spanline type="1" size="2" />
+            <hourline type="1" size="1" />
+            <halfhourline type="0" size="1" />
+        </line>
+        <color>
+            <background>0,0,0</background>
+            <border>192,0,0</border>
+            <price>255, 255, 255</price>
+            <averageprice>255, 255, 0</averageprice>
+            <name>255, 255, 255</name>
+            <time>82, 255, 255</time>
+            <zhang>255, 82, 82</zhang>
+            <die>82, 255, 82</die>
+            <hengpan>255, 255, 255</hengpan>
+            <curselline>200,200,200</curselline>
+            <linename>192,192,192</linename>
+            <tipsbk>0,0,128</tipsbk>
+        </color>
+    </tline>
+    <tvolume>
+        <color>
+            <background>0,0,0</background>
+            <border>192,0,0</border>
+            <averageprice>255, 255, 0</averageprice>
+            <zhang>255, 82, 82</zhang>
+            <die>82, 255, 82</die>
+            <hengpan>255, 255, 255</hengpan>
+            <curselline>200,200,200</curselline>
+            <tipsbk>0,0,128</tipsbk>
+        </color>
+    </tvolume>
+    <tscales>
+        <color>
+            <background>0,0,0</background>
+            <border>192,0,0</border>
+            <name>255, 255, 255</name>
+            <zhang>255, 82, 82</zhang>
+            <die>82, 255, 82</die>
+            <hengpan>255, 255, 255</hengpan>
+            <curselline>200,200,200</curselline>
+            <tipsbk>0,0,128</tipsbk>
+        </color>
+    </tscales>
+    <qpanel>
+        <MiniWidth>200</MiniWidth>
+        <hqcount>1</hqcount>
+        <color>
+            <background>0,0,0</background>
+            <border>192,0,0</border>
+            <Leftpanelzhang>240, 0, 0</Leftpanelzhang>
+            <Leftpaneldie>0, 240, 0</Leftpaneldie>
+            <Leftpanelhengpan>255, 255, 255</Leftpanelhengpan>
+            <ContractName>82, 255, 255</ContractName>
+            <InstrumentName>255, 255, 82</InstrumentName>
+            <Text>192,192,192</Text>
+            <Volume>255, 255, 82</Volume>
+            <GridLabelText>192,192,192</GridLabelText>
+        </color>
+        <font>
+            <headSize>12</headSize>
+            <detailSize>10</detailSize>
+            <GridHeadFontSize>8</GridHeadFontSize>
+        </font>
+    </qpanel>
+    <biggridtable>
+        <color>
+            <Text>192,192,192</Text>
+            <Leftpanelzhang>240, 0, 0</Leftpanelzhang>
+            <Leftpaneldie>0, 240, 0</Leftpaneldie>
+            <Leftpanelhengpan>255, 255, 255</Leftpanelhengpan>
+            <Volume>255, 255, 82</Volume>
+            <bodyfontsize>10</bodyfontsize>
+        </color>
+    </biggridtable>
+    <F10Panel>
+        <colname typeid="0" rowcount="2" clocount="8" name="标准合约 品种概况 影响因素 交易规则 外盘合约" />
+    </F10Panel>
+    <techindex>
+        <MA>
+            <MAday>14, 10, 20, 30, 60, 120</MAday>
+        </MA>
+    </techindex>
+</hq>

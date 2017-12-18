@@ -1,0 +1,437 @@
+<GuiCfgInfo>
+	<xmlversion>1.7.2.1</xmlversion>
+    <ListTable>
+        <List id="8100" TextSize="10" TextColor="50331647" HeadColor="33554432" HeadBgColor="46715092" BgColor="33554432" EvenLineBgColor="33554432" OddLineBgColor="33554432" HeadVisibility="1" Visibility="1">
+            <column id="0" Width="80" TextColor="33619967" Visibility="1" />
+            <column id="1" Width="80" TextColor="50331647" Visibility="1" />
+            <column id="6" Width="60" TextColor="50331647" Visibility="1" />
+            <column id="19" Width="80" TextColor="50331647" Visibility="1" />
+            <column id="2" Width="80" TextColor="50331647" Visibility="1" />
+            <column id="3" Width="60" TextColor="50331647" Visibility="1" />
+            <column id="4" Width="80" TextColor="50331647" Visibility="1" />
+            <column id="5" Width="60" TextColor="50331647" Visibility="1" />
+            <column id="7" Width="80" TextColor="50331647" Visibility="1" />
+            <column id="9" Width="80" TextColor="50331647" Visibility="0" />
+            <column id="15" Width="50" TextColor="50331647" Visibility="1" />
+            <column id="8" Width="80" TextColor="50331647" Visibility="1" />
+            <column id="12" Width="80" TextColor="50331647" Visibility="1" />
+            <column id="13" Width="80" TextColor="50331647" Visibility="1" />
+            <column id="14" Width="80" TextColor="50331647" Visibility="1" />
+            <column id="10" Width="80" TextColor="50331647" Visibility="0" />
+            <column id="11" Width="80" TextColor="50331647" Visibility="0" />
+            <column id="17" Width="140" TextColor="50331647" Visibility="1" />
+            <column id="24" Width="150" TextColor="50331647" Visibility="0" />
+            <column id="22" Width="80" TextColor="50331647" Visibility="1" />
+            <column id="23" Width="80" TextColor="50331647" Visibility="1" />
+            <column id="20" Width="80" TextColor="50331647" Visibility="1" />
+            <column id="21" Width="80" TextColor="50331647" Visibility="0" />
+            <column id="18" Width="60" TextColor="50331647" Visibility="1" />
+            <column id="16" Width="120" TextColor="33619967" Visibility="1" />
+        </List>
+        <List id="8101" TextSize="9" TextColor="33554432" HeadColor="33554432" HeadBgColor="49673200" BgColor="50331647" EvenLineBgColor="48300000" OddLineBgColor="48300031" HeadVisibility="1" Visibility="1">
+            <column id="1" Width="150" TextColor="33554432" Visibility="1" />
+            <column id="7" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="2" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="3" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="4" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="8" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="5" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="6" Width="60" TextColor="33554432" Visibility="1" />
+        </List>
+        <List id="8102" TextSize="9" TextColor="33554432" HeadColor="33554432" HeadBgColor="49673200" BgColor="50331647" EvenLineBgColor="48300000" OddLineBgColor="48300031" HeadVisibility="1" Visibility="1">
+            <column id="0" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="1" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="2" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="3" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="4" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="5" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="6" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="7" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="8" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="9" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="10" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="11" Width="100" TextColor="33554432" Visibility="1" />
+        </List>
+        <List id="8103" TextSize="9" TextColor="33554432" HeadColor="33554432" HeadBgColor="49673200" BgColor="50331647" EvenLineBgColor="48300000" OddLineBgColor="48300031" HeadVisibility="1" Visibility="1">
+            <column id="0" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="1" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="2" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="12" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="4" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="5" Width="60" TextColor="33554432" Visibility="1" />
+        </List>
+        <List id="8104" TextSize="9" TextColor="33554432" HeadColor="33554432" HeadBgColor="49673200" BgColor="50331647" EvenLineBgColor="48300000" OddLineBgColor="48300031" HeadVisibility="1" Visibility="1">
+            <column id="0" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="1" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="2" Width="40" TextColor="33554432" Visibility="1" />
+            <column id="3" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="4" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="5" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="6" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="7" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="8" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="9" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="10" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="11" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="18" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="19" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="20" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="21" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="12" Width="60" TextColor="33554432" Visibility="0" />
+            <column id="13" Width="60" TextColor="33554432" Visibility="0" />
+            <column id="14" Width="80" TextColor="33554432" Visibility="0" />
+            <column id="15" Width="80" TextColor="33554432" Visibility="0" />
+            <column id="16" Width="60" TextColor="33554432" Visibility="0" />
+            <column id="17" Width="60" TextColor="33554432" Visibility="0" />
+            <column id="22" Width="60" TextColor="33554432" Visibility="0" />
+            <column id="23" Width="60" TextColor="33554432" Visibility="0" />
+            <column id="24" Width="60" TextColor="33554432" Visibility="0" />
+            <column id="25" Width="60" TextColor="33554432" Visibility="0" />
+            <column id="26" Width="60" TextColor="33554432" Visibility="0" />
+            <column id="27" Width="60" TextColor="33554432" Visibility="0" />
+            <column id="28" Width="60" TextColor="33554432" Visibility="0" />
+        </List>
+        <List id="8105" TextSize="9" TextColor="33554432" HeadColor="33554432" HeadBgColor="49673200" BgColor="50331647" EvenLineBgColor="48300000" OddLineBgColor="48300031" HeadVisibility="1" Visibility="1">
+            <column id="1" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="2" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="7" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="3" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="15" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="4" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="9" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="0" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="6" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="10" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="5" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="11" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="12" Width="80" TextColor="33554432" Visibility="0" />
+            <column id="13" Width="80" TextColor="33554432" Visibility="0" />
+            <column id="14" Width="80" TextColor="33554432" Visibility="0" />
+            <column id="8" Width="60" TextColor="33554432" Visibility="0" />
+            <column id="16" Width="60" TextColor="33554432" Visibility="0" />
+            <column id="17" Width="60" TextColor="33554432" Visibility="0" />
+        </List>
+        <List id="8106" TextSize="9" TextColor="33554432" HeadColor="33554432" HeadBgColor="49673200" BgColor="50331647" EvenLineBgColor="48300000" OddLineBgColor="48300031" HeadVisibility="1" Visibility="1">
+            <column id="1" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="4" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="5" Width="120" TextColor="33554432" Visibility="1" />
+            <column id="8" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="9" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="10" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="11" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="12" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="13" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="14" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="15" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="16" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="17" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="7" Width="70" TextColor="33554432" Visibility="1" />
+            <column id="0" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="6" Width="70" TextColor="33554432" Visibility="1" />
+            <column id="2" Width="90" TextColor="33554432" Visibility="1" />
+            <column id="3" Width="60" TextColor="33554432" Visibility="1" />
+        </List>
+        <List id="8109" TextSize="9" TextColor="33554432" HeadColor="33554432" HeadBgColor="49673200" BgColor="50331647" EvenLineBgColor="48300000" OddLineBgColor="48300031" HeadVisibility="1" Visibility="1">
+            <column id="0" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="1" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="2" Width="40" TextColor="33554432" Visibility="1" />
+            <column id="3" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="4" Width="60" TextColor="33554432" Visibility="1" />
+        </List>
+        <List id="8110" TextSize="9" TextColor="33554432" HeadColor="33554432" HeadBgColor="49673200" BgColor="50331647" EvenLineBgColor="48300000" OddLineBgColor="48300031" HeadVisibility="1" Visibility="1">
+            <column id="0" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="1" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="2" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="3" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="4" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="5" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="6" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="7" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="8" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="9" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="10" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="11" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="12" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="13" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="14" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="15" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="16" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="17" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="18" Width="60" TextColor="33554432" Visibility="1" />
+        </List>
+        <List id="8113" TextSize="9" TextColor="33554432" HeadColor="33554432" HeadBgColor="49673200" BgColor="50331647" EvenLineBgColor="48300000" OddLineBgColor="48300031" HeadVisibility="1" Visibility="1">
+            <column id="0" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="1" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="2" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="3" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="4" Width="70" TextColor="33554432" Visibility="1" />
+            <column id="5" Width="70" TextColor="33554432" Visibility="1" />
+            <column id="6" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="7" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="8" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="9" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="10" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="11" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="12" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="13" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="14" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="15" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="16" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="17" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="18" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="19" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="20" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="21" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="22" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="23" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="24" Width="100" TextColor="33554432" Visibility="1" />
+        </List>
+        <List id="8114" TextSize="9" TextColor="33554432" HeadColor="33554432" HeadBgColor="49673200" BgColor="50331647" EvenLineBgColor="48300000" OddLineBgColor="48300031" HeadVisibility="1" Visibility="1">
+            <column id="0" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="1" Width="150" TextColor="33554432" Visibility="1" />
+            <column id="2" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="3" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="4" Width="150" TextColor="33554432" Visibility="1" />
+            <column id="5" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="6" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="7" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="8" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="9" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="10" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="11" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="12" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="13" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="14" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="15" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="16" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="17" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="18" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="19" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="20" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="21" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="22" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="23" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="24" Width="100" TextColor="33554432" Visibility="1" />
+        </List>
+        <List id="8119" TextSize="9" TextColor="33554432" HeadColor="33554432" HeadBgColor="49673200" BgColor="50331647" EvenLineBgColor="48300000" OddLineBgColor="48300031" HeadVisibility="1" Visibility="1">
+            <column id="1" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="2" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="3" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="4" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="5" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="6" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="7" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="8" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="9" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="10" Width="100" TextColor="33554432" Visibility="1" />
+        </List>
+        <List id="8120" TextSize="9" TextColor="33554432" HeadColor="33554432" HeadBgColor="49673200" BgColor="50331647" EvenLineBgColor="48300000" OddLineBgColor="48300031" HeadVisibility="1" Visibility="1">
+            <column id="1" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="2" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="3" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="4" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="5" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="6" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="7" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="8" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="9" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="10" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="12" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="13" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="14" Width="60" TextColor="33554432" Visibility="1" />
+        </List>
+        <List id="8121" TextSize="9" TextColor="33554432" HeadColor="33554432" HeadBgColor="49673200" BgColor="50331647" EvenLineBgColor="48300000" OddLineBgColor="48300031" HeadVisibility="1" Visibility="1">
+            <column id="1" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="3" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="2" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="5" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="6" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="7" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="8" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="14" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="18" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="19" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="15" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="16" Width="80" TextColor="33554432" Visibility="1" />
+        </List>
+        <List id="8124" TextSize="9" TextColor="33554432" HeadColor="33554432" HeadBgColor="49673200" BgColor="50331647" EvenLineBgColor="48300000" OddLineBgColor="48300031" HeadVisibility="1" Visibility="1">
+            <column id="1" Width="150" TextColor="33554432" Visibility="1" />
+            <column id="2" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="3" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="4" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="5" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="6" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="7" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="8" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="9" Width="100" TextColor="33554432" Visibility="1" />
+            <column id="11" Width="250" TextColor="33554432" Visibility="1" />
+        </List>
+        <List id="8133" TextSize="9" TextColor="33554432" HeadColor="33554432" HeadBgColor="49673200" BgColor="50331647" EvenLineBgColor="48300000" OddLineBgColor="48300031" HeadVisibility="1" Visibility="1">
+            <column id="1" Width="80" TextColor="33554432" Visibility="0" />
+            <column id="2" Width="80" TextColor="33554432" Visibility="0" />
+            <column id="4" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="6" Width="150" TextColor="33554432" Visibility="1" />
+            <column id="7" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="8" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="9" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="11" Width="50" TextColor="33554432" Visibility="1" />
+            <column id="12" Width="50" TextColor="33554432" Visibility="1" />
+            <column id="14" Width="50" TextColor="33554432" Visibility="1" />
+            <column id="15" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="16" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="19" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="20" Width="60" TextColor="33554432" Visibility="1" />
+        </List>
+         <List id="8134" TextSize="9" TextColor="33554432" HeadColor="33554432" HeadBgColor="49673200" BgColor="50331647" EvenLineBgColor="48300000" OddLineBgColor="48300031" HeadVisibility="1" Visibility="1">
+            <column id="1" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="3" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="4" Width="150" TextColor="33554432" Visibility="1" />
+            <column id="5" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="6" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="7" Width="80" TextColor="33554432" Visibility="1" />
+            <column id="8" Width="50" TextColor="33554432" Visibility="1" />
+            <column id="9" Width="50" TextColor="33554432" Visibility="1" />
+            <column id="10" Width="50" TextColor="33554432" Visibility="1" />
+            <column id="11" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="12" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="13" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="16" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="17" Width="60" TextColor="33554432" Visibility="1" />
+            <column id="18" Width="60" TextColor="33554432" Visibility="1" />
+        </List>
+   </ListTable>
+    <RiskMgr>
+        <SingleMaxVolume>0</SingleMaxVolume>
+        <ClearOrderPanelMode>0</ClearOrderPanelMode>
+    </RiskMgr>
+    <Order>
+        <bMouseInputInstrumentId>1</bMouseInputInstrumentId>
+        <bBuy5Sell5>0</bBuy5Sell5>
+        <bInputAbbreviation>1</bInputAbbreviation>
+        <ContractListStyle>0</ContractListStyle>
+        <bOrderConfirm>1</bOrderConfirm>
+        <bAutoOpenClose>0</bAutoOpenClose>
+        <b13Change>0</b13Change>
+        <bReTrack>0</bReTrack>
+        <bSimulate>1</bSimulate>
+		<MKTPriceUse>1</MKTPriceUse>	
+        <bMouseInputPrice>1</bMouseInputPrice>
+        <bKeyBoardFastPrice>1</bKeyBoardFastPrice>
+        <bMouseInputVolume>1</bMouseInputVolume>
+        <Volume v1="1" v2="2" v3="3" v4="4" v5="5" v6="10" v7="20" v8="30" v9="50" />
+        <OrderItem item1="合约" item2="价格" item3="开平" item4="买卖" item5="手数" />
+        <ProcessPositionType>1</ProcessPositionType>
+        <bOpenQuotKeyBoardOrder>0</bOpenQuotKeyBoardOrder>
+        <bSyncQuotPanel>1</bSyncQuotPanel>
+        <bReturnQuotTable>1</bReturnQuotTable>
+        <KeyOrderDataNum>0</KeyOrderDataNum>
+        <KeyOrderData />
+        <ClickQuotTableAction>3</ClickQuotTableAction>
+        <DoubleClickQuotTableAction>1</DoubleClickQuotTableAction>
+        <MouseFastOrderDirection>0</MouseFastOrderDirection>
+        <bCtrlReverse>0</bCtrlReverse>
+        <bAlwaysOpen>0</bAlwaysOpen>
+        <ClickPositionAction>3</ClickPositionAction>
+        <DoubleClickPositionAction>1</DoubleClickPositionAction>
+        <PositionVolume>0</PositionVolume>
+        <OrderMultiDataNum>0</OrderMultiDataNum>
+        <OrderMultiData />
+        <VolumeLimit>0</VolumeLimit>
+        <DifferPrice>0</DifferPrice>
+        <ActionAfterOrder>1</ActionAfterOrder>
+        <bOrderSuccessDlg>1</bOrderSuccessDlg>
+        <bOrderSuccessSound>0</bOrderSuccessSound>
+        <bOrderFailDlg>1</bOrderFailDlg>
+        <bOrderFailSound>1</bOrderFailSound>
+        <bTradeDlg>1</bTradeDlg>
+        <bTradeSound>0</bTradeSound>
+        <SellColor>12910522</SellColor>
+        <BuyColor>16765183</BuyColor>
+		<CursorPosAfterOrder>0</CursorPosAfterOrder>
+        <BuyHotKey>1</BuyHotKey>
+        <SellHotKey>3</SellHotKey>
+        <OpenOrderHotKey>1</OpenOrderHotKey>
+        <CloseTodayVolumnHotKey>2</CloseTodayVolumnHotKey>
+        <CloseOrderHotKey>3</CloseOrderHotKey>
+        <OpenOrderBtnHotKey>F9</OpenOrderBtnHotKey>
+        <OrderParkedBtnHotKey>F10</OrderParkedBtnHotKey>
+    </Order>
+    <CancelOrder>
+        <bDoubleClickMouseCancel>1</bDoubleClickMouseCancel>
+        <bCancelConfirm>1</bCancelConfirm>
+        <bHideCancelButton>0</bHideCancelButton>
+        <bOpenModifyOrder>0</bOpenModifyOrder>
+        <bModifyOrderConfirm>0</bModifyOrderConfirm>
+        <bCancelSuccessDlg>1</bCancelSuccessDlg>
+        <bCancelSuccessSound>0</bCancelSuccessSound>
+        <bCancelFailDlg>1</bCancelFailDlg>
+        <bCancelFailSound>1</bCancelFailSound>
+        <bOpenKeyBoardCancelOrder>0</bOpenKeyBoardCancelOrder>
+        <bReturnQuotTable>0</bReturnQuotTable>
+        <CancelOrderBtnHotKey>F8</CancelOrderBtnHotKey>
+        <CancelAllOrderBtnHotKey>F7</CancelAllOrderBtnHotKey>
+    </CancelOrder>
+    <MainWindow Top="0" MinTray="0" AutoLock="0" ColorPlan="1" FixPanel="0" ShowPanelShortKey="1" LogonVerify="2" DelInstrumentWarning="1" TradeInfoDlgSize="0" />
+    <FundAccount>
+        <TextColor>16777215</TextColor>
+        <BgColor>1120416</BgColor>
+    </FundAccount>
+    <PanelSet>
+        <item id="8110" ShortKey="" AliasName="" bVisiable="0" />
+        <item id="8100" ShortKey="F1" AliasName="" bVisiable="0" />
+        <item id="8106" ShortKey="" AliasName="" bVisiable="0" />
+        <item id="8113" ShortKey="" AliasName="" bVisiable="0" />
+		<item id="8114" ShortKey="" AliasName="" bVisiable="0" />
+        <item id="8101" ShortKey="" AliasName="" bVisiable="0" />
+        <item id="8128" ShortKey="" AliasName="" bVisiable="0" />
+        <item id="8102" ShortKey="" AliasName="" bVisiable="0" />
+        <item id="8129" ShortKey="" AliasName="" bVisiable="0" />
+    </PanelSet>
+    <VarietyInfo />
+    <NumberShortKeyInfo />
+    <SystemParamInfo>
+        <SystemHide bUse="1" prompt="3" key1="F11" key2="Alt" key3="Ctrl" key4="Shift" key5="" />
+        <TradeTimeSoundPrompt>1</TradeTimeSoundPrompt>
+        <TradeEndSoundPrompt>0</TradeEndSoundPrompt>
+        <SoundPromptBeforeTradeEndSec>180</SoundPromptBeforeTradeEndSec>
+    </SystemParamInfo>
+    <MovePosition>
+        <SourcePriceLimit>2</SourcePriceLimit>
+        <TargetPriceLimit>2</TargetPriceLimit>
+        <SourcePriceOffset>0</SourcePriceOffset>
+        <TargetPriceOffset>0</TargetPriceOffset>
+        <OperateOrder>0</OperateOrder>
+        <OutTimeSec>10</OutTimeSec>
+        <RetryTimes>5</RetryTimes>
+        <SourceNotDealAction>2</SourceNotDealAction>
+        <TargetNotDealAction>2</TargetNotDealAction>
+        <SourceNotDealPriceOffset>1</SourceNotDealPriceOffset>
+        <TargetNotDealPriceOffset>1</TargetNotDealPriceOffset>
+    </MovePosition>
+    <ReplacePosition>
+        <ClosePositionPriceLimit1>2</ClosePositionPriceLimit1>
+        <ClosePositionPriceOffset1>0</ClosePositionPriceOffset1>
+        <OpenPositionPriceLimit1>2</OpenPositionPriceLimit1>
+        <OpenPositionPriceOffset1>0</OpenPositionPriceOffset1>
+        <ClosePositionPriceLimit2>2</ClosePositionPriceLimit2>
+        <ClosePositionPriceOffset2>0</ClosePositionPriceOffset2>
+        <OpenPositionPriceLimit2>2</OpenPositionPriceLimit2>
+        <OpenPositionPriceOffset2>0</OpenPositionPriceOffset2>
+        <OperateOrder>0</OperateOrder>
+        <OutTimeSec>10</OutTimeSec>
+        <RetryTimes>5</RetryTimes>
+        <OpenPositionNotDealAction1>2</OpenPositionNotDealAction1>
+        <OpenPositionNotDealPriceOffset1>1</OpenPositionNotDealPriceOffset1>
+        <ClosePositionNotDealAction1>2</ClosePositionNotDealAction1>
+        <ClosePositionNotDealPriceOffset1>1</ClosePositionNotDealPriceOffset1>
+        <OpenPositionNotDealAction2>2</OpenPositionNotDealAction2>
+        <OpenPositionNotDealPriceOffset2>1</OpenPositionNotDealPriceOffset2>
+        <ClosePositionNotDealAction2>2</ClosePositionNotDealAction2>
+        <ClosePositionNotDealPriceOffset2>1</ClosePositionNotDealPriceOffset2>
+    </ReplacePosition>
+    <GUIShowSet>
+        <status>0</status>
+        <position x="0" y="0" />
+        <size width="0" height="0" />
+    </GUIShowSet>
+</GuiCfgInfo>

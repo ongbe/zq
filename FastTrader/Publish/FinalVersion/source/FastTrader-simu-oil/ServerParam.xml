@@ -1,0 +1,17 @@
+<ServerParam current="0">
+	<xmlversion>1.7.2.1</xmlversion>
+    <UniServer>127.0.0.1:6000</UniServer>
+	<VersionStr>simu_oil</VersionStr>
+    <Server>
+        <Name>Ô­ÓÍÄ£Äâ</Name>
+        <CTPSimulate>1</CTPSimulate>
+        <BrokerID>8090</BrokerID>
+        <InvestorID></InvestorID>
+        <Trading>
+            <item>60.247.45.68:32305</item>
+        </Trading>
+        <MarketData>
+            <item>60.247.45.68:32313</item>
+        </MarketData>
+    </Server>
+</ServerParam>

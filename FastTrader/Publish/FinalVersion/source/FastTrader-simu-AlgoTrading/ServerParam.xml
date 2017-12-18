@@ -1,0 +1,22 @@
+<ServerParam current="0" language="2">
+	<xmlversion>1.7.2.1</xmlversion>
+    <UniServer>127.0.0.1:6000</UniServer>
+    <VersionStr>simu_algotrading_plugins</VersionStr>
+    <ProxyType></ProxyType>
+    <ProxyAddr></ProxyAddr>
+    <ProxyPort></ProxyPort>
+    <ProxyUser></ProxyUser>
+    <ProxyPwd></ProxyPwd>
+    <Server>
+        <Name>SVR_ST_INX_SIMU</Name>
+        <CTPSimulate>1</CTPSimulate>
+        <BrokerID>8090</BrokerID>
+        <InvestorID></InvestorID>
+        <Trading>
+            <item>58.246.40.180:26205</item>
+        </Trading>
+        <MarketData>
+            <item>58.246.40.180:26213</item>
+        </MarketData>
+    </Server>
+</ServerParam>
