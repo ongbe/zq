@@ -1,0 +1,12 @@
+<splitterlayout style="1">
+    <splitter dir="horizontal" position="0.38" gravity="0.5">
+        <page>8100,8106</page>
+        <splitter dir="horizontal" position="0.72" gravity="0.5">
+            <splitter dir="vertical" position="0.74" gravity="0.5">
+                <page>8113,8114,8110,8129</page>
+                <page>8101</page>
+            </splitter>
+            <page>8128,8102</page>
+        </splitter>
+    </splitter>
+</splitterlayout>

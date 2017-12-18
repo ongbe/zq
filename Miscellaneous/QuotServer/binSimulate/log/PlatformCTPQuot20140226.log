@@ -1,0 +1,738 @@
+11:21:16.625 : [.\SvrQuotServer.cpp][99]:读取连接CTP参数成功
+11:21:16.703 : [.\PlatformCTPQuotImpl.cpp][221]:=========》ReInitCtpConnect
+
+11:21:16.718 : [.\PlatformCTPQuot.cpp][89]:Login CTP：m_pQuotApi(773da10)
+11:21:16.718 : [.\SvrQuotServerImpl.cpp][12]:删除交易日的线程成功进入
+11:21:16.750 : [.\SvrQuotServerImpl.cpp][20]:删除交易日的线程成功退出
+11:21:16.765 : [.\PlatformCTPQuot.cpp][271]:CPlatformCTPQuot::OnFrontConnected(与交易所成功建立TCP连接):
+									 --->ReqUserLogin(用户登录请求):ret=[0],iRequestID=[0],BrokerID=[8090],UserID=[01159539933]
+
+11:21:16.796 : [.\PlatformCTPQuot.cpp][317]:CPlatformCTPQuot::OnRspUserLogin(登录请求响应):
+									 ErrorID=[0],ErrorMsg=[No Error],nRequestID=[0],bIsLast=[1]
+									 TradingDay=[20140226],	 LoginTime=[],	 BrokerID=[],	 UserID=[],	 SystemName=[]
+									 FrontID=[0],	 SessionID=[0],	 MaxOrderRef[],	 SHFETime=[],	 DCETime=[],
+									 CZCETime[],	 FFEXTime=[],	 CurTickCount=[10241421l]
+11:23:11.390 : [.\SvrQuotServer.cpp][99]:读取连接CTP参数成功
+11:23:11.406 : [.\PlatformCTPQuotImpl.cpp][221]:=========》ReInitCtpConnect
+
+11:23:11.406 : [.\PlatformCTPQuot.cpp][89]:Login CTP：m_pQuotApi(773da10)
+11:23:11.406 : [.\SvrQuotServerImpl.cpp][12]:删除交易日的线程成功进入
+11:23:11.421 : [.\SvrQuotServerImpl.cpp][20]:删除交易日的线程成功退出
+11:23:11.453 : [.\PlatformCTPQuot.cpp][271]:CPlatformCTPQuot::OnFrontConnected(与交易所成功建立TCP连接):
+									 --->ReqUserLogin(用户登录请求):ret=[0],iRequestID=[0],BrokerID=[8090],UserID=[01159539933]
+
+11:23:11.484 : [.\PlatformCTPQuot.cpp][317]:CPlatformCTPQuot::OnRspUserLogin(登录请求响应):
+									 ErrorID=[0],ErrorMsg=[No Error],nRequestID=[0],bIsLast=[1]
+									 TradingDay=[20140226],	 LoginTime=[],	 BrokerID=[],	 UserID=[],	 SystemName=[]
+									 FrontID=[0],	 SessionID=[0],	 MaxOrderRef[],	 SHFETime=[],	 DCETime=[],
+									 CZCETime[],	 FFEXTime=[],	 CurTickCount=[10356109l]
+15:30:29.703 : [.\SvrQuotServer.cpp][99]:读取连接CTP参数成功
+15:30:29.843 : [.\PlatformCTPQuotImpl.cpp][221]:=========》ReInitCtpConnect
+
+15:30:29.859 : [.\PlatformCTPQuot.cpp][89]:Login CTP：m_pQuotApi(773da10)
+15:30:29.859 : [.\SvrQuotServerImpl.cpp][12]:删除交易日的线程成功进入
+15:30:29.890 : [.\SvrQuotServerImpl.cpp][20]:删除交易日的线程成功退出
+15:30:29.906 : [.\PlatformCTPQuot.cpp][271]:CPlatformCTPQuot::OnFrontConnected(与交易所成功建立TCP连接):
+									 --->ReqUserLogin(用户登录请求):ret=[0],iRequestID=[0],BrokerID=[8090],UserID=[01159539933]
+
+15:30:29.937 : [.\PlatformCTPQuot.cpp][317]:CPlatformCTPQuot::OnRspUserLogin(登录请求响应):
+									 ErrorID=[0],ErrorMsg=[No Error],nRequestID=[0],bIsLast=[1]
+									 TradingDay=[20140226],	 LoginTime=[],	 BrokerID=[],	 UserID=[],	 SystemName=[]
+									 FrontID=[0],	 SessionID=[0],	 MaxOrderRef[],	 SHFETime=[],	 DCETime=[],
+									 CZCETime[],	 FFEXTime=[],	 CurTickCount=[25194562l]
+15:32:06.796 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===CVX hSocket=9464
+15:32:06.796 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[CVX]
+15:32:06.937 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[CVX],nRequestID=[0],bIsLast=[1]
+15:32:06.937 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IF1403 hSocket=9464
+15:32:06.937 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IF1403]
+15:32:06.937 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IF1404 hSocket=9464
+15:32:06.937 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IF1404]
+15:32:06.937 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IF1406 hSocket=9464
+15:32:06.937 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IF1406]
+15:32:06.937 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IF1409 hSocket=9464
+15:32:06.937 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IF1409]
+15:32:06.937 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1403-C-2000 hSocket=9464
+15:32:06.937 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1403-C-2000]
+15:32:06.937 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1403-C-2050 hSocket=9464
+15:32:06.937 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1403-C-2050]
+15:32:06.937 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1403-C-2100 hSocket=9464
+15:32:06.937 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1403-C-2100]
+15:32:06.953 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1403-C-2150 hSocket=9464
+15:32:06.953 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1403-C-2150]
+15:32:06.953 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1403-C-2200 hSocket=9464
+15:32:06.953 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1403-C-2200]
+15:32:06.953 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1403-C-2250 hSocket=9464
+15:32:06.953 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1403-C-2250]
+15:32:06.953 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1403-C-2300 hSocket=9464
+15:32:06.953 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1403-C-2300]
+15:32:06.953 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1403-C-2350 hSocket=9464
+15:32:06.953 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1403-C-2350]
+15:32:06.953 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1403-C-2400 hSocket=9464
+15:32:06.953 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1403-C-2400]
+15:32:06.953 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1403-C-2450 hSocket=9464
+15:32:06.953 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1403-C-2450]
+15:32:06.953 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1403-C-2500 hSocket=9464
+15:32:06.953 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1403-C-2500]
+15:32:06.953 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1403-C-2600 hSocket=9464
+15:32:06.968 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1403-C-2600]
+15:32:06.968 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1403-C-2700 hSocket=9464
+15:32:06.968 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1403-C-2700]
+15:32:06.968 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1403-P-2000 hSocket=9464
+15:32:06.968 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IF1403],nRequestID=[0],bIsLast=[1]
+15:32:06.984 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IF1403 LastPrice=2149.2000 UpdateTime=15:15:00
+15:32:06.984 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IF1403
+15:32:06.984 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IF1404],nRequestID=[0],bIsLast=[1]
+15:32:06.984 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1403-P-2000]
+15:32:06.984 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1403-P-2050 hSocket=9464
+15:32:06.984 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1403-P-2050]
+15:32:06.984 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1403-P-2100 hSocket=9464
+15:32:06.984 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1403-P-2100]
+15:32:06.984 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1403-P-2150 hSocket=9464
+15:32:06.984 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1403-P-2150]
+15:32:06.984 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1403-P-2200 hSocket=9464
+15:32:06.984 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1403-P-2200]
+15:32:06.984 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1403-P-2250 hSocket=9464
+15:32:06.984 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1403-P-2250]
+15:32:06.984 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1403-P-2300 hSocket=9464
+15:32:07.000 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1403-P-2300]
+15:32:07.000 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1403-P-2350 hSocket=9464
+15:32:07.000 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1403-P-2350]
+15:32:07.000 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1403-P-2400 hSocket=9464
+15:32:07.000 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1403-P-2400]
+15:32:07.000 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IF1404 LastPrice=2149.8000 UpdateTime=15:15:00
+15:32:07.000 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IF1404
+15:32:07.000 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1403-P-2450 hSocket=9464
+15:32:07.000 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IF1406],nRequestID=[0],bIsLast=[1]
+15:32:07.000 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1403-P-2450]
+15:32:07.000 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IF1406 LastPrice=2149.6000 UpdateTime=15:15:00
+15:32:07.000 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1403-P-2500 hSocket=9464
+15:32:07.000 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IF1406
+15:32:07.015 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IF1409],nRequestID=[0],bIsLast=[1]
+15:32:07.015 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IF1409 LastPrice=2150.0000 UpdateTime=15:15:00
+15:32:07.015 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IF1409
+15:32:07.015 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1403-C-2000],nRequestID=[0],bIsLast=[1]
+15:32:07.015 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1403-P-2500]
+15:32:07.015 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-C-2000 LastPrice=188.0000 UpdateTime=15:15:00
+15:32:07.015 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1403-P-2600 hSocket=9464
+15:32:07.015 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-C-2000
+15:32:07.015 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1403-C-2050],nRequestID=[0],bIsLast=[1]
+15:32:07.015 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-C-2050 LastPrice=136.0000 UpdateTime=15:15:00
+15:32:07.031 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-C-2050
+15:32:07.031 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1403-C-2100],nRequestID=[0],bIsLast=[1]
+15:32:07.031 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-C-2100 LastPrice=117.5000 UpdateTime=15:15:00
+15:32:07.031 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-C-2100
+15:32:07.031 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1403-P-2600]
+15:32:07.031 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1403-C-2150],nRequestID=[0],bIsLast=[1]
+15:32:07.031 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-C-2150 LastPrice=86.2000 UpdateTime=15:15:00
+15:32:07.031 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1403-P-2700 hSocket=9464
+15:32:07.031 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-C-2150
+15:32:07.031 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1403-C-2200],nRequestID=[0],bIsLast=[1]
+15:32:07.031 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-C-2200 LastPrice=61.3000 UpdateTime=15:15:00
+15:32:07.031 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-C-2200
+15:32:07.031 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1403-P-2700]
+15:32:07.062 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1403-C-2250],nRequestID=[0],bIsLast=[1]
+15:32:07.062 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1404-C-2000 hSocket=9464
+15:32:07.062 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-C-2250 LastPrice=30.0000 UpdateTime=15:15:00
+15:32:07.062 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-C-2250
+15:32:07.062 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1403-C-2300],nRequestID=[0],bIsLast=[1]
+15:32:07.062 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-C-2300 LastPrice=30.4000 UpdateTime=15:15:00
+15:32:07.062 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-C-2300
+15:32:07.062 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1404-C-2000]
+15:32:07.062 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1403-C-2350],nRequestID=[0],bIsLast=[1]
+15:32:07.078 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-C-2350 LastPrice=11.8000 UpdateTime=15:15:00
+15:32:07.078 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1404-C-2050 hSocket=9464
+15:32:07.078 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-C-2350
+15:32:07.078 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1403-C-2400],nRequestID=[0],bIsLast=[1]
+15:32:07.078 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-C-2400 LastPrice=8.5000 UpdateTime=15:15:00
+15:32:07.078 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-C-2400
+15:32:07.078 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1403-C-2450],nRequestID=[0],bIsLast=[1]
+15:32:07.078 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1404-C-2050]
+15:32:07.093 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-C-2450 LastPrice=9.0000 UpdateTime=15:15:00
+15:32:07.093 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1404-C-2100 hSocket=9464
+15:32:07.093 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-C-2450
+15:32:07.093 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1403-C-2500],nRequestID=[0],bIsLast=[1]
+15:32:07.093 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-C-2500 LastPrice=5.3000 UpdateTime=15:15:00
+15:32:07.093 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-C-2500
+15:32:07.093 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1403-C-2600],nRequestID=[0],bIsLast=[1]
+15:32:07.093 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1404-C-2100]
+15:32:07.093 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-C-2600 LastPrice=4.8000 UpdateTime=15:15:00
+15:32:07.093 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1404-C-2150 hSocket=9464
+15:32:07.093 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-C-2600
+15:32:07.093 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1403-C-2700],nRequestID=[0],bIsLast=[1]
+15:32:07.093 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1404-C-2150]
+15:32:07.093 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-C-2700 LastPrice=2.0000 UpdateTime=15:15:00
+15:32:07.109 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1404-C-2200 hSocket=9464
+15:32:07.109 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-C-2700
+15:32:07.109 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1403-P-2000],nRequestID=[0],bIsLast=[1]
+15:32:07.109 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-P-2000 LastPrice=4.9000 UpdateTime=15:15:00
+15:32:07.109 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-P-2000
+15:32:07.109 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1403-P-2050],nRequestID=[0],bIsLast=[1]
+15:32:07.109 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1404-C-2200]
+15:32:07.109 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-P-2050 LastPrice=15.0000 UpdateTime=15:15:00
+15:32:07.140 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1404-C-2250 hSocket=9464
+15:32:07.140 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-P-2050
+15:32:07.140 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1403-P-2100],nRequestID=[0],bIsLast=[1]
+15:32:07.140 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1404-C-2250]
+15:32:07.140 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1404-C-2300 hSocket=9464
+15:32:07.140 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-P-2100 LastPrice=22.2000 UpdateTime=15:15:00
+15:32:07.140 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-P-2100
+15:32:07.140 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1403-P-2150],nRequestID=[0],bIsLast=[1]
+15:32:07.156 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1404-C-2300]
+15:32:07.156 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-P-2150 LastPrice=37.5000 UpdateTime=15:15:00
+15:32:07.156 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-P-2150
+15:32:07.156 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1403-P-2200],nRequestID=[0],bIsLast=[1]
+15:32:07.156 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1404-C-2350 hSocket=9464
+15:32:07.156 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-P-2200 LastPrice=51.0000 UpdateTime=15:15:00
+15:32:07.156 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-P-2200
+15:32:07.156 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1403-P-2250],nRequestID=[0],bIsLast=[1]
+15:32:07.156 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1404-C-2350]
+15:32:07.171 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-P-2250 LastPrice=97.4000 UpdateTime=15:15:00
+15:32:07.171 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1404-C-2400 hSocket=9464
+15:32:07.171 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-P-2250
+15:32:07.171 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1403-P-2300],nRequestID=[0],bIsLast=[1]
+15:32:07.171 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-P-2300 LastPrice=141.2000 UpdateTime=15:15:00
+15:32:07.171 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-P-2300
+15:32:07.171 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1403-P-2350],nRequestID=[0],bIsLast=[1]
+15:32:07.171 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1404-C-2400]
+15:32:07.171 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-P-2350 LastPrice=187.2000 UpdateTime=15:15:00
+15:32:07.171 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1404-C-2450 hSocket=9464
+15:32:07.171 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-P-2350
+15:32:07.171 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1403-P-2400],nRequestID=[0],bIsLast=[1]
+15:32:07.171 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-P-2400 LastPrice=240.5000 UpdateTime=15:15:00
+15:32:07.187 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-P-2400
+15:32:07.187 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1404-C-2450]
+15:32:07.187 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1403-P-2450],nRequestID=[0],bIsLast=[1]
+15:32:07.187 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1404-P-2000 hSocket=9464
+15:32:07.187 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-P-2450 LastPrice=293.0000 UpdateTime=15:15:00
+15:32:07.187 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-P-2450
+15:32:07.187 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1403-P-2500],nRequestID=[0],bIsLast=[1]
+15:32:07.203 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1404-P-2000]
+15:32:07.203 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1404-P-2050 hSocket=9464
+15:32:07.203 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-P-2500 LastPrice=329.1000 UpdateTime=15:15:00
+15:32:07.203 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-P-2500
+15:32:07.203 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1403-P-2600],nRequestID=[0],bIsLast=[1]
+15:32:07.203 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-P-2600 LastPrice=492.6000 UpdateTime=15:15:00
+15:32:07.203 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-P-2600
+15:32:07.203 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1403-P-2700],nRequestID=[0],bIsLast=[1]
+15:32:07.203 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1404-P-2050]
+15:32:07.203 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-P-2700 LastPrice=482.1000 UpdateTime=15:15:00
+15:32:07.203 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1404-P-2100 hSocket=9464
+15:32:07.203 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-P-2700
+15:32:07.218 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1404-C-2000],nRequestID=[0],bIsLast=[1]
+15:32:07.218 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-C-2000 LastPrice=153.0000 UpdateTime=15:15:00
+15:32:07.218 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-C-2000
+15:32:07.218 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1404-C-2050],nRequestID=[0],bIsLast=[1]
+15:32:07.218 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-C-2050 LastPrice=498.0000 UpdateTime=15:15:00
+15:32:07.218 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-C-2050
+15:32:07.218 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1404-P-2100]
+15:32:07.218 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1404-C-2100],nRequestID=[0],bIsLast=[1]
+15:32:07.218 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-C-2100 LastPrice=113.6000 UpdateTime=15:15:00
+15:32:07.250 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-C-2100
+15:32:07.250 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1404-P-2150 hSocket=9464
+15:32:07.250 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1404-C-2150],nRequestID=[0],bIsLast=[1]
+15:32:07.250 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-C-2150 LastPrice=110.0000 UpdateTime=15:15:00
+15:32:07.250 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-C-2150
+15:32:07.250 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1404-P-2150]
+15:32:07.250 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1404-C-2200],nRequestID=[0],bIsLast=[1]
+15:32:07.265 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1404-P-2200 hSocket=9464
+15:32:07.265 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-C-2200 LastPrice=95.8000 UpdateTime=15:15:00
+15:32:07.265 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-C-2200
+15:32:07.265 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1404-C-2250],nRequestID=[0],bIsLast=[1]
+15:32:07.265 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-C-2250 LastPrice=81.8000 UpdateTime=15:15:00
+15:32:07.265 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-C-2250
+15:32:07.265 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1404-C-2300],nRequestID=[0],bIsLast=[1]
+15:32:07.265 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1404-P-2200]
+15:32:07.265 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-C-2300 LastPrice=49.8000 UpdateTime=15:15:00
+15:32:07.265 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1404-P-2250 hSocket=9464
+15:32:07.265 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-C-2300
+15:32:07.281 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1404-C-2350],nRequestID=[0],bIsLast=[1]
+15:32:07.281 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-C-2350 LastPrice=30.2000 UpdateTime=15:15:00
+15:32:07.281 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-C-2350
+15:32:07.281 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1404-C-2400],nRequestID=[0],bIsLast=[1]
+15:32:07.281 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1404-P-2250]
+15:32:07.281 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-C-2400 LastPrice=10.1000 UpdateTime=15:15:00
+15:32:07.281 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1404-P-2300 hSocket=9464
+15:32:07.281 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-C-2400
+15:32:07.281 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1404-C-2450],nRequestID=[0],bIsLast=[1]
+15:32:07.296 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1404-P-2300]
+15:32:07.296 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-C-2450 LastPrice=16.2000 UpdateTime=15:15:00
+15:32:07.296 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-C-2450
+15:32:07.296 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1404-P-2350 hSocket=9464
+15:32:07.296 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1404-P-2000],nRequestID=[0],bIsLast=[1]
+15:32:07.296 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1404-P-2350]
+15:32:07.296 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-P-2000 LastPrice=10.0000 UpdateTime=15:15:00
+15:32:07.296 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-P-2000
+15:32:07.296 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1404-P-2400 hSocket=9464
+15:32:07.312 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1404-P-2050],nRequestID=[0],bIsLast=[1]
+15:32:07.312 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-P-2050 LastPrice=54.0000 UpdateTime=15:15:00
+15:32:07.312 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-P-2050
+15:32:07.312 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1404-P-2100],nRequestID=[0],bIsLast=[1]
+15:32:07.312 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-P-2100 LastPrice=258.0000 UpdateTime=15:15:00
+15:32:07.312 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-P-2100
+15:32:07.312 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1404-P-2400]
+15:32:07.312 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1404-P-2150],nRequestID=[0],bIsLast=[1]
+15:32:07.312 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1404-P-2450 hSocket=9464
+15:32:07.328 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-P-2150 LastPrice=67.0000 UpdateTime=15:15:00
+15:32:07.328 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-P-2150
+15:32:07.328 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1404-P-2200],nRequestID=[0],bIsLast=[1]
+15:32:07.328 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-P-2200 LastPrice=104.0000 UpdateTime=15:15:00
+15:32:07.328 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-P-2200
+15:32:07.328 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1404-P-2450]
+15:32:07.328 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1404-P-2250],nRequestID=[0],bIsLast=[1]
+15:32:07.328 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1405-C-2000 hSocket=9464
+15:32:07.328 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-P-2250 LastPrice=20.0000 UpdateTime=15:15:00
+15:32:07.328 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-P-2250
+15:32:07.328 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1404-P-2300],nRequestID=[0],bIsLast=[1]
+15:32:07.343 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-P-2300 LastPrice=300.1000 UpdateTime=15:15:00
+15:32:07.343 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-P-2300
+15:32:07.343 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1404-P-2350],nRequestID=[0],bIsLast=[1]
+15:32:07.343 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1405-C-2000]
+15:32:07.343 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-P-2350 LastPrice=51.0000 UpdateTime=15:15:00
+15:32:07.343 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1405-C-2050 hSocket=9464
+15:32:07.343 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-P-2350
+15:32:07.343 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1404-P-2400],nRequestID=[0],bIsLast=[1]
+15:32:07.343 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-P-2400 LastPrice=88.0000 UpdateTime=15:15:00
+15:32:07.375 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-P-2400
+15:32:07.375 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1404-P-2450],nRequestID=[0],bIsLast=[1]
+15:32:07.375 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1405-C-2050]
+15:32:07.375 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-P-2450 LastPrice=400.0000 UpdateTime=15:15:00
+15:32:07.375 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1405-C-2100 hSocket=9464
+15:32:07.375 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-P-2450
+15:32:07.390 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1405-C-2100]
+15:32:07.390 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1405-C-2150 hSocket=9464
+15:32:07.390 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1405-C-2150]
+15:32:07.390 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1405-C-2200 hSocket=9464
+15:32:07.390 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1405-C-2000],nRequestID=[0],bIsLast=[1]
+15:32:07.390 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1405-C-2200]
+15:32:07.390 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-C-2000 LastPrice=158.2000 UpdateTime=15:15:00
+15:32:07.390 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1405-C-2250 hSocket=9464
+15:32:07.390 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-C-2000
+15:32:07.390 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1405-C-2250]
+15:32:07.390 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1405-C-2300 hSocket=9464
+15:32:07.406 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1405-C-2300]
+15:32:07.406 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1405-C-2050],nRequestID=[0],bIsLast=[1]
+15:32:07.406 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1405-C-2350 hSocket=9464
+15:32:07.406 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-C-2050 LastPrice=158.2000 UpdateTime=15:15:00
+15:32:07.406 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-C-2050
+15:32:07.421 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1405-C-2350]
+15:32:07.421 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1405-C-2100],nRequestID=[0],bIsLast=[1]
+15:32:07.421 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-C-2100 LastPrice=161.8000 UpdateTime=15:15:00
+15:32:07.421 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1405-C-2400 hSocket=9464
+15:32:07.421 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-C-2100
+15:32:07.421 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1405-C-2150],nRequestID=[0],bIsLast=[1]
+15:32:07.421 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-C-2150 LastPrice=112.1000 UpdateTime=15:15:00
+15:32:07.421 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-C-2150
+15:32:07.421 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1405-C-2200],nRequestID=[0],bIsLast=[1]
+15:32:07.437 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-C-2200 LastPrice=138.0000 UpdateTime=15:15:00
+15:32:07.437 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-C-2200
+15:32:07.437 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1405-C-2400]
+15:32:07.437 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1405-C-2250],nRequestID=[0],bIsLast=[1]
+15:32:07.437 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1405-P-2000 hSocket=9464
+15:32:07.437 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-C-2250 LastPrice=17.5000 UpdateTime=15:15:00
+15:32:07.437 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-C-2250
+15:32:07.437 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1405-C-2300],nRequestID=[0],bIsLast=[1]
+15:32:07.437 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-C-2300 LastPrice=195.0000 UpdateTime=15:15:00
+15:32:07.437 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-C-2300
+15:32:07.453 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1405-C-2350],nRequestID=[0],bIsLast=[1]
+15:32:07.453 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1405-P-2000]
+15:32:07.453 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-C-2350 LastPrice=0.1000 UpdateTime=15:15:00
+15:32:07.453 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1405-P-2050 hSocket=9464
+15:32:07.453 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-C-2350
+15:32:07.453 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1405-P-2050]
+15:32:07.453 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1405-P-2100 hSocket=9464
+15:32:07.453 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1405-P-2100]
+15:32:07.468 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1405-P-2150 hSocket=9464
+15:32:07.468 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1405-C-2400],nRequestID=[0],bIsLast=[1]
+15:32:07.468 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-C-2400 LastPrice=20.0000 UpdateTime=15:15:00
+15:32:07.484 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-C-2400
+15:32:07.484 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1405-P-2150]
+15:32:07.484 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1405-P-2000],nRequestID=[0],bIsLast=[1]
+15:32:07.484 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1405-P-2200 hSocket=9464
+15:32:07.484 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-P-2000 LastPrice=0.1000 UpdateTime=15:15:00
+15:32:07.484 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-P-2000
+15:32:07.500 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1405-P-2200]
+15:32:07.500 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1405-P-2050],nRequestID=[0],bIsLast=[1]
+15:32:07.500 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-P-2050 LastPrice=0.7000 UpdateTime=15:15:00
+15:32:07.500 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1405-P-2250 hSocket=9464
+15:32:07.500 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-P-2050
+15:32:07.500 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1405-P-2100],nRequestID=[0],bIsLast=[1]
+15:32:07.500 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-P-2100 LastPrice=0.1000 UpdateTime=15:15:00
+15:32:07.515 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-P-2100
+15:32:07.515 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1405-P-2150],nRequestID=[0],bIsLast=[1]
+15:32:07.515 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-P-2150 LastPrice=40.0000 UpdateTime=15:15:00
+15:32:07.515 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-P-2150
+15:32:07.515 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1405-P-2250]
+15:32:07.515 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1405-P-2300 hSocket=9464
+15:32:07.531 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1405-P-2300]
+15:32:07.531 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1405-P-2200],nRequestID=[0],bIsLast=[1]
+15:32:07.531 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-P-2200 LastPrice=18.0000 UpdateTime=15:15:00
+15:32:07.531 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1405-P-2350 hSocket=9464
+15:32:07.531 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-P-2200
+15:32:07.531 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1405-P-2350]
+15:32:07.546 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1405-P-2400 hSocket=9464
+15:32:07.546 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1405-P-2400]
+15:32:07.546 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1405-P-2250],nRequestID=[0],bIsLast=[1]
+15:32:07.546 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1406-C-2000 hSocket=9464
+15:32:07.546 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-P-2250 LastPrice=230.0000 UpdateTime=15:15:00
+15:32:07.562 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-P-2250
+15:32:07.562 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1405-P-2300],nRequestID=[0],bIsLast=[1]
+15:32:07.562 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-P-2300 LastPrice=37.4000 UpdateTime=15:15:00
+15:32:07.562 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-P-2300
+15:32:07.562 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1406-C-2000]
+15:32:07.562 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1406-C-2100 hSocket=9464
+15:32:07.578 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1405-P-2350],nRequestID=[0],bIsLast=[1]
+15:32:07.578 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1406-C-2100]
+15:32:07.578 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-P-2350 LastPrice=200.0000 UpdateTime=15:15:00
+15:32:07.578 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1406-C-2200 hSocket=9464
+15:32:07.578 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-P-2350
+15:32:07.578 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1405-P-2400],nRequestID=[0],bIsLast=[1]
+15:32:07.593 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-P-2400 LastPrice=136.0000 UpdateTime=15:15:00
+15:32:07.593 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-P-2400
+15:32:07.593 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1406-C-2200]
+15:32:07.593 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1406-C-2000],nRequestID=[0],bIsLast=[1]
+15:32:07.593 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1406-C-2300 hSocket=9464
+15:32:07.593 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1406-C-2000 LastPrice=494.0000 UpdateTime=15:15:00
+15:32:07.593 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1406-C-2000
+15:32:07.593 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1406-C-2300]
+15:32:07.609 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1406-C-2100],nRequestID=[0],bIsLast=[1]
+15:32:07.609 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1406-C-2100 LastPrice=183.2000 UpdateTime=15:15:00
+15:32:07.609 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1406-C-2400 hSocket=9464
+15:32:07.609 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1406-C-2100
+15:32:07.609 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1406-C-2400]
+15:32:07.625 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1406-C-2500 hSocket=9464
+15:32:07.625 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1406-C-2200],nRequestID=[0],bIsLast=[1]
+15:32:07.625 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1406-C-2500]
+15:32:07.625 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1406-C-2200 LastPrice=143.8000 UpdateTime=15:15:00
+15:32:07.625 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1406-C-2600 hSocket=9464
+15:32:07.625 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1406-C-2200
+15:32:07.625 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1406-C-2600]
+15:32:07.640 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1406-C-2300],nRequestID=[0],bIsLast=[1]
+15:32:07.640 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1406-C-2700 hSocket=9464
+15:32:07.640 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1406-C-2300 LastPrice=87.9000 UpdateTime=15:15:00
+15:32:07.640 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1406-C-2300
+15:32:07.640 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1406-C-2400],nRequestID=[0],bIsLast=[1]
+15:32:07.640 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1406-C-2400 LastPrice=48.0000 UpdateTime=15:15:00
+15:32:07.640 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1406-C-2400
+15:32:07.640 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1406-C-2700]
+15:32:07.671 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1406-C-2500],nRequestID=[0],bIsLast=[1]
+15:32:07.671 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1406-P-2000 hSocket=9464
+15:32:07.671 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1406-C-2500 LastPrice=30.0000 UpdateTime=15:15:00
+15:32:07.671 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1406-C-2500
+15:32:07.671 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1406-C-2600],nRequestID=[0],bIsLast=[1]
+15:32:07.671 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1406-C-2600 LastPrice=5.2000 UpdateTime=15:15:00
+15:32:07.671 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1406-C-2600
+15:32:07.671 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1406-P-2000]
+15:32:07.687 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1406-C-2700],nRequestID=[0],bIsLast=[1]
+15:32:07.687 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1406-C-2700 LastPrice=2.0000 UpdateTime=15:15:00
+15:32:07.687 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1406-P-2100 hSocket=9464
+15:32:07.687 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1406-C-2700
+15:32:07.687 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1406-P-2100]
+15:32:07.703 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1406-P-2200 hSocket=9464
+15:32:07.703 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1406-P-2200]
+15:32:07.703 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1406-P-2300 hSocket=9464
+15:32:07.703 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1406-P-2000],nRequestID=[0],bIsLast=[1]
+15:32:07.703 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1406-P-2000 LastPrice=19.6000 UpdateTime=15:15:00
+15:32:07.703 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1406-P-2000
+15:32:07.718 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1406-P-2300]
+15:32:07.718 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1406-P-2400 hSocket=9464
+15:32:07.718 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1406-P-2100],nRequestID=[0],bIsLast=[1]
+15:32:07.718 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1406-P-2400]
+15:32:07.718 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1406-P-2100 LastPrice=56.0000 UpdateTime=15:15:00
+15:32:07.718 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1406-P-2500 hSocket=9464
+15:32:07.718 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1406-P-2100
+15:32:07.734 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1406-P-2500]
+15:32:07.734 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1406-P-2200],nRequestID=[0],bIsLast=[1]
+15:32:07.734 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1406-P-2600 hSocket=9464
+15:32:07.750 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1406-P-2200 LastPrice=102.4000 UpdateTime=15:15:00
+15:32:07.750 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1406-P-2200
+15:32:07.750 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1406-P-2300],nRequestID=[0],bIsLast=[1]
+15:32:07.750 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1406-P-2300 LastPrice=151.6000 UpdateTime=15:15:00
+15:32:07.750 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1406-P-2300
+15:32:07.750 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1406-P-2600]
+15:32:07.765 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1406-P-2400],nRequestID=[0],bIsLast=[1]
+15:32:07.765 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1406-P-2700 hSocket=9464
+15:32:07.765 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1406-P-2400 LastPrice=207.9000 UpdateTime=15:15:00
+15:32:07.765 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1406-P-2400
+15:32:07.765 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1406-P-2700]
+15:32:07.765 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1406-P-2500],nRequestID=[0],bIsLast=[1]
+15:32:07.765 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1409-C-2000 hSocket=9464
+15:32:07.781 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1406-P-2500 LastPrice=360.0000 UpdateTime=15:15:00
+15:32:07.781 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1406-P-2500
+15:32:07.781 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1409-C-2000]
+15:32:07.781 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1406-P-2600],nRequestID=[0],bIsLast=[1]
+15:32:07.796 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1406-P-2600 LastPrice=400.0000 UpdateTime=15:15:00
+15:32:07.796 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1409-C-2100 hSocket=9464
+15:32:07.796 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1406-P-2600
+15:32:07.796 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1406-P-2700],nRequestID=[0],bIsLast=[1]
+15:32:07.796 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1406-P-2700 LastPrice=750.0000 UpdateTime=15:15:00
+15:32:07.796 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1406-P-2700
+15:32:07.796 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1409-C-2100]
+15:32:07.796 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1409-C-2200 hSocket=9464
+15:32:07.812 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1409-C-2200]
+15:32:07.812 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1409-C-2300 hSocket=9464
+15:32:07.812 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1409-C-2000],nRequestID=[0],bIsLast=[1]
+15:32:07.812 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1409-C-2300]
+15:32:07.812 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1409-C-2000 LastPrice=102.0000 UpdateTime=15:15:00
+15:32:07.828 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1409-C-2400 hSocket=9464
+15:32:07.828 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1409-C-2000
+15:32:07.828 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1409-C-2400]
+15:32:07.828 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1409-C-2100],nRequestID=[0],bIsLast=[1]
+15:32:07.828 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1409-C-2500 hSocket=9464
+15:32:07.828 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1409-C-2100 LastPrice=200.0000 UpdateTime=15:15:00
+15:32:07.828 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1409-C-2100
+15:32:07.843 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1409-C-2200],nRequestID=[0],bIsLast=[1]
+15:32:07.843 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1409-C-2500]
+15:32:07.843 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1409-C-2200 LastPrice=150.0000 UpdateTime=15:15:00
+15:32:07.843 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1409-P-2000 hSocket=9464
+15:32:07.843 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1409-C-2200
+15:32:07.843 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1409-C-2300],nRequestID=[0],bIsLast=[1]
+15:32:07.843 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1409-C-2300 LastPrice=120.0000 UpdateTime=15:15:00
+15:32:07.859 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1409-C-2300
+15:32:07.859 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1409-P-2000]
+15:32:07.859 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1409-P-2100 hSocket=9464
+15:32:07.859 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1409-C-2400],nRequestID=[0],bIsLast=[1]
+15:32:07.859 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1409-P-2100]
+15:32:07.875 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1409-C-2400 LastPrice=300.0000 UpdateTime=15:15:00
+15:32:07.875 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1409-C-2400
+15:32:07.875 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1409-P-2200 hSocket=9464
+15:32:07.875 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1409-C-2500],nRequestID=[0],bIsLast=[1]
+15:32:07.875 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1409-P-2200]
+15:32:07.890 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1409-C-2500 LastPrice=100.0000 UpdateTime=15:15:00
+15:32:07.890 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1409-P-2300 hSocket=9464
+15:32:07.890 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1409-C-2500
+15:32:07.890 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1409-P-2300]
+15:32:07.890 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1409-P-2400 hSocket=9464
+15:32:07.890 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1409-P-2000],nRequestID=[0],bIsLast=[1]
+15:32:07.890 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1409-P-2000 LastPrice=50.0000 UpdateTime=15:15:00
+15:32:07.906 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1409-P-2000
+15:32:07.906 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1409-P-2100],nRequestID=[0],bIsLast=[1]
+15:32:07.906 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1409-P-2100 LastPrice=50.0000 UpdateTime=15:15:00
+15:32:07.906 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1409-P-2100
+15:32:07.906 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1409-P-2400]
+15:32:07.906 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1409-P-2200],nRequestID=[0],bIsLast=[1]
+15:32:07.906 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===IO1409-P-2500 hSocket=9464
+15:32:07.921 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1409-P-2200 LastPrice=225.0000 UpdateTime=15:15:00
+15:32:07.921 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1409-P-2200
+15:32:07.921 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[IO1409-P-2500]
+15:32:07.921 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===TF1403 hSocket=9464
+15:32:07.937 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[TF1403]
+15:32:07.937 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1409-P-2300],nRequestID=[0],bIsLast=[1]
+15:32:07.953 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===TF1406 hSocket=9464
+15:32:07.953 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1409-P-2300 LastPrice=90.0000 UpdateTime=15:15:00
+15:32:07.953 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1409-P-2300
+15:32:07.953 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1409-P-2400],nRequestID=[0],bIsLast=[1]
+15:32:07.953 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1409-P-2400 LastPrice=225.8000 UpdateTime=15:15:00
+15:32:07.968 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1409-P-2400
+15:32:07.968 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[IO1409-P-2500],nRequestID=[0],bIsLast=[1]
+15:32:07.968 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[TF1406]
+15:32:07.968 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1409-P-2500 LastPrice=506.9000 UpdateTime=15:15:00
+15:32:07.968 : [.\SvrQuotServer.cpp][344]:------>>>第三方订阅行情,Instrument===TF1409 hSocket=9464
+15:32:07.968 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1409-P-2500
+15:32:07.968 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[TF1403],nRequestID=[0],bIsLast=[1]
+15:32:07.984 : [.\PlatformCTPQuot.cpp][144]:SubscribeMarketData(定制指定合约行情):ret=[0],InstrumentID=[TF1409]
+15:32:07.984 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 TF1403 LastPrice=92.2660 UpdateTime=15:15:00
+15:32:07.984 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 TF1403
+15:32:08.000 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[TF1406],nRequestID=[0],bIsLast=[1]
+15:32:08.000 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 TF1406 LastPrice=92.8860 UpdateTime=15:15:00
+15:32:08.000 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 TF1406
+15:32:08.015 : [.\PlatformCTPQuot.cpp][357]:CPlatformCTPQuot::OnRspSubMarketData(订阅行情应答,Unimplemented) : pRspInfo=[b54faa4],ErrorID=[0],ErrorMsg=[No Error],InstrumentID=[TF1409],nRequestID=[0],bIsLast=[1]
+15:32:08.015 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 TF1409 LastPrice=93.2800 UpdateTime=15:15:00
+15:32:08.015 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 TF1409
+16:08:19.187 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IF1403 LastPrice=2149.2000 UpdateTime=16:08:42
+16:08:19.187 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IF1403
+16:08:19.187 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IF1406 LastPrice=2149.6000 UpdateTime=16:08:42
+16:08:19.187 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IF1406
+16:08:19.187 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1406-C-2100 LastPrice=183.2000 UpdateTime=16:08:42
+16:08:19.187 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1406-C-2100
+16:08:19.218 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1406-P-2100 LastPrice=56.0000 UpdateTime=16:08:42
+16:08:19.218 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1406-P-2100
+16:08:19.218 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 TF1403 LastPrice=92.2660 UpdateTime=16:08:42
+16:08:19.218 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 TF1403
+16:08:19.218 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 TF1406 LastPrice=92.8860 UpdateTime=16:08:42
+16:08:19.218 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 TF1406
+16:08:19.218 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-C-2300 LastPrice=30.4000 UpdateTime=16:08:42
+16:08:19.218 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-C-2300
+16:08:19.218 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-P-2300 LastPrice=141.2000 UpdateTime=16:08:42
+16:08:19.234 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-P-2300
+16:08:19.234 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-C-2400 LastPrice=8.5000 UpdateTime=16:08:42
+16:08:19.234 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-C-2400
+16:08:19.234 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-P-2400 LastPrice=240.5000 UpdateTime=16:08:42
+16:08:19.234 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-P-2400
+16:08:19.234 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-C-2500 LastPrice=5.3000 UpdateTime=16:08:42
+16:08:19.234 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-C-2500
+16:08:19.234 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-P-2500 LastPrice=329.1000 UpdateTime=16:08:42
+16:08:19.234 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-P-2500
+16:08:19.234 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-C-2200 LastPrice=61.3000 UpdateTime=16:08:42
+16:08:19.234 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-C-2200
+16:08:19.234 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-P-2200 LastPrice=51.0000 UpdateTime=16:08:42
+16:08:19.234 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-P-2200
+16:08:19.234 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-C-2100 LastPrice=117.5000 UpdateTime=16:08:42
+16:08:19.234 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-C-2100
+16:08:19.234 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-P-2100 LastPrice=22.2000 UpdateTime=16:08:42
+16:08:19.234 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-P-2100
+16:08:19.250 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1406-C-2300 LastPrice=87.9000 UpdateTime=16:08:42
+16:08:19.250 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1406-C-2300
+16:08:19.250 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1406-P-2300 LastPrice=151.6000 UpdateTime=16:08:42
+16:08:19.250 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1406-P-2300
+16:08:19.359 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1406-C-2400 LastPrice=48.0000 UpdateTime=16:08:42
+16:08:19.359 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1406-C-2400
+16:08:19.359 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1406-P-2400 LastPrice=207.9000 UpdateTime=16:08:42
+16:08:19.359 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1406-P-2400
+16:08:19.359 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1406-C-2500 LastPrice=30.0000 UpdateTime=16:08:42
+16:08:19.359 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1406-C-2500
+16:08:19.359 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1406-P-2500 LastPrice=360.0000 UpdateTime=16:08:42
+16:08:19.359 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1406-P-2500
+16:08:19.390 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1406-C-2200 LastPrice=143.8000 UpdateTime=16:08:42
+16:08:19.390 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1406-C-2200
+16:08:19.390 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1406-P-2200 LastPrice=102.4000 UpdateTime=16:08:42
+16:08:19.390 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1406-P-2200
+16:08:19.390 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-C-2600 LastPrice=4.8000 UpdateTime=16:08:42
+16:08:19.390 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-C-2600
+16:08:19.390 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-P-2600 LastPrice=492.6000 UpdateTime=16:08:42
+16:08:19.390 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-P-2600
+16:08:19.390 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1406-C-2600 LastPrice=5.2000 UpdateTime=16:08:42
+16:08:19.390 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1406-C-2600
+16:08:19.390 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1406-P-2600 LastPrice=400.0000 UpdateTime=16:08:42
+16:08:19.390 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1406-P-2600
+16:08:19.390 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-C-2700 LastPrice=2.0000 UpdateTime=16:08:42
+16:08:19.390 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-C-2700
+16:08:19.390 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-P-2700 LastPrice=482.1000 UpdateTime=16:08:42
+16:08:19.390 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-P-2700
+16:08:19.390 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1406-C-2700 LastPrice=2.0000 UpdateTime=16:08:42
+16:08:19.390 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1406-C-2700
+16:08:19.390 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1406-P-2700 LastPrice=750.0000 UpdateTime=16:08:42
+16:08:19.390 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1406-P-2700
+16:08:19.390 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 TF1409 LastPrice=93.2800 UpdateTime=16:08:42
+16:08:19.390 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 TF1409
+16:08:19.406 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1409-C-2300 LastPrice=120.0000 UpdateTime=16:08:42
+16:08:19.406 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1409-C-2300
+16:08:19.406 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1409-P-2300 LastPrice=90.0000 UpdateTime=16:08:42
+16:08:19.406 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1409-P-2300
+16:08:19.406 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1409-C-2400 LastPrice=300.0000 UpdateTime=16:08:42
+16:08:19.406 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1409-C-2400
+16:08:19.406 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1409-P-2400 LastPrice=225.8000 UpdateTime=16:08:42
+16:08:19.406 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1409-P-2400
+16:08:19.406 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1409-C-2500 LastPrice=100.0000 UpdateTime=16:08:42
+16:08:19.406 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1409-C-2500
+16:08:19.406 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1409-P-2500 LastPrice=506.9000 UpdateTime=16:08:42
+16:08:19.406 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1409-P-2500
+16:08:19.406 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1409-C-2200 LastPrice=150.0000 UpdateTime=16:08:42
+16:08:19.406 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1409-C-2200
+16:08:19.406 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1409-P-2200 LastPrice=225.0000 UpdateTime=16:08:42
+16:08:19.421 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1409-P-2200
+16:08:19.421 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1409-C-2100 LastPrice=200.0000 UpdateTime=16:08:42
+16:08:19.421 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1409-C-2100
+16:08:19.421 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1409-P-2100 LastPrice=50.0000 UpdateTime=16:08:42
+16:08:19.421 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1409-P-2100
+16:08:19.421 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-C-2350 LastPrice=11.8000 UpdateTime=16:08:42
+16:08:19.421 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-C-2350
+16:08:19.421 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-P-2350 LastPrice=187.2000 UpdateTime=16:08:42
+16:08:19.421 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-P-2350
+16:08:19.562 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-C-2450 LastPrice=9.0000 UpdateTime=16:08:42
+16:08:19.562 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-C-2450
+16:08:19.562 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-P-2450 LastPrice=293.0000 UpdateTime=16:08:42
+16:08:19.562 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-P-2450
+16:08:19.562 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-C-2250 LastPrice=30.0000 UpdateTime=16:08:42
+16:08:19.562 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-C-2250
+16:08:19.562 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-P-2250 LastPrice=97.4000 UpdateTime=16:08:42
+16:08:19.562 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-P-2250
+16:08:19.562 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-C-2150 LastPrice=86.2000 UpdateTime=16:08:42
+16:08:19.578 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-C-2150
+16:08:19.578 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-P-2150 LastPrice=37.5000 UpdateTime=16:08:42
+16:08:19.578 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-P-2150
+16:08:19.593 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1406-C-2000 LastPrice=494.0000 UpdateTime=16:08:42
+16:08:19.593 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1406-C-2000
+16:08:19.593 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1406-P-2000 LastPrice=19.6000 UpdateTime=16:08:42
+16:08:19.593 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1406-P-2000
+16:08:19.593 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1409-C-2000 LastPrice=102.0000 UpdateTime=16:08:42
+16:08:19.609 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1409-C-2000
+16:08:19.609 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1409-P-2000 LastPrice=50.0000 UpdateTime=16:08:42
+16:08:19.609 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1409-P-2000
+16:08:19.609 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-C-2000 LastPrice=188.0000 UpdateTime=16:08:42
+16:08:19.609 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-C-2000
+16:08:19.609 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-P-2000 LastPrice=4.9000 UpdateTime=16:08:42
+16:08:19.609 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-P-2000
+16:08:19.609 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-C-2000 LastPrice=153.0000 UpdateTime=16:08:42
+16:08:19.609 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-C-2000
+16:08:19.609 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-P-2000 LastPrice=10.0000 UpdateTime=16:08:42
+16:08:19.609 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-P-2000
+16:08:19.609 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IF1404 LastPrice=2149.8000 UpdateTime=16:08:42
+16:08:19.609 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IF1404
+16:08:19.609 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-C-2400 LastPrice=10.1000 UpdateTime=16:08:42
+16:08:19.609 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-C-2400
+16:08:19.609 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-P-2400 LastPrice=88.0000 UpdateTime=16:08:42
+16:08:19.609 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-P-2400
+16:08:19.609 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-C-2050 LastPrice=158.2000 UpdateTime=16:08:42
+16:08:19.609 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-C-2050
+16:08:20.000 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-P-2050 LastPrice=0.7000 UpdateTime=16:08:42
+16:08:20.000 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-P-2050
+16:08:20.000 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-C-2200 LastPrice=95.8000 UpdateTime=16:08:42
+16:08:20.000 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-C-2200
+16:08:20.000 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-P-2200 LastPrice=104.0000 UpdateTime=16:08:42
+16:08:20.000 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-P-2200
+16:08:20.000 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-C-2250 LastPrice=81.8000 UpdateTime=16:08:42
+16:08:20.000 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-C-2250
+16:08:20.031 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-P-2250 LastPrice=20.0000 UpdateTime=16:08:42
+16:08:20.031 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-P-2250
+16:08:20.031 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-C-2300 LastPrice=49.8000 UpdateTime=16:08:42
+16:08:20.031 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-C-2300
+16:08:20.031 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-P-2300 LastPrice=300.1000 UpdateTime=16:08:42
+16:08:20.031 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-P-2300
+16:08:20.031 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-C-2350 LastPrice=30.2000 UpdateTime=16:08:42
+16:08:20.031 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-C-2350
+16:08:20.031 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-P-2350 LastPrice=51.0000 UpdateTime=16:08:42
+16:08:20.046 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-P-2350
+16:08:20.046 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-C-2150 LastPrice=110.0000 UpdateTime=16:08:42
+16:08:20.046 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-C-2150
+16:08:20.046 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-P-2150 LastPrice=67.0000 UpdateTime=16:08:42
+16:08:20.046 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-P-2150
+16:08:20.046 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-C-2100 LastPrice=113.6000 UpdateTime=16:08:42
+16:08:20.046 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-C-2100
+16:08:20.046 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-P-2100 LastPrice=258.0000 UpdateTime=16:08:42
+16:08:20.046 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-P-2100
+16:08:20.046 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-C-2050 LastPrice=498.0000 UpdateTime=16:08:42
+16:08:20.046 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-C-2050
+16:08:20.046 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-P-2050 LastPrice=54.0000 UpdateTime=16:08:42
+16:08:20.046 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-P-2050
+16:08:20.046 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-C-2450 LastPrice=16.2000 UpdateTime=16:08:42
+16:08:20.046 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-C-2450
+16:08:20.046 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1404-P-2450 LastPrice=400.0000 UpdateTime=16:08:42
+16:08:20.046 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1404-P-2450
+16:08:20.046 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-C-2050 LastPrice=136.0000 UpdateTime=16:08:42
+16:08:20.046 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-C-2050
+16:08:20.046 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1403-P-2050 LastPrice=15.0000 UpdateTime=16:08:42
+16:08:20.062 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1403-P-2050
+16:08:20.062 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-C-2000 LastPrice=158.2000 UpdateTime=16:08:42
+16:08:20.062 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-C-2000
+16:08:20.062 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-P-2000 LastPrice=0.1000 UpdateTime=16:08:42
+16:08:20.062 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-P-2000
+16:08:20.062 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IF1409 LastPrice=2150.0000 UpdateTime=16:08:42
+16:08:20.062 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IF1409
+16:08:20.062 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-C-2250 LastPrice=17.5000 UpdateTime=16:08:42
+16:08:20.062 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-C-2250
+16:08:20.062 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-P-2250 LastPrice=230.0000 UpdateTime=16:08:42
+16:08:20.062 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-P-2250
+16:08:20.062 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-C-2300 LastPrice=195.0000 UpdateTime=16:08:42
+16:08:20.078 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-C-2300
+16:08:20.078 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-P-2300 LastPrice=37.4000 UpdateTime=16:08:42
+16:08:20.078 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-P-2300
+16:08:20.078 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-C-2350 LastPrice=0.1000 UpdateTime=16:08:42
+16:08:20.078 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-C-2350
+16:08:20.078 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-P-2350 LastPrice=200.0000 UpdateTime=16:08:42
+16:08:20.078 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-P-2350
+16:08:20.078 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-C-2400 LastPrice=20.0000 UpdateTime=16:08:42
+16:08:20.078 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-C-2400
+16:08:20.078 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-P-2400 LastPrice=136.0000 UpdateTime=16:08:42
+16:08:20.078 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-P-2400
+16:08:20.078 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-C-2200 LastPrice=138.0000 UpdateTime=16:08:42
+16:08:20.078 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-C-2200
+16:08:20.078 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-P-2200 LastPrice=18.0000 UpdateTime=16:08:42
+16:08:20.078 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-P-2200
+16:08:20.078 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-C-2150 LastPrice=112.1000 UpdateTime=16:08:42
+16:08:20.093 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-C-2150
+16:08:20.093 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-P-2150 LastPrice=40.0000 UpdateTime=16:08:42
+16:08:20.093 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-P-2150
+16:08:20.093 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-C-2100 LastPrice=161.8000 UpdateTime=16:08:42
+16:08:20.093 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-C-2100
+16:08:20.093 : [.\PlatformCTPQuotImpl.cpp][398]:->接收行情 IO1405-P-2100 LastPrice=0.1000 UpdateTime=16:08:42
+16:08:20.093 : [.\PlatformCTPQuotImpl.cpp][421]:发送->9464 IO1405-P-2100

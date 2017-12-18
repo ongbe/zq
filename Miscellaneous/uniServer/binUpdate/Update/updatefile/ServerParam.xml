@@ -1,0 +1,16 @@
+<ServerParam current="4">
+    <UniServer>10.11.126.171:6000</UniServer>
+	<VersionStr>机构版</VersionStr>	
+    <Server>
+        <Name>机构版</Name>
+        <CTPSimulate>1</CTPSimulate>
+        <BrokerID>8090</BrokerID>
+        <InvestorID></InvestorID>
+        <Trading>
+            <item>114.255.138.160:7010</item>
+        </Trading>
+        <MarketData>
+            <item>114.255.138.160:7011</item>
+        </MarketData>
+    </Server>
+</ServerParam>

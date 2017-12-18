@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QuotServer", "QuotServer.vcproj", "{88A6280C-E7F0-4CC0-B17D-BAB9D462E789}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BF3237A7-C21A-4088-A302-BB7220F7BBAE} = {BF3237A7-C21A-4088-A302-BB7220F7BBAE}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SvrDBOpr", "..\..\InstitutionalTrading\Server\SvrDBOpr\SvrDBOpr.vcproj", "{52BC9FBA-6B87-4DB9-9AFA-9C119DEF23C1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{819EEF35-7E8F-4168-9501-9C325AA1CF54} = {819EEF35-7E8F-4168-9501-9C325AA1CF54}
+		{55F970AD-BE1D-4BB3-9FAD-A0BA3BBD7451} = {55F970AD-BE1D-4BB3-9FAD-A0BA3BBD7451}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SvrTcp", "..\..\InstitutionalTrading\Server\SvrTcp\SvrTcp.vcproj", "{819EEF35-7E8F-4168-9501-9C325AA1CF54}"
+	ProjectSection(ProjectDependencies) = postProject
+		{55F970AD-BE1D-4BB3-9FAD-A0BA3BBD7451} = {55F970AD-BE1D-4BB3-9FAD-A0BA3BBD7451}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SvrQuotServer", "..\..\InstitutionalTrading\Server\SvrQuotServer\SvrQuotServer.vcproj", "{BF3237A7-C21A-4088-A302-BB7220F7BBAE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{52BC9FBA-6B87-4DB9-9AFA-9C119DEF23C1} = {52BC9FBA-6B87-4DB9-9AFA-9C119DEF23C1}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tools", "..\Tools\Tools.vcproj", "{86E881CD-82F6-46C9-B10F-E05A7E43D14D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tools4clr", "..\Tools\Tools4clr.vcproj", "{351447C8-BDC7-4030-A38A-9CBE4B514041}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tools4dll", "..\Tools\Tools4dll.vcproj", "{55F970AD-BE1D-4BB3-9FAD-A0BA3BBD7451}"
+EndProject
+Global
+	GlobalSection(PowerDesigner) = preSolution
+		HasSWS = 1
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88A6280C-E7F0-4CC0-B17D-BAB9D462E789}.Debug|Win32.ActiveCfg = Debug|Win32
+		{88A6280C-E7F0-4CC0-B17D-BAB9D462E789}.Debug|Win32.Build.0 = Debug|Win32
+		{88A6280C-E7F0-4CC0-B17D-BAB9D462E789}.Release|Win32.ActiveCfg = Release|Win32
+		{88A6280C-E7F0-4CC0-B17D-BAB9D462E789}.Release|Win32.Build.0 = Release|Win32
+		{52BC9FBA-6B87-4DB9-9AFA-9C119DEF23C1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{52BC9FBA-6B87-4DB9-9AFA-9C119DEF23C1}.Debug|Win32.Build.0 = Debug|Win32
+		{52BC9FBA-6B87-4DB9-9AFA-9C119DEF23C1}.Release|Win32.ActiveCfg = Release|Win32
+		{52BC9FBA-6B87-4DB9-9AFA-9C119DEF23C1}.Release|Win32.Build.0 = Release|Win32
+		{819EEF35-7E8F-4168-9501-9C325AA1CF54}.Debug|Win32.ActiveCfg = Debug|Win32
+		{819EEF35-7E8F-4168-9501-9C325AA1CF54}.Debug|Win32.Build.0 = Debug|Win32
+		{819EEF35-7E8F-4168-9501-9C325AA1CF54}.Release|Win32.ActiveCfg = Release|Win32
+		{819EEF35-7E8F-4168-9501-9C325AA1CF54}.Release|Win32.Build.0 = Release|Win32
+		{BF3237A7-C21A-4088-A302-BB7220F7BBAE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BF3237A7-C21A-4088-A302-BB7220F7BBAE}.Debug|Win32.Build.0 = Debug|Win32
+		{BF3237A7-C21A-4088-A302-BB7220F7BBAE}.Release|Win32.ActiveCfg = Release|Win32
+		{BF3237A7-C21A-4088-A302-BB7220F7BBAE}.Release|Win32.Build.0 = Release|Win32
+		{86E881CD-82F6-46C9-B10F-E05A7E43D14D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{86E881CD-82F6-46C9-B10F-E05A7E43D14D}.Debug|Win32.Build.0 = Debug|Win32
+		{86E881CD-82F6-46C9-B10F-E05A7E43D14D}.Release|Win32.ActiveCfg = Release|Win32
+		{86E881CD-82F6-46C9-B10F-E05A7E43D14D}.Release|Win32.Build.0 = Release|Win32
+		{351447C8-BDC7-4030-A38A-9CBE4B514041}.Debug|Win32.ActiveCfg = Debug|Win32
+		{351447C8-BDC7-4030-A38A-9CBE4B514041}.Debug|Win32.Build.0 = Debug|Win32
+		{351447C8-BDC7-4030-A38A-9CBE4B514041}.Release|Win32.ActiveCfg = Release|Win32
+		{351447C8-BDC7-4030-A38A-9CBE4B514041}.Release|Win32.Build.0 = Release|Win32
+		{55F970AD-BE1D-4BB3-9FAD-A0BA3BBD7451}.Debug|Win32.ActiveCfg = Debug|Win32
+		{55F970AD-BE1D-4BB3-9FAD-A0BA3BBD7451}.Debug|Win32.Build.0 = Debug|Win32
+		{55F970AD-BE1D-4BB3-9FAD-A0BA3BBD7451}.Release|Win32.ActiveCfg = Release|Win32
+		{55F970AD-BE1D-4BB3-9FAD-A0BA3BBD7451}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

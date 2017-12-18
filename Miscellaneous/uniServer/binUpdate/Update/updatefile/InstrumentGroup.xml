@@ -1,0 +1,42 @@
+<InstrumentGroup id="568">
+    <Group name="我的合约" id="568" Visibility="1" />
+    <Group name="郑商所合约" id="564" Visibility="1">
+        <Instrument id="CF401" />
+		<Instrumnet id="FG401" />
+        <Instrument id="ME309" />
+		<Instrumnet id="OI401" />
+        <Instrument id="PM309" />
+		<Instrument id="RI309" />
+		<Instrumnet id="RM401" />
+		<Instrument id="RS309" />
+        <Instrument id="SR401" />
+        <Instrument id="TA401" />
+		<Instrumnet id="WH401" />
+    </Group>
+    <Group name="大商所合约" id="565" Visibility="1">
+        <Instrument id="a1401" />
+        <Instrument id="b1309" />
+        <Instrument id="c1401" />
+        <Instrument id="j1401" />
+        <Instrument id="jm1401" />
+        <Instrument id="l1401" />
+        <Instrument id="m1401" />
+        <Instrument id="p1401" />
+        <Instrument id="v1309" />
+        <Instrument id="y1401" />
+    </Group>
+    <Group name="上期所合约" id="566" Visibility="1">
+        <Instrument id="ag1312" />
+        <Instrument id="al1310" />
+        <Instrument id="au1312" />
+        <Instrument id="cu1310" />
+        <Instrument id="fu1309" />
+        <Instrument id="pb1309" />
+        <Instrument id="rb1401" />
+        <Instrument id="ru1401" />
+        <Instrument id="wr1401" />
+        <Instrument id="zn1310" />
+    </Group>
+    <Group name="中金所合约" id="567" Visibility="1" />
+        <Instrument id="IF1307" />	
+</InstrumentGroup>

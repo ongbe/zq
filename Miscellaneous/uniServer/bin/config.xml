@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!DOCTYPE root SYSTEM "">
+<root>
+	<usectp>1</usectp>
+	<front>
+		<iplist count="1" adr0="tcp://58.246.40.180:50001:模拟"/>
+		<ipaddress value="tcp://58.246.40.180:50001"/>
+		<userid value="testfk002"/>
+		<password value="testfk002"/>	
+		<bookid value="8090"/>
+	</front>
+</root>

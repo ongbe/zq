@@ -1,0 +1,104 @@
+15:22:56.093 : [.\SvrQuotServer.cpp][103]:读取连接CTP参数成功
+15:22:56.125 : [.\PlatformCTPQuotImpl.cpp][223]:=========》ReInitCtpConnect
+
+15:22:56.140 : [.\PlatformCTPQuot.cpp][89]:Login CTP：m_pQuotApi(734da08)
+15:22:56.140 : [.\SvrQuotServerImpl.cpp][12]:删除交易日的线程成功进入
+15:22:56.171 : [.\SvrQuotServerImpl.cpp][20]:删除交易日的线程成功退出
+15:22:56.171 : [.\PlatformCTPQuot.cpp][271]:CPlatformCTPQuot::OnFrontConnected(与交易所成功建立TCP连接):
+									 --->ReqUserLogin(用户登录请求):ret=[0],iRequestID=[0],BrokerID=[8090],UserID=[01159539933]
+
+15:22:56.218 : [.\PlatformCTPQuot.cpp][317]:CPlatformCTPQuot::OnRspUserLogin(登录请求响应):
+									 ErrorID=[0],ErrorMsg=[No Error],nRequestID=[0],bIsLast=[1]
+									 TradingDay=[20140428],	 LoginTime=[],	 BrokerID=[],	 UserID=[],	 SystemName=[]
+									 FrontID=[0],	 SessionID=[0],	 MaxOrderRef[],	 SHFETime=[],	 DCETime=[],
+									 CZCETime[],	 FFEXTime=[],	 CurTickCount=[25214031l]
+15:23:26.078 : [.\SvrQuotServer.cpp][336]:连接登录CTP成功  ...
+15:24:41.109 : [.\SvrQuotServer.cpp][336]:连接登录CTP成功  ...
+15:25:11.515 : [.\SvrQuotServer.cpp][336]:连接登录CTP成功  ...
+15:25:27.921 : [.\SvrQuotServer.cpp][336]:连接登录CTP成功  ...
+15:25:56.078 : [.\SvrQuotServer.cpp][336]:连接登录CTP成功  ...
+15:26:26.078 : [.\SvrQuotServer.cpp][336]:连接登录CTP成功  ...
+15:26:56.078 : [.\SvrQuotServer.cpp][336]:连接登录CTP成功  ...
+15:36:53.828 : [.\SvrQuotServer.cpp][103]:读取连接CTP参数成功
+15:36:53.843 : [.\PlatformCTPQuotImpl.cpp][223]:=========》ReInitCtpConnect
+
+15:36:53.843 : [.\PlatformCTPQuot.cpp][89]:Login CTP：m_pQuotApi(734da08)
+15:36:53.859 : [.\SvrQuotServerImpl.cpp][12]:删除交易日的线程成功进入
+15:36:53.875 : [.\SvrQuotServerImpl.cpp][20]:删除交易日的线程成功退出
+15:36:54.125 : [.\PlatformCTPQuot.cpp][271]:CPlatformCTPQuot::OnFrontConnected(与交易所成功建立TCP连接):
+									 --->ReqUserLogin(用户登录请求):ret=[0],iRequestID=[0],BrokerID=[8090],UserID=[01159539933]
+
+15:36:54.140 : [.\PlatformCTPQuot.cpp][317]:CPlatformCTPQuot::OnRspUserLogin(登录请求响应):
+									 ErrorID=[0],ErrorMsg=[No Error],nRequestID=[0],bIsLast=[1]
+									 TradingDay=[20140428],	 LoginTime=[],	 BrokerID=[],	 UserID=[],	 SystemName=[]
+									 FrontID=[0],	 SessionID=[0],	 MaxOrderRef[],	 SHFETime=[],	 DCETime=[],
+									 CZCETime[],	 FFEXTime=[],	 CurTickCount=[26051953l]
+15:37:39.234 : [.\SvrQuotServer.cpp][336]:连接登录CTP成功  ...
+15:37:53.812 : [.\SvrQuotServer.cpp][336]:连接登录CTP成功  ...
+15:38:26.906 : [.\SvrQuotServer.cpp][103]:读取连接CTP参数成功
+15:38:26.921 : [.\PlatformCTPQuotImpl.cpp][223]:=========》ReInitCtpConnect
+
+15:38:26.937 : [.\PlatformCTPQuot.cpp][89]:Login CTP：m_pQuotApi(734da08)
+15:38:26.937 : [.\SvrQuotServerImpl.cpp][12]:删除交易日的线程成功进入
+15:38:26.968 : [.\PlatformCTPQuot.cpp][271]:CPlatformCTPQuot::OnFrontConnected(与交易所成功建立TCP连接):
+									 --->ReqUserLogin(用户登录请求):ret=[0],iRequestID=[0],BrokerID=[8090],UserID=[01159539933]
+
+15:38:26.968 : [.\SvrQuotServerImpl.cpp][20]:删除交易日的线程成功退出
+15:38:27.000 : [.\PlatformCTPQuot.cpp][317]:CPlatformCTPQuot::OnRspUserLogin(登录请求响应):
+									 ErrorID=[0],ErrorMsg=[No Error],nRequestID=[0],bIsLast=[1]
+									 TradingDay=[20140428],	 LoginTime=[],	 BrokerID=[],	 UserID=[],	 SystemName=[]
+									 FrontID=[0],	 SessionID=[0],	 MaxOrderRef[],	 SHFETime=[],	 DCETime=[],
+									 CZCETime[],	 FFEXTime=[],	 CurTickCount=[26144796l]
+15:38:57.671 : [.\SvrQuotServer.cpp][103]:读取连接CTP参数成功
+15:38:57.687 : [.\PlatformCTPQuotImpl.cpp][223]:=========》ReInitCtpConnect
+
+15:38:57.687 : [.\PlatformCTPQuot.cpp][89]:Login CTP：m_pQuotApi(734da08)
+15:38:57.703 : [.\SvrQuotServerImpl.cpp][12]:删除交易日的线程成功进入
+15:38:57.734 : [.\SvrQuotServerImpl.cpp][20]:删除交易日的线程成功退出
+15:38:57.734 : [.\PlatformCTPQuot.cpp][271]:CPlatformCTPQuot::OnFrontConnected(与交易所成功建立TCP连接):
+									 --->ReqUserLogin(用户登录请求):ret=[0],iRequestID=[0],BrokerID=[8090],UserID=[01159539933]
+
+15:38:57.765 : [.\PlatformCTPQuot.cpp][317]:CPlatformCTPQuot::OnRspUserLogin(登录请求响应):
+									 ErrorID=[0],ErrorMsg=[No Error],nRequestID=[0],bIsLast=[1]
+									 TradingDay=[20140428],	 LoginTime=[],	 BrokerID=[],	 UserID=[],	 SystemName=[]
+									 FrontID=[0],	 SessionID=[0],	 MaxOrderRef[],	 SHFETime=[],	 DCETime=[],
+									 CZCETime[],	 FFEXTime=[],	 CurTickCount=[26175578l]
+15:39:29.171 : [.\SvrQuotServer.cpp][336]:连接登录CTP成功  ...
+15:39:57.656 : [.\SvrQuotServer.cpp][336]:连接登录CTP成功  ...
+15:40:34.500 : [.\SvrQuotServer.cpp][336]:连接登录CTP成功  ...
+15:40:57.656 : [.\SvrQuotServer.cpp][336]:连接登录CTP成功  ...
+15:41:29.609 : [.\SvrQuotServer.cpp][336]:连接登录CTP成功  ...
+15:41:57.671 : [.\SvrQuotServer.cpp][336]:连接登录CTP成功  ...
+15:42:27.656 : [.\SvrQuotServer.cpp][336]:连接登录CTP成功  ...
+15:42:57.656 : [.\SvrQuotServer.cpp][336]:连接登录CTP成功  ...
+15:43:27.656 : [.\SvrQuotServer.cpp][336]:连接登录CTP成功  ...
+15:43:58.515 : [.\SvrQuotServer.cpp][336]:连接登录CTP成功  ...
+15:45:17.281 : [.\SvrQuotServer.cpp][103]:读取连接CTP参数成功
+15:45:17.296 : [.\PlatformCTPQuotImpl.cpp][223]:=========》ReInitCtpConnect
+
+15:45:17.296 : [.\PlatformCTPQuot.cpp][89]:Login CTP：m_pQuotApi(734da08)
+15:45:17.312 : [.\SvrQuotServerImpl.cpp][12]:删除交易日的线程成功进入
+15:45:17.328 : [.\SvrQuotServerImpl.cpp][20]:删除交易日的线程成功退出
+15:45:17.343 : [.\PlatformCTPQuot.cpp][271]:CPlatformCTPQuot::OnFrontConnected(与交易所成功建立TCP连接):
+									 --->ReqUserLogin(用户登录请求):ret=[0],iRequestID=[0],BrokerID=[8090],UserID=[01159539933]
+
+15:45:17.375 : [.\PlatformCTPQuot.cpp][317]:CPlatformCTPQuot::OnRspUserLogin(登录请求响应):
+									 ErrorID=[0],ErrorMsg=[No Error],nRequestID=[0],bIsLast=[1]
+									 TradingDay=[20140428],	 LoginTime=[],	 BrokerID=[],	 UserID=[],	 SystemName=[]
+									 FrontID=[0],	 SessionID=[0],	 MaxOrderRef[],	 SHFETime=[],	 DCETime=[],
+									 CZCETime[],	 FFEXTime=[],	 CurTickCount=[26555187l]
+15:45:47.265 : [.\SvrQuotServer.cpp][336]:连接登录CTP成功  ...
+15:46:09.765 : [.\SvrQuotServer.cpp][103]:读取连接CTP参数成功
+15:46:09.781 : [.\PlatformCTPQuotImpl.cpp][223]:=========》ReInitCtpConnect
+
+15:46:09.781 : [.\PlatformCTPQuot.cpp][89]:Login CTP：m_pQuotApi(734da08)
+15:46:09.781 : [.\SvrQuotServerImpl.cpp][12]:删除交易日的线程成功进入
+15:46:09.796 : [.\SvrQuotServerImpl.cpp][20]:删除交易日的线程成功退出
+15:46:09.828 : [.\PlatformCTPQuot.cpp][271]:CPlatformCTPQuot::OnFrontConnected(与交易所成功建立TCP连接):
+									 --->ReqUserLogin(用户登录请求):ret=[0],iRequestID=[0],BrokerID=[8090],UserID=[01159539933]
+
+15:46:09.859 : [.\PlatformCTPQuot.cpp][317]:CPlatformCTPQuot::OnRspUserLogin(登录请求响应):
+									 ErrorID=[0],ErrorMsg=[No Error],nRequestID=[0],bIsLast=[1]
+									 TradingDay=[20140428],	 LoginTime=[],	 BrokerID=[],	 UserID=[],	 SystemName=[]
+									 FrontID=[0],	 SessionID=[0],	 MaxOrderRef[],	 SHFETime=[],	 DCETime=[],
+									 CZCETime[],	 FFEXTime=[],	 CurTickCount=[26607671l]

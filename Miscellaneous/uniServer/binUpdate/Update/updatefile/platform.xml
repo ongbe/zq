@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="GB2312"?>
+<platform>
+	<OnRtnTrade>
+		<IsCalculate>1</IsCalculate>
+		<IsReq>1</IsReq>
+		<DelayBefReq>2</DelayBefReq>
+		<MaxRecordReqPositionDetail>500</MaxRecordReqPositionDetail>
+	</OnRtnTrade>
+	<ListCtrl>
+		//列表框自动排序时，最大行数。超过这个行数，停止自动排序，以免影响速度
+		<MaxItemCountForAutoResort>300</MaxItemCountForAutoResort>
+	</ListCtrl>
+	<ExtraFunction>
+		//是否启用CifcoServicesHall功能，1启用，0不启用
+		<CifcoServicesHall>0</CifcoServicesHall>
+	</ExtraFunction>
+	<Combination>
+		//是否使用组合单功能。1使用，0不使用
+		<UseComb>0</UseComb>
+		//组合保证金优惠，0-不优惠(缺省)，1-第一腿优惠，2-第二腿优惠
+		<DiscountCZCE>2</DiscountCZCE>
+		<DiscountDCE>0</DiscountDCE>
+		//是否根据单腿行情生成组合行情。1生成，0不生成
+		<CalcuCombQuotOnLegQuot>0</CalcuCombQuotOnLegQuot>
+	</Combination>
+	<MultiAccount>
+		//是否乱序下单,0否，其它是
+		<DisorderWhenInsertOrder>0</DisorderWhenInsertOrder>
+	</MultiAccount>
+	<PlatformDataMgr>
+		<FreezeOrderUnknownStatus>0</FreezeOrderUnknownStatus>
+	</PlatformDataMgr>
+	<OrderType>
+		<UIOT_PANE_STANDARD>1</UIOT_PANE_STANDARD>
+		<UIOT_PANE_BATCH>1</UIOT_PANE_BATCH>
+		<UIOT_PANE_CONDITION>1</UIOT_PANE_CONDITION>
+		<UIOT_PANE_FAKFOK>0</UIOT_PANE_FAKFOK>
+		<UIOT_PANE_PROFIT>1</UIOT_PANE_PROFIT>
+		<UIOT_PANE_STOPLIMIT>0</UIOT_PANE_STOPLIMIT>
+		<UIOT_CMD_REPLACEORDER>0</UIOT_CMD_REPLACEORDER>
+		<UIOT_CMD_SIMULATEMARKET>0</UIOT_CMD_SIMULATEMARKET>
+		<UIOT_CMD_PARKED>1</UIOT_CMD_PARKED>
+		<UIOT_ITEM_HEDGE>1</UIOT_ITEM_HEDGE>
+		<UIOT_ITEM_OPENCLOSE>1</UIOT_ITEM_OPENCLOSE>
+		<UIOT_ITEM_ACCOUNT>0</UIOT_ITEM_ACCOUNT>
+		<UIOT_ITEM_CONDITION_LOCAL>1</UIOT_ITEM_CONDITION_LOCAL>
+		<UIOT_ITEM_CONDITION_SERVER>0</UIOT_ITEM_CONDITION_SERVER>
+		<UIOT_ITEM_PARKED_LOCAL>1</UIOT_ITEM_PARKED_LOCAL>
+		<UIOT_ITEM_PARKED_SERVER>0</UIOT_ITEM_PARKED_SERVER>
+		<UIOT_ITEM_PROFIT_LOCAL>1</UIOT_ITEM_PROFIT_LOCAL>
+		<UIOT_ITEM_PROFIT_SERVER>0</UIOT_ITEM_PROFIT_SERVER>
+	</OrderType>
+	
+	<test>
+		<HasSaveOrderTime>1</HasSaveOrderTime>
+	</test>
+
+	<SupportProductClassType>
+		//允许的产品类型，含期货(1)、期权(0)、组合(1)、即期(0)、期转现(0)、全部(0)
+		<All>0</All>
+		<Futures>1</Futures>
+		<Options>0</Options>
+		<Combination>1</Combination>
+		<Spot>0</Spot>
+		<EFP>0</EFP>
+	</SupportProductClassType>
+	
+	<SubscribeQuot>
+		//系统订阅行情的最大合约数量，缺省为20
+		<MaxSubscribeCount>9999</MaxSubscribeCount>
+		//插件订阅行情的最大合约数量，缺省为10
+		<MaxSubscribeCountInPlugins>9999</MaxSubscribeCountInPlugins>
+	</SubscribeQuot>
+
+</platform>

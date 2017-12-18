@@ -1,0 +1,845 @@
+2014-02-25 11:16:14.781 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 11:16:14.781 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 11:16:14.781 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 11:16:14.781 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 11:17:02.421 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 11:17:02.421 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 11:17:02.437 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 11:17:02.437 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 11:21:03.328 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 11:21:03.328 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 11:21:03.328 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 11:21:03.328 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 11:21:55.281 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 11:21:55.281 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 11:21:55.281 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 11:21:55.281 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 11:25:50.468 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 11:25:50.468 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 11:25:50.468 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 11:25:50.468 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 11:30:21.656 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 11:30:21.656 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 11:30:21.656 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 11:30:21.656 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 11:31:14.359 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 11:31:14.359 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 11:31:14.359 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 11:31:14.359 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 11:32:24.921 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 11:32:24.921 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 11:32:24.921 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 11:32:24.921 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 11:33:51.562 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 11:33:51.562 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 11:33:51.562 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 11:33:51.562 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 11:34:34.250 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 11:34:34.250 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 11:34:34.250 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 11:34:34.250 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 13:18:50.859 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 13:18:50.859 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 13:18:50.875 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 13:18:50.875 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 13:19:20.609 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 13:19:20.609 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 13:19:20.609 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 13:19:20.609 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 13:19:48.921 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 13:19:48.921 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 13:19:48.921 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 13:19:48.921 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 13:20:09.734 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 13:20:09.734 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 13:20:09.734 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 13:20:09.734 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 13:21:08.000 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 13:21:08.000 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 13:21:08.000 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 13:21:08.000 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 13:24:02.187 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 13:24:02.187 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 13:24:02.187 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 13:24:02.187 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 13:27:40.328 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 13:27:40.328 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 13:27:40.343 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 13:27:40.343 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 13:30:17.421 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 13:30:17.437 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 13:30:17.437 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 13:30:17.437 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 13:30:50.578 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 13:30:50.578 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 13:30:50.593 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 13:30:50.593 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 13:32:10.156 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 13:32:10.171 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 13:32:10.171 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 13:32:10.171 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 13:34:45.984 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 13:34:45.984 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 13:34:45.984 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 13:34:46.000 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 13:35:39.500 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 13:35:39.500 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 13:35:39.500 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 13:35:39.500 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 13:39:05.796 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 13:39:05.796 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 13:39:05.812 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 13:39:05.812 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 13:42:25.046 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 13:42:25.046 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 13:42:25.046 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 13:42:25.046 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 13:47:10.515 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 13:47:10.515 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 13:47:10.515 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 13:47:10.515 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 13:50:21.171 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 13:50:21.171 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 13:50:21.171 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 13:50:21.171 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 14:06:11.859 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=17a4
+2014-02-25 14:06:11.859 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 14:06:11.859 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(17a4,1024)=0
+2014-02-25 14:06:11.859 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 14:09:46.578 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 14:09:46.578 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 14:09:46.578 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 14:09:46.578 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 14:12:55.125 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 14:12:55.125 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 14:12:55.125 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 14:12:55.125 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 14:13:32.406 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 14:13:32.406 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 14:13:32.406 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 14:13:32.406 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 14:15:55.656 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 14:15:55.656 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 14:15:55.656 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 14:15:55.656 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 14:17:53.546 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 14:17:53.546 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 14:17:53.546 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 14:17:53.546 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 14:19:43.453 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 14:19:43.453 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 14:19:43.468 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 14:19:43.468 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 14:21:56.921 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 14:21:56.921 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 14:21:56.921 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 14:21:56.921 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 14:22:43.375 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 14:22:43.375 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 14:22:43.375 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 14:22:43.375 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 14:23:29.921 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 14:23:29.921 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 14:23:29.921 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 14:23:29.921 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 14:27:46.015 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 14:27:46.015 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 14:27:46.031 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 14:27:46.031 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 14:29:15.906 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 14:29:15.906 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 14:29:15.906 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 14:29:15.906 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 14:29:40.515 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 14:29:40.515 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 14:29:40.515 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 14:29:40.515 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 14:30:36.453 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 14:30:36.453 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 14:30:36.453 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 14:30:36.453 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 14:31:28.578 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 14:31:28.578 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 14:31:28.578 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 14:31:28.578 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 14:32:59.953 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 14:32:59.953 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 14:32:59.968 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 14:32:59.968 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 14:33:42.562 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 14:33:42.562 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 14:33:42.578 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 14:33:42.578 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 14:36:05.250 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 14:36:05.250 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 14:36:05.265 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 14:36:05.265 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 14:37:19.187 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/1422)=14e4
+2014-02-25 14:42:44.812 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 14:42:44.812 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 14:42:44.812 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 14:42:44.812 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 14:43:02.984 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/1444)=1510
+2014-02-25 15:05:19.281 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 15:05:19.281 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 15:05:19.281 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 15:05:19.281 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 15:08:18.015 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 15:08:18.015 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 15:08:18.015 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 15:08:18.015 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 15:11:27.281 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 15:11:27.281 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 15:11:27.296 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 15:11:27.296 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 15:20:34.828 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 15:20:34.828 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 15:20:34.828 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 15:20:34.828 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 15:22:52.906 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 15:22:52.906 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 15:22:52.906 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 15:22:52.906 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 15:24:56.312 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 15:24:56.312 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 15:24:56.312 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 15:24:56.312 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 15:26:06.000 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/2431)=14d8
+2014-02-25 15:26:51.218 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 15:26:51.218 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 15:26:51.218 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 15:26:51.218 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 15:27:41.953 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/2442)=14e0
+2014-02-25 15:29:48.312 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 15:29:48.312 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 15:29:48.312 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 15:29:48.312 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 15:30:27.296 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/2472)=14e8
+2014-02-25 16:47:33.312 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-25 16:47:33.312 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-25 16:47:33.312 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-25 16:47:33.312 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-25 16:48:12.015 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/4546)=14d4
+2014-02-25 16:48:29.812 : TryRead_Internal,02,数据连接的远端正常或不正常的关闭。释放该数据连接 (RemoteAddr=10.11.112.140/4546 hSocket=14d4)
+2014-02-25 16:48:29.812 : CTcpServerWorker,02,OffLineOneDataSocket_Internal(14d4),Addr=10.11.112.140/4546
+2014-02-26 11:21:13.062 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=2760
+2014-02-26 11:21:13.062 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-26 11:21:13.078 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(2760,1024)=0
+2014-02-26 11:21:13.078 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-26 11:23:10.765 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=2760
+2014-02-26 11:23:10.765 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-26 11:23:10.765 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(2760,1024)=0
+2014-02-26 11:23:10.765 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-26 15:30:25.703 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=2760
+2014-02-26 15:30:25.703 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-26 15:30:25.703 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(2760,1024)=0
+2014-02-26 15:30:25.703 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-26 15:32:01.375 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6222)=24f8
+2014-02-28 09:03:15.078 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=17a0
+2014-02-28 09:03:15.078 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-28 09:03:15.078 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(17a0,1024)=0
+2014-02-28 09:03:15.078 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-28 10:20:47.000 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-28 10:20:47.000 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-28 10:20:47.000 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-28 10:20:47.000 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-28 10:22:19.531 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/3283)=14fc
+2014-02-28 10:28:40.921 : TryRead_Internal,02,数据连接的远端正常或不正常的关闭。释放该数据连接 (RemoteAddr=10.11.112.140/3283 hSocket=14fc)
+2014-02-28 10:28:40.921 : CTcpServerWorker,02,OffLineOneDataSocket_Internal(14fc),Addr=10.11.112.140/3283
+2014-02-28 10:39:25.453 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/3393)=14f4
+2014-02-28 10:50:06.843 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-28 10:50:06.843 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-28 10:50:06.843 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-28 10:50:06.843 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-28 10:50:07.406 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/3488)=170c
+2014-02-28 11:01:52.078 : TryRead_Internal,02,数据连接的远端正常或不正常的关闭。释放该数据连接 (RemoteAddr=10.11.112.140/3488 hSocket=170c)
+2014-02-28 11:01:52.078 : CTcpServerWorker,02,OffLineOneDataSocket_Internal(170c),Addr=10.11.112.140/3488
+2014-02-28 11:03:57.671 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/3811)=170c
+2014-02-28 16:15:49.000 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-02-28 16:15:49.000 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-28 16:15:49.000 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-02-28 16:15:49.000 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-28 16:16:04.937 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/13468)=1cd8
+2014-02-28 16:20:11.156 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-02-28 16:20:11.156 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-28 16:20:11.156 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-02-28 16:20:11.171 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-28 16:20:14.703 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/13502)=1d30
+2014-02-28 16:22:48.171 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-02-28 16:22:48.171 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-28 16:22:48.171 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-02-28 16:22:48.171 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-28 16:22:48.718 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/13523)=1f00
+2014-02-28 16:27:26.687 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-02-28 16:27:26.687 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-28 16:27:26.687 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-02-28 16:27:26.687 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-28 16:27:50.968 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/13556)=1ce8
+2014-02-28 16:29:29.171 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-02-28 16:29:29.171 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-28 16:29:29.171 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-02-28 16:29:29.171 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-28 16:29:31.281 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/13569)=1d14
+2014-02-28 16:29:36.468 : TryRead_Internal,02,数据连接的远端正常或不正常的关闭。释放该数据连接 (RemoteAddr=10.11.112.140/13569 hSocket=1d14)
+2014-02-28 16:29:36.468 : CTcpServerWorker,02,OffLineOneDataSocket_Internal(1d14),Addr=10.11.112.140/13569
+2014-02-28 16:29:53.515 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-02-28 16:29:53.515 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-28 16:29:53.515 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-02-28 16:29:53.515 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-28 16:30:46.781 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-02-28 16:30:46.781 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-28 16:30:46.796 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-02-28 16:30:46.796 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-28 16:32:41.203 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-02-28 16:32:41.203 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-28 16:32:41.203 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-02-28 16:32:41.203 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-28 17:03:16.500 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-02-28 17:03:16.500 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-28 17:03:16.500 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-02-28 17:03:16.500 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-28 17:05:55.343 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-02-28 17:05:55.343 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-28 17:05:55.359 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-02-28 17:05:55.359 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-28 17:07:37.515 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-02-28 17:07:37.515 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-28 17:07:37.515 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-02-28 17:07:37.515 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-02-28 17:09:36.375 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-02-28 17:09:36.375 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-02-28 17:09:36.390 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-02-28 17:09:36.390 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-03 09:35:57.500 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=17a0
+2014-03-03 09:35:57.500 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-03 09:35:57.515 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(17a0,1024)=0
+2014-03-03 09:35:57.515 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-03 09:43:18.265 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/2113)=14f4
+2014-03-03 10:50:04.765 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-03 10:50:04.765 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-03 10:50:04.765 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-03 10:50:04.765 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-03 10:53:46.031 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/5025)=1520
+2014-03-03 10:57:35.484 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-03 10:57:35.484 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-03 10:57:35.484 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-03 10:57:35.484 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-03 10:57:36.031 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/5061)=1700
+2014-03-03 10:58:05.843 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-03 10:58:05.843 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-03 10:58:05.859 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-03 10:58:05.859 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-03 10:59:03.453 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/5077)=1474
+2014-03-03 11:09:42.703 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-03 11:09:42.703 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-03 11:09:42.703 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-03 11:09:42.703 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-03 11:10:26.265 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/5493)=1474
+2014-03-03 13:53:33.046 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-03 13:53:33.046 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-03 13:53:33.046 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-03 13:53:33.046 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-03 13:53:43.375 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/8489)=1474
+2014-03-03 14:22:39.328 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-03 14:22:39.328 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-03 14:22:39.328 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-03 14:22:39.328 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-03 14:22:53.031 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/8769)=1474
+2014-03-03 14:53:23.718 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-03 14:53:23.718 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-03 14:53:23.718 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-03 14:53:23.718 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-03 14:53:38.515 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/9001)=1470
+2014-03-03 14:57:17.546 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-03-03 14:57:17.546 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-03 14:57:17.546 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-03-03 14:57:17.546 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-03 14:57:19.796 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/9024)=1d3c
+2014-03-03 15:03:37.046 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-03-03 15:03:37.046 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-03 15:03:37.046 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-03-03 15:03:37.046 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-03 15:04:28.312 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/9064)=1cf4
+2014-03-03 15:07:26.156 : CTcpServerWorker,02,OffLineOneDataSocket_Internal(1cf4),Addr=10.11.112.140/9064
+2014-03-03 15:07:30.140 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/9079)=1cec
+2014-03-03 15:09:44.390 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-03-03 15:09:44.390 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-03 15:09:44.390 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-03-03 15:09:44.390 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-03 15:10:08.359 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/9099)=1cf8
+2014-03-03 15:12:31.515 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-03-03 15:12:31.515 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-03 15:12:31.515 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-03-03 15:12:31.515 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-03 15:12:33.640 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/9113)=1d18
+2014-03-03 15:21:05.250 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-03-03 15:21:05.250 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-03 15:21:05.250 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-03-03 15:21:05.250 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-03 15:21:54.171 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/9178)=1cfc
+2014-03-03 15:31:26.843 : CTcpServerWorker,02,OffLineOneDataSocket_Internal(1cfc),Addr=10.11.112.140/9178
+2014-03-03 15:31:30.843 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/9227)=1cfc
+2014-03-03 15:37:51.375 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.133/28263)=1c88
+2014-03-03 15:44:00.468 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-03-03 15:44:00.468 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-03 15:44:00.468 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-03-03 15:44:00.468 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-03 15:44:16.625 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/9293)=1d00
+2014-03-03 16:00:58.406 : CTcpServerWorker,02,OffLineOneDataSocket_Internal(1d00),Addr=10.11.112.140/9293
+2014-03-03 16:01:02.406 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/9383)=1d00
+2014-03-03 16:04:27.859 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-03-03 16:04:27.859 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-03 16:04:27.859 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-03-03 16:04:27.859 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-03 16:05:13.265 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/9407)=1cfc
+2014-03-03 16:12:56.843 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-03-03 16:12:56.843 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-03 16:12:56.843 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-03-03 16:12:56.843 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-03 16:12:56.937 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/9445)=1f30
+2014-03-03 16:18:02.531 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.133/31266)=1cd8
+2014-03-03 16:39:20.593 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-03-03 16:39:20.593 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-03 16:39:20.609 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-03-03 16:39:20.609 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-03 16:40:21.187 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/10239)=1cfc
+2014-03-03 16:51:41.000 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-03-03 16:51:41.000 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-03 16:51:41.000 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-03-03 16:51:41.000 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-03 16:52:41.421 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/10315)=1cfc
+2014-03-03 17:02:27.468 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.133/34913)=1cdc
+2014-03-03 17:02:44.562 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-03-03 17:02:44.562 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-03 17:02:44.562 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-03-03 17:02:44.578 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-03 17:02:46.359 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/10372)=1d7c
+2014-03-03 17:06:22.968 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-03-03 17:06:22.968 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-03 17:06:22.968 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-03-03 17:06:22.968 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-03 17:06:24.343 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/10394)=1d7c
+2014-03-03 17:18:55.421 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-03-03 17:18:55.421 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-03 17:18:55.437 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-03-03 17:18:55.437 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-03 17:31:04.046 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-03-03 17:31:04.046 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-03 17:31:04.046 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-03-03 17:31:04.046 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-03 17:37:31.500 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-03-03 17:37:31.500 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-03 17:37:31.500 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-03-03 17:37:31.500 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-03 17:39:08.109 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-03-03 17:39:08.109 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-03 17:39:08.109 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-03-03 17:39:08.109 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-04 08:56:33.515 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-04 08:56:33.515 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-04 08:56:33.515 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-04 08:56:33.515 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-04 09:18:36.968 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-04 09:18:36.968 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-04 09:18:36.984 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-04 09:18:36.984 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-04 09:18:51.562 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/1701)=14f8
+2014-03-04 09:21:59.953 : CTcpServerWorker,02,OffLineOneDataSocket_Internal(14f8),Addr=10.11.112.140/1701
+2014-03-04 09:25:48.078 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-04 09:25:48.078 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-04 09:25:48.078 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-04 09:25:48.078 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-04 09:25:53.375 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/1748)=1530
+2014-03-04 09:27:51.859 : CTcpServerWorker,02,OffLineOneDataSocket_Internal(1530),Addr=10.11.112.140/1748
+2014-03-04 09:30:32.843 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-04 09:30:32.843 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-04 09:30:32.843 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-04 09:30:32.843 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-04 09:30:54.203 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/1777)=14f4
+2014-03-04 09:37:52.578 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-04 09:37:52.578 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-04 09:37:52.578 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-04 09:37:52.593 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-04 09:38:45.500 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/1807)=14fc
+2014-03-04 09:44:12.281 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-04 09:44:12.281 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-04 09:44:12.296 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-04 09:44:12.296 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-04 09:45:03.718 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/1828)=1500
+2014-03-04 10:38:16.515 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-04 10:38:16.515 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-04 10:38:16.531 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-04 10:38:16.531 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-04 10:38:17.203 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/3020)=16a8
+2014-03-04 12:02:44.156 : TryRead_Internal,02,数据连接的远端正常或不正常的关闭。释放该数据连接 (RemoteAddr=10.11.112.140/3020 hSocket=16a8)
+2014-03-04 12:02:44.156 : CTcpServerWorker,02,OffLineOneDataSocket_Internal(16a8),Addr=10.11.112.140/3020
+2014-03-04 17:30:56.472 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-04 17:30:56.472 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(192.168.0.1/7001)=0
+2014-03-04 17:30:56.488 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-04 17:30:56.488 : CTcpServerWorker,02,CTcpServerWorker(192.168.0.1/7001,1024,...)
+2014-03-04 17:37:25.597 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-04 17:37:25.597 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(192.168.0.1/7001)=0
+2014-03-04 17:37:25.597 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-04 17:37:25.597 : CTcpServerWorker,02,CTcpServerWorker(192.168.0.1/7001,1024,...)
+2014-03-04 17:39:16.034 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-04 17:39:16.034 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(192.168.0.1/7001)=0
+2014-03-04 17:39:16.034 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-04 17:39:16.034 : CTcpServerWorker,02,CTcpServerWorker(192.168.0.1/7001,1024,...)
+2014-03-05 16:54:11.937 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=2760
+2014-03-05 16:54:11.937 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 16:54:11.953 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(2760,1024)=0
+2014-03-05 16:54:11.953 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 16:54:59.531 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6030)=24fc
+2014-03-05 17:05:09.765 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=2760
+2014-03-05 17:05:09.765 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 17:05:09.765 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(2760,1024)=0
+2014-03-05 17:05:09.765 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 17:05:10.375 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6061)=2704
+2014-03-05 17:15:13.046 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=2760
+2014-03-05 17:15:13.046 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 17:15:13.046 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(2760,1024)=0
+2014-03-05 17:15:13.046 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 17:15:57.796 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=2760
+2014-03-05 17:15:57.796 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 17:15:57.796 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(2760,1024)=0
+2014-03-05 17:15:57.796 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 17:16:46.000 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6096)=24fc
+2014-03-05 17:24:55.000 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=2760
+2014-03-05 17:24:55.000 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 17:24:55.015 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(2760,1024)=0
+2014-03-05 17:24:55.015 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 17:25:25.453 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6127)=24f8
+2014-03-05 17:28:32.421 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=2760
+2014-03-05 17:28:32.421 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 17:28:32.421 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(2760,1024)=0
+2014-03-05 17:28:32.437 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 17:29:30.671 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6201)=2528
+2014-03-05 17:30:07.921 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 17:30:07.921 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 17:30:07.921 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 17:30:07.921 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 17:31:55.203 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 17:31:55.203 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 17:31:55.203 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 17:31:55.203 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 17:32:03.562 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6259)=1530
+2014-03-05 17:34:45.437 : CTcpServerWorker,02,OffLineOneDataSocket_Internal(1530),Addr=10.11.112.140/6259
+2014-03-05 17:36:35.187 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 17:36:35.187 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 17:36:35.187 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 17:36:35.187 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 17:37:06.546 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6310)=151c
+2014-03-05 17:46:04.875 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 17:46:04.875 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 17:46:04.875 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 17:46:04.875 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 17:46:06.859 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6385)=1518
+2014-03-05 17:47:08.875 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 17:47:08.875 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 17:47:08.875 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 17:47:08.875 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 17:47:09.265 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6393)=16d8
+2014-03-05 17:49:58.906 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 17:49:58.906 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 17:49:58.906 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 17:49:58.906 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 17:50:01.468 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6410)=151c
+2014-03-05 17:52:14.328 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 17:52:14.328 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 17:52:14.343 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 17:52:14.343 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 17:52:14.718 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6430)=16a4
+2014-03-05 17:54:19.171 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 17:54:19.171 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 17:54:19.187 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 17:54:19.187 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 17:55:02.468 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6452)=152c
+2014-03-05 17:58:13.640 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 17:58:13.640 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 17:58:13.640 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 17:58:13.640 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 17:58:16.109 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6510)=1514
+2014-03-05 17:59:09.921 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 17:59:09.921 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 17:59:09.921 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 17:59:09.921 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 17:59:12.296 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6515)=1518
+2014-03-05 18:02:38.921 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 18:02:38.921 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 18:02:38.921 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 18:02:38.921 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 18:02:41.187 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6525)=1518
+2014-03-05 18:04:24.312 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 18:04:24.312 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 18:04:24.312 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 18:04:24.312 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 18:04:24.843 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6529)=161c
+2014-03-05 18:05:12.515 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 18:05:12.515 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 18:05:12.515 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 18:05:12.531 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 18:05:14.796 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6536)=1514
+2014-03-05 18:05:27.421 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 18:05:27.421 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 18:05:27.421 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 18:05:27.421 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 18:05:27.921 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6539)=16e4
+2014-03-05 18:06:05.281 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 18:06:05.281 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 18:06:05.281 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 18:06:05.296 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 18:06:07.578 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6546)=1514
+2014-03-05 18:06:55.500 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 18:06:55.500 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 18:06:55.500 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 18:06:55.500 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 18:06:57.906 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6554)=1514
+2014-03-05 18:07:06.562 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 18:07:06.562 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 18:07:06.562 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 18:07:06.562 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 18:07:08.875 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6558)=1520
+2014-03-05 18:09:24.953 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 18:09:24.953 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 18:09:24.953 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 18:09:24.953 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 18:09:25.437 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6562)=16c8
+2014-03-05 18:15:59.281 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 18:15:59.281 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 18:15:59.296 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 18:15:59.296 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 18:16:18.187 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6622)=1528
+2014-03-05 18:18:32.703 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 18:18:32.703 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 18:18:32.703 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 18:18:32.703 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 18:18:33.218 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6631)=1700
+2014-03-05 18:20:55.640 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 18:20:55.640 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 18:20:55.640 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 18:20:55.640 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 18:20:57.765 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6637)=1528
+2014-03-05 18:25:59.000 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 18:25:59.000 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 18:25:59.000 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 18:25:59.000 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 18:26:46.859 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6663)=1524
+2014-03-05 18:27:32.781 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 18:27:32.781 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 18:27:32.781 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 18:27:32.781 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 18:27:32.843 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6669)=172c
+2014-03-05 18:29:10.437 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 18:29:10.437 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 18:29:10.437 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 18:29:10.437 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 18:29:12.500 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6680)=1518
+2014-03-05 18:29:46.875 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 18:29:46.875 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 18:29:46.875 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 18:29:46.875 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 18:29:48.953 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6684)=1518
+2014-03-05 18:31:08.984 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 18:31:08.984 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 18:31:09.000 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 18:31:09.000 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 18:32:05.375 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6698)=1528
+2014-03-05 18:41:22.140 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 18:41:22.140 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 18:41:22.140 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 18:41:22.140 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 18:41:22.609 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6768)=16e4
+2014-03-05 18:47:48.718 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 18:47:48.718 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 18:47:48.718 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 18:47:48.718 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 18:48:30.953 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6815)=1518
+2014-03-05 18:51:44.562 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 18:51:44.562 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 18:51:44.562 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 18:51:44.562 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 18:51:45.031 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6841)=1714
+2014-03-05 18:53:35.656 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 18:53:35.656 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 18:53:35.656 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 18:53:35.656 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 18:54:36.500 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/6867)=1524
+2014-03-05 19:27:16.890 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 19:27:16.890 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 19:27:16.890 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 19:27:16.890 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 19:28:39.187 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 19:28:39.187 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 19:28:39.187 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 19:28:39.187 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 19:30:20.656 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 19:30:20.656 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 19:30:20.656 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 19:30:20.656 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 19:35:33.765 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 19:35:33.765 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 19:35:33.765 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 19:35:33.765 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 19:36:15.718 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 19:36:15.718 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 19:36:15.718 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 19:36:15.718 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 19:40:35.296 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 19:40:35.296 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 19:40:35.296 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 19:40:35.296 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-05 19:42:43.593 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-05 19:42:43.593 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-03-05 19:42:43.593 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-05 19:42:43.609 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-03-07 09:16:54.796 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-07 09:16:54.796 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(192.168.0.1/7001)=0
+2014-03-07 09:16:54.812 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-07 09:16:54.812 : CTcpServerWorker,02,CTcpServerWorker(192.168.0.1/7001,1024,...)
+2014-03-07 10:12:43.578 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-07 10:12:43.578 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(192.168.0.1/7001)=0
+2014-03-07 10:12:43.578 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-07 10:12:43.578 : CTcpServerWorker,02,CTcpServerWorker(192.168.0.1/7001,1024,...)
+2014-03-07 10:14:34.046 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-07 10:14:34.046 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(192.168.0.1/7001)=0
+2014-03-07 10:14:34.046 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-07 10:14:34.046 : CTcpServerWorker,02,CTcpServerWorker(192.168.0.1/7001,1024,...)
+2014-03-07 10:27:40.796 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-07 10:27:40.796 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(192.168.0.1/7001)=0
+2014-03-07 10:27:40.812 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-07 10:27:40.812 : CTcpServerWorker,02,CTcpServerWorker(192.168.0.1/7001,1024,...)
+2014-03-07 10:28:07.468 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-07 10:28:07.468 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(192.168.0.1/7001)=0
+2014-03-07 10:28:07.468 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-07 10:28:07.468 : CTcpServerWorker,02,CTcpServerWorker(192.168.0.1/7001,1024,...)
+2014-03-07 10:28:32.390 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-07 10:28:32.390 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(192.168.0.1/7001)=0
+2014-03-07 10:28:32.406 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-07 10:28:32.406 : CTcpServerWorker,02,CTcpServerWorker(192.168.0.1/7001,1024,...)
+2014-03-07 10:33:46.281 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1760
+2014-03-07 10:33:46.281 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(192.168.0.1/7001)=0
+2014-03-07 10:33:46.281 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1760,1024)=0
+2014-03-07 10:33:46.281 : CTcpServerWorker,02,CTcpServerWorker(192.168.0.1/7001,1024,...)
+2014-03-07 10:36:50.187 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-03-07 10:36:50.187 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(192.168.0.1/7001)=0
+2014-03-07 10:36:50.187 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-03-07 10:36:50.187 : CTcpServerWorker,02,CTcpServerWorker(192.168.0.1/7001,1024,...)
+2014-03-07 10:46:17.968 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-03-07 10:46:17.968 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(192.168.0.1/7001)=0
+2014-03-07 10:46:17.968 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-03-07 10:46:17.968 : CTcpServerWorker,02,CTcpServerWorker(192.168.0.1/7001,1024,...)
+2014-03-07 14:40:50.750 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-03-07 14:40:50.750 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(192.168.0.1/7001)=0
+2014-03-07 14:40:50.750 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-03-07 14:40:50.750 : CTcpServerWorker,02,CTcpServerWorker(192.168.0.1/7001,1024,...)
+2014-04-21 16:34:45.000 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=2f60
+2014-04-21 16:34:45.015 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-04-21 16:34:45.015 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(2f60,1024)=0
+2014-04-21 16:34:45.015 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-04-21 16:36:19.046 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/4094)=2d28
+2014-04-21 16:37:57.968 : TryRead_Internal,02,数据连接的远端正常或不正常的关闭。释放该数据连接 (RemoteAddr=10.11.112.140/4094 hSocket=2d28)
+2014-04-21 16:37:57.968 : CTcpServerWorker,02,OffLineOneDataSocket_Internal(2d28),Addr=10.11.112.140/4094
+2014-04-21 16:45:39.250 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=2f60
+2014-04-21 16:45:39.250 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-04-21 16:45:39.250 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(2f60,1024)=0
+2014-04-21 16:45:39.250 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-04-21 16:46:41.796 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=2f60
+2014-04-21 16:46:41.796 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-04-21 16:46:41.796 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(2f60,1024)=0
+2014-04-21 16:46:41.796 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-04-21 16:47:47.453 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/4164)=2d18
+2014-04-21 16:49:44.421 : TryRead_Internal,02,数据连接的远端正常或不正常的关闭。释放该数据连接 (RemoteAddr=10.11.112.140/4164 hSocket=2d18)
+2014-04-21 16:49:44.421 : CTcpServerWorker,02,OffLineOneDataSocket_Internal(2d18),Addr=10.11.112.140/4164
+2014-04-21 16:49:44.718 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/4188)=2d18
+2014-04-28 15:22:54.437 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-04-28 15:22:54.453 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-04-28 15:22:54.453 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-04-28 15:22:54.453 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-04-28 15:36:53.109 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-04-28 15:36:53.109 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-04-28 15:36:53.109 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-04-28 15:36:53.109 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-04-28 15:38:26.000 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-04-28 15:38:26.000 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-04-28 15:38:26.000 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-04-28 15:38:26.000 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-04-28 15:38:56.984 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-04-28 15:38:56.984 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-04-28 15:38:56.984 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-04-28 15:38:56.984 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-04-28 15:45:16.484 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-04-28 15:45:16.484 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-04-28 15:45:16.484 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-04-28 15:45:16.484 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-04-28 15:46:08.984 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-04-28 15:46:08.984 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-04-28 15:46:08.984 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-04-28 15:46:08.984 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-05-22 09:47:40.407 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=760
+2014-05-22 09:47:40.423 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(192.168.0.1/7001)=0
+2014-05-22 09:47:40.423 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(760,1024)=0
+2014-05-22 09:47:40.423 : CTcpServerWorker,02,CTcpServerWorker(192.168.0.1/7001,1024,...)
+2014-05-22 09:47:54.829 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=760
+2014-05-22 09:47:54.829 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(192.168.0.1/7001)=0
+2014-05-22 09:47:54.829 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(760,1024)=0
+2014-05-22 09:47:54.829 : CTcpServerWorker,02,CTcpServerWorker(192.168.0.1/7001,1024,...)
+2014-05-22 09:49:49.423 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-05-22 09:49:49.439 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(192.168.0.1/7001)=0
+2014-05-22 09:49:49.439 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-05-22 09:49:49.439 : CTcpServerWorker,02,CTcpServerWorker(192.168.0.1/7001,1024,...)
+2014-05-22 09:53:24.751 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-05-22 09:53:24.751 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(192.168.0.1/7001)=0
+2014-05-22 09:53:24.751 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-05-22 09:53:24.751 : CTcpServerWorker,02,CTcpServerWorker(192.168.0.1/7001,1024,...)
+2014-05-22 09:54:23.267 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-05-22 09:54:23.267 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(192.168.0.1/7001)=0
+2014-05-22 09:54:23.267 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-05-22 09:54:23.267 : CTcpServerWorker,02,CTcpServerWorker(192.168.0.1/7001,1024,...)
+2014-05-22 09:55:43.532 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-05-22 09:55:43.532 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(192.168.0.1/7001)=0
+2014-05-22 09:55:43.532 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-05-22 09:55:43.532 : CTcpServerWorker,02,CTcpServerWorker(192.168.0.1/7001,1024,...)
+2014-05-22 09:56:22.704 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-05-22 09:56:22.704 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(192.168.0.1/7001)=0
+2014-05-22 09:56:22.704 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-05-22 09:56:22.704 : CTcpServerWorker,02,CTcpServerWorker(192.168.0.1/7001,1024,...)
+2014-05-22 09:56:49.423 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-05-22 09:56:49.439 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(192.168.0.1/7001)=0
+2014-05-22 09:56:49.439 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-05-22 09:56:49.439 : CTcpServerWorker,02,CTcpServerWorker(192.168.0.1/7001,1024,...)
+2014-05-22 10:01:58.673 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-05-22 10:01:58.673 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(192.168.0.1/7001)=0
+2014-05-22 10:01:58.673 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-05-22 10:01:58.673 : CTcpServerWorker,02,CTcpServerWorker(192.168.0.1/7001,1024,...)
+2014-05-22 10:02:39.548 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=760
+2014-05-22 10:02:39.548 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(192.168.0.1/7001)=0
+2014-05-22 10:02:39.548 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(760,1024)=0
+2014-05-22 10:02:39.548 : CTcpServerWorker,02,CTcpServerWorker(192.168.0.1/7001,1024,...)
+2014-05-22 10:03:32.579 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-05-22 10:03:32.579 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(192.168.0.1/7001)=0
+2014-05-22 10:03:32.579 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-05-22 10:03:32.579 : CTcpServerWorker,02,CTcpServerWorker(192.168.0.1/7001,1024,...)
+2014-05-22 10:04:19.392 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-05-22 10:04:19.392 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(192.168.0.1/7001)=0
+2014-05-22 10:04:19.392 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-05-22 10:04:19.392 : CTcpServerWorker,02,CTcpServerWorker(192.168.0.1/7001,1024,...)
+2014-05-22 10:06:58.157 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=1f60
+2014-05-22 10:06:58.157 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(192.168.0.1/7001)=0
+2014-05-22 10:06:58.157 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(1f60,1024)=0
+2014-05-22 10:06:58.157 : CTcpServerWorker,02,CTcpServerWorker(192.168.0.1/7001,1024,...)
+2014-05-22 10:15:51.267 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=760
+2014-05-22 10:15:51.267 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(192.168.0.1/7001)=0
+2014-05-22 10:15:51.267 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(760,1024)=0
+2014-05-22 10:15:51.267 : CTcpServerWorker,02,CTcpServerWorker(192.168.0.1/7001,1024,...)
+2014-05-22 10:34:07.485 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=760
+2014-05-22 10:34:07.485 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-05-22 10:34:07.485 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(760,1024)=0
+2014-05-22 10:34:07.485 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-05-22 10:34:11.391 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.4/19309)=548
+2014-05-22 10:35:24.813 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.4/19354)=534
+2014-05-22 10:37:10.204 : TryRead_Internal,02,数据连接的远端正常或不正常的关闭。释放该数据连接 (RemoteAddr=10.11.112.4/19309 hSocket=548)
+2014-05-22 10:37:10.204 : CTcpServerWorker,02,OffLineOneDataSocket_Internal(548),Addr=10.11.112.4/19309
+2014-05-22 10:37:10.235 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.4/19363)=548
+2014-05-22 10:37:33.235 : TryRead_Internal,02,数据连接的远端正常或不正常的关闭。释放该数据连接 (RemoteAddr=10.11.112.4/19363 hSocket=548)
+2014-05-22 10:37:33.235 : CTcpServerWorker,02,OffLineOneDataSocket_Internal(548),Addr=10.11.112.4/19363
+2014-05-22 10:37:33.485 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.4/19367)=504

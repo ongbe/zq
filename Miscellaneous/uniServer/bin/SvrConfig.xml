@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?>
+<root Slave="false">
+	<Login SlaveUser="SlaverUser" SlavePass="SlaverUser">
+		<IP>10.11.112.58</IP>
+		<IP>10.11.112.140</IP>
+		<AllowUserTypeLogin>USER_TYPE_RISK_CONTROL</AllowUserTypeLogin>	
+		<AllowUserTypeLogin>USER_TYPE_MANAGE</AllowUserTypeLogin>	
+	</Login>
+</root>

@@ -1,0 +1,8 @@
+2014-04-01 10:08:24.656 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=760
+2014-04-01 10:08:24.656 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-04-01 10:08:24.656 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(760,1024)=0
+2014-04-01 10:08:24.656 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)
+2014-04-01 10:09:16.750 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=760
+2014-04-01 10:09:16.750 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/7001)=0
+2014-04-01 10:09:16.750 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(760,1024)=0
+2014-04-01 10:09:16.750 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/7001,1024,...)

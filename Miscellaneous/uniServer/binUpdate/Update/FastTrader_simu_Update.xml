@@ -1,0 +1,35 @@
+<update>   
+   <version>2,5,0,6</version> 
+   <version_min>1,2,0,1</version_min> 
+   <versionInfo>1.o&#x0D;&#x0A;2.oo&#x0D;&#x0A;3.ooo</versionInfo> 
+   <url>updatefile</url> 
+   <AppendFiles>
+   </AppendFiles>
+   <ReplaceFiles>	 
+   		 <FileName name ="1.layout" Path="layout"          MD5 =""/> 
+   		 <FileName name ="2.layout" Path="layout"          MD5 =""/>
+   		 <FileName name ="3.layout" Path="layout"          MD5 =""/>
+   		 <FileName name ="4.layout" Path="layout"          MD5 =""/>
+ 			 <FileName name ="AutoUpdate.xml" Path=""          MD5 =""/> 	
+			 <FileName name ="FastTrader.exe" Path=""          MD5 =""/>
+			 <FileName name ="help.chm" Path=""          			 MD5 =""/>
+			 <FileName name ="help.dat" Path=""          			 MD5 =""/>
+			 <FileName name ="HypertextNotice.exe" Path=""     MD5 =""/>	
+			 <FileName name ="InstrumentGroup.xml" Path=""     MD5 =""/>			
+			 <FileName name ="language.csv" Path=""            MD5 =""/>
+			 <FileName name ="layout.txt" Path=""              MD5 =""/>				
+			 <FileName name ="platform.xml" Path=""            MD5 =""/>	
+			 <FileName name ="ProductSName.txt" Path=""        MD5 =""/>				 
+			 <FileName name ="ServerParam.xml" Path=""         MD5 =""/>	
+			 <FileName name ="syscfg.xml" Path=""         		 MD5 =""/>
+			 <FileName name ="thostmduserapi.dll" Path=""      MD5 =""/>
+			 <FileName name ="thosttraderapi.dll" Path=""      MD5 =""/>		
+			 <FileName name ="unins000.dat" Path=""      			 MD5 =""/>	
+			 <FileName name ="unins000.exe" Path=""      			 MD5 =""/>		
+			 <FileName name ="updatefasttrader.exe" Path=""    MD5 =""/>					 
+   </ReplaceFiles >  
+   <ExeFiles>
+   	   <FileName name ="FastTraderSetup.exe" Path=""     MD5 =""/>
+   </ExeFiles>
+   <datetime>2012-06-10</datetime>          
+</update>  

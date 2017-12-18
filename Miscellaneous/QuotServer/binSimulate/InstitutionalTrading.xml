@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="GB2312"?>
+<root>
+	//数据库配置
+	<Database>
+		<SID>orcl</SID>
+		<User>institution</User>
+		<Password>institution</Password>
+	</Database>
+	
+	//是否是从服务器，true or false. false means master server
+	<SlaveServer>true</SlaveServer>
+	
+	//登录配置
+	<Login>
+		//从服务登录主服务的用户名密码。在主从服务上都要配置，并保证一直
+		<SlaveUserName>SlaverUser</SlaveUserName>
+		<SlavePassword>SlaverPW</SlavePassword>
+		
+		//各个从服务器地址。在主服务上配置，用于对从服务进行登录验证。需要和从服务的function.ini中相关配置一致
+		<SlaveIP>10.11.112.121</SlaveIP>
+		<SlaveIP>10.11.112.71</SlaveIP>
+		<SlaveIP>10.11.112.133</SlaveIP>
+		<SlaveIP>10.11.112.152</SlaveIP>
+		<SlaveIP>10.11.112.178</SlaveIP>
+		<SlaveIP>10.11.112.140</SlaveIP>
+		<SlaveIP>10.11.112.108</SlaveIP>		
+
+		//允许登录的socket用户类型
+		<AllowUserTypeLogin>USER_TYPE_MANAGE</AllowUserTypeLogin>
+		<AllowUserTypeLogin>USER_TYPE_TRADER</AllowUserTypeLogin>
+		<AllowUserTypeLogin>USER_TYPE_SLAVESERVER</AllowUserTypeLogin>
+		<AllowUserTypeLogin>USER_TYPE_RISK_CONTROL</AllowUserTypeLogin>
+	</Login>
+	
+	//Redis配置
+	<Redis>
+		<TraderData NeedCache="true">
+			<CacheHost IP="10.11.112.71" Port="6379"/>
+		</TraderData>
+	</Redis>
+</root>
+
+

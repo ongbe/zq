@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+	<Save2DBTimeSpan>3600</Save2DBTimeSpan>
+	<Count>6</Count><!--count of tradingtime node's attribute-->
+    <tradingtime>
+        <group id="SHFE" time="00:00-02:30 9:00-10:15 10:30-11:30 13:30-15:00 21:00-24:00" />
+        <group id="CZCE" time="09:00-10:15 10:30-11:30 13:30-15:00" />
+        <group id="DCE" time="09:00-10:15 10:30-11:30 13:30-15:00" />
+        <group id="CFFEX" time="09:15-11:30 13:00-15:15" />
+        <group id="sse" time="9:30-11:30 13:00-15:00" />
+        <group id="szse" time="9:30-11:30 13:00-15:00" />
+    </tradingtime>
+</root>

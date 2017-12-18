@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GB2312"?>
+<root>
+    //经济公司
+	<BrokerID>8090</BrokerID>
+	//用户ID
+	<CTPUserID>99002803</CTPUserID>
+	//登录CTP密码
+	<CTPPassword>888888</CTPPassword>
+	//Server地址
+	<CTPTradeServerAddress>180.168.102.193:41205</CTPTradeServerAddress>
+
+	//登录配置
+	<Login>
+		<UserName>appquotuser-appquotuserpw</UserName>
+		<UserName>admin-888888</UserName>
+	</Login>
+	//最大传输条数
+	<maxQueryCount>1000</maxQueryCount>
+</root>
+
