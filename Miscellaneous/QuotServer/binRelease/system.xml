@@ -1,7 +1,0 @@
-<system>
-    <DataBase>
-        <SID>orcl</SID>
-        <User>institution</User>
-        <Password>institution</Password>
-    </DataBase>
-</system>
