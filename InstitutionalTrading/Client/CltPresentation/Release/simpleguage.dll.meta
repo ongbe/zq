@@ -1,0 +1,43 @@
+  SimpleGuage.SimpleGuage.resources - Embedded, ContainedInManifestFile, 
+  SimpleGuage.Properties.Resources.resources - Embedded, ContainedInManifestFile, 
+Assembly SimpleGuage, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=SHA1, flags=None
+Class SimpleGuage.SimpleGuage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Single Value 'get set' : 
+    Int32 BigArcStart 'get set' : 
+    Int32 BigArcCount 'get set' : 
+    Int32 SmallArcStart 'get set' : 
+    Int32 SmallArcCount 'get set' : 
+    Int32 BigNeedleRadius 'get set' : 
+    Int32 SmallNeedleRadius 'get set' : 
+  Methods:
+    get_Value(): PrivateScope, Public, HideBySig, SpecialName
+    set_Value(Single): PrivateScope, Public, HideBySig, SpecialName
+    get_BigArcStart(): PrivateScope, Public, HideBySig, SpecialName
+    set_BigArcStart(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_BigArcCount(): PrivateScope, Public, HideBySig, SpecialName
+    set_BigArcCount(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_SmallArcStart(): PrivateScope, Public, HideBySig, SpecialName
+    set_SmallArcStart(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_SmallArcCount(): PrivateScope, Public, HideBySig, SpecialName
+    set_SmallArcCount(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_BigNeedleRadius(): PrivateScope, Public, HideBySig, SpecialName
+    set_BigNeedleRadius(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_SmallNeedleRadius(): PrivateScope, Public, HideBySig, SpecialName
+    set_SmallNeedleRadius(Int32): PrivateScope, Public, HideBySig, SpecialName
+Class SimpleGuage.SimpleGuage+ValueInRangeChangedEventArgs: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 valueInRange : Public

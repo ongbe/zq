@@ -1,0 +1,2113 @@
+Assembly System.Runtime.InteropServices.APIs, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=SHA1, flags=None
+Class System.Runtime.InteropServices.APIs.APIsWndProc: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    SetWindowLong(IntPtr, Int32, WndProc): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SetWindowLong(IntPtr, Int32, GetWndProc): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SetWindowLong(IntPtr, Int32, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetWindowLong(IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    CallWindowProc(IntPtr, IntPtr, Int32, IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    DefWindowProc(IntPtr, Int32, IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+Class System.Runtime.InteropServices.APIs.APIsWndProc+GetWndProc: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(IntPtr, Int32, IntPtr, IntPtr): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(IntPtr, Int32, IntPtr, IntPtr, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Runtime.InteropServices.APIs.APIsWndProc+WndProc: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Message&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Message&, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(Message&, IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Runtime.InteropServices.APIs.APIsStructs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Struct System.Runtime.InteropServices.APIs.APIsStructs+DLLVERSIONINFO: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, AutoClass, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 cbSize : Public
+    Int32 dwMajorVersion : Public
+    Int32 dwMinorVersion : Public
+    Int32 dwBuildNumber : Public
+    Int32 dwPlatformID : Public
+Struct System.Runtime.InteropServices.APIs.APIsStructs+DLLVERSIONINFO2: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, AutoClass, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    DLLVERSIONINFO info1 : Public
+    Int32 dwFlags : Public
+Struct System.Runtime.InteropServices.APIs.APIsStructs+WIN32_FIND_DATA: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, AutoClass, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    UInt32 fileAttributes : Public
+    System.Runtime.InteropServices.FILETIME creationTime : Public
+    System.Runtime.InteropServices.FILETIME lastAccessTime : Public
+    System.Runtime.InteropServices.FILETIME lastWriteTime : Public
+    UInt32 fileSizeHigh : Public
+    UInt32 fileSizeLow : Public
+    UInt32 reserved0 : Public
+    UInt32 reserved1 : Public
+    System.String fileName : Public, HasFieldMarshal
+    System.String alternateFileName : Public, HasFieldMarshal
+Struct System.Runtime.InteropServices.APIs.APIsStructs+SHITEMIDLIST: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    SHITEMID[] mkid : Public
+Struct System.Runtime.InteropServices.APIs.APIsStructs+SHITEMID: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    UInt16 cb : Public
+    Byte abID : Public
+Struct System.Runtime.InteropServices.APIs.APIsStructs+SHFILEOPSTRUCT: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, UnicodeClass, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    IntPtr hwnd : Public
+    UInt32 wFunc : Public
+    IntPtr pFrom : Public
+    IntPtr pTo : Public
+    UInt16 fFlags : Public
+    Int32 fAnyOperationsAborted : Public
+    IntPtr hNameMappings : Public
+    System.String lpszProgressTitle : Public, HasFieldMarshal
+Struct System.Runtime.InteropServices.APIs.APIsStructs+SHELLEXECUTEINFO: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 cbSize : Public
+    ShellExecuteFlags fMask : Public
+    IntPtr hWnd : Public
+    System.String lpVerb : Public
+    System.String lpFile : Public
+    System.String lpParameters : Public
+    System.String lpDirectory : Public
+    ShowWindowStyles nShow : Public
+    IntPtr hInstApp : Public
+    IntPtr lpIDList : Public
+    Int32 lpClass : Public
+    Int32 hkeyClass : Public
+    Int32 dwHotKey : Public
+    IntPtr hIcon : Public
+    IntPtr hProcess : Public
+Struct System.Runtime.InteropServices.APIs.APIsStructs+SHFILEINFO: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    IntPtr hIcon : Public
+    Int32 iIcon : Public
+    UInt32 dwAttributes : Public
+    System.String szDisplayName : Public, HasFieldMarshal
+    System.String szTypeName : Public, HasFieldMarshal
+Struct System.Runtime.InteropServices.APIs.APIsStructs+STRRET: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 uType : Public
+    Byte[] cStr : Public, HasFieldMarshal
+Struct System.Runtime.InteropServices.APIs.APIsStructs+MENUITMEINFO: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 cbSize : Public
+    MenuItemMasks fMask : Public
+    MenuItemTypes fType : Public
+    MenuItemStates fState : Public
+    Int32 wID : Public
+    IntPtr hSubMenu : Public
+    IntPtr hbmpChecked : Public
+    IntPtr hbmpUnchecked : Public
+    Int32 dwItemData : Public
+    IntPtr dwTypeData : Public
+    Int32 cch : Public
+    IntPtr hbmpItem : Public
+Class System.Runtime.InteropServices.APIs.APIsStructs+StartupInfo: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 cb : Public
+    System.String lpReserved : Public
+    System.String lpDesktop : Public
+    System.String lpTitle : Public
+    Int32 dwX : Public
+    Int32 dwY : Public
+    Int32 dwXSize : Public
+    Int32 dwYSize : Public
+    Int32 dwXCountChars : Public
+    Int32 dwYCountChars : Public
+    Int32 dwFillAttribute : Public
+    Int32 dwFlags : Public
+    UInt16 wShowWindow : Public
+    UInt16 cbReserved2 : Public
+    Byte lpReserved2 : Public
+    Int32 hStdInput : Public
+    Int32 hStdOutput : Public
+    Int32 hStdError : Public
+Class System.Runtime.InteropServices.APIs.APIsStructs+ProcessInformation: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 hProcess : Public
+    Int32 hThread : Public
+    Int32 dwProcessId : Public
+    Int32 dwThreadId : Public
+Struct System.Runtime.InteropServices.APIs.APIsStructs+MENUITEMINFO: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    UInt32 cbSize : Public
+    UInt32 fMask : Public
+    UInt32 fType : Public
+    UInt32 fState : Public
+    Int32 wID : Public
+    Int32 hSubMenu : Public
+    Int32 hbmpChecked : Public
+    Int32 hbmpUnchecked : Public
+    Int32 dwItemData : Public
+    System.String dwTypeData : Public
+    UInt32 cch : Public
+    Int32 hbmpItem : Public
+Struct System.Runtime.InteropServices.APIs.APIsStructs+FORMATETC: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    ClipboardFormats cfFormat : Public
+    UInt32 ptd : Public
+    TargetDevices dwAspect : Public
+    Int32 lindex : Public
+    StorageMediumTypes tymed : Public
+Struct System.Runtime.InteropServices.APIs.APIsStructs+STGMEDIUM: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    UInt32 tymed : Public
+    UInt32 hGlobal : Public
+    UInt32 pUnkForRelease : Public
+Struct System.Runtime.InteropServices.APIs.APIsStructs+CMINVOKECOMMANDINFO: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, AutoClass, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 cbSize : Public
+    Int32 fMask : Public
+    IntPtr hwnd : Public
+    IntPtr lpVerb : Public
+    IntPtr lpParameters : Public
+    IntPtr lpDirectory : Public
+    Int32 nShow : Public
+    Int32 dwHotKey : Public
+    IntPtr hIcon : Public
+Struct System.Runtime.InteropServices.APIs.APIsStructs+LV_ITEM: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    ListViewItemFlags mask : Public
+    Int32 iItem : Public
+    Int32 iSubItem : Public
+    ListViewItemStates state : Public
+    ListViewItemStates stateMask : Public
+    System.String pszText : Public
+    Int32 cchTextMax : Public
+    Int32 iImage : Public
+    IntPtr lParam : Public
+    Int32 iIndent : Public
+Struct System.Runtime.InteropServices.APIs.APIsStructs+LVCOLUMN: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 mask : Public
+    Int32 fmt : Public
+    Int32 cx : Public
+    System.String pszText : Public
+    Int32 cchTextMax : Public
+    Int32 iSubItem : Public
+    Int32 iImage : Public
+    Int32 iOrder : Public
+Struct System.Runtime.InteropServices.APIs.APIsStructs+LVHITTESTINFO: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    POINTAPI pt : Public
+    Int32 flags : Public
+    Int32 iItem : Public
+    Int32 iSubItem : Public
+Struct System.Runtime.InteropServices.APIs.APIsStructs+NMLVDISPINFO: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, AutoClass, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    NMHDR hdr : Public
+    LV_ITEM lvitem : Public
+Struct System.Runtime.InteropServices.APIs.APIsStructs+NMLISTVIEW: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, AutoClass, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    NMHDR nmhdr : Public
+    Int32 iItem : Public
+    Int32 iSubItem : Public
+    UInt32 uNewState : Public
+    UInt32 uOldState : Public
+    UInt32 uChanged : Public
+    POINTAPI ptAction : Public
+    IntPtr lParam : Public
+  Properties:
+    Boolean NewSelected 'get ' : 
+    Boolean OldSelected 'get ' : 
+    Boolean NewCheck 'get ' : 
+    Boolean OldCheck 'get ' : 
+    Boolean NewFocused 'get ' : 
+    Boolean OldFocused 'get ' : 
+    Boolean Select 'get ' : 
+    Boolean UnSelect 'get ' : 
+    Boolean Focus 'get ' : 
+    Boolean UnFocus 'get ' : 
+    Boolean Check 'get ' : 
+    Boolean UnCheck 'get ' : 
+  Methods:
+    get_NewSelected(): PrivateScope, Public, HideBySig, SpecialName
+    get_OldSelected(): PrivateScope, Public, HideBySig, SpecialName
+    get_NewCheck(): PrivateScope, Public, HideBySig, SpecialName
+    get_OldCheck(): PrivateScope, Public, HideBySig, SpecialName
+    get_NewFocused(): PrivateScope, Public, HideBySig, SpecialName
+    get_OldFocused(): PrivateScope, Public, HideBySig, SpecialName
+    get_Select(): PrivateScope, Public, HideBySig, SpecialName
+    get_UnSelect(): PrivateScope, Public, HideBySig, SpecialName
+    get_Focus(): PrivateScope, Public, HideBySig, SpecialName
+    get_UnFocus(): PrivateScope, Public, HideBySig, SpecialName
+    get_Check(): PrivateScope, Public, HideBySig, SpecialName
+    get_UnCheck(): PrivateScope, Public, HideBySig, SpecialName
+Struct System.Runtime.InteropServices.APIs.APIsStructs+HDITEM: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, AutoClass, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    HeaderItemFlags mask : Public
+    Int32 cxy : Public
+    IntPtr pszText : Public
+    IntPtr hbm : Public
+    Int32 cchTextMax : Public
+    Int32 fmt : Public
+    Int32 lParam : Public
+    Int32 iImage : Public
+    Int32 iOrder : Public
+Struct System.Runtime.InteropServices.APIs.APIsStructs+HD_HITTESTINFO: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    POINTAPI pt : Public
+    HeaderControlHitTestFlags flags : Public
+    Int32 iItem : Public
+Struct System.Runtime.InteropServices.APIs.APIsStructs+POINTAPI: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(System.Drawing.Point): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 x : Public
+    Int32 y : Public
+Struct System.Runtime.InteropServices.APIs.APIsStructs+RECT: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(System.Drawing.Rectangle): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 left : Public
+    Int32 top : Public
+    Int32 right : Public
+    Int32 bottom : Public
+Struct System.Runtime.InteropServices.APIs.APIsStructs+SIZE: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 cx : Public
+    Int32 cy : Public
+Struct System.Runtime.InteropServices.APIs.APIsStructs+NMHDR: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    IntPtr hwndFrom : Public
+    Int32 idFrom : Public
+    Int32 code : Public
+Struct System.Runtime.InteropServices.APIs.APIsStructs+NMCUSTOMDRAW: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    NMHDR hdr : Public
+    Int32 dwDrawStage : Public
+    IntPtr hdc : Public
+    RECT rc : Public
+    UInt32 dwItemSpec : Public
+    UInt32 uItemState : Public
+    IntPtr lItemlParam : Public
+Struct System.Runtime.InteropServices.APIs.APIsStructs+NMLVCUSTOMDRAW: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    NMCUSTOMDRAW nmcd : Public
+    Int32 clrText : Public
+    Int32 clrTextBk : Public
+    Int32 iSubItem : Public
+    Int32 dwItemType : Public
+    Int32 clrFace : Public
+    Int32 iIconEffect : Public
+    Int32 iIconPhase : Public
+    Int32 iPartId : Public
+    Int32 iStateId : Public
+    RECT rcText : Public
+    UInt32 uAlign : Public
+Struct System.Runtime.InteropServices.APIs.APIsStructs+NMTVCUSTOMDRAW: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    NMCUSTOMDRAW nmcd : Public
+    UInt32 clrText : Public
+    UInt32 clrTextBk : Public
+    Int32 iLevel : Public
+Struct System.Runtime.InteropServices.APIs.APIsStructs+BITMAPINFO_FLAT: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 bmiHeader_biSize : Public
+    Int32 bmiHeader_biWidth : Public
+    Int32 bmiHeader_biHeight : Public
+    Int16 bmiHeader_biPlanes : Public
+    Int16 bmiHeader_biBitCount : Public
+    Int32 bmiHeader_biCompression : Public
+    Int32 bmiHeader_biSizeImage : Public
+    Int32 bmiHeader_biXPelsPerMeter : Public
+    Int32 bmiHeader_biYPelsPerMeter : Public
+    Int32 bmiHeader_biClrUsed : Public
+    Int32 bmiHeader_biClrImportant : Public
+    Byte[] bmiColors : Public, HasFieldMarshal
+Class System.Runtime.InteropServices.APIs.APIsStructs+BITMAPINFOHEADER: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 biSize : Public
+    Int32 biWidth : Public
+    Int32 biHeight : Public
+    Int16 biPlanes : Public
+    Int16 biBitCount : Public
+    Int32 biCompression : Public
+    Int32 biSizeImage : Public
+    Int32 biXPelsPerMeter : Public
+    Int32 biYPelsPerMeter : Public
+    Int32 biClrUsed : Public
+    Int32 biClrImportant : Public
+Struct System.Runtime.InteropServices.APIs.APIsStructs+MSG: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    IntPtr hwnd : Public
+    Int32 message : Public
+    IntPtr wParam : Public
+    IntPtr lParam : Public
+    Int32 time : Public
+    Int32 pt_x : Public
+    Int32 pt_y : Public
+Struct System.Runtime.InteropServices.APIs.APIsStructs+PAINTSTRUCT: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    IntPtr hdc : Public
+    Int32 fErase : Public
+    System.Drawing.Rectangle rcPaint : Public
+    Int32 fRestore : Public
+    Int32 fIncUpdate : Public
+    Int32 Reserved1 : Public
+    Int32 Reserved2 : Public
+    Int32 Reserved3 : Public
+    Int32 Reserved4 : Public
+    Int32 Reserved5 : Public
+    Int32 Reserved6 : Public
+    Int32 Reserved7 : Public
+    Int32 Reserved8 : Public
+Struct System.Runtime.InteropServices.APIs.APIsStructs+TRACKMOUSEEVENTS: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    UInt32 cbSize : Public
+    TrackerEventFlags dwFlags : Public
+    IntPtr hWnd : Public
+    UInt32 dwHoverTime : Public
+Struct System.Runtime.InteropServices.APIs.APIsStructs+WINDOWPLACEMENT: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, AutoClass, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    UInt32 length : Public
+    UInt32 flags : Public
+    UInt32 showCmd : Public
+    POINTAPI ptMinPosition : Public
+    POINTAPI ptMaxPosition : Public
+    RECT rcNormalPosition : Public
+Struct System.Runtime.InteropServices.APIs.APIsStructs+SCROLLINFO: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, AutoClass, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    UInt32 cbSize : Public
+    UInt32 fMask : Public
+    Int32 nMin : Public
+    Int32 nMax : Public
+    UInt32 nPage : Public
+    Int32 nPos : Public
+    Int32 nTrackPos : Public
+Struct System.Runtime.InteropServices.APIs.APIsStructs+SCROLLBARINFO: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, AutoClass, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    UInt32 cbSize : Public
+    RECT rcScrollBar : Public
+    Int32 dxyLineButton : Public
+    Int32 xyThumbTop : Public
+    Int32 xyThumbBottom : Public
+    Int32 reserved : Public
+    UInt32[] rgstate : Public, HasFieldMarshal
+Struct System.Runtime.InteropServices.APIs.APIsStructs+PCOMBOBOXINFO: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, AutoClass, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    UInt32 cbSize : Public
+    RECT rcItem : Public
+    RECT rcButton : Public
+    Int32 stateButton : Public
+    IntPtr hwndCombo : Public
+    IntPtr hwndItem : Public
+    IntPtr hwndList : Public
+Struct System.Runtime.InteropServices.APIs.APIsStructs+BLENDFUNCTION: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Byte BlendOp : Public
+    Byte BlendFlags : Public
+    Byte SourceConstantAlpha : Public
+    Byte AlphaFormat : Public
+Struct System.Runtime.InteropServices.APIs.APIsStructs+NMHEADER: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    NMHDR nmhdr : Public
+    Int32 iItem : Public
+    Int32 iButton : Public
+    HDITEM pItem : Public
+Struct System.Runtime.InteropServices.APIs.APIsStructs+INPUT: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    UInt32 type : Public
+    Int32 dx : Public
+    Int32 dy : Public
+    UInt32 mouseData : Public
+    UInt32 dwFlags : Public
+    UInt32 time : Public
+    UInt32 dwExtra : Public
+Class System.Runtime.InteropServices.APIs.APIsMenu: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetMenuState(IntPtr, Int32, MenuItemFlags): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetMenuString(IntPtr, Int32, StringBuilder, Int32, MenuItemFlags): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetMenuItemInfo(IntPtr, Int32, Boolean, MENUITMEINFO&): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetMenuItemID(IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    InsertMenuItem(IntPtr, Int32, Boolean, MENUITMEINFO&): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetMenuItemCount(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    CreatePopupMenu(): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    DestroyMenu(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    DeleteMenu(IntPtr, Int32, MenuItemFlags): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    TrackPopupMenu(IntPtr, TrackPopupMenuFlags, Int32, Int32, Int32, IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+Class System.Runtime.InteropServices.APIs.APIsEnums: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Struct System.Runtime.InteropServices.APIs.APIsEnums+WindowMessages: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    WindowMessages APP = 32768 : Public, Static, Literal, HasDefault
+    WindowMessages ACTIVATE = 6 : Public, Static, Literal, HasDefault
+    WindowMessages ACTIVATEAPP = 28 : Public, Static, Literal, HasDefault
+    WindowMessages AFXFIRST = 864 : Public, Static, Literal, HasDefault
+    WindowMessages AFXLAST = 895 : Public, Static, Literal, HasDefault
+    WindowMessages ASKCBFORMATNAME = 780 : Public, Static, Literal, HasDefault
+    WindowMessages CANCELJOURNAL = 75 : Public, Static, Literal, HasDefault
+    WindowMessages CANCELMODE = 31 : Public, Static, Literal, HasDefault
+    WindowMessages CAPTURECHANGED = 533 : Public, Static, Literal, HasDefault
+    WindowMessages CHANGECBCHAIN = 781 : Public, Static, Literal, HasDefault
+    WindowMessages CHAR = 258 : Public, Static, Literal, HasDefault
+    WindowMessages CHARTOITEM = 47 : Public, Static, Literal, HasDefault
+    WindowMessages CHILDACTIVATE = 34 : Public, Static, Literal, HasDefault
+    WindowMessages CLEAR = 771 : Public, Static, Literal, HasDefault
+    WindowMessages CLOSE = 16 : Public, Static, Literal, HasDefault
+    WindowMessages COMMAND = 273 : Public, Static, Literal, HasDefault
+    WindowMessages COMMNOTIFY = 68 : Public, Static, Literal, HasDefault
+    WindowMessages COMPACTING = 65 : Public, Static, Literal, HasDefault
+    WindowMessages COMPAREITEM = 57 : Public, Static, Literal, HasDefault
+    WindowMessages CONTEXTMENU = 123 : Public, Static, Literal, HasDefault
+    WindowMessages COPY = 769 : Public, Static, Literal, HasDefault
+    WindowMessages COPYDATA = 74 : Public, Static, Literal, HasDefault
+    WindowMessages CREATE = 1 : Public, Static, Literal, HasDefault
+    WindowMessages CTLCOLOR = 25 : Public, Static, Literal, HasDefault
+    WindowMessages CTLCOLORBTN = 309 : Public, Static, Literal, HasDefault
+    WindowMessages CTLCOLORDLG = 310 : Public, Static, Literal, HasDefault
+    WindowMessages CTLCOLOREDIT = 307 : Public, Static, Literal, HasDefault
+    WindowMessages CTLCOLORLISTBOX = 308 : Public, Static, Literal, HasDefault
+    WindowMessages CTLCOLORMSGBOX = 306 : Public, Static, Literal, HasDefault
+    WindowMessages CTLCOLORSCROLLBAR = 311 : Public, Static, Literal, HasDefault
+    WindowMessages CTLCOLORSTATIC = 312 : Public, Static, Literal, HasDefault
+    WindowMessages CUT = 768 : Public, Static, Literal, HasDefault
+    WindowMessages DEADCHAR = 259 : Public, Static, Literal, HasDefault
+    WindowMessages DELETEITEM = 45 : Public, Static, Literal, HasDefault
+    WindowMessages DESTROY = 2 : Public, Static, Literal, HasDefault
+    WindowMessages DESTROYCLIPBOARD = 775 : Public, Static, Literal, HasDefault
+    WindowMessages DEVICECHANGE = 537 : Public, Static, Literal, HasDefault
+    WindowMessages DEVMODECHANGE = 27 : Public, Static, Literal, HasDefault
+    WindowMessages DISPLAYCHANGE = 126 : Public, Static, Literal, HasDefault
+    WindowMessages DRAWCLIPBOARD = 776 : Public, Static, Literal, HasDefault
+    WindowMessages DRAWITEM = 43 : Public, Static, Literal, HasDefault
+    WindowMessages DROPFILES = 563 : Public, Static, Literal, HasDefault
+    WindowMessages ENABLE = 10 : Public, Static, Literal, HasDefault
+    WindowMessages ENDSESSION = 22 : Public, Static, Literal, HasDefault
+    WindowMessages ENTERIDLE = 289 : Public, Static, Literal, HasDefault
+    WindowMessages ENTERMENULOOP = 529 : Public, Static, Literal, HasDefault
+    WindowMessages ENTERSIZEMOVE = 561 : Public, Static, Literal, HasDefault
+    WindowMessages ERASEBKGND = 20 : Public, Static, Literal, HasDefault
+    WindowMessages EXITMENULOOP = 530 : Public, Static, Literal, HasDefault
+    WindowMessages EXITSIZEMOVE = 562 : Public, Static, Literal, HasDefault
+    WindowMessages FONTCHANGE = 29 : Public, Static, Literal, HasDefault
+    WindowMessages GETDLGCODE = 135 : Public, Static, Literal, HasDefault
+    WindowMessages GETFONT = 49 : Public, Static, Literal, HasDefault
+    WindowMessages GETHOTKEY = 51 : Public, Static, Literal, HasDefault
+    WindowMessages GETICON = 127 : Public, Static, Literal, HasDefault
+    WindowMessages GETMINMAXINFO = 36 : Public, Static, Literal, HasDefault
+    WindowMessages GETTEXT = 13 : Public, Static, Literal, HasDefault
+    WindowMessages GETTEXTLENGTH = 14 : Public, Static, Literal, HasDefault
+    WindowMessages HANDHELDFIRST = 856 : Public, Static, Literal, HasDefault
+    WindowMessages HANDHELDLAST = 863 : Public, Static, Literal, HasDefault
+    WindowMessages HELP = 83 : Public, Static, Literal, HasDefault
+    WindowMessages HOTKEY = 786 : Public, Static, Literal, HasDefault
+    WindowMessages HSCROLL = 276 : Public, Static, Literal, HasDefault
+    WindowMessages HSCROLLCLIPBOARD = 782 : Public, Static, Literal, HasDefault
+    WindowMessages ICONERASEBKGND = 39 : Public, Static, Literal, HasDefault
+    WindowMessages INITDIALOG = 272 : Public, Static, Literal, HasDefault
+    WindowMessages INITMENU = 278 : Public, Static, Literal, HasDefault
+    WindowMessages INITMENUPOPUP = 279 : Public, Static, Literal, HasDefault
+    WindowMessages UNINITMENUPOPUP = 293 : Public, Static, Literal, HasDefault
+    WindowMessages INPUTLANGCHANGE = 81 : Public, Static, Literal, HasDefault
+    WindowMessages INPUTLANGCHANGEREQUEST = 80 : Public, Static, Literal, HasDefault
+    WindowMessages KEYDOWN = 256 : Public, Static, Literal, HasDefault
+    WindowMessages KEYUP = 257 : Public, Static, Literal, HasDefault
+    WindowMessages KILLFOCUS = 8 : Public, Static, Literal, HasDefault
+    WindowMessages MDIACTIVATE = 546 : Public, Static, Literal, HasDefault
+    WindowMessages MDICASCADE = 551 : Public, Static, Literal, HasDefault
+    WindowMessages MDICREATE = 544 : Public, Static, Literal, HasDefault
+    WindowMessages MDIDESTROY = 545 : Public, Static, Literal, HasDefault
+    WindowMessages MDIGETACTIVE = 553 : Public, Static, Literal, HasDefault
+    WindowMessages MDIICONARRANGE = 552 : Public, Static, Literal, HasDefault
+    WindowMessages MDIMAXIMIZE = 549 : Public, Static, Literal, HasDefault
+    WindowMessages MDINEXT = 548 : Public, Static, Literal, HasDefault
+    WindowMessages MDIREFRESHMENU = 564 : Public, Static, Literal, HasDefault
+    WindowMessages MDIRESTORE = 547 : Public, Static, Literal, HasDefault
+    WindowMessages MDISETMENU = 560 : Public, Static, Literal, HasDefault
+    WindowMessages MDITILE = 550 : Public, Static, Literal, HasDefault
+    WindowMessages MEASUREITEM = 44 : Public, Static, Literal, HasDefault
+    WindowMessages MENUCHAR = 288 : Public, Static, Literal, HasDefault
+    WindowMessages MENUSELECT = 287 : Public, Static, Literal, HasDefault
+    WindowMessages MENUCOMMAND = 294 : Public, Static, Literal, HasDefault
+    WindowMessages NEXTMENU = 531 : Public, Static, Literal, HasDefault
+    WindowMessages MOVE = 3 : Public, Static, Literal, HasDefault
+    WindowMessages MOVING = 534 : Public, Static, Literal, HasDefault
+    WindowMessages NCACTIVATE = 134 : Public, Static, Literal, HasDefault
+    WindowMessages NCCALCSIZE = 131 : Public, Static, Literal, HasDefault
+    WindowMessages NCCREATE = 129 : Public, Static, Literal, HasDefault
+    WindowMessages NCDESTROY = 130 : Public, Static, Literal, HasDefault
+    WindowMessages NCHITTEST = 132 : Public, Static, Literal, HasDefault
+    WindowMessages NCLBUTTONDBLCLK = 163 : Public, Static, Literal, HasDefault
+    WindowMessages NCLBUTTONDOWN = 161 : Public, Static, Literal, HasDefault
+    WindowMessages NCLBUTTONUP = 162 : Public, Static, Literal, HasDefault
+    WindowMessages NCMBUTTONDBLCLK = 169 : Public, Static, Literal, HasDefault
+    WindowMessages NCMBUTTONDOWN = 167 : Public, Static, Literal, HasDefault
+    WindowMessages NCMBUTTONUP = 168 : Public, Static, Literal, HasDefault
+    WindowMessages NCMOUSEMOVE = 160 : Public, Static, Literal, HasDefault
+    WindowMessages NCPAINT = 133 : Public, Static, Literal, HasDefault
+    WindowMessages NCRBUTTONDBLCLK = 166 : Public, Static, Literal, HasDefault
+    WindowMessages NCRBUTTONDOWN = 164 : Public, Static, Literal, HasDefault
+    WindowMessages NCRBUTTONUP = 165 : Public, Static, Literal, HasDefault
+    WindowMessages NEXTDLGCTL = 40 : Public, Static, Literal, HasDefault
+    WindowMessages NOTIFY = 78 : Public, Static, Literal, HasDefault
+    WindowMessages NOTIFYFORMAT = 85 : Public, Static, Literal, HasDefault
+    WindowMessages NULL = 0 : Public, Static, Literal, HasDefault
+    WindowMessages PAINT = 15 : Public, Static, Literal, HasDefault
+    WindowMessages PAINTCLIPBOARD = 777 : Public, Static, Literal, HasDefault
+    WindowMessages PAINTICON = 38 : Public, Static, Literal, HasDefault
+    WindowMessages PALETTECHANGED = 785 : Public, Static, Literal, HasDefault
+    WindowMessages PALETTEISCHANGING = 784 : Public, Static, Literal, HasDefault
+    WindowMessages PARENTNOTIFY = 528 : Public, Static, Literal, HasDefault
+    WindowMessages PASTE = 770 : Public, Static, Literal, HasDefault
+    WindowMessages PENWINFIRST = 896 : Public, Static, Literal, HasDefault
+    WindowMessages PENWINLAST = 911 : Public, Static, Literal, HasDefault
+    WindowMessages POWER = 72 : Public, Static, Literal, HasDefault
+    WindowMessages POWERBROADCAST = 536 : Public, Static, Literal, HasDefault
+    WindowMessages PRINT = 791 : Public, Static, Literal, HasDefault
+    WindowMessages PRINTCLIENT = 792 : Public, Static, Literal, HasDefault
+    WindowMessages QUERYDRAGICON = 55 : Public, Static, Literal, HasDefault
+    WindowMessages QUERYENDSESSION = 17 : Public, Static, Literal, HasDefault
+    WindowMessages QUERYNEWPALETTE = 783 : Public, Static, Literal, HasDefault
+    WindowMessages QUERYOPEN = 19 : Public, Static, Literal, HasDefault
+    WindowMessages QUEUESYNC = 35 : Public, Static, Literal, HasDefault
+    WindowMessages QUIT = 18 : Public, Static, Literal, HasDefault
+    WindowMessages RENDERALLFORMATS = 774 : Public, Static, Literal, HasDefault
+    WindowMessages RENDERFORMAT = 773 : Public, Static, Literal, HasDefault
+    WindowMessages SETCURSOR = 32 : Public, Static, Literal, HasDefault
+    WindowMessages SETFOCUS = 7 : Public, Static, Literal, HasDefault
+    WindowMessages SETFONT = 48 : Public, Static, Literal, HasDefault
+    WindowMessages SETHOTKEY = 50 : Public, Static, Literal, HasDefault
+    WindowMessages SETICON = 128 : Public, Static, Literal, HasDefault
+    WindowMessages SETREDRAW = 11 : Public, Static, Literal, HasDefault
+    WindowMessages SETTEXT = 12 : Public, Static, Literal, HasDefault
+    WindowMessages SETTINGCHANGE = 26 : Public, Static, Literal, HasDefault
+    WindowMessages SHOWWINDOW = 24 : Public, Static, Literal, HasDefault
+    WindowMessages SIZE = 5 : Public, Static, Literal, HasDefault
+    WindowMessages SIZECLIPBOARD = 779 : Public, Static, Literal, HasDefault
+    WindowMessages SIZING = 532 : Public, Static, Literal, HasDefault
+    WindowMessages SPOOLERSTATUS = 42 : Public, Static, Literal, HasDefault
+    WindowMessages STYLECHANGED = 125 : Public, Static, Literal, HasDefault
+    WindowMessages STYLECHANGING = 124 : Public, Static, Literal, HasDefault
+    WindowMessages SYSCHAR = 262 : Public, Static, Literal, HasDefault
+    WindowMessages SYSCOLORCHANGE = 21 : Public, Static, Literal, HasDefault
+    WindowMessages SYSCOMMAND = 274 : Public, Static, Literal, HasDefault
+    WindowMessages SYSDEADCHAR = 263 : Public, Static, Literal, HasDefault
+    WindowMessages SYSKEYDOWN = 260 : Public, Static, Literal, HasDefault
+    WindowMessages SYSKEYUP = 261 : Public, Static, Literal, HasDefault
+    WindowMessages TCARD = 82 : Public, Static, Literal, HasDefault
+    WindowMessages TIMECHANGE = 30 : Public, Static, Literal, HasDefault
+    WindowMessages TIMER = 275 : Public, Static, Literal, HasDefault
+    WindowMessages UNDO = 772 : Public, Static, Literal, HasDefault
+    WindowMessages USER = 1024 : Public, Static, Literal, HasDefault
+    WindowMessages USERCHANGED = 84 : Public, Static, Literal, HasDefault
+    WindowMessages VKEYTOITEM = 46 : Public, Static, Literal, HasDefault
+    WindowMessages VSCROLL = 277 : Public, Static, Literal, HasDefault
+    WindowMessages VSCROLLCLIPBOARD = 778 : Public, Static, Literal, HasDefault
+    WindowMessages WINDOWPOSCHANGED = 71 : Public, Static, Literal, HasDefault
+    WindowMessages WINDOWPOSCHANGING = 70 : Public, Static, Literal, HasDefault
+    WindowMessages WININICHANGE = 26 : Public, Static, Literal, HasDefault
+    WindowMessages KEYFIRST = 256 : Public, Static, Literal, HasDefault
+    WindowMessages KEYLAST = 264 : Public, Static, Literal, HasDefault
+    WindowMessages SYNCPAINT = 136 : Public, Static, Literal, HasDefault
+    WindowMessages MOUSEACTIVATE = 33 : Public, Static, Literal, HasDefault
+    WindowMessages MOUSEMOVE = 512 : Public, Static, Literal, HasDefault
+    WindowMessages LBUTTONDOWN = 513 : Public, Static, Literal, HasDefault
+    WindowMessages LBUTTONUP = 514 : Public, Static, Literal, HasDefault
+    WindowMessages LBUTTONDBLCLK = 515 : Public, Static, Literal, HasDefault
+    WindowMessages RBUTTONDOWN = 516 : Public, Static, Literal, HasDefault
+    WindowMessages RBUTTONUP = 517 : Public, Static, Literal, HasDefault
+    WindowMessages RBUTTONDBLCLK = 518 : Public, Static, Literal, HasDefault
+    WindowMessages MBUTTONDOWN = 519 : Public, Static, Literal, HasDefault
+    WindowMessages MBUTTONUP = 520 : Public, Static, Literal, HasDefault
+    WindowMessages MBUTTONDBLCLK = 521 : Public, Static, Literal, HasDefault
+    WindowMessages MOUSEWHEEL = 522 : Public, Static, Literal, HasDefault
+    WindowMessages MOUSEFIRST = 512 : Public, Static, Literal, HasDefault
+    WindowMessages MOUSELAST = 522 : Public, Static, Literal, HasDefault
+    WindowMessages MOUSEHOVER = 673 : Public, Static, Literal, HasDefault
+    WindowMessages MOUSELEAVE = 675 : Public, Static, Literal, HasDefault
+    WindowMessages SHNOTIFY = 1025 : Public, Static, Literal, HasDefault
+    WindowMessages UNICHAR = 265 : Public, Static, Literal, HasDefault
+    WindowMessages THEMECHANGED = 794 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+KeyStatesMasks: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    KeyStatesMasks LBUTTON = 1 : Public, Static, Literal, HasDefault
+    KeyStatesMasks RBUTTON = 2 : Public, Static, Literal, HasDefault
+    KeyStatesMasks SHIFT = 4 : Public, Static, Literal, HasDefault
+    KeyStatesMasks CONTROL = 8 : Public, Static, Literal, HasDefault
+    KeyStatesMasks MBUTTON = 16 : Public, Static, Literal, HasDefault
+    KeyStatesMasks XBUTTON1 = 32 : Public, Static, Literal, HasDefault
+    KeyStatesMasks XBUTTON2 = 64 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+EditControlNotificationCodes: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    EditControlNotificationCodes SETFOCUS = 256 : Public, Static, Literal, HasDefault
+    EditControlNotificationCodes KILLFOCUS = 512 : Public, Static, Literal, HasDefault
+    EditControlNotificationCodes CHANGE = 768 : Public, Static, Literal, HasDefault
+    EditControlNotificationCodes UPDATE = 1024 : Public, Static, Literal, HasDefault
+    EditControlNotificationCodes ERRSPACE = 1280 : Public, Static, Literal, HasDefault
+    EditControlNotificationCodes MAXTEXT = 1281 : Public, Static, Literal, HasDefault
+    EditControlNotificationCodes HSCROLL = 1537 : Public, Static, Literal, HasDefault
+    EditControlNotificationCodes VSCROLL = 1538 : Public, Static, Literal, HasDefault
+    EditControlNotificationCodes ALIGN_LTR_EC = 1792 : Public, Static, Literal, HasDefault
+    EditControlNotificationCodes ALIGN_RTL_EC = 1793 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+ComboBoxNotificationCodes: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ComboBoxNotificationCodes ERRSPACE = -1 : Public, Static, Literal, HasDefault
+    ComboBoxNotificationCodes SELCHANGE = 1 : Public, Static, Literal, HasDefault
+    ComboBoxNotificationCodes DBLCLK = 2 : Public, Static, Literal, HasDefault
+    ComboBoxNotificationCodes SETFOCUS = 3 : Public, Static, Literal, HasDefault
+    ComboBoxNotificationCodes KILLFOCUS = 4 : Public, Static, Literal, HasDefault
+    ComboBoxNotificationCodes EDITCHANGE = 5 : Public, Static, Literal, HasDefault
+    ComboBoxNotificationCodes EDITUPDATE = 6 : Public, Static, Literal, HasDefault
+    ComboBoxNotificationCodes DROPDOWN = 7 : Public, Static, Literal, HasDefault
+    ComboBoxNotificationCodes CLOSEUP = 8 : Public, Static, Literal, HasDefault
+    ComboBoxNotificationCodes SELENDOK = 9 : Public, Static, Literal, HasDefault
+    ComboBoxNotificationCodes SELENDCANCEL = 10 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+ComboBoxMessages: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ComboBoxMessages GETEDITSEL = 320 : Public, Static, Literal, HasDefault
+    ComboBoxMessages LIMITTEXT = 321 : Public, Static, Literal, HasDefault
+    ComboBoxMessages SETEDITSEL = 322 : Public, Static, Literal, HasDefault
+    ComboBoxMessages ADDSTRING = 323 : Public, Static, Literal, HasDefault
+    ComboBoxMessages DELETESTRING = 324 : Public, Static, Literal, HasDefault
+    ComboBoxMessages DIR = 325 : Public, Static, Literal, HasDefault
+    ComboBoxMessages GETCOUNT = 326 : Public, Static, Literal, HasDefault
+    ComboBoxMessages GETCURSEL = 327 : Public, Static, Literal, HasDefault
+    ComboBoxMessages GETLBTEXT = 328 : Public, Static, Literal, HasDefault
+    ComboBoxMessages GETLBTEXTLEN = 329 : Public, Static, Literal, HasDefault
+    ComboBoxMessages INSERTSTRING = 330 : Public, Static, Literal, HasDefault
+    ComboBoxMessages RESETCONTENT = 331 : Public, Static, Literal, HasDefault
+    ComboBoxMessages FINDSTRING = 332 : Public, Static, Literal, HasDefault
+    ComboBoxMessages SELECTSTRING = 333 : Public, Static, Literal, HasDefault
+    ComboBoxMessages SETCURSEL = 334 : Public, Static, Literal, HasDefault
+    ComboBoxMessages SHOWDROPDOWN = 335 : Public, Static, Literal, HasDefault
+    ComboBoxMessages GETITEMDATA = 336 : Public, Static, Literal, HasDefault
+    ComboBoxMessages SETITEMDATA = 337 : Public, Static, Literal, HasDefault
+    ComboBoxMessages GETDROPPEDCONTROLRECT = 338 : Public, Static, Literal, HasDefault
+    ComboBoxMessages SETITEMHEIGHT = 339 : Public, Static, Literal, HasDefault
+    ComboBoxMessages GETITEMHEIGHT = 340 : Public, Static, Literal, HasDefault
+    ComboBoxMessages SETEXTENDEDUI = 341 : Public, Static, Literal, HasDefault
+    ComboBoxMessages GETEXTENDEDUI = 342 : Public, Static, Literal, HasDefault
+    ComboBoxMessages GETDROPPEDSTATE = 343 : Public, Static, Literal, HasDefault
+    ComboBoxMessages FINDSTRINGEXACT = 344 : Public, Static, Literal, HasDefault
+    ComboBoxMessages SETLOCALE = 345 : Public, Static, Literal, HasDefault
+    ComboBoxMessages GETLOCALE = 346 : Public, Static, Literal, HasDefault
+    ComboBoxMessages GETTOPINDEX = 347 : Public, Static, Literal, HasDefault
+    ComboBoxMessages SETTOPINDEX = 348 : Public, Static, Literal, HasDefault
+    ComboBoxMessages GETHORIZONTALEXTENT = 349 : Public, Static, Literal, HasDefault
+    ComboBoxMessages SETHORIZONTALEXTENT = 350 : Public, Static, Literal, HasDefault
+    ComboBoxMessages GETDROPPEDWIDTH = 351 : Public, Static, Literal, HasDefault
+    ComboBoxMessages SETDROPPEDWIDTH = 352 : Public, Static, Literal, HasDefault
+    ComboBoxMessages INITSTORAGE = 353 : Public, Static, Literal, HasDefault
+    ComboBoxMessages MULTIPLEADDSTRING = 355 : Public, Static, Literal, HasDefault
+    ComboBoxMessages GETCOMBOBOXINFO = 356 : Public, Static, Literal, HasDefault
+    ComboBoxMessages FIRST = 5888 : Public, Static, Literal, HasDefault
+    ComboBoxMessages SETMINVISIBLE = 5889 : Public, Static, Literal, HasDefault
+    ComboBoxMessages GETMINVISIBLE = 5890 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+ScrollBarFlags: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ScrollBarFlags LINEUP = 0 : Public, Static, Literal, HasDefault
+    ScrollBarFlags LINELEFT = 0 : Public, Static, Literal, HasDefault
+    ScrollBarFlags LINEDOWN = 1 : Public, Static, Literal, HasDefault
+    ScrollBarFlags LINERIGHT = 1 : Public, Static, Literal, HasDefault
+    ScrollBarFlags PAGEUP = 2 : Public, Static, Literal, HasDefault
+    ScrollBarFlags PAGELEFT = 2 : Public, Static, Literal, HasDefault
+    ScrollBarFlags PAGEDOWN = 3 : Public, Static, Literal, HasDefault
+    ScrollBarFlags PAGERIGHT = 3 : Public, Static, Literal, HasDefault
+    ScrollBarFlags TOP = 6 : Public, Static, Literal, HasDefault
+    ScrollBarFlags BOTTOM = 7 : Public, Static, Literal, HasDefault
+    ScrollBarFlags ENDSCROLL = 8 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+EditControlMessages: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    EditControlMessages GETSEL = 176 : Public, Static, Literal, HasDefault
+    EditControlMessages SETSEL = 177 : Public, Static, Literal, HasDefault
+    EditControlMessages GETRECT = 178 : Public, Static, Literal, HasDefault
+    EditControlMessages SETRECT = 179 : Public, Static, Literal, HasDefault
+    EditControlMessages SETRECTNP = 180 : Public, Static, Literal, HasDefault
+    EditControlMessages SCROLL = 181 : Public, Static, Literal, HasDefault
+    EditControlMessages LINESCROLL = 182 : Public, Static, Literal, HasDefault
+    EditControlMessages SCROLLCARET = 183 : Public, Static, Literal, HasDefault
+    EditControlMessages GETMODIFY = 184 : Public, Static, Literal, HasDefault
+    EditControlMessages SETMODIFY = 185 : Public, Static, Literal, HasDefault
+    EditControlMessages GETLINECOUNT = 186 : Public, Static, Literal, HasDefault
+    EditControlMessages LINEINDEX = 187 : Public, Static, Literal, HasDefault
+    EditControlMessages SETHANDLE = 188 : Public, Static, Literal, HasDefault
+    EditControlMessages GETHANDLE = 189 : Public, Static, Literal, HasDefault
+    EditControlMessages GETTHUMB = 190 : Public, Static, Literal, HasDefault
+    EditControlMessages LINELENGTH = 193 : Public, Static, Literal, HasDefault
+    EditControlMessages REPLACESEL = 194 : Public, Static, Literal, HasDefault
+    EditControlMessages GETLINE = 196 : Public, Static, Literal, HasDefault
+    EditControlMessages LIMITTEXT = 197 : Public, Static, Literal, HasDefault
+    EditControlMessages CANUNDO = 198 : Public, Static, Literal, HasDefault
+    EditControlMessages UNDO = 199 : Public, Static, Literal, HasDefault
+    EditControlMessages FMTLINES = 200 : Public, Static, Literal, HasDefault
+    EditControlMessages LINEFROMCHAR = 201 : Public, Static, Literal, HasDefault
+    EditControlMessages SETTABSTOPS = 203 : Public, Static, Literal, HasDefault
+    EditControlMessages SETPASSWORDCHAR = 204 : Public, Static, Literal, HasDefault
+    EditControlMessages EMPTYUNDOBUFFER = 205 : Public, Static, Literal, HasDefault
+    EditControlMessages GETFIRSTVISIBLELINE = 206 : Public, Static, Literal, HasDefault
+    EditControlMessages SETREADONLY = 207 : Public, Static, Literal, HasDefault
+    EditControlMessages SETWORDBREAKPROC = 208 : Public, Static, Literal, HasDefault
+    EditControlMessages GETWORDBREAKPROC = 209 : Public, Static, Literal, HasDefault
+    EditControlMessages GETPASSWORDCHAR = 210 : Public, Static, Literal, HasDefault
+    EditControlMessages SETMARGINS = 211 : Public, Static, Literal, HasDefault
+    EditControlMessages GETMARGINS = 212 : Public, Static, Literal, HasDefault
+    EditControlMessages SETLIMITTEXT = 197 : Public, Static, Literal, HasDefault
+    EditControlMessages GETLIMITTEXT = 213 : Public, Static, Literal, HasDefault
+    EditControlMessages POSFROMCHAR = 214 : Public, Static, Literal, HasDefault
+    EditControlMessages CHARFROMPOS = 215 : Public, Static, Literal, HasDefault
+    EditControlMessages SETIMESTATUS = 216 : Public, Static, Literal, HasDefault
+    EditControlMessages GETIMESTATUS = 217 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+MenuItemMasks: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    UInt32 value__ : Public, SpecialName, RTSpecialName
+    MenuItemMasks STATE = 1 : Public, Static, Literal, HasDefault
+    MenuItemMasks ID = 2 : Public, Static, Literal, HasDefault
+    MenuItemMasks SUBMENU = 4 : Public, Static, Literal, HasDefault
+    MenuItemMasks CHECKMARKS = 8 : Public, Static, Literal, HasDefault
+    MenuItemMasks TYPE = 16 : Public, Static, Literal, HasDefault
+    MenuItemMasks DATA = 32 : Public, Static, Literal, HasDefault
+    MenuItemMasks STRING = 64 : Public, Static, Literal, HasDefault
+    MenuItemMasks BITMAP = 128 : Public, Static, Literal, HasDefault
+    MenuItemMasks FTYPE = 256 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+MenuItemFlags: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    UInt32 value__ : Public, SpecialName, RTSpecialName
+    MenuItemFlags INSERT = 0 : Public, Static, Literal, HasDefault
+    MenuItemFlags CHANGE = 128 : Public, Static, Literal, HasDefault
+    MenuItemFlags APPEND = 256 : Public, Static, Literal, HasDefault
+    MenuItemFlags DELETE = 512 : Public, Static, Literal, HasDefault
+    MenuItemFlags REMOVE = 4096 : Public, Static, Literal, HasDefault
+    MenuItemFlags BYCOMMAND = 0 : Public, Static, Literal, HasDefault
+    MenuItemFlags BYPOSITION = 1024 : Public, Static, Literal, HasDefault
+    MenuItemFlags SEPARATOR = 2048 : Public, Static, Literal, HasDefault
+    MenuItemFlags ENABLED = 0 : Public, Static, Literal, HasDefault
+    MenuItemFlags GRAYED = 1 : Public, Static, Literal, HasDefault
+    MenuItemFlags DISABLED = 2 : Public, Static, Literal, HasDefault
+    MenuItemFlags UNCHECKED = 0 : Public, Static, Literal, HasDefault
+    MenuItemFlags CHECKED = 8 : Public, Static, Literal, HasDefault
+    MenuItemFlags USECHECKBITMAPS = 512 : Public, Static, Literal, HasDefault
+    MenuItemFlags STRING = 0 : Public, Static, Literal, HasDefault
+    MenuItemFlags BITMAP = 4 : Public, Static, Literal, HasDefault
+    MenuItemFlags OWNERDRAW = 256 : Public, Static, Literal, HasDefault
+    MenuItemFlags POPUP = 16 : Public, Static, Literal, HasDefault
+    MenuItemFlags MENUBARBREAK = 32 : Public, Static, Literal, HasDefault
+    MenuItemFlags MENUBREAK = 64 : Public, Static, Literal, HasDefault
+    MenuItemFlags UNHILITE = 0 : Public, Static, Literal, HasDefault
+    MenuItemFlags HILITE = 128 : Public, Static, Literal, HasDefault
+    MenuItemFlags DEFAULT = 4096 : Public, Static, Literal, HasDefault
+    MenuItemFlags SYSMENU = 8192 : Public, Static, Literal, HasDefault
+    MenuItemFlags HELP = 16384 : Public, Static, Literal, HasDefault
+    MenuItemFlags RIGHTJUSTIFY = 16384 : Public, Static, Literal, HasDefault
+    MenuItemFlags MOUSESELECT = 32768 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+MenuItemStates: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    UInt32 value__ : Public, SpecialName, RTSpecialName
+    MenuItemStates GRAYED = 3 : Public, Static, Literal, HasDefault
+    MenuItemStates DISABLED = 3 : Public, Static, Literal, HasDefault
+    MenuItemStates CHECKED = 8 : Public, Static, Literal, HasDefault
+    MenuItemStates HILITE = 128 : Public, Static, Literal, HasDefault
+    MenuItemStates ENABLED = 0 : Public, Static, Literal, HasDefault
+    MenuItemStates UNCHECKED = 0 : Public, Static, Literal, HasDefault
+    MenuItemStates UNHILITE = 0 : Public, Static, Literal, HasDefault
+    MenuItemStates DEFAULT = 4096 : Public, Static, Literal, HasDefault
+    MenuItemStates MASK = 4235 : Public, Static, Literal, HasDefault
+    MenuItemStates HOTTRACKDRAWN = 268435456 : Public, Static, Literal, HasDefault
+    MenuItemStates CACHEDBMP = 536870912 : Public, Static, Literal, HasDefault
+    MenuItemStates BOTTOMGAPDROP = 1073741824 : Public, Static, Literal, HasDefault
+    MenuItemStates TOPGAPDROP = 2147483648 : Public, Static, Literal, HasDefault
+    MenuItemStates GAPDROP = 3221225472 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+QueryContextMenuFlags: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    UInt32 value__ : Public, SpecialName, RTSpecialName
+    QueryContextMenuFlags NORMAL = 0 : Public, Static, Literal, HasDefault
+    QueryContextMenuFlags DEFAULTONLY = 1 : Public, Static, Literal, HasDefault
+    QueryContextMenuFlags VERBSONLY = 2 : Public, Static, Literal, HasDefault
+    QueryContextMenuFlags EXPLORE = 4 : Public, Static, Literal, HasDefault
+    QueryContextMenuFlags NOVERBS = 8 : Public, Static, Literal, HasDefault
+    QueryContextMenuFlags CANRENAME = 16 : Public, Static, Literal, HasDefault
+    QueryContextMenuFlags NODEFAULT = 32 : Public, Static, Literal, HasDefault
+    QueryContextMenuFlags INCLUDESTATIC = 64 : Public, Static, Literal, HasDefault
+    QueryContextMenuFlags RESERVED = 4294901760 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+TrackPopupMenuFlags: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    UInt32 value__ : Public, SpecialName, RTSpecialName
+    TrackPopupMenuFlags LEFTBUTTON = 0 : Public, Static, Literal, HasDefault
+    TrackPopupMenuFlags RIGHTBUTTON = 2 : Public, Static, Literal, HasDefault
+    TrackPopupMenuFlags LEFTALIGN = 0 : Public, Static, Literal, HasDefault
+    TrackPopupMenuFlags CENTERALIGN = 4 : Public, Static, Literal, HasDefault
+    TrackPopupMenuFlags RIGHTALIGN = 8 : Public, Static, Literal, HasDefault
+    TrackPopupMenuFlags TOPALIGN = 0 : Public, Static, Literal, HasDefault
+    TrackPopupMenuFlags VCENTERALIGN = 16 : Public, Static, Literal, HasDefault
+    TrackPopupMenuFlags BOTTOMALIGN = 32 : Public, Static, Literal, HasDefault
+    TrackPopupMenuFlags HORIZONTAL = 0 : Public, Static, Literal, HasDefault
+    TrackPopupMenuFlags VERTICAL = 64 : Public, Static, Literal, HasDefault
+    TrackPopupMenuFlags NONOTIFY = 128 : Public, Static, Literal, HasDefault
+    TrackPopupMenuFlags RETURNCMD = 256 : Public, Static, Literal, HasDefault
+    TrackPopupMenuFlags RECURSE = 1 : Public, Static, Literal, HasDefault
+    TrackPopupMenuFlags HORPOSANIMATION = 1024 : Public, Static, Literal, HasDefault
+    TrackPopupMenuFlags HORNEGANIMATION = 2048 : Public, Static, Literal, HasDefault
+    TrackPopupMenuFlags VERPOSANIMATION = 4096 : Public, Static, Literal, HasDefault
+    TrackPopupMenuFlags VERNEGANIMATION = 8192 : Public, Static, Literal, HasDefault
+    TrackPopupMenuFlags NOANIMATION = 16384 : Public, Static, Literal, HasDefault
+    TrackPopupMenuFlags LAYOUTRTL = 32768 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+MenuItemTypes: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int64 value__ : Public, SpecialName, RTSpecialName
+    MenuItemTypes STRING = 0 : Public, Static, Literal, HasDefault
+    MenuItemTypes BITMAP = 4 : Public, Static, Literal, HasDefault
+    MenuItemTypes MENUBARBREAK = 32 : Public, Static, Literal, HasDefault
+    MenuItemTypes MENUBREAK = 64 : Public, Static, Literal, HasDefault
+    MenuItemTypes OWNERDRAW = 256 : Public, Static, Literal, HasDefault
+    MenuItemTypes RADIOCHECK = 512 : Public, Static, Literal, HasDefault
+    MenuItemTypes SEPARATOR = 2048 : Public, Static, Literal, HasDefault
+    MenuItemTypes RIGHTORDER = 8192 : Public, Static, Literal, HasDefault
+    MenuItemTypes RIGHTJUSTIFY = 16384 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+ClipboardFormats: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    UInt32 value__ : Public, SpecialName, RTSpecialName
+    ClipboardFormats TEXT = 1 : Public, Static, Literal, HasDefault
+    ClipboardFormats BITMAP = 2 : Public, Static, Literal, HasDefault
+    ClipboardFormats METAFILEPICT = 3 : Public, Static, Literal, HasDefault
+    ClipboardFormats SYLK = 4 : Public, Static, Literal, HasDefault
+    ClipboardFormats DIF = 5 : Public, Static, Literal, HasDefault
+    ClipboardFormats TIFF = 6 : Public, Static, Literal, HasDefault
+    ClipboardFormats OEMTEXT = 7 : Public, Static, Literal, HasDefault
+    ClipboardFormats DIB = 8 : Public, Static, Literal, HasDefault
+    ClipboardFormats PALETTE = 9 : Public, Static, Literal, HasDefault
+    ClipboardFormats PENDATA = 10 : Public, Static, Literal, HasDefault
+    ClipboardFormats RIFF = 11 : Public, Static, Literal, HasDefault
+    ClipboardFormats WAVE = 12 : Public, Static, Literal, HasDefault
+    ClipboardFormats UNICODETEXT = 13 : Public, Static, Literal, HasDefault
+    ClipboardFormats ENHMETAFILE = 14 : Public, Static, Literal, HasDefault
+    ClipboardFormats HDROP = 15 : Public, Static, Literal, HasDefault
+    ClipboardFormats LOCALE = 16 : Public, Static, Literal, HasDefault
+    ClipboardFormats MAX = 17 : Public, Static, Literal, HasDefault
+    ClipboardFormats OWNERDISPLAY = 128 : Public, Static, Literal, HasDefault
+    ClipboardFormats DSPTEXT = 129 : Public, Static, Literal, HasDefault
+    ClipboardFormats DSPBITMAP = 130 : Public, Static, Literal, HasDefault
+    ClipboardFormats DSPMETAFILEPICT = 131 : Public, Static, Literal, HasDefault
+    ClipboardFormats DSPENHMETAFILE = 142 : Public, Static, Literal, HasDefault
+    ClipboardFormats PRIVATEFIRST = 512 : Public, Static, Literal, HasDefault
+    ClipboardFormats PRIVATELAST = 767 : Public, Static, Literal, HasDefault
+    ClipboardFormats GDIOBJFIRST = 768 : Public, Static, Literal, HasDefault
+    ClipboardFormats GDIOBJLAST = 1023 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+TargetDevices: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    UInt32 value__ : Public, SpecialName, RTSpecialName
+    TargetDevices CONTENT = 1 : Public, Static, Literal, HasDefault
+    TargetDevices THUMBNAIL = 2 : Public, Static, Literal, HasDefault
+    TargetDevices ICON = 4 : Public, Static, Literal, HasDefault
+    TargetDevices DOCPRINT = 8 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+StorageMediumTypes: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    UInt32 value__ : Public, SpecialName, RTSpecialName
+    StorageMediumTypes HGLOBAL = 1 : Public, Static, Literal, HasDefault
+    StorageMediumTypes FILE = 2 : Public, Static, Literal, HasDefault
+    StorageMediumTypes ISTREAM = 4 : Public, Static, Literal, HasDefault
+    StorageMediumTypes ISTORAGE = 8 : Public, Static, Literal, HasDefault
+    StorageMediumTypes GDI = 16 : Public, Static, Literal, HasDefault
+    StorageMediumTypes MFPICT = 32 : Public, Static, Literal, HasDefault
+    StorageMediumTypes ENHMF = 64 : Public, Static, Literal, HasDefault
+    StorageMediumTypes NULL = 0 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+ShellSpecialFolders: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ShellSpecialFolders DESKTOP = 0 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders INTERNET = 1 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders PROGRAMS = 2 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders CONTROLS = 3 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders PRINTERS = 4 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders PERSONAL = 5 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders FAVORITES = 6 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders STARTUP = 7 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders RECENT = 8 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders SENDTO = 9 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders BITBUCKET = 10 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders STARTMENU = 11 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders MYDOCUMENTS = 12 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders MYMUSIC = 13 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders MYVIDEO = 14 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders DESKTOPDIRECTORY = 16 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders DRIVES = 17 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders NETWORK = 18 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders NETHOOD = 19 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders FONTS = 20 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders TEMPLATES = 21 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders COMMON_STARTMENU = 22 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders COMMON_PROGRAMS = 23 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders COMMON_STARTUP = 24 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders COMMON_DESKTOPDIRECTORY = 25 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders APPDATA = 26 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders PRINTHOOD = 27 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders LOCAL_APPDATA = 28 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders ALTSTARTUP = 29 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders COMMON_ALTSTARTUP = 30 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders COMMON_FAVORITES = 31 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders INTERNET_CACHE = 32 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders COOKIES = 33 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders HISTORY = 34 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders COMMON_APPDATA = 35 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders WINDOWS = 36 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders SYSTEM = 37 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders PROGRAM_FILES = 38 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders MYPICTURES = 39 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders PROFILE = 40 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders SYSTEMX86 = 41 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders PROGRAM_FILESX86 = 42 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders PROGRAM_FILES_COMMON = 43 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders PROGRAM_FILES_COMMONX86 = 44 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders COMMON_TEMPLATES = 45 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders COMMON_DOCUMENTS = 46 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders COMMON_ADMINTOOLS = 47 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders ADMINTOOLS = 48 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders CONNECTIONS = 49 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders COMMON_MUSIC = 53 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders COMMON_PICTURES = 54 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders COMMON_VIDEO = 55 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders RESOURCES = 56 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders RESOURCES_LOCALIZED = 57 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders COMMON_OLINKS = 58 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders CDBURN_AREA = 59 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders COMPUTERSNEARME = 61 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders FLAG_CREATE = 32768 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders FLAG_DONT_VERIFY = 16384 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders FLAG_NO_ALIAS = 4096 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders FLAG_PER_USER_INIT = 2048 : Public, Static, Literal, HasDefault
+    ShellSpecialFolders FLAG_MASK = 65280 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+ShellFolderGetaFromIDList: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ShellFolderGetaFromIDList FINDDATA = 1 : Public, Static, Literal, HasDefault
+    ShellFolderGetaFromIDList NETRESOURCE = 2 : Public, Static, Literal, HasDefault
+    ShellFolderGetaFromIDList DESCRIPTIONID = 3 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+ShellFolderEnumObjectsTypes: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ShellFolderEnumObjectsTypes FOLDERS = 32 : Public, Static, Literal, HasDefault
+    ShellFolderEnumObjectsTypes NONFOLDERS = 64 : Public, Static, Literal, HasDefault
+    ShellFolderEnumObjectsTypes INCLUDEHIDDEN = 128 : Public, Static, Literal, HasDefault
+    ShellFolderEnumObjectsTypes INIT_ON_FIRST_NEXT = 256 : Public, Static, Literal, HasDefault
+    ShellFolderEnumObjectsTypes NETPRINTERSRCH = 512 : Public, Static, Literal, HasDefault
+    ShellFolderEnumObjectsTypes SHAREABLE = 1024 : Public, Static, Literal, HasDefault
+    ShellFolderEnumObjectsTypes STORAGE = 2048 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+ShellFolderAttributes: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ShellFolderAttributes CANCOPY = 1 : Public, Static, Literal, HasDefault
+    ShellFolderAttributes CANMOVE = 2 : Public, Static, Literal, HasDefault
+    ShellFolderAttributes CANLINK = 4 : Public, Static, Literal, HasDefault
+    ShellFolderAttributes STORAGE = 8 : Public, Static, Literal, HasDefault
+    ShellFolderAttributes CANRENAME = 16 : Public, Static, Literal, HasDefault
+    ShellFolderAttributes CANDELETE = 32 : Public, Static, Literal, HasDefault
+    ShellFolderAttributes HASPROPSHEET = 64 : Public, Static, Literal, HasDefault
+    ShellFolderAttributes DROPTARGET = 256 : Public, Static, Literal, HasDefault
+    ShellFolderAttributes CAPABILITYMASK = 375 : Public, Static, Literal, HasDefault
+    ShellFolderAttributes ENCRYPTED = 8192 : Public, Static, Literal, HasDefault
+    ShellFolderAttributes ISSLOW = 16384 : Public, Static, Literal, HasDefault
+    ShellFolderAttributes GHOSTED = 32768 : Public, Static, Literal, HasDefault
+    ShellFolderAttributes LINK = 65536 : Public, Static, Literal, HasDefault
+    ShellFolderAttributes SHARE = 131072 : Public, Static, Literal, HasDefault
+    ShellFolderAttributes READONLY = 262144 : Public, Static, Literal, HasDefault
+    ShellFolderAttributes HIDDEN = 524288 : Public, Static, Literal, HasDefault
+    ShellFolderAttributes DISPLAYATTRMASK = 1032192 : Public, Static, Literal, HasDefault
+    ShellFolderAttributes FILESYSANCESTOR = 268435456 : Public, Static, Literal, HasDefault
+    ShellFolderAttributes FOLDER = 536870912 : Public, Static, Literal, HasDefault
+    ShellFolderAttributes FILESYSTEM = 1073741824 : Public, Static, Literal, HasDefault
+    ShellFolderAttributes HASSUBFOLDER = -2147483648 : Public, Static, Literal, HasDefault
+    ShellFolderAttributes CONTENTSMASK = -2147483648 : Public, Static, Literal, HasDefault
+    ShellFolderAttributes VALIDATE = 16777216 : Public, Static, Literal, HasDefault
+    ShellFolderAttributes REMOVABLE = 33554432 : Public, Static, Literal, HasDefault
+    ShellFolderAttributes COMPRESSED = 67108864 : Public, Static, Literal, HasDefault
+    ShellFolderAttributes BROWSABLE = 134217728 : Public, Static, Literal, HasDefault
+    ShellFolderAttributes NONENUMERATED = 1048576 : Public, Static, Literal, HasDefault
+    ShellFolderAttributes NEWCONTENT = 2097152 : Public, Static, Literal, HasDefault
+    ShellFolderAttributes CANMONIKER = 4194304 : Public, Static, Literal, HasDefault
+    ShellFolderAttributes HASSTORAGE = 4194304 : Public, Static, Literal, HasDefault
+    ShellFolderAttributes STREAM = 4194304 : Public, Static, Literal, HasDefault
+    ShellFolderAttributes STORAGEANCESTOR = 8388608 : Public, Static, Literal, HasDefault
+    ShellFolderAttributes STORAGECAPMASK = 1891958792 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+ShellFolderDisplayNames: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ShellFolderDisplayNames NORMAL = 0 : Public, Static, Literal, HasDefault
+    ShellFolderDisplayNames INFOLDER = 1 : Public, Static, Literal, HasDefault
+    ShellFolderDisplayNames FOREDITING = 4096 : Public, Static, Literal, HasDefault
+    ShellFolderDisplayNames FORADDRESSBAR = 16384 : Public, Static, Literal, HasDefault
+    ShellFolderDisplayNames FORPARSING = 32768 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+ShellExecuteFlags: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ShellExecuteFlags CLASSNAME = 1 : Public, Static, Literal, HasDefault
+    ShellExecuteFlags CLASSKEY = 3 : Public, Static, Literal, HasDefault
+    ShellExecuteFlags IDLIST = 4 : Public, Static, Literal, HasDefault
+    ShellExecuteFlags INVOKEIDLIST = 12 : Public, Static, Literal, HasDefault
+    ShellExecuteFlags ICON = 16 : Public, Static, Literal, HasDefault
+    ShellExecuteFlags HOTKEY = 32 : Public, Static, Literal, HasDefault
+    ShellExecuteFlags NOCLOSEPROCESS = 64 : Public, Static, Literal, HasDefault
+    ShellExecuteFlags CONNECTNETDRV = 128 : Public, Static, Literal, HasDefault
+    ShellExecuteFlags FLAG_DDEWAIT = 256 : Public, Static, Literal, HasDefault
+    ShellExecuteFlags DOENVSUBST = 512 : Public, Static, Literal, HasDefault
+    ShellExecuteFlags FLAG_NO_UI = 1024 : Public, Static, Literal, HasDefault
+    ShellExecuteFlags UNICODE = 16384 : Public, Static, Literal, HasDefault
+    ShellExecuteFlags NO_CONSOLE = 32768 : Public, Static, Literal, HasDefault
+    ShellExecuteFlags ASYNCOK = 1048576 : Public, Static, Literal, HasDefault
+    ShellExecuteFlags HMONITOR = 2097152 : Public, Static, Literal, HasDefault
+    ShellExecuteFlags NOQUERYCLASSSTORE = 16777216 : Public, Static, Literal, HasDefault
+    ShellExecuteFlags WAITFORINPUTIDLE = 33554432 : Public, Static, Literal, HasDefault
+    ShellExecuteFlags FLAG_LOG_USAGE = 67108864 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+ShellGetFileInformationFlags: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ShellGetFileInformationFlags SmallIcon = 1 : Public, Static, Literal, HasDefault
+    ShellGetFileInformationFlags OpenIcon = 2 : Public, Static, Literal, HasDefault
+    ShellGetFileInformationFlags LargeIcon = 0 : Public, Static, Literal, HasDefault
+    ShellGetFileInformationFlags Icon = 256 : Public, Static, Literal, HasDefault
+    ShellGetFileInformationFlags DisplayName = 512 : Public, Static, Literal, HasDefault
+    ShellGetFileInformationFlags Typename = 1024 : Public, Static, Literal, HasDefault
+    ShellGetFileInformationFlags SysIconIndex = 16384 : Public, Static, Literal, HasDefault
+    ShellGetFileInformationFlags LinkOverlay = 32768 : Public, Static, Literal, HasDefault
+    ShellGetFileInformationFlags UseFileAttributes = 16 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+FormHitTest: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    FormHitTest MinButton = 8 : Public, Static, Literal, HasDefault
+    FormHitTest MaxButton = 9 : Public, Static, Literal, HasDefault
+    FormHitTest CloseButton = 20 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+SystemCommands: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    SystemCommands SIZE = 61440 : Public, Static, Literal, HasDefault
+    SystemCommands MOVE = 61456 : Public, Static, Literal, HasDefault
+    SystemCommands MINIMIZE = 61472 : Public, Static, Literal, HasDefault
+    SystemCommands MAXIMIZE = 61488 : Public, Static, Literal, HasDefault
+    SystemCommands NEXTWINDOW = 61504 : Public, Static, Literal, HasDefault
+    SystemCommands PREVWINDOW = 61520 : Public, Static, Literal, HasDefault
+    SystemCommands CLOSE = 61536 : Public, Static, Literal, HasDefault
+    SystemCommands VSCROLL = 61552 : Public, Static, Literal, HasDefault
+    SystemCommands HSCROLL = 61568 : Public, Static, Literal, HasDefault
+    SystemCommands MOUSEMENU = 61584 : Public, Static, Literal, HasDefault
+    SystemCommands KEYMENU = 61696 : Public, Static, Literal, HasDefault
+    SystemCommands ARRANGE = 61712 : Public, Static, Literal, HasDefault
+    SystemCommands RESTORE = 61728 : Public, Static, Literal, HasDefault
+    SystemCommands TASKLIST = 61744 : Public, Static, Literal, HasDefault
+    SystemCommands SCREENSAVE = 61760 : Public, Static, Literal, HasDefault
+    SystemCommands HOTKEY = 61776 : Public, Static, Literal, HasDefault
+    SystemCommands DEFAULT = 61792 : Public, Static, Literal, HasDefault
+    SystemCommands MONITORPOWER = 61808 : Public, Static, Literal, HasDefault
+    SystemCommands CONTEXTHELP = 61824 : Public, Static, Literal, HasDefault
+    SystemCommands SEPARATOR = 61455 : Public, Static, Literal, HasDefault
+    SystemCommands ICON = 61472 : Public, Static, Literal, HasDefault
+    SystemCommands ZOOM = 61488 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+GetCommandStringInformations: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    GetCommandStringInformations VERB = 4 : Public, Static, Literal, HasDefault
+    GetCommandStringInformations HELPTEXT = 5 : Public, Static, Literal, HasDefault
+    GetCommandStringInformations VALIDATE = 6 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+FileOperations: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    FileOperations Move = 1 : Public, Static, Literal, HasDefault
+    FileOperations Copy = 2 : Public, Static, Literal, HasDefault
+    FileOperations Delete = 3 : Public, Static, Literal, HasDefault
+    FileOperations Rename = 4 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+FileOperationFlags: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int16 value__ : Public, SpecialName, RTSpecialName
+    FileOperationFlags MULTIDESTFILES = 1 : Public, Static, Literal, HasDefault
+    FileOperationFlags CONFIRMMOUSE = 2 : Public, Static, Literal, HasDefault
+    FileOperationFlags SILENT = 4 : Public, Static, Literal, HasDefault
+    FileOperationFlags RENAMEONCOLLISION = 8 : Public, Static, Literal, HasDefault
+    FileOperationFlags NOCONFIRMATION = 16 : Public, Static, Literal, HasDefault
+    FileOperationFlags WANTMAPPINGHANDLE = 32 : Public, Static, Literal, HasDefault
+    FileOperationFlags ALLOWUNDO = 64 : Public, Static, Literal, HasDefault
+    FileOperationFlags FILESONLY = 128 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+ListViewMessages: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ListViewMessages FIRST = 4096 : Public, Static, Literal, HasDefault
+    ListViewMessages SCROLL = 4116 : Public, Static, Literal, HasDefault
+    ListViewMessages GETITEM = 4171 : Public, Static, Literal, HasDefault
+    ListViewMessages SETITEM = 4172 : Public, Static, Literal, HasDefault
+    ListViewMessages GETITEMTEXTW = 4211 : Public, Static, Literal, HasDefault
+    ListViewMessages SETCOLUMNWIDTH = 4126 : Public, Static, Literal, HasDefault
+    ListViewMessages LVSCW_AUTOSIZE = -1 : Public, Static, Literal, HasDefault
+    ListViewMessages LVSCW_AUTOSIZE_USEHEADER = -2 : Public, Static, Literal, HasDefault
+    ListViewMessages SETITEMSTATE = 4139 : Public, Static, Literal, HasDefault
+    ListViewMessages INSERTITEMA = 4173 : Public, Static, Literal, HasDefault
+    ListViewMessages DELETEITEM = 4104 : Public, Static, Literal, HasDefault
+    ListViewMessages GETITEMCOUNT = 4100 : Public, Static, Literal, HasDefault
+    ListViewMessages GETCOUNTPERPAGE = 4136 : Public, Static, Literal, HasDefault
+    ListViewMessages GETSUBITEMRECT = 4152 : Public, Static, Literal, HasDefault
+    ListViewMessages SUBITEMHITTEST = 4153 : Public, Static, Literal, HasDefault
+    ListViewMessages GETCOLUMN = 4121 : Public, Static, Literal, HasDefault
+    ListViewMessages SETCOLUMN = 4122 : Public, Static, Literal, HasDefault
+    ListViewMessages GETCOLUMNORDERARRAY = 4155 : Public, Static, Literal, HasDefault
+    ListViewMessages SETCOLUMNORDERARRAY = 4154 : Public, Static, Literal, HasDefault
+    ListViewMessages SETEXTENDEDLISTVIEWSTYLE = 4150 : Public, Static, Literal, HasDefault
+    ListViewMessages GETEXTENDEDLISTVIEWSTYLE = 4151 : Public, Static, Literal, HasDefault
+    ListViewMessages EDITLABELW = 4214 : Public, Static, Literal, HasDefault
+    ListViewMessages GETITEMRECT = 4110 : Public, Static, Literal, HasDefault
+    ListViewMessages HITTEST = 4114 : Public, Static, Literal, HasDefault
+    ListViewMessages GETEDITCONTROL = 4120 : Public, Static, Literal, HasDefault
+    ListViewMessages CANCELEDITLABEL = 4275 : Public, Static, Literal, HasDefault
+    ListViewMessages GETHEADER = 4127 : Public, Static, Literal, HasDefault
+    ListViewMessages REDRAWITEMS = 4117 : Public, Static, Literal, HasDefault
+    ListViewMessages GETSELECTIONMARK = 4162 : Public, Static, Literal, HasDefault
+    ListViewMessages SETSELECTIONMARK = 4163 : Public, Static, Literal, HasDefault
+    ListViewMessages ENSUREVISIBLE = 4115 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+ListViewNotifications: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ListViewNotifications FIRST = -100 : Public, Static, Literal, HasDefault
+    ListViewNotifications LAST = -199 : Public, Static, Literal, HasDefault
+    ListViewNotifications ITEMCHANGING = -100 : Public, Static, Literal, HasDefault
+    ListViewNotifications ITEMCHANGED = -101 : Public, Static, Literal, HasDefault
+    ListViewNotifications INSERTITEM = -102 : Public, Static, Literal, HasDefault
+    ListViewNotifications DELETEITEM = -103 : Public, Static, Literal, HasDefault
+    ListViewNotifications DELETEALLITEMS = -104 : Public, Static, Literal, HasDefault
+    ListViewNotifications BEGINLABELEDITW = -175 : Public, Static, Literal, HasDefault
+    ListViewNotifications ENDLABELEDITW = -176 : Public, Static, Literal, HasDefault
+    ListViewNotifications COLUMNCLICK = -108 : Public, Static, Literal, HasDefault
+    ListViewNotifications BEGINDRAG = -109 : Public, Static, Literal, HasDefault
+    ListViewNotifications BEGINRDRAG = -111 : Public, Static, Literal, HasDefault
+    ListViewNotifications ODCACHEHINT = -113 : Public, Static, Literal, HasDefault
+    ListViewNotifications ODFINDITEMA = -152 : Public, Static, Literal, HasDefault
+    ListViewNotifications ODFINDITEMW = -179 : Public, Static, Literal, HasDefault
+    ListViewNotifications ITEMACTIVATE = -114 : Public, Static, Literal, HasDefault
+    ListViewNotifications ODSTATECHANGED = -115 : Public, Static, Literal, HasDefault
+    ListViewNotifications ODFINDITEM = -179 : Public, Static, Literal, HasDefault
+    ListViewNotifications HOTTRACK = -121 : Public, Static, Literal, HasDefault
+    ListViewNotifications GETDISPINFOA = -150 : Public, Static, Literal, HasDefault
+    ListViewNotifications GETDISPINFOW = -177 : Public, Static, Literal, HasDefault
+    ListViewNotifications SETDISPINFOA = -151 : Public, Static, Literal, HasDefault
+    ListViewNotifications MARQUEEBEGIN = -156 : Public, Static, Literal, HasDefault
+    ListViewNotifications SETDISPINFOW = -178 : Public, Static, Literal, HasDefault
+    ListViewNotifications BEGINLABELEDIT = -175 : Public, Static, Literal, HasDefault
+    ListViewNotifications ENDLABELEDIT = -176 : Public, Static, Literal, HasDefault
+    ListViewNotifications GETDISPINFO = -177 : Public, Static, Literal, HasDefault
+    ListViewNotifications SETDISPINFO = -178 : Public, Static, Literal, HasDefault
+    ListViewNotifications BEGINSCROLL = -180 : Public, Static, Literal, HasDefault
+    ListViewNotifications ENDSCROLL = -181 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+ListViewItemFlags: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ListViewItemFlags TEXT = 1 : Public, Static, Literal, HasDefault
+    ListViewItemFlags IMAGE = 2 : Public, Static, Literal, HasDefault
+    ListViewItemFlags PARAM = 4 : Public, Static, Literal, HasDefault
+    ListViewItemFlags STATE = 8 : Public, Static, Literal, HasDefault
+    ListViewItemFlags INDENT = 16 : Public, Static, Literal, HasDefault
+    ListViewItemFlags NORECOMPUTE = 2048 : Public, Static, Literal, HasDefault
+    ListViewItemFlags GROUPID = 256 : Public, Static, Literal, HasDefault
+    ListViewItemFlags COLUMNS = 512 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+ListViewItemStates: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ListViewItemStates FOCUSED = 1 : Public, Static, Literal, HasDefault
+    ListViewItemStates SELECTED = 2 : Public, Static, Literal, HasDefault
+    ListViewItemStates CUT = 4 : Public, Static, Literal, HasDefault
+    ListViewItemStates DROPHILITED = 8 : Public, Static, Literal, HasDefault
+    ListViewItemStates GLOW = 16 : Public, Static, Literal, HasDefault
+    ListViewItemStates ACTIVATING = 32 : Public, Static, Literal, HasDefault
+    ListViewItemStates OVERLAYMASK = 3840 : Public, Static, Literal, HasDefault
+    ListViewItemStates STATEIMAGEMASK = 61440 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+ListViewExtendedStyles: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ListViewExtendedStyles GRIDLINES = 1 : Public, Static, Literal, HasDefault
+    ListViewExtendedStyles SUBITEMIMAGES = 2 : Public, Static, Literal, HasDefault
+    ListViewExtendedStyles CHECKBOXES = 4 : Public, Static, Literal, HasDefault
+    ListViewExtendedStyles TRACKSELECT = 8 : Public, Static, Literal, HasDefault
+    ListViewExtendedStyles HEADERDRAGDROP = 16 : Public, Static, Literal, HasDefault
+    ListViewExtendedStyles FULLROWSELECT = 32 : Public, Static, Literal, HasDefault
+    ListViewExtendedStyles ONECLICKACTIVATE = 64 : Public, Static, Literal, HasDefault
+    ListViewExtendedStyles TWOCLICKACTIVATE = 128 : Public, Static, Literal, HasDefault
+    ListViewExtendedStyles FLATSB = 256 : Public, Static, Literal, HasDefault
+    ListViewExtendedStyles REGIONAL = 512 : Public, Static, Literal, HasDefault
+    ListViewExtendedStyles INFOTIP = 1024 : Public, Static, Literal, HasDefault
+    ListViewExtendedStyles UNDERLINEHOT = 2048 : Public, Static, Literal, HasDefault
+    ListViewExtendedStyles UNDERLINECOLD = 4096 : Public, Static, Literal, HasDefault
+    ListViewExtendedStyles MULTIWORKAREAS = 8192 : Public, Static, Literal, HasDefault
+    ListViewExtendedStyles LABELTIP = 16384 : Public, Static, Literal, HasDefault
+    ListViewExtendedStyles BORDERSELECT = 32768 : Public, Static, Literal, HasDefault
+    ListViewExtendedStyles DOUBLEBUFFER = 65536 : Public, Static, Literal, HasDefault
+    ListViewExtendedStyles HIDELABELS = 131072 : Public, Static, Literal, HasDefault
+    ListViewExtendedStyles SINGLEROW = 262144 : Public, Static, Literal, HasDefault
+    ListViewExtendedStyles SNAPTOGRID = 524288 : Public, Static, Literal, HasDefault
+    ListViewExtendedStyles SIMPLESELECT = 1048576 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+ListViewSubItemPortion: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ListViewSubItemPortion BOUNDS = 0 : Public, Static, Literal, HasDefault
+    ListViewSubItemPortion ICON = 1 : Public, Static, Literal, HasDefault
+    ListViewSubItemPortion LABEL = 2 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+ListViewHitTestFlags: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ListViewHitTestFlags NOWHERE = 1 : Public, Static, Literal, HasDefault
+    ListViewHitTestFlags ONITEMICON = 2 : Public, Static, Literal, HasDefault
+    ListViewHitTestFlags ONITEMLABEL = 4 : Public, Static, Literal, HasDefault
+    ListViewHitTestFlags ONITEMSTATEICON = 8 : Public, Static, Literal, HasDefault
+    ListViewHitTestFlags ONITEM = 14 : Public, Static, Literal, HasDefault
+    ListViewHitTestFlags ABOVE = 8 : Public, Static, Literal, HasDefault
+    ListViewHitTestFlags BELOW = 16 : Public, Static, Literal, HasDefault
+    ListViewHitTestFlags TORIGHT = 32 : Public, Static, Literal, HasDefault
+    ListViewHitTestFlags TOLEFT = 64 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+ReflectedMessages: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ReflectedMessages _BASE = 8192 : Public, Static, Literal, HasDefault
+    ReflectedMessages COMMAND = 8465 : Public, Static, Literal, HasDefault
+    ReflectedMessages CTLCOLORBTN = 8501 : Public, Static, Literal, HasDefault
+    ReflectedMessages CTLCOLOREDIT = 8499 : Public, Static, Literal, HasDefault
+    ReflectedMessages CTLCOLORDLG = 8502 : Public, Static, Literal, HasDefault
+    ReflectedMessages CTLCOLORLISTBOX = 8500 : Public, Static, Literal, HasDefault
+    ReflectedMessages CTLCOLORMSGBOX = 8498 : Public, Static, Literal, HasDefault
+    ReflectedMessages CTLCOLORSCROLLBAR = 8503 : Public, Static, Literal, HasDefault
+    ReflectedMessages CTLCOLORSTATIC = 8504 : Public, Static, Literal, HasDefault
+    ReflectedMessages CTLCOLOR = 8217 : Public, Static, Literal, HasDefault
+    ReflectedMessages DRAWITEM = 8235 : Public, Static, Literal, HasDefault
+    ReflectedMessages MEASUREITEM = 8236 : Public, Static, Literal, HasDefault
+    ReflectedMessages DELETEITEM = 8237 : Public, Static, Literal, HasDefault
+    ReflectedMessages VKEYTOITEM = 8238 : Public, Static, Literal, HasDefault
+    ReflectedMessages CHARTOITEM = 8239 : Public, Static, Literal, HasDefault
+    ReflectedMessages COMPAREITEM = 8249 : Public, Static, Literal, HasDefault
+    ReflectedMessages HSCROLL = 8468 : Public, Static, Literal, HasDefault
+    ReflectedMessages VSCROLL = 8469 : Public, Static, Literal, HasDefault
+    ReflectedMessages PARENTNOTIFY = 8720 : Public, Static, Literal, HasDefault
+    ReflectedMessages NOTIFY = 8270 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+HeaderItemFlags: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    HeaderItemFlags WIDTH = 1 : Public, Static, Literal, HasDefault
+    HeaderItemFlags HEIGHT = 1 : Public, Static, Literal, HasDefault
+    HeaderItemFlags TEXT = 2 : Public, Static, Literal, HasDefault
+    HeaderItemFlags FORMAT = 4 : Public, Static, Literal, HasDefault
+    HeaderItemFlags LPARAM = 8 : Public, Static, Literal, HasDefault
+    HeaderItemFlags BITMAP = 16 : Public, Static, Literal, HasDefault
+    HeaderItemFlags IMAGE = 32 : Public, Static, Literal, HasDefault
+    HeaderItemFlags DI_SETITEM = 64 : Public, Static, Literal, HasDefault
+    HeaderItemFlags ORDER = 128 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+HeaderControlMessages: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    HeaderControlMessages FIRST = 4608 : Public, Static, Literal, HasDefault
+    HeaderControlMessages GETITEMRECT = 4615 : Public, Static, Literal, HasDefault
+    HeaderControlMessages HITTEST = 4614 : Public, Static, Literal, HasDefault
+    HeaderControlMessages SETIMAGELIST = 4616 : Public, Static, Literal, HasDefault
+    HeaderControlMessages GETITEMW = 4619 : Public, Static, Literal, HasDefault
+    HeaderControlMessages ORDERTOINDEX = 4623 : Public, Static, Literal, HasDefault
+    HeaderControlMessages SETITEM = 4620 : Public, Static, Literal, HasDefault
+    HeaderControlMessages SETORDERARRAY = 4626 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+HeaderControlNotifications: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    HeaderControlNotifications FIRST = -300 : Public, Static, Literal, HasDefault
+    HeaderControlNotifications ITEMCHANGING = -320 : Public, Static, Literal, HasDefault
+    HeaderControlNotifications ITEMCHANGED = -321 : Public, Static, Literal, HasDefault
+    HeaderControlNotifications ITEMCLICK = -322 : Public, Static, Literal, HasDefault
+    HeaderControlNotifications ITEMDBLCLICK = -323 : Public, Static, Literal, HasDefault
+    HeaderControlNotifications DIVIDERDBLCLICK = -325 : Public, Static, Literal, HasDefault
+    HeaderControlNotifications BEGINTRACK = -326 : Public, Static, Literal, HasDefault
+    HeaderControlNotifications ENDTRACK = -327 : Public, Static, Literal, HasDefault
+    HeaderControlNotifications TRACK = -328 : Public, Static, Literal, HasDefault
+    HeaderControlNotifications GETDISPINFO = -329 : Public, Static, Literal, HasDefault
+    HeaderControlNotifications BEGINDRAG = -310 : Public, Static, Literal, HasDefault
+    HeaderControlNotifications ENDDRAG = -311 : Public, Static, Literal, HasDefault
+    HeaderControlNotifications FILTERCHANGE = -312 : Public, Static, Literal, HasDefault
+    HeaderControlNotifications FILTERBTNCLICK = -313 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+HeaderControlHitTestFlags: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    UInt32 value__ : Public, SpecialName, RTSpecialName
+    HeaderControlHitTestFlags NOWHERE = 1 : Public, Static, Literal, HasDefault
+    HeaderControlHitTestFlags ONHEADER = 2 : Public, Static, Literal, HasDefault
+    HeaderControlHitTestFlags ONDIVIDER = 4 : Public, Static, Literal, HasDefault
+    HeaderControlHitTestFlags ONDIVOPEN = 8 : Public, Static, Literal, HasDefault
+    HeaderControlHitTestFlags ABOVE = 256 : Public, Static, Literal, HasDefault
+    HeaderControlHitTestFlags BELOW = 512 : Public, Static, Literal, HasDefault
+    HeaderControlHitTestFlags TORIGHT = 1024 : Public, Static, Literal, HasDefault
+    HeaderControlHitTestFlags TOLEFT = 2048 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+CustomDrawReturnFlags: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    CustomDrawReturnFlags DODEFAULT = 0 : Public, Static, Literal, HasDefault
+    CustomDrawReturnFlags NEWFONT = 2 : Public, Static, Literal, HasDefault
+    CustomDrawReturnFlags SKIPDEFAULT = 4 : Public, Static, Literal, HasDefault
+    CustomDrawReturnFlags NOTIFYPOSTPAINT = 16 : Public, Static, Literal, HasDefault
+    CustomDrawReturnFlags NOTIFYITEMDRAW = 32 : Public, Static, Literal, HasDefault
+    CustomDrawReturnFlags NOTIFYSUBITEMDRAW = 32 : Public, Static, Literal, HasDefault
+    CustomDrawReturnFlags NOTIFYPOSTERASE = 64 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+CustomDrawItemStateFlags: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    UInt32 value__ : Public, SpecialName, RTSpecialName
+    CustomDrawItemStateFlags SELECTED = 1 : Public, Static, Literal, HasDefault
+    CustomDrawItemStateFlags GRAYED = 2 : Public, Static, Literal, HasDefault
+    CustomDrawItemStateFlags DISABLED = 4 : Public, Static, Literal, HasDefault
+    CustomDrawItemStateFlags CHECKED = 8 : Public, Static, Literal, HasDefault
+    CustomDrawItemStateFlags FOCUS = 16 : Public, Static, Literal, HasDefault
+    CustomDrawItemStateFlags DEFAULT = 32 : Public, Static, Literal, HasDefault
+    CustomDrawItemStateFlags HOT = 64 : Public, Static, Literal, HasDefault
+    CustomDrawItemStateFlags MARKED = 128 : Public, Static, Literal, HasDefault
+    CustomDrawItemStateFlags INDETERMINATE = 256 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+CustomDrawDrawStateFlags: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    CustomDrawDrawStateFlags PREPAINT = 1 : Public, Static, Literal, HasDefault
+    CustomDrawDrawStateFlags POSTPAINT = 2 : Public, Static, Literal, HasDefault
+    CustomDrawDrawStateFlags PREERASE = 3 : Public, Static, Literal, HasDefault
+    CustomDrawDrawStateFlags POSTERASE = 4 : Public, Static, Literal, HasDefault
+    CustomDrawDrawStateFlags ITEM = 65536 : Public, Static, Literal, HasDefault
+    CustomDrawDrawStateFlags ITEMPREPAINT = 65537 : Public, Static, Literal, HasDefault
+    CustomDrawDrawStateFlags ITEMPOSTPAINT = 65538 : Public, Static, Literal, HasDefault
+    CustomDrawDrawStateFlags ITEMPREERASE = 65539 : Public, Static, Literal, HasDefault
+    CustomDrawDrawStateFlags ITEMPOSTERASE = 65540 : Public, Static, Literal, HasDefault
+    CustomDrawDrawStateFlags SUBITEM = 131072 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+PatBltTypes: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    PatBltTypes SRCCOPY = 13369376 : Public, Static, Literal, HasDefault
+    PatBltTypes SRCPAINT = 15597702 : Public, Static, Literal, HasDefault
+    PatBltTypes SRCAND = 8913094 : Public, Static, Literal, HasDefault
+    PatBltTypes SRCINVERT = 6684742 : Public, Static, Literal, HasDefault
+    PatBltTypes SRCERASE = 4457256 : Public, Static, Literal, HasDefault
+    PatBltTypes NOTSRCCOPY = 3342344 : Public, Static, Literal, HasDefault
+    PatBltTypes NOTSRCERASE = 1114278 : Public, Static, Literal, HasDefault
+    PatBltTypes MERGECOPY = 12583114 : Public, Static, Literal, HasDefault
+    PatBltTypes MERGEPAINT = 12255782 : Public, Static, Literal, HasDefault
+    PatBltTypes PATCOPY = 15728673 : Public, Static, Literal, HasDefault
+    PatBltTypes PATPAINT = 16452105 : Public, Static, Literal, HasDefault
+    PatBltTypes PATINVERT = 5898313 : Public, Static, Literal, HasDefault
+    PatBltTypes DSTINVERT = 5570569 : Public, Static, Literal, HasDefault
+    PatBltTypes BLACKNESS = 66 : Public, Static, Literal, HasDefault
+    PatBltTypes WHITENESS = 16711778 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+BackgroundMode: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    BackgroundMode TRANSPARENT = 1 : Public, Static, Literal, HasDefault
+    BackgroundMode OPAQUE = 2 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+StrechModeFlags: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    StrechModeFlags BLACKONWHITE = 1 : Public, Static, Literal, HasDefault
+    StrechModeFlags WHITEONBLACK = 2 : Public, Static, Literal, HasDefault
+    StrechModeFlags COLORONCOLOR = 3 : Public, Static, Literal, HasDefault
+    StrechModeFlags HALFTONE = 4 : Public, Static, Literal, HasDefault
+    StrechModeFlags MAXSTRETCHBLTMODE = 4 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+ShowWindowStyles: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int16 value__ : Public, SpecialName, RTSpecialName
+    ShowWindowStyles HIDE = 0 : Public, Static, Literal, HasDefault
+    ShowWindowStyles SHOWNORMAL = 1 : Public, Static, Literal, HasDefault
+    ShowWindowStyles NORMAL = 1 : Public, Static, Literal, HasDefault
+    ShowWindowStyles SHOWMINIMIZED = 2 : Public, Static, Literal, HasDefault
+    ShowWindowStyles SHOWMAXIMIZED = 3 : Public, Static, Literal, HasDefault
+    ShowWindowStyles MAXIMIZE = 3 : Public, Static, Literal, HasDefault
+    ShowWindowStyles SHOWNOACTIVATE = 4 : Public, Static, Literal, HasDefault
+    ShowWindowStyles SHOW = 5 : Public, Static, Literal, HasDefault
+    ShowWindowStyles MINIMIZE = 6 : Public, Static, Literal, HasDefault
+    ShowWindowStyles SHOWMINNOACTIVE = 7 : Public, Static, Literal, HasDefault
+    ShowWindowStyles SHOWNA = 8 : Public, Static, Literal, HasDefault
+    ShowWindowStyles RESTORE = 9 : Public, Static, Literal, HasDefault
+    ShowWindowStyles SHOWDEFAULT = 10 : Public, Static, Literal, HasDefault
+    ShowWindowStyles FORCEMINIMIZE = 11 : Public, Static, Literal, HasDefault
+    ShowWindowStyles MAX = 11 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+WindowsHookCodes: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    WindowsHookCodes MSGFILTER = -1 : Public, Static, Literal, HasDefault
+    WindowsHookCodes JOURNALRECORD = 0 : Public, Static, Literal, HasDefault
+    WindowsHookCodes JOURNALPLAYBACK = 1 : Public, Static, Literal, HasDefault
+    WindowsHookCodes KEYBOARD = 2 : Public, Static, Literal, HasDefault
+    WindowsHookCodes GETMESSAGE = 3 : Public, Static, Literal, HasDefault
+    WindowsHookCodes CALLWNDPROC = 4 : Public, Static, Literal, HasDefault
+    WindowsHookCodes CBT = 5 : Public, Static, Literal, HasDefault
+    WindowsHookCodes SYSMSGFILTER = 6 : Public, Static, Literal, HasDefault
+    WindowsHookCodes MOUSE = 7 : Public, Static, Literal, HasDefault
+    WindowsHookCodes HARDWARE = 8 : Public, Static, Literal, HasDefault
+    WindowsHookCodes DEBUG = 9 : Public, Static, Literal, HasDefault
+    WindowsHookCodes SHELL = 10 : Public, Static, Literal, HasDefault
+    WindowsHookCodes FOREGROUNDIDLE = 11 : Public, Static, Literal, HasDefault
+    WindowsHookCodes CALLWNDPROCRET = 12 : Public, Static, Literal, HasDefault
+    WindowsHookCodes KEYBOARD_LL = 13 : Public, Static, Literal, HasDefault
+    WindowsHookCodes MOUSE_LL = 14 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+CursorTypes: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    UInt32 value__ : Public, SpecialName, RTSpecialName
+    CursorTypes ARROW = 32512 : Public, Static, Literal, HasDefault
+    CursorTypes IBEAM = 32513 : Public, Static, Literal, HasDefault
+    CursorTypes WAIT = 32514 : Public, Static, Literal, HasDefault
+    CursorTypes CROSS = 32515 : Public, Static, Literal, HasDefault
+    CursorTypes UPARROW = 32516 : Public, Static, Literal, HasDefault
+    CursorTypes SIZE = 32640 : Public, Static, Literal, HasDefault
+    CursorTypes ICON = 32641 : Public, Static, Literal, HasDefault
+    CursorTypes SIZENWSE = 32642 : Public, Static, Literal, HasDefault
+    CursorTypes SIZENESW = 32643 : Public, Static, Literal, HasDefault
+    CursorTypes SIZEWE = 32644 : Public, Static, Literal, HasDefault
+    CursorTypes SIZENS = 32645 : Public, Static, Literal, HasDefault
+    CursorTypes SIZEALL = 32646 : Public, Static, Literal, HasDefault
+    CursorTypes NO = 32648 : Public, Static, Literal, HasDefault
+    CursorTypes HAND = 32649 : Public, Static, Literal, HasDefault
+    CursorTypes APPSTARTING = 32650 : Public, Static, Literal, HasDefault
+    CursorTypes HELP = 32651 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+SystemMetricsCodes: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    SystemMetricsCodes CXSCREEN = 0 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CYSCREEN = 1 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CXVSCROLL = 2 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CYHSCROLL = 3 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CYCAPTION = 4 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CXBORDER = 5 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CYBORDER = 6 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CXDLGFRAME = 7 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CYDLGFRAME = 8 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CYVTHUMB = 9 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CXHTHUMB = 10 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CXICON = 11 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CYICON = 12 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CXCURSOR = 13 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CYCURSOR = 14 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CYMENU = 15 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CXFULLSCREEN = 16 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CYFULLSCREEN = 17 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CYKANJIWINDOW = 18 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes MOUSEPRESENT = 19 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CYVSCROLL = 20 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CXHSCROLL = 21 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes DEBUG = 22 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes SWAPBUTTON = 23 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes RESERVED1 = 24 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes RESERVED2 = 25 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes RESERVED3 = 26 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes RESERVED4 = 27 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CXMIN = 28 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CYMIN = 29 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CXSIZE = 30 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CYSIZE = 31 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CXFRAME = 32 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CYFRAME = 33 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CXMINTRACK = 34 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CYMINTRACK = 35 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CXDOUBLECLK = 36 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CYDOUBLECLK = 37 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CXICONSPACING = 38 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CYICONSPACING = 39 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes MENUDROPALIGNMENT = 40 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes PENWINDOWS = 41 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes DBCSENABLED = 42 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CMOUSEBUTTONS = 43 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CXFIXEDFRAME = 7 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CYFIXEDFRAME = 8 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CXSIZEFRAME = 32 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CYSIZEFRAME = 33 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes SECURE = 44 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CXEDGE = 45 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CYEDGE = 46 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CXMINSPACING = 47 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CYMINSPACING = 48 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CXSMICON = 49 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CYSMICON = 50 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CYSMCAPTION = 51 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CXSMSIZE = 52 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CYSMSIZE = 53 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CXMENUSIZE = 54 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CYMENUSIZE = 55 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes ARRANGE = 56 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CXMINIMIZED = 57 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CYMINIMIZED = 58 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CXMAXTRACK = 59 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CYMAXTRACK = 60 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CXMAXIMIZED = 61 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CYMAXIMIZED = 62 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes NETWORK = 63 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CLEANBOOT = 67 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CXDRAG = 68 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CYDRAG = 69 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes SHOWSOUNDS = 70 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CXMENUCHECK = 71 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CYMENUCHECK = 72 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes SLOWMACHINE = 73 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes MIDEASTENABLED = 74 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes MOUSEWHEELPRESENT = 75 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes XVIRTUALSCREEN = 76 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes YVIRTUALSCREEN = 77 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CXVIRTUALSCREEN = 78 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CYVIRTUALSCREEN = 79 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CMONITORS = 80 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes SAMEDISPLAYFORMAT = 81 : Public, Static, Literal, HasDefault
+    SystemMetricsCodes CMETRICS = 83 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+SystemObjects: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    UInt32 value__ : Public, SpecialName, RTSpecialName
+    SystemObjects WINDOW = 0 : Public, Static, Literal, HasDefault
+    SystemObjects SYSMENU = 4294967295 : Public, Static, Literal, HasDefault
+    SystemObjects TITLEBAR = 4294967294 : Public, Static, Literal, HasDefault
+    SystemObjects MENU = 4294967293 : Public, Static, Literal, HasDefault
+    SystemObjects CLIENT = 4294967292 : Public, Static, Literal, HasDefault
+    SystemObjects VSCROLL = 4294967291 : Public, Static, Literal, HasDefault
+    SystemObjects HSCROLL = 4294967290 : Public, Static, Literal, HasDefault
+    SystemObjects SIZEGRIP = 4294967289 : Public, Static, Literal, HasDefault
+    SystemObjects CARET = 4294967288 : Public, Static, Literal, HasDefault
+    SystemObjects CURSOR = 4294967287 : Public, Static, Literal, HasDefault
+    SystemObjects ALERT = 4294967286 : Public, Static, Literal, HasDefault
+    SystemObjects SOUND = 4294967285 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+TrackerEventFlags: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    UInt32 value__ : Public, SpecialName, RTSpecialName
+    TrackerEventFlags HOVER = 1 : Public, Static, Literal, HasDefault
+    TrackerEventFlags LEAVE = 2 : Public, Static, Literal, HasDefault
+    TrackerEventFlags QUERY = 1073741824 : Public, Static, Literal, HasDefault
+    TrackerEventFlags CANCEL = 2147483648 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+DrawTextFormatFlags: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    DrawTextFormatFlags TOP = 0 : Public, Static, Literal, HasDefault
+    DrawTextFormatFlags LEFT = 0 : Public, Static, Literal, HasDefault
+    DrawTextFormatFlags CENTER = 1 : Public, Static, Literal, HasDefault
+    DrawTextFormatFlags RIGHT = 2 : Public, Static, Literal, HasDefault
+    DrawTextFormatFlags VCENTER = 4 : Public, Static, Literal, HasDefault
+    DrawTextFormatFlags BOTTOM = 8 : Public, Static, Literal, HasDefault
+    DrawTextFormatFlags WORDBREAK = 16 : Public, Static, Literal, HasDefault
+    DrawTextFormatFlags SINGLELINE = 32 : Public, Static, Literal, HasDefault
+    DrawTextFormatFlags EXPANDTABS = 64 : Public, Static, Literal, HasDefault
+    DrawTextFormatFlags TABSTOP = 128 : Public, Static, Literal, HasDefault
+    DrawTextFormatFlags NOCLIP = 256 : Public, Static, Literal, HasDefault
+    DrawTextFormatFlags EXTERNALLEADING = 512 : Public, Static, Literal, HasDefault
+    DrawTextFormatFlags CALCRECT = 1024 : Public, Static, Literal, HasDefault
+    DrawTextFormatFlags NOPREFIX = 2048 : Public, Static, Literal, HasDefault
+    DrawTextFormatFlags INTERNAL = 4096 : Public, Static, Literal, HasDefault
+    DrawTextFormatFlags EDITCONTROL = 8192 : Public, Static, Literal, HasDefault
+    DrawTextFormatFlags PATH_ELLIPSIS = 16384 : Public, Static, Literal, HasDefault
+    DrawTextFormatFlags END_ELLIPSIS = 32768 : Public, Static, Literal, HasDefault
+    DrawTextFormatFlags MODIFYSTRING = 65536 : Public, Static, Literal, HasDefault
+    DrawTextFormatFlags RTLREADING = 131072 : Public, Static, Literal, HasDefault
+    DrawTextFormatFlags WORD_ELLIPSIS = 262144 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+UpdateLayeredWindowFlags: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    UpdateLayeredWindowFlags COLORKEY = 1 : Public, Static, Literal, HasDefault
+    UpdateLayeredWindowFlags ALPHA = 2 : Public, Static, Literal, HasDefault
+    UpdateLayeredWindowFlags OPAQUE = 4 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+PeekMessageFlags: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    PeekMessageFlags NOREMOVE = 0 : Public, Static, Literal, HasDefault
+    PeekMessageFlags REMOVE = 1 : Public, Static, Literal, HasDefault
+    PeekMessageFlags NOYIELD = 2 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+NotificationMessages: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    NotificationMessages FIRST = 0 : Public, Static, Literal, HasDefault
+    NotificationMessages CUSTOMDRAW = -12 : Public, Static, Literal, HasDefault
+    NotificationMessages NCHITTEST = -14 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+SystemColors: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    SystemColors SCROLLBAR = 0 : Public, Static, Literal, HasDefault
+    SystemColors BACKGROUND = 1 : Public, Static, Literal, HasDefault
+    SystemColors ACTIVECAPTION = 2 : Public, Static, Literal, HasDefault
+    SystemColors INACTIVECAPTION = 3 : Public, Static, Literal, HasDefault
+    SystemColors MENU = 4 : Public, Static, Literal, HasDefault
+    SystemColors WINDOW = 5 : Public, Static, Literal, HasDefault
+    SystemColors WINDOWFRAME = 6 : Public, Static, Literal, HasDefault
+    SystemColors MENUTEXT = 7 : Public, Static, Literal, HasDefault
+    SystemColors WINDOWTEXT = 8 : Public, Static, Literal, HasDefault
+    SystemColors CAPTIONTEXT = 9 : Public, Static, Literal, HasDefault
+    SystemColors ACTIVEBORDER = 10 : Public, Static, Literal, HasDefault
+    SystemColors INACTIVEBORDER = 11 : Public, Static, Literal, HasDefault
+    SystemColors APPWORKSPACE = 12 : Public, Static, Literal, HasDefault
+    SystemColors HIGHLIGHT = 13 : Public, Static, Literal, HasDefault
+    SystemColors HIGHLIGHTTEXT = 14 : Public, Static, Literal, HasDefault
+    SystemColors BTNFACE = 15 : Public, Static, Literal, HasDefault
+    SystemColors BTNSHADOW = 16 : Public, Static, Literal, HasDefault
+    SystemColors GRAYTEXT = 17 : Public, Static, Literal, HasDefault
+    SystemColors BTNTEXT = 18 : Public, Static, Literal, HasDefault
+    SystemColors INACTIVECAPTIONTEXT = 19 : Public, Static, Literal, HasDefault
+    SystemColors BTNHIGHLIGHT = 20 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+DrawFrameControlFlags: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    UInt32 value__ : Public, SpecialName, RTSpecialName
+    DrawFrameControlFlags CAPTION = 1 : Public, Static, Literal, HasDefault
+    DrawFrameControlFlags MENU = 2 : Public, Static, Literal, HasDefault
+    DrawFrameControlFlags SCROLL = 3 : Public, Static, Literal, HasDefault
+    DrawFrameControlFlags BUTTON = 4 : Public, Static, Literal, HasDefault
+    DrawFrameControlFlags POPUPMENU = 5 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+DrawFrameControlStateFlags: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    UInt32 value__ : Public, SpecialName, RTSpecialName
+    DrawFrameControlStateFlags CAPTIONCLOSE = 0 : Public, Static, Literal, HasDefault
+    DrawFrameControlStateFlags CAPTIONMIN = 1 : Public, Static, Literal, HasDefault
+    DrawFrameControlStateFlags CAPTIONMAX = 2 : Public, Static, Literal, HasDefault
+    DrawFrameControlStateFlags CAPTIONRESTORE = 3 : Public, Static, Literal, HasDefault
+    DrawFrameControlStateFlags CAPTIONHELP = 4 : Public, Static, Literal, HasDefault
+    DrawFrameControlStateFlags MENUARROW = 0 : Public, Static, Literal, HasDefault
+    DrawFrameControlStateFlags MENUCHECK = 1 : Public, Static, Literal, HasDefault
+    DrawFrameControlStateFlags MENUBULLET = 2 : Public, Static, Literal, HasDefault
+    DrawFrameControlStateFlags MENUARROWRIGHT = 4 : Public, Static, Literal, HasDefault
+    DrawFrameControlStateFlags SCROLLUP = 0 : Public, Static, Literal, HasDefault
+    DrawFrameControlStateFlags SCROLLDOWN = 1 : Public, Static, Literal, HasDefault
+    DrawFrameControlStateFlags SCROLLLEFT = 2 : Public, Static, Literal, HasDefault
+    DrawFrameControlStateFlags SCROLLRIGHT = 3 : Public, Static, Literal, HasDefault
+    DrawFrameControlStateFlags SCROLLCOMBOBOX = 5 : Public, Static, Literal, HasDefault
+    DrawFrameControlStateFlags SCROLLSIZEGRIP = 8 : Public, Static, Literal, HasDefault
+    DrawFrameControlStateFlags SCROLLSIZEGRIPRIGHT = 16 : Public, Static, Literal, HasDefault
+    DrawFrameControlStateFlags BUTTONCHECK = 0 : Public, Static, Literal, HasDefault
+    DrawFrameControlStateFlags BUTTONRADIOIMAGE = 1 : Public, Static, Literal, HasDefault
+    DrawFrameControlStateFlags BUTTONRADIOMASK = 2 : Public, Static, Literal, HasDefault
+    DrawFrameControlStateFlags BUTTONRADIO = 4 : Public, Static, Literal, HasDefault
+    DrawFrameControlStateFlags BUTTON3STATE = 8 : Public, Static, Literal, HasDefault
+    DrawFrameControlStateFlags BUTTONPUSH = 16 : Public, Static, Literal, HasDefault
+    DrawFrameControlStateFlags INACTIVE = 256 : Public, Static, Literal, HasDefault
+    DrawFrameControlStateFlags PUSHED = 512 : Public, Static, Literal, HasDefault
+    DrawFrameControlStateFlags CHECKED = 1024 : Public, Static, Literal, HasDefault
+    DrawFrameControlStateFlags TRANSPARENT = 2048 : Public, Static, Literal, HasDefault
+    DrawFrameControlStateFlags HOT = 4096 : Public, Static, Literal, HasDefault
+    DrawFrameControlStateFlags ADJUSTRECT = 8192 : Public, Static, Literal, HasDefault
+    DrawFrameControlStateFlags FLAT = 16384 : Public, Static, Literal, HasDefault
+    DrawFrameControlStateFlags MONO = 32768 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+UxThemeMinButtonStates: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    UxThemeMinButtonStates NORMAL = 1 : Public, Static, Literal, HasDefault
+    UxThemeMinButtonStates HOT = 2 : Public, Static, Literal, HasDefault
+    UxThemeMinButtonStates PUSHED = 3 : Public, Static, Literal, HasDefault
+    UxThemeMinButtonStates DISABLED = 4 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+UxThemeWindowParts: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    UxThemeWindowParts CAPTION = 1 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts SMALLCAPTION = 2 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts MINCAPTION = 3 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts SMALLMINCAPTION = 4 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts MAXCAPTION = 5 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts SMALLMAXCAPTION = 6 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts FRAMELEFT = 7 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts FRAMERIGHT = 8 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts FRAMEBOTTOM = 9 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts SMALLFRAMELEFT = 10 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts SMALLFRAMERIGHT = 11 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts SMALLFRAMEBOTTOM = 12 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts SYSBUTTON = 13 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts MDISYSBUTTON = 14 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts MINBUTTON = 15 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts MDIMINBUTTON = 16 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts MAXBUTTON = 17 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts CLOSEBUTTON = 18 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts SMALLCLOSEBUTTON = 19 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts MDICLOSEBUTTON = 20 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts RESTOREBUTTON = 21 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts MDIRESTOREBUTTON = 22 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts HELPBUTTON = 23 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts MDIHELPBUTTON = 24 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts HORZSCROLL = 25 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts HORZTHUMB = 26 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts VERTSCROLL = 27 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts VERTTHUMB = 28 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts DIALOG = 29 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts CAPTIONSIZINGTEMPLATE = 30 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts SMALLCAPTIONSIZINGTEMPLATE = 31 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts FRAMELEFTSIZINGTEMPLATE = 32 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts SMALLFRAMELEFTSIZINGTEMPLATE = 33 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts FRAMERIGHTSIZINGTEMPLATE = 34 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts SMALLFRAMERIGHTSIZINGTEMPLATE = 35 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts FRAMEBOTTOMSIZINGTEMPLATE = 36 : Public, Static, Literal, HasDefault
+    UxThemeWindowParts SMALLFRAMEBOTTOMSIZINGTEMPLATE = 37 : Public, Static, Literal, HasDefault
+Struct System.Runtime.InteropServices.APIs.APIsEnums+MouseEventFlags: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    MouseEventFlags MOVE = 1 : Public, Static, Literal, HasDefault
+    MouseEventFlags LEFTDOWN = 2 : Public, Static, Literal, HasDefault
+    MouseEventFlags LEFTUP = 4 : Public, Static, Literal, HasDefault
+    MouseEventFlags RIGHTDOWN = 8 : Public, Static, Literal, HasDefault
+    MouseEventFlags RIGHTUP = 16 : Public, Static, Literal, HasDefault
+    MouseEventFlags MIDDLEDOWN = 32 : Public, Static, Literal, HasDefault
+    MouseEventFlags MIDDLEUP = 64 : Public, Static, Literal, HasDefault
+    MouseEventFlags XDOWN = 128 : Public, Static, Literal, HasDefault
+    MouseEventFlags XUP = 256 : Public, Static, Literal, HasDefault
+    MouseEventFlags WHEEL = 2048 : Public, Static, Literal, HasDefault
+    MouseEventFlags VIRTUALDESK = 16384 : Public, Static, Literal, HasDefault
+    MouseEventFlags ABSOLUTE = 32768 : Public, Static, Literal, HasDefault
+Class System.Runtime.InteropServices.APIs.APIsShell: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetShellFolder(IntPtr, String, IntPtr&(Out)): PrivateScope, Public, Static, HideBySig
+    DoOperation(IntPtr, String[], String, FileOperations): PrivateScope, Public, Static, HideBySig
+    ViewFileProperties(String): PrivateScope, Public, Static, HideBySig
+    ViewDirectoryProperties(String): PrivateScope, Public, Static, HideBySig
+    GetFileIcon(String, Boolean): PrivateScope, Public, Static, HideBySig
+    GetFolderIcon(String, Boolean, Boolean): PrivateScope, Public, Static, HideBySig
+    SHParseDisplayName(String(HasFieldMarshal), IntPtr, IntPtr&(Out), UInt32, UInt32&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SHGetDataFromIDList(IShellFolder, IntPtr, ShellFolderGetaFromIDList, WIN32_FIND_DATA&(Out), Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SHGetPathFromIDList(IntPtr, String(In, Out, HasFieldMarshal)): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SHGetSpecialFolderPath(IntPtr, String(In, Out, HasFieldMarshal), ShellSpecialFolders, Boolean(In, HasFieldMarshal)): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SHGetDesktopFolder(IShellFolder&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SHGetSpecialFolderLocation(IntPtr, ShellSpecialFolders, IntPtr&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SHBindToParent(IntPtr, Guid, IShellFolder&(Out), IntPtr&(Out)): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SHFileOperation(SHFILEOPSTRUCT&): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SHGetFileInfo(String, UInt32, SHFILEINFO&(Out), UInt32, ShellGetFileInformationFlags): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    ShellExecute(IntPtr, String, String, String, String, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    ShellExecuteEx(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    StrRetToBuf(STRRET, IntPtr, String(In, Out, HasFieldMarshal), UInt32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+Class System.Runtime.InteropServices.APIs.APIsUxTheme: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    OpenThemeData(IntPtr, String): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    CloseThemeData(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    IsThemeActive(): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    IsAppThemed(): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    DrawThemeBackground(IntPtr, IntPtr, Int32, Int32, RECT, RECT): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetCurrentThemeName(StringBuilder, Int32, StringBuilder, Int32, StringBuilder, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+Class System.Runtime.InteropServices.APIs.APIsGdi: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    TransparentBlt(IntPtr, Int32, Int32, Int32, Int32, IntPtr, Int32, Int32, Int32, Int32, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetDC(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    StretchBlt(IntPtr, Int32, Int32, Int32, Int32, IntPtr, Int32, Int32, Int32, Int32, PatBltTypes): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    CreateCompatibleDC(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    CreateCompatibleBitmap(IntPtr, Int32, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SelectObject(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    BitBlt(IntPtr, Int32, Int32, Int32, Int32, IntPtr, Int32, Int32, PatBltTypes): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    DeleteDC(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    PatBlt(IntPtr, Int32, Int32, Int32, Int32, UInt32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    DeleteObject(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetPixel(IntPtr, Int32, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SetMapMode(IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetObjectType(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    CreateDIBSection(IntPtr, BITMAPINFO_FLAT&, Int32, Int32&, IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetDIBits(IntPtr, IntPtr, Int32, Int32, Int32, BITMAPINFOHEADER, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetDIBits(IntPtr, IntPtr, Int32, Int32, Int32, BITMAPINFO_FLAT&, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetPaletteEntries(IntPtr, Int32, Int32, Byte[]): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetSystemPaletteEntries(IntPtr, Int32, Int32, Byte[]): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SetDCBrushColor(IntPtr, UInt32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    CreateSolidBrush(UInt32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SetBkMode(IntPtr, BackgroundMode): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SetViewportOrgEx(IntPtr, Int32, Int32, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SetTextColor(IntPtr, UInt32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SetStretchBltMode(IntPtr, StrechModeFlags): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SetPixel(IntPtr, Int32, Int32, UInt32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+Class System.Runtime.InteropServices.APIs.TextUtil: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Methods:
+    GetTextSize(Graphics, String, Font): PrivateScope, Public, Static, HideBySig
+    GetTextSize(Graphics, String, Font, Rectangle&, DrawTextFormatFlags): PrivateScope, Public, Static, HideBySig
+    DrawText(Graphics, String, Font, Rectangle): PrivateScope, Public, Static, HideBySig
+    DrawText(Graphics, String, Font, Rectangle, Color): PrivateScope, Public, Static, HideBySig
+    DrawReverseString(Graphics, String, Font, Rectangle, Brush, StringFormat): PrivateScope, Public, Static, HideBySig
+Class System.Runtime.InteropServices.APIs.COMInterfaces: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Interface System.Runtime.InteropServices.APIs.COMInterfaces+IShellFolder: AutoLayout, AnsiClass, Class, NestedPublic, ClassSemanticsMask, Abstract, Import
+  Methods:
+    ParseDisplayName(IntPtr, IntPtr, String(HasFieldMarshal), UInt32&(Out), IntPtr&(Out), UInt32&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    EnumObjects(IntPtr, ShellFolderEnumObjectsTypes, IEnumIDList&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    BindToObject(IntPtr, IntPtr, Guid&(In), IShellFolder&(Out)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    BindToStorage(IntPtr, IntPtr, Guid&(In), Object&(Out, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CompareIDs(Int32, IntPtr, IntPtr): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CreateViewObject(IntPtr, Guid&(In), Object&(Out, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetAttributesOf(UInt32, IntPtr[](In, HasFieldMarshal), ShellFolderAttributes&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetUIObjectOf(IntPtr, UInt32, IntPtr[](HasFieldMarshal), Guid&(In), IntPtr): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetDisplayNameOf(IntPtr, ShellFolderDisplayNames, STRRET&(Out)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    SetNameOf(IntPtr, IntPtr, String(HasFieldMarshal), ShellFolderDisplayNames): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface System.Runtime.InteropServices.APIs.COMInterfaces+IEnumIDList: AutoLayout, AnsiClass, Class, NestedPublic, ClassSemanticsMask, Abstract, Import
+  Methods:
+    Next(UInt32, IntPtr[](In, Out, HasFieldMarshal), UInt32&(Out)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Skip(UInt32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Reset(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Clone(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface System.Runtime.InteropServices.APIs.COMInterfaces+IDataObject: AutoLayout, AnsiClass, Class, NestedPublic, ClassSemanticsMask, Abstract, Import
+  Methods:
+    GetData(FORMATETC&, STGMEDIUM&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetDataHere(Int32, STGMEDIUM&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    QueryGetData(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetCanonicalFormatEtc(Int32, Int32&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    SetData(Int32, Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    EnumFormatEtc(UInt32, Object&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    DAdvise(Int32, UInt32, Object, UInt32&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    DUnadvise(UInt32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    EnumDAdvise(Object&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface System.Runtime.InteropServices.APIs.COMInterfaces+IShellExtInit: AutoLayout, AnsiClass, Class, NestedPublic, ClassSemanticsMask, Abstract, Import
+  Methods:
+    Initialize(IntPtr, IntPtr, UInt32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface System.Runtime.InteropServices.APIs.COMInterfaces+IContextMenu: AutoLayout, AnsiClass, Class, NestedPublic, ClassSemanticsMask, Abstract, Import
+  Methods:
+    QueryContextMenu(UInt32, UInt32, Int32, Int32, UInt32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    InvokeCommand(CMINVOKECOMMANDINFO&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetCommandString(Int32, GetCommandStringInformations, Int32, StringBuilder, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface System.Runtime.InteropServices.APIs.COMInterfaces+IContextMenu2: AutoLayout, AnsiClass, Class, NestedPublic, ClassSemanticsMask, Abstract, Import
+  Methods:
+    QueryContextMenu(UInt32, UInt32, Int32, Int32, UInt32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    InvokeCommand(CMINVOKECOMMANDINFO&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetCommandString(Int32, GetCommandStringInformations, Int32, StringBuilder, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    HandleMenuMsg(UInt32, IntPtr, IntPtr): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class System.Runtime.InteropServices.APIs.APIsComctl32: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetMajorVersion(): PrivateScope, Public, Static, HideBySig
+Class System.Runtime.InteropServices.APIs.APIsUser32: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    MoveWindow(IntPtr, Int32, Int32, Int32, Int32, Boolean): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetClassName(IntPtr, StringBuilder, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetDCEx(IntPtr, IntPtr, UInt32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetWindowDC(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    FillRect(IntPtr, RECT&, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetWindowPlacement(IntPtr, WINDOWPLACEMENT&): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SetWindowText(IntPtr, String): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetWindowText(IntPtr, StringBuilder, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SendMessage(IntPtr, Int32, IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SetClipboardViewer(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    ChangeClipboardChain(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetSystemMetrics(SystemMetricsCodes): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SetScrollInfo(IntPtr, Int32, SCROLLINFO&, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    ShowScrollBar(IntPtr, Int32, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    EnableScrollBar(IntPtr, UInt32, UInt32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    BringWindowToTop(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetScrollInfo(IntPtr, Int32, SCROLLINFO&): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    ScrollWindowEx(IntPtr, Int32, Int32, RECT&, RECT&, IntPtr, RECT&, UInt32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    IsWindow(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    LockWindowUpdate(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    ValidateRect(IntPtr, RECT&): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    ValidateRect(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetScrollBarInfo(IntPtr, SystemObjects, SCROLLBARINFO&): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SetProp(IntPtr, IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    CallWindowProc(IntPtr, IntPtr, UInt32, Int32, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SendMessage(IntPtr, ListViewMessages, Int32, LV_ITEM&): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SendMessage(IntPtr, Int32, Int32, LVHITTESTINFO&): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SendMessage(IntPtr, Int32, IntPtr, IntPtr&): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SendMessage(IntPtr, Int32, Int32, POINTAPI&): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    PostMessage(IntPtr, Int32, Int32, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    PostMessage(IntPtr, WindowMessages, Int32, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SetFocus(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    DrawText(IntPtr, String, Int32, RECT&, DrawTextFormatFlags): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SetParent(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetDlgItem(IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetClientRect(IntPtr, RECT&): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    InvalidateRect(IntPtr, RECT&, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    InvalidateRect(IntPtr, IntPtr, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    WaitMessage(): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    PeekMessage(MSG&, Int32, UInt32, UInt32, PeekMessageFlags): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetMessage(MSG&, Int32, UInt32, UInt32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    TranslateMessage(MSG&): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    DispatchMessage(MSG&): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    LoadCursor(IntPtr, CursorTypes): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SetCursor(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetFocus(): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    ReleaseCapture(): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SetCapture(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    BeginPaint(IntPtr, PAINTSTRUCT&): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    EndPaint(IntPtr, PAINTSTRUCT&): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    UpdateLayeredWindow(IntPtr, IntPtr, POINTAPI&, SIZE&, IntPtr, POINTAPI&, Int32, BLENDFUNCTION&, UpdateLayeredWindowFlags): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetWindowRect(IntPtr, RECT&): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    ClientToScreen(IntPtr, POINTAPI&): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    TrackMouseEvent(TRACKMOUSEEVENTS&): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SetWindowRgn(IntPtr, IntPtr, Boolean): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetKeyState(Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SendInput(UInt32, INPUT[], Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    ScreenToClient(IntPtr, POINTAPI&): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    DrawFrameControl(IntPtr, RECT, DrawFrameControlFlags, DrawFrameControlStateFlags): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetSysColor(SystemColors): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    DestroyIcon(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetComboBoxInfo(IntPtr, PCOMBOBOXINFO&): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    DestroyWindow(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetDC(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    ReleaseDC(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetDesktopWindow(): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    ShowWindow(IntPtr, ShowWindowStyles): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    UpdateWindow(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SetForegroundWindow(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SetWindowPos(IntPtr, IntPtr, Int32, Int32, Int32, Int32, UInt32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    OpenClipboard(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    CloseClipboard(): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    EmptyClipboard(): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SetClipboardData(UInt32, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetMenuItemRect(IntPtr, IntPtr, UInt32, RECT&): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetParent(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SendMessage(IntPtr, HeaderControlMessages, Int32, HDITEM&): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SendMessage(IntPtr, Int32, Int32, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SendMessage(IntPtr, HeaderControlMessages, IntPtr, HD_HITTESTINFO&): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SendMessage(IntPtr, WindowMessages, Int32, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SendMessage(IntPtr, Int32, Int32, IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SendMessage(IntPtr, Int32, IntPtr, NMHDR&): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SendMessage(IntPtr, Int32, IntPtr, NMLVDISPINFO&): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SendMessage(IntPtr, Int32, Int32, RECT&): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+Class System.Runtime.InteropServices.APIs.APIsClipboard: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ClearClipboard(IntPtr): PrivateScope, Public, Static, HideBySig
+Class System.Runtime.InteropServices.APIs.ColorUtil: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Fields:
+    System.String[] KnownColorNames : Public, Static
+    System.String[] SystemColorNames : Public, Static
+  Properties:
+    Boolean UsingCustomColor 'get ' : 
+    System.Drawing.Color VSNetBackgroundColor 'get set' : 
+    System.Drawing.Color VSNetSelectionUnfocusedColor 'get set' : 
+    System.Drawing.Color VSNetSelectionColor 'get set' : 
+    System.Drawing.Color VSNetControlColor 'get set' : 
+    System.Drawing.Color VSNetPressedColor 'get set' : 
+    System.Drawing.Color VSNetCheckedColor 'get set' : 
+    System.Drawing.Color VSNetBorderColor 'get set' : 
+  Methods:
+    get_UsingCustomColor(): PrivateScope, Public, Static, HideBySig, SpecialName
+    HSLToRGB(Single, Single, Single, Single&, Single&, Single&): PrivateScope, Public, Static, HideBySig
+    RGBToHSL(Int32, Int32, Int32, Single&, Single&, Single&): PrivateScope, Public, Static, HideBySig
+    get_VSNetBackgroundColor(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_VSNetBackgroundColor(Color): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_VSNetSelectionUnfocusedColor(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_VSNetSelectionUnfocusedColor(Color): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_VSNetSelectionColor(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_VSNetSelectionColor(Color): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_VSNetControlColor(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_VSNetControlColor(Color): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_VSNetPressedColor(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_VSNetPressedColor(Color): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_VSNetCheckedColor(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_VSNetCheckedColor(Color): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_VSNetBorderColor(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_VSNetBorderColor(Color): PrivateScope, Public, Static, HideBySig, SpecialName
+    CalculateColor(Color, Color, Int32): PrivateScope, Public, Static, HideBySig
+    ColorFromPoint(Graphics, Int32, Int32): PrivateScope, Public, Static, HideBySig
+    IsKnownColor(Color, Color&, Boolean): PrivateScope, Public, Static, HideBySig
+    IsSystemColor(Color, Color&): PrivateScope, Public, Static, HideBySig
+    GetCOLORREF(Color): PrivateScope, Public, Static, HideBySig
+    ColorFromRGBString(String): PrivateScope, Public, Static, HideBySig
+    LightColor(Color, Int32): PrivateScope, Public, Static, HideBySig
+    DarkColor(Color, Int32): PrivateScope, Public, Static, HideBySig
+    GetRValue(UInt32): PrivateScope, Public, Static, HideBySig
+    GetGValue(UInt32): PrivateScope, Public, Static, HideBySig
+    GetBValue(UInt32): PrivateScope, Public, Static, HideBySig
+    RGB(Int32, Int32, Int32): PrivateScope, Public, Static, HideBySig
+Class System.Runtime.InteropServices.APIs.APIsShlwapi: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    PathCompactPath(IntPtr, StringBuilder, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    PathCompactPathEx(StringBuilder, StringBuilder, Int32, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    PathIsFileSpec(String): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    PathIsPrefix(String, String): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    PathIsRelative(String): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    PathIsRoot(String): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    PathIsSameRoot(String, String): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    PathIsUNC(String): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    PathIsUNCServer(String): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    PathIsUNCServerShare(String): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    PathIsURL(String): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    PathMakePretty(StringBuilder): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    PathMatchSpec(String, String): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    PathParseIconLocation(StringBuilder): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    PathQuoteSpaces(StringBuilder): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    PathRelativePathTo(StringBuilder, String, Int32, String, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    PathRemoveArgs(StringBuilder): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    PathRemoveBackslash(String): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    DllGetVersion(DLLVERSIONINFO2&): PrivateScope, Public, Static, HideBySig, PinvokeImpl

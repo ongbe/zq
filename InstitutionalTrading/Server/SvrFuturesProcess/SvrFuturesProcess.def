@@ -1,0 +1,6 @@
+LIBRARY	"SvrFuturesProcess"
+
+EXPORTS
+	InitFunc
+	ReleaseFunc
+	

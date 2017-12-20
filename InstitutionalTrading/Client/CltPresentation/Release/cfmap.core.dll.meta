@@ -1,0 +1,1327 @@
+  CFMap.Core.Properties.Resources.resources - Embedded, ContainedInManifestFile, 
+Assembly CFMap.Core, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Data.SQLite, Version=1.0.81.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139: 
+	hash=SHA1, flags=None
+Assembly System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Class CFMap.CoreType.Singleton`1[T]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: T,  DefaultConstructor
+  Properties:
+    T Instance 'get ' : 
+  Methods:
+    get_Instance(): PrivateScope, Public, Static, HideBySig, SpecialName
+Class CFMap.CoreType.PositionChanged: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(PointLatLng): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(PointLatLng, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class CFMap.CoreType.TileLoadComplete: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int64): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Int64, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class CFMap.CoreType.TileLoadStart: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class CFMap.CoreType.TileCacheComplete: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class CFMap.CoreType.TileCacheStart: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class CFMap.CoreType.TileCacheProgress: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Int32, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class CFMap.CoreType.MapDrag: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class CFMap.CoreType.MapZoomChanged: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class CFMap.CoreType.MapTypeChanged: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(IMapProvider): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(IMapProvider, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class CFMap.CoreType.EmptyTileError: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Int32, GPoint): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Int32, GPoint, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class CFMap.CoreType.Internals.Stuff: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Random random : Public, Static, InitOnly
+  Methods:
+    EnumToString(Enum): PrivateScope, Public, Static, HideBySig
+    SetCursorPos(Int32, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    Shuffle(List`1): PrivateScope, Public, Static, HideBySig
+    CopyStream(Stream, Boolean): PrivateScope, Public, Static, HideBySig
+    IsRunningOnVistaOrLater(): PrivateScope, Public, Static, HideBySig
+    IsRunningOnWin7orLater(): PrivateScope, Public, Static, HideBySig
+    RemoveInvalidPathSymbols(String&): PrivateScope, Public, Static, HideBySig
+Class CFMap.Interface.IMapProvider: AutoLayout, AnsiClass, Class, Public, Abstract
+  Fields:
+    System.Nullable`1[CFMap.CoreType.RectLatLng] Area : Public
+    Int32 MinZoom : Public
+    System.Nullable`1[System.Int32] MaxZoom : Public
+    System.String RefererUrl : Public
+    System.String Copyright : Public
+    Boolean InvertedAxisY : Public
+    System.Net.IWebProxy WebProxy : Public, Static
+    System.Net.ICredentials Credential : Public, Static
+    System.String UserAgent : Public, Static
+    Int32 TimeoutMs : Public, Static
+    CFMap.CoreType.PureImageProxy TileImageProxy : Public, Static
+  Properties:
+    System.Guid Id 'get ' : 
+    Int32 MapId 'get ' : 
+    System.String Name 'get ' : 
+    CFMap.Interface.PureProjection Projection 'get ' : 
+    CFMap.Interface.IMapProvider[] Overlays 'get ' : 
+    Boolean IsInitialized 'get set' : 
+    System.String LanguageStr 'get ' : 
+    CFMap.CoreType.LanguageType Language 'get set' : 
+  Methods:
+    get_Id(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_MapId(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Projection(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Overlays(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    GetTileImage(GPoint, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_IsInitialized(): PrivateScope, Public, HideBySig, SpecialName
+    set_IsInitialized(Boolean): PrivateScope, Assembly, HideBySig, SpecialName
+    OnInitialized(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_LanguageStr(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Language(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_Language(LanguageType): PrivateScope, Public, Static, HideBySig, SpecialName
+    GetTileImageUsingHttp(String): PrivateScope, Public, HideBySig
+    GetContentUsingHttp(String): PrivateScope, Public, HideBySig
+    GetServerNum(GPoint, Int32): PrivateScope, Public, Static, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class CFMap.MapProviders.OpenStreetMapProviderBase: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :CFMap.Interface.IMapProvider
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String ServerLetters : Public, InitOnly
+  Properties:
+    System.Guid Id 'get ' : 
+    Int32 MapId 'get ' : 
+    System.String Name 'get ' : 
+    CFMap.Interface.PureProjection Projection 'get ' : 
+    CFMap.Interface.IMapProvider[] Overlays 'get ' : 
+  Methods:
+    get_Id(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_MapId(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Projection(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Overlays(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    GetTileImage(GPoint, Int32): PrivateScope, Public, Virtual, HideBySig
+Class CFMap.MapProviders.OpenStreetMapProvider: AutoLayout, AnsiClass, Class, Public
+  :CFMap.MapProviders.OpenStreetMapProviderBase
+  Fields:
+    CFMap.MapProviders.OpenStreetMapProvider Instance : Public, Static, InitOnly
+  Properties:
+    System.Guid Id 'get ' : 
+    System.String Name 'get ' : 
+    CFMap.Interface.IMapProvider[] Overlays 'get ' : 
+  Methods:
+    get_Id(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Overlays(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    GetTileImage(GPoint, Int32): PrivateScope, Public, Virtual, HideBySig
+Interface CFMap.Interface.PureImageCache: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    PutImageToCache(Byte[], Int32, GPoint, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetImageFromCache(Int32, GPoint, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    DeleteOlderThan(DateTime): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class CFMap.CacheProviders.SQLitePureImageCache: NotPublic
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    CFMap.Interface.PureImageCache
+  Properties:
+    System.String GtileCache 'get ' : 
+    System.String CacheLocation 'get set' : 
+  Methods:
+    Ping(): PrivateScope, Public, Static, HideBySig
+    get_GtileCache(): PrivateScope, Public, HideBySig, SpecialName
+    get_CacheLocation(): PrivateScope, Public, HideBySig, SpecialName
+    set_CacheLocation(String): PrivateScope, Public, HideBySig, SpecialName
+    CreateEmptyDB(String): PrivateScope, Public, Static, HideBySig
+    PreAllocateDB(String, Int32): PrivateScope, Public, Static, HideBySig
+    VacuumDb(String): PrivateScope, Public, Static, HideBySig
+    ExportMapDataToDB(String, String): PrivateScope, Public, Static, HideBySig
+    Attach(String): PrivateScope, Public, HideBySig
+    Detach(String): PrivateScope, Public, HideBySig
+Struct CFMap.CoreType.MapType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    CFMap.CoreType.MapType None = 0 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType GoogleMap = 1 : Public, Static, Literal, HasDefault (Obsolete)
+    CFMap.CoreType.MapType GoogleSatellite = 4 : Public, Static, Literal, HasDefault (Obsolete)
+    CFMap.CoreType.MapType GoogleLabels = 8 : Public, Static, Literal, HasDefault (Obsolete)
+    CFMap.CoreType.MapType GoogleTerrain = 16 : Public, Static, Literal, HasDefault (Obsolete)
+    CFMap.CoreType.MapType GoogleHybrid = 20 : Public, Static, Literal, HasDefault (Obsolete)
+    CFMap.CoreType.MapType GoogleMapChina = 22 : Public, Static, Literal, HasDefault (Obsolete)
+    CFMap.CoreType.MapType GoogleSatelliteChina = 24 : Public, Static, Literal, HasDefault (Obsolete)
+    CFMap.CoreType.MapType GoogleLabelsChina = 26 : Public, Static, Literal, HasDefault (Obsolete)
+    CFMap.CoreType.MapType GoogleTerrainChina = 28 : Public, Static, Literal, HasDefault (Obsolete)
+    CFMap.CoreType.MapType GoogleHybridChina = 29 : Public, Static, Literal, HasDefault (Obsolete)
+    CFMap.CoreType.MapType OpenStreetMap = 32 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType OpenStreetOsm = 33 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType OpenStreetMapSurfer = 34 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType OpenStreetMapSurferTerrain = 35 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType OpenSeaMapLabels = 36 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType OpenSeaMapHybrid = 37 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType OpenCycleMap = 38 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType YahooMap = 64 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType YahooSatellite = 128 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType YahooLabels = 256 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType YahooHybrid = 333 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType BingMap = 444 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType BingMap_New = 455 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType BingSatellite = 555 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType BingHybrid = 666 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType ArcGIS_StreetMap_World_2D = 777 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType ArcGIS_Imagery_World_2D = 788 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType ArcGIS_ShadedRelief_World_2D = 799 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType ArcGIS_Topo_US_2D = 811 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType ArcGIS_World_Physical_Map = 822 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType ArcGIS_World_Shaded_Relief = 833 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType ArcGIS_World_Street_Map = 844 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType ArcGIS_World_Terrain_Base = 855 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType ArcGIS_World_Topo_Map = 866 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType MapsLT_Map = 1000 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType MapsLT_OrtoFoto = 1001 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType MapsLT_Map_Labels = 1002 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType MapsLT_Map_Hybrid = 1003 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType MapsLT_Map_2_5D = 1004 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType MapsLT_OrtoFoto_2010 = 1101 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType MapsLT_Map_Hybrid_2010 = 1103 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType KarteLV_Map = 1500 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType PergoTurkeyMap = 2001 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType SigPacSpainMap = 3001 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType GoogleMapKorea = 4001 : Public, Static, Literal, HasDefault (Obsolete)
+    CFMap.CoreType.MapType GoogleSatelliteKorea = 4002 : Public, Static, Literal, HasDefault (Obsolete)
+    CFMap.CoreType.MapType GoogleLabelsKorea = 4003 : Public, Static, Literal, HasDefault (Obsolete)
+    CFMap.CoreType.MapType GoogleHybridKorea = 4005 : Public, Static, Literal, HasDefault (Obsolete)
+    CFMap.CoreType.MapType YandexMapRu = 5000 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType YandexMapRuSatellite = 5001 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType YandexMapRuLabels = 5002 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType YandexMapRuHybrid = 5003 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType MapBenderWMS = 6000 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType MapyCZ_Map = 7000 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType MapyCZ_MapTurist = 7001 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType MapyCZ_Satellite = 7002 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType MapyCZ_Labels = 7003 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType MapyCZ_Hybrid = 7004 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType MapyCZ_History = 7005 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType MapyCZ_HistoryHybrid = 7006 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType NearMap = 8000 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType NearMapSatellite = 8001 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType NearMapLabels = 8002 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType NearMapHybrid = 8003 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType OviMap = 9000 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType OviMapSatellite = 9001 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType OviMapHybrid = 9002 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MapType OviMapTerrain = 9003 : Public, Static, Literal, HasDefault
+Class CFMap.MapProviders.GoogleMapProviderBase: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :CFMap.Interface.IMapProvider
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Server : Public, InitOnly
+    System.String ServerChina : Public, InitOnly
+    System.String ServerKorea : Public, InitOnly
+    System.String ServerKoreaKr : Public, InitOnly
+    System.String SecureWord : Public
+    System.String APIKey : Public
+    Boolean TryCorrectVersion : Public
+  Properties:
+    System.Guid Id 'get ' : 
+    System.String Name 'get ' : 
+    CFMap.Interface.PureProjection Projection 'get ' : 
+    CFMap.Interface.IMapProvider[] Overlays 'get ' : 
+  Methods:
+    get_Id(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Projection(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Overlays(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    GetTileImage(GPoint, Int32): PrivateScope, Public, Virtual, HideBySig
+    OnInitialized(): PrivateScope, Public, Virtual, HideBySig
+    GetSecureWords(GPoint, String&(Out), String&(Out)): PrivateScope, Assembly, HideBySig
+    EncryptString(String): PrivateScope, Public, Static, HideBySig
+    ThisIsLegalString(String): PrivateScope, Public, Static, HideBySig
+Class CFMap.MapProviders.GoogleSatelliteMapProvider: AutoLayout, AnsiClass, Class, Public
+  :CFMap.MapProviders.GoogleMapProviderBase
+  Fields:
+    System.String Version : Public
+    CFMap.MapProviders.GoogleSatelliteMapProvider Instance : Public, Static, InitOnly
+  Properties:
+    System.Guid Id 'get ' : 
+    Int32 MapId 'get ' : 
+    System.String Name 'get ' : 
+  Methods:
+    get_Id(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_MapId(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    GetTileImage(GPoint, Int32): PrivateScope, Public, Virtual, HideBySig
+Class CFMap.Properties.Resources: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Resources.ResourceManager ResourceManager 'get ' : 
+    System.Globalization.CultureInfo Culture 'get set' : 
+    System.String CreateTileDb 'get ' : 
+    Byte[] System_Data_SQLite_x64_NET2_dll 'get ' : 
+    Byte[] System_Data_SQLite_x64_NET4_dll 'get ' : 
+    Byte[] System_Data_SQLite_x86_NET2_dll 'get ' : 
+    Byte[] System_Data_SQLite_x86_NET4_dll 'get ' : 
+  Methods:
+    get_ResourceManager(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Culture(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    set_Culture(CultureInfo): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_CreateTileDb(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_System_Data_SQLite_x64_NET2_dll(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_System_Data_SQLite_x64_NET4_dll(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_System_Data_SQLite_x86_NET2_dll(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_System_Data_SQLite_x86_NET4_dll(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+Struct CFMap.CoreType.SizeLatLng: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed
+  :System.ValueType
+    Void .ctor(CFMap.CoreType.SizeLatLng): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(CFMap.CoreType.PointLatLng): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Double, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    CFMap.CoreType.SizeLatLng Empty : Public, Static, InitOnly
+  Properties:
+    Boolean IsEmpty 'get ' : 
+    Double WidthLng 'get set' : 
+    Double HeightLat 'get set' : 
+  Methods:
+    op_Addition(SizeLatLng, SizeLatLng): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Subtraction(SizeLatLng, SizeLatLng): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Equality(SizeLatLng, SizeLatLng): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Inequality(SizeLatLng, SizeLatLng): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Explicit(SizeLatLng): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_IsEmpty(): PrivateScope, Public, HideBySig, SpecialName
+    get_WidthLng(): PrivateScope, Public, HideBySig, SpecialName
+    set_WidthLng(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_HeightLat(): PrivateScope, Public, HideBySig, SpecialName
+    set_HeightLat(Double): PrivateScope, Public, HideBySig, SpecialName
+    Add(SizeLatLng, SizeLatLng): PrivateScope, Public, Static, HideBySig
+    Subtract(SizeLatLng, SizeLatLng): PrivateScope, Public, Static, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    ToPointLatLng(): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class CFMap.CoreType.Internals.TileMatrix: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    ClearAllLevels(): PrivateScope, Public, HideBySig
+    ClearLevel(Int32): PrivateScope, Public, HideBySig
+    ClearLevelAndPointsNotIn(Int32, List`1): PrivateScope, Public, HideBySig
+    ClearLevelsBelove(Int32): PrivateScope, Public, HideBySig
+    ClearLevelsAbove(Int32): PrivateScope, Public, HideBySig
+    EnterReadLock(): PrivateScope, Public, HideBySig
+    LeaveReadLock(): PrivateScope, Public, HideBySig
+    GetTileWithNoLock(Int32, GPoint): PrivateScope, Public, HideBySig
+    GetTileWithReadLock(Int32, GPoint): PrivateScope, Public, HideBySig
+    SetTile(Tile): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Struct CFMap.CoreType.Internals.Tile: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Int32, CFMap.CoreType.GPoint): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Fields:
+    Boolean NotEmpty : Public, InitOnly
+    CFMap.CoreType.Internals.Tile Empty : Public, Static, InitOnly
+  Properties:
+    System.Collections.Generic.IEnumerable`1[CFMap.CoreType.PureImage] Overlays 'get ' : 
+    Boolean HasAnyOverlays 'get ' : 
+    Int32 Zoom 'get set' : 
+    CFMap.CoreType.GPoint Pos 'get set' : 
+  Methods:
+    get_Overlays(): PrivateScope, Public, HideBySig, SpecialName
+    AddOverlay(PureImage): PrivateScope, Assembly, HideBySig
+    get_HasAnyOverlays(): PrivateScope, Assembly, HideBySig, SpecialName
+    get_Zoom(): PrivateScope, Public, HideBySig, SpecialName
+    get_Pos(): PrivateScope, Public, HideBySig, SpecialName
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    op_Equality(Tile, Tile): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Inequality(Tile, Tile): PrivateScope, Public, Static, HideBySig, SpecialName
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+Class CFMap.MapProviders.BingMapProviderBase: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :CFMap.Interface.IMapProvider
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Version : Public
+    System.String ClientKey : Public
+    Boolean TryCorrectVersion : Public
+  Properties:
+    System.Guid Id 'get ' : 
+    System.String Name 'get ' : 
+    CFMap.Interface.PureProjection Projection 'get ' : 
+    CFMap.Interface.IMapProvider[] Overlays 'get ' : 
+  Methods:
+    TileXYToQuadKey(Int64, Int64, Int32): PrivateScope, Assembly, HideBySig
+    get_Id(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Projection(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Overlays(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    GetTileImage(GPoint, Int32): PrivateScope, Public, Virtual, HideBySig
+    OnInitialized(): PrivateScope, Public, Virtual, HideBySig
+Class CFMap.MapProviders.BingSatelliteMapProvider: AutoLayout, AnsiClass, Class, Public
+  :CFMap.MapProviders.BingMapProviderBase
+  Fields:
+    CFMap.MapProviders.BingSatelliteMapProvider Instance : Public, Static, InitOnly
+  Properties:
+    System.Guid Id 'get ' : 
+    Int32 MapId 'get ' : 
+    System.String Name 'get ' : 
+  Methods:
+    get_Id(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_MapId(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    GetTileImage(GPoint, Int32): PrivateScope, Public, Virtual, HideBySig
+Class CFMap.CoreType.PureImageProxy: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Methods:
+    FromStream(Stream): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Save(Stream, PureImage): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    FromArray(Byte[]): PrivateScope, Public, HideBySig
+Class CFMap.CoreType.PureImage: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Interfaces:
+    System.IDisposable
+  Fields:
+    System.IO.MemoryStream Data : Public
+    Boolean IsParent : Assembly
+    Int64 Ix : Assembly
+    Int64 Xoff : Assembly
+    Int64 Yoff : Assembly
+  Methods:
+    Dispose(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Struct CFMap.CoreType.MouseWheelZoomType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    CFMap.CoreType.MouseWheelZoomType MousePositionAndCenter = 0 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MouseWheelZoomType MousePositionWithoutCenter = 1 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.MouseWheelZoomType ViewCenter = 2 : Public, Static, Literal, HasDefault
+Struct CFMap.CoreType.GRect: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Int64, Int64, Int64, Int64): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(CFMap.CoreType.GPoint, CFMap.CoreType.GSize): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    CFMap.CoreType.GRect Empty : Public, Static, InitOnly
+  Properties:
+    CFMap.CoreType.GPoint Location 'get set' : 
+    CFMap.CoreType.GPoint RightBottom 'get ' : 
+    CFMap.CoreType.GPoint RightTop 'get ' : 
+    CFMap.CoreType.GPoint LeftBottom 'get ' : 
+    CFMap.CoreType.GSize Size 'get set' : 
+    Int64 X    'get set' : 
+    Int64 Y    'get set' : 
+    Int64 Width 'get set' : 
+    Int64 Height 'get set' : 
+    Int64 Left 'get ' : 
+    Int64 Top  'get ' : 
+    Int64 Right 'get ' : 
+    Int64 Bottom 'get ' : 
+    Boolean IsEmpty 'get ' : 
+  Methods:
+    FromLTRB(Int32, Int32, Int32, Int32): PrivateScope, Public, Static, HideBySig
+    get_Location(): PrivateScope, Public, HideBySig, SpecialName
+    set_Location(GPoint): PrivateScope, Public, HideBySig, SpecialName
+    get_RightBottom(): PrivateScope, Public, HideBySig, SpecialName
+    get_RightTop(): PrivateScope, Public, HideBySig, SpecialName
+    get_LeftBottom(): PrivateScope, Public, HideBySig, SpecialName
+    get_Size(): PrivateScope, Public, HideBySig, SpecialName
+    set_Size(GSize): PrivateScope, Public, HideBySig, SpecialName
+    get_X(): PrivateScope, Public, HideBySig, SpecialName
+    set_X(Int64): PrivateScope, Public, HideBySig, SpecialName
+    get_Y(): PrivateScope, Public, HideBySig, SpecialName
+    set_Y(Int64): PrivateScope, Public, HideBySig, SpecialName
+    get_Width(): PrivateScope, Public, HideBySig, SpecialName
+    set_Width(Int64): PrivateScope, Public, HideBySig, SpecialName
+    get_Height(): PrivateScope, Public, HideBySig, SpecialName
+    set_Height(Int64): PrivateScope, Public, HideBySig, SpecialName
+    get_Left(): PrivateScope, Public, HideBySig, SpecialName
+    get_Top(): PrivateScope, Public, HideBySig, SpecialName
+    get_Right(): PrivateScope, Public, HideBySig, SpecialName
+    get_Bottom(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsEmpty(): PrivateScope, Public, HideBySig, SpecialName
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    op_Equality(GRect, GRect): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Inequality(GRect, GRect): PrivateScope, Public, Static, HideBySig, SpecialName
+    Contains(Int64, Int64): PrivateScope, Public, HideBySig
+    Contains(GPoint): PrivateScope, Public, HideBySig
+    Contains(GRect): PrivateScope, Public, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Inflate(Int64, Int64): PrivateScope, Public, HideBySig
+    Inflate(GSize): PrivateScope, Public, HideBySig
+    Inflate(GRect, Int64, Int64): PrivateScope, Public, Static, HideBySig
+    Intersect(GRect): PrivateScope, Public, HideBySig
+    Intersect(GRect, GRect): PrivateScope, Public, Static, HideBySig
+    IntersectsWith(GRect): PrivateScope, Public, HideBySig
+    Union(GRect, GRect): PrivateScope, Public, Static, HideBySig
+    Offset(GPoint): PrivateScope, Public, HideBySig
+    OffsetNegative(GPoint): PrivateScope, Public, HideBySig
+    Offset(Int64, Int64): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Struct CFMap.CoreType.GSize: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(CFMap.CoreType.GPoint): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int64, Int64): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    CFMap.CoreType.GSize Empty : Public, Static, InitOnly
+  Properties:
+    Boolean IsEmpty 'get ' : 
+    Int64 Width 'get set' : 
+    Int64 Height 'get set' : 
+  Methods:
+    op_Addition(GSize, GSize): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Subtraction(GSize, GSize): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Equality(GSize, GSize): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Inequality(GSize, GSize): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Explicit(GSize): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_IsEmpty(): PrivateScope, Public, HideBySig, SpecialName
+    get_Width(): PrivateScope, Public, HideBySig, SpecialName
+    set_Width(Int64): PrivateScope, Public, HideBySig, SpecialName
+    get_Height(): PrivateScope, Public, HideBySig, SpecialName
+    set_Height(Int64): PrivateScope, Public, HideBySig, SpecialName
+    Add(GSize, GSize): PrivateScope, Public, Static, HideBySig
+    Subtract(GSize, GSize): PrivateScope, Public, Static, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Struct CFMap.CoreType.LanguageType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    CFMap.CoreType.LanguageType Arabic = 0 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Bulgarian = 1 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Bengali = 2 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Catalan = 3 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Czech = 4 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Danish = 5 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType German = 6 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Greek = 7 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType English = 8 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType EnglishAustralian = 9 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType EnglishGreatBritain = 10 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Spanish = 11 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Basque = 12 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType FARSI = 13 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Finnish = 14 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Filipino = 15 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType French = 16 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Galician = 17 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Gujarati = 18 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Hindi = 19 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Croatian = 20 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Hungarian = 21 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Indonesian = 22 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Italian = 23 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Hebrew = 24 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Japanese = 25 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Kannada = 26 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Korean = 27 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Lithuanian = 28 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Latvian = 29 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Malayalam = 30 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Marathi = 31 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Dutch = 32 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType NorwegianNynorsk = 33 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Norwegian = 34 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Oriya = 35 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Polish = 36 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Portuguese = 37 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType PortugueseBrazil = 38 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType PortuguesePortugal = 39 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Romansch = 40 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Romanian = 41 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Russian = 42 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Slovak = 43 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Slovenian = 44 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Serbian = 45 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Swedish = 46 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType TAGALOG = 47 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Tamil = 48 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Telugu = 49 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Thai = 50 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Turkish = 51 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Ukrainian = 52 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType Vietnamese = 53 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType ChineseSimplified = 54 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.LanguageType ChineseTraditional = 55 : Public, Static, Literal, HasDefault
+Struct CFMap.CoreType.GpsLog: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    System.DateTime TimeUTC : Public
+    Int64 SessionCounter : Public
+    System.Nullable`1[System.Double] Delta : Public
+    System.Nullable`1[System.Double] Speed : Public
+    System.Nullable`1[System.Double] SeaLevelAltitude : Public
+    System.Nullable`1[System.Double] EllipsoidAltitude : Public
+    System.Nullable`1[System.Int16] SatellitesInView : Public
+    System.Nullable`1[System.Int16] SatelliteCount : Public
+    CFMap.CoreType.PointLatLng Position : Public
+    System.Nullable`1[System.Double] PositionDilutionOfPrecision : Public
+    System.Nullable`1[System.Double] HorizontalDilutionOfPrecision : Public
+    System.Nullable`1[System.Double] VerticalDilutionOfPrecision : Public
+    CFMap.CoreType.FixQuality FixQuality : Public
+    CFMap.CoreType.FixType FixType : Public
+    CFMap.CoreType.FixSelection FixSelection : Public
+Struct CFMap.CoreType.FixQuality: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    CFMap.CoreType.FixQuality Unknown = 0 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.FixQuality Gps = 1 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.FixQuality DGps = 2 : Public, Static, Literal, HasDefault
+Struct CFMap.CoreType.FixType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    CFMap.CoreType.FixType Unknown = 0 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.FixType XyD = 1 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.FixType XyzD = 2 : Public, Static, Literal, HasDefault
+Struct CFMap.CoreType.FixSelection: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    CFMap.CoreType.FixSelection Unknown = 0 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.FixSelection Auto = 1 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.FixSelection Manual = 2 : Public, Static, Literal, HasDefault
+Class CFMap.CoreType.CFMaps: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :CFMap.CoreType.Singleton`1[CFMap.CoreType.CFMaps]
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    CFMap.CoreType.AccessMode Mode : Public
+    Boolean UseRouteCache : Public
+    Boolean UseGeocoderCache : Public
+    Boolean UseDirectionsCache : Public
+    Boolean UsePlacemarkCache : Public
+    Boolean UseUrlCache : Public
+    Boolean UseMemoryCache : Public
+    CFMap.CacheProviders.MemoryCache MemoryCache : Public, InitOnly
+    Boolean ShuffleTilesOnLoad : Public
+    System.Threading.AutoResetEvent WaitForCache : Assembly, InitOnly
+    Boolean noMapInstances IsVolatile : Assembly
+    CFMap.CoreType.TileCacheComplete OnTileCacheComplete : Public
+    CFMap.CoreType.TileCacheStart OnTileCacheStart : Public
+    CFMap.CoreType.TileCacheProgress OnTileCacheProgress : Public
+    Boolean CacheOnIdleRead IsVolatile : Public
+    Boolean BoostCacheEngine IsVolatile : Public
+  Properties:
+    CFMap.Interface.PureImageCache PrimaryCache 'get set' : 
+    CFMap.Interface.PureImageCache SecondaryCache 'get set' : 
+    Boolean IsRunningOnMono 'get ' : 
+  Methods:
+    get_PrimaryCache(): PrivateScope, Public, HideBySig, SpecialName
+    set_PrimaryCache(PureImageCache): PrivateScope, Public, HideBySig, SpecialName
+    get_SecondaryCache(): PrivateScope, Public, HideBySig, SpecialName
+    set_SecondaryCache(PureImageCache): PrivateScope, Public, HideBySig, SpecialName
+    get_IsRunningOnMono(): PrivateScope, Public, HideBySig, SpecialName
+    SQLitePing(): PrivateScope, Public, HideBySig
+    OptimizeMapDb(String): PrivateScope, Public, HideBySig
+    CancelTileCaching(): PrivateScope, Public, HideBySig
+    GetImageFrom(IMapProvider, GPoint, Int32, Exception&(Out)): PrivateScope, Public, HideBySig
+Class CFMap.CoreType.Internals.Core: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Fields:
+    CFMap.CoreType.PointLatLng position : Public
+    CFMap.CoreType.GPoint positionPixel : Public
+    CFMap.CoreType.GPoint renderOffset : Public
+    CFMap.CoreType.GPoint centerTileXYLocation : Public
+    CFMap.CoreType.GPoint centerTileXYLocationLast : Public
+    CFMap.CoreType.GPoint dragPoint : Public
+    CFMap.CoreType.GPoint compensationOffset : Public
+    CFMap.CoreType.GPoint mouseDown : Public
+    CFMap.CoreType.GPoint mouseCurrent : Public
+    CFMap.CoreType.GPoint mouseLastZoom : Public
+    CFMap.CoreType.MouseWheelZoomType MouseWheelZoomType : Public
+    System.Nullable`1[CFMap.CoreType.PointLatLng] LastLocationInBounds : Public
+    Boolean VirtualSizeEnabled : Public
+    CFMap.CoreType.GSize sizeOfMapArea : Public
+    CFMap.CoreType.GSize minOfTiles : Public
+    CFMap.CoreType.GSize maxOfTiles : Public
+    CFMap.CoreType.GRect tileRect : Public
+    CFMap.CoreType.GRect tileRectBearing : Public
+    Single bearing : Public
+    Boolean IsRotated : Public
+    Boolean fillEmptyTiles : Public
+    CFMap.CoreType.Internals.TileMatrix Matrix : Public
+    System.Collections.Generic.List`1[CFMap.CoreType.Internals.DrawTile] tileDrawingList : Public
+    CFMap.CoreType.Internals.FastReaderWriterLock tileDrawingListLock : Public
+    System.Collections.Generic.Stack`1[CFMap.CoreType.Internals.LoadTask] tileLoadQueue : Public, InitOnly
+    Boolean IsStarted IsVolatile : Assembly
+    Int32 maxZoom : Assembly
+    Int32 minZoom : Assembly
+    Int32 Width : Assembly
+    Int32 Height : Assembly
+    Int32 pxRes100m : Assembly
+    Int32 pxRes1000m : Assembly
+    Int32 pxRes10km : Assembly
+    Int32 pxRes100km : Assembly
+    Int32 pxRes1000km : Assembly
+    Int32 pxRes5000km : Assembly
+    Boolean IsDragging : Public
+    CFMap.Interface.IMapProvider provider : Public
+    Boolean zoomToArea : Assembly
+    Boolean PolygonsEnabled : Public
+    Boolean RoutesEnabled : Public
+    Boolean MarkersEnabled : Public
+    Boolean CanDragMap : Public
+    Int32 RetryLoadTile : Public
+    Int32 LevelsKeepInMemmory : Public
+    CFMap.CoreType.RenderMode RenderMode : Public
+    System.String SystemType : Assembly
+    System.Object invalidationLock : Assembly, InitOnly
+    System.DateTime lastInvalidation : Assembly
+    Int32 vWidth : Public
+    Int32 vHeight : Public
+    Boolean MouseWheelZooming : Public
+    System.Collections.Generic.Dictionary`2[CFMap.CoreType.Internals.LoadTask,System.Exception] FailedLoads : Assembly
+    System.Threading.AutoResetEvent Refresh : Public
+    Boolean updatingBounds : Public
+    Int32 instances : Assembly, Static
+    Int32 WaitForTileLoadThreadTimeout : Assembly, Static, InitOnly
+  Properties:
+    Int32 Zoom 'get set' : 
+    CFMap.CoreType.GPoint PositionPixel 'get ' : 
+    CFMap.CoreType.PointLatLng Position 'get set' : 
+    CFMap.Interface.IMapProvider Provider 'get set' : 
+    CFMap.CoreType.RectLatLng ViewArea 'get ' : 
+  Events:
+    CFMap.CoreType.PositionChanged OnCurrentPositionChanged: 
+    CFMap.CoreType.TileLoadComplete OnTileLoadComplete: 
+    CFMap.CoreType.TileLoadStart OnTileLoadStart: 
+    CFMap.CoreType.EmptyTileError OnEmptyTileError: 
+    CFMap.CoreType.MapDrag OnMapDrag: 
+    CFMap.CoreType.MapZoomChanged OnMapZoomChanged: 
+    CFMap.CoreType.MapTypeChanged OnMapTypeChanged: 
+  Methods:
+    get_Zoom(): PrivateScope, Public, HideBySig, SpecialName
+    set_Zoom(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_PositionPixel(): PrivateScope, Public, HideBySig, SpecialName
+    get_Position(): PrivateScope, Public, HideBySig, SpecialName
+    set_Position(PointLatLng): PrivateScope, Public, HideBySig, SpecialName
+    get_Provider(): PrivateScope, Public, HideBySig, SpecialName
+    set_Provider(IMapProvider): PrivateScope, Public, HideBySig, SpecialName
+    SetZoomToFitRect(RectLatLng): PrivateScope, Public, HideBySig
+    add_OnCurrentPositionChanged(PositionChanged): PrivateScope, Public, HideBySig, SpecialName
+    remove_OnCurrentPositionChanged(PositionChanged): PrivateScope, Public, HideBySig, SpecialName
+    add_OnTileLoadComplete(TileLoadComplete): PrivateScope, Public, HideBySig, SpecialName
+    remove_OnTileLoadComplete(TileLoadComplete): PrivateScope, Public, HideBySig, SpecialName
+    add_OnTileLoadStart(TileLoadStart): PrivateScope, Public, HideBySig, SpecialName
+    remove_OnTileLoadStart(TileLoadStart): PrivateScope, Public, HideBySig, SpecialName
+    add_OnEmptyTileError(EmptyTileError): PrivateScope, Public, HideBySig, SpecialName
+    remove_OnEmptyTileError(EmptyTileError): PrivateScope, Public, HideBySig, SpecialName
+    add_OnMapDrag(MapDrag): PrivateScope, Public, HideBySig, SpecialName
+    remove_OnMapDrag(MapDrag): PrivateScope, Public, HideBySig, SpecialName
+    add_OnMapZoomChanged(MapZoomChanged): PrivateScope, Public, HideBySig, SpecialName
+    remove_OnMapZoomChanged(MapZoomChanged): PrivateScope, Public, HideBySig, SpecialName
+    add_OnMapTypeChanged(MapTypeChanged): PrivateScope, Public, HideBySig, SpecialName
+    remove_OnMapTypeChanged(MapTypeChanged): PrivateScope, Public, HideBySig, SpecialName
+    OnMapOpen(): PrivateScope, Public, HideBySig
+    OnMapClose(): PrivateScope, Public, HideBySig
+    UpdateCenterTileXYLocation(): PrivateScope, Public, HideBySig
+    OnMapSizeChanged(Int32, Int32): PrivateScope, Public, HideBySig
+    get_ViewArea(): PrivateScope, Public, HideBySig, SpecialName
+    FromLocalToLatLng(Int64, Int64): PrivateScope, Public, HideBySig
+    FromLatLngToLocal(PointLatLng): PrivateScope, Public, HideBySig
+    GetMaxZoomToFitRect(RectLatLng): PrivateScope, Public, HideBySig
+    BeginDrag(GPoint): PrivateScope, Public, HideBySig
+    EndDrag(): PrivateScope, Public, HideBySig
+    ReloadMap(): PrivateScope, Public, HideBySig
+    GoToCurrentPosition(): PrivateScope, Public, HideBySig
+    GoToCurrentPositionOnZoom(): PrivateScope, Assembly, HideBySig
+    DragOffset(GPoint): PrivateScope, Public, HideBySig
+    Drag(GPoint): PrivateScope, Public, HideBySig
+    CancelAsyncTasks(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Interface CFMap.Interface.Interface: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Properties:
+    CFMap.CoreType.PointLatLng Position 'get set' : 
+    CFMap.CoreType.GPoint PositionPixel 'get ' : 
+    System.String CacheLocation 'get set' : 
+    Boolean IsDragging 'get ' : 
+    CFMap.CoreType.RectLatLng ViewArea 'get ' : 
+    CFMap.Interface.IMapProvider MapProvider 'get set' : 
+    Boolean CanDragMap 'get set' : 
+    CFMap.CoreType.RenderMode RenderMode 'get ' : 
+  Events:
+    CFMap.CoreType.PositionChanged OnPositionChanged: 
+    CFMap.CoreType.TileLoadComplete OnTileLoadComplete: 
+    CFMap.CoreType.TileLoadStart OnTileLoadStart: 
+    CFMap.CoreType.MapDrag OnMapDrag: 
+    CFMap.CoreType.MapZoomChanged OnMapZoomChanged: 
+    CFMap.CoreType.MapTypeChanged OnMapTypeChanged: 
+  Methods:
+    get_Position(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Position(PointLatLng): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_PositionPixel(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_CacheLocation(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_CacheLocation(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_IsDragging(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_ViewArea(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_MapProvider(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_MapProvider(IMapProvider): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_CanDragMap(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_CanDragMap(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_RenderMode(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    add_OnPositionChanged(PositionChanged): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    remove_OnPositionChanged(PositionChanged): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    add_OnTileLoadComplete(TileLoadComplete): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    remove_OnTileLoadComplete(TileLoadComplete): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    add_OnTileLoadStart(TileLoadStart): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    remove_OnTileLoadStart(TileLoadStart): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    add_OnMapDrag(MapDrag): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    remove_OnMapDrag(MapDrag): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    add_OnMapZoomChanged(MapZoomChanged): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    remove_OnMapZoomChanged(MapZoomChanged): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    add_OnMapTypeChanged(MapTypeChanged): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    remove_OnMapTypeChanged(MapTypeChanged): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    ReloadMap(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    FromLocalToLatLng(Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    FromLatLngToLocal(PointLatLng): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class CFMap.CoreType.Placemark: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 Accuracy : Public
+    System.String ThoroughfareName : Public
+    System.String LocalityName : Public
+    System.String PostalCodeNumber : Public
+    System.String CountryName : Public
+    System.String CountryNameCode : Public
+    System.String AdministrativeAreaName : Public
+    System.String SubAdministrativeAreaName : Public
+  Properties:
+    System.String Address 'get set' : 
+  Methods:
+    get_Address(): PrivateScope, Public, HideBySig, SpecialName
+    set_Address(String): PrivateScope, Assembly, HideBySig, SpecialName
+Class CFMap.Interface.PureProjection: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    CFMap.CoreType.GSize TileSize 'get ' : 
+    Double Axis 'get ' : 
+    Double Flattening 'get ' : 
+    CFMap.CoreType.RectLatLng Bounds 'get ' : 
+  Methods:
+    get_TileSize(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Axis(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Flattening(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    FromLatLngToPixel(Double, Double, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    FromPixelToLatLng(Int64, Int64, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    FromLatLngToPixel(PointLatLng, Int32): PrivateScope, Public, HideBySig
+    FromLatLngToPixel(PointLatLng, Int32, Boolean): PrivateScope, Public, HideBySig
+    FromPixelToLatLng(GPoint, Int32): PrivateScope, Public, HideBySig
+    FromPixelToLatLng(GPoint, Int32, Boolean): PrivateScope, Public, HideBySig
+    FromPixelToTileXY(GPoint): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    FromTileXYToPixel(GPoint): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetTileMatrixMinXY(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetTileMatrixMaxXY(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetTileMatrixSizeXY(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetTileMatrixItemCount(Int32): PrivateScope, Public, HideBySig
+    GetTileMatrixSizePixel(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetAreaTileList(RectLatLng, Int32, Int32): PrivateScope, Public, HideBySig
+    GetGroundResolution(Int32, Double): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_Bounds(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    DegreesToRadians(Double): PrivateScope, Public, Static, HideBySig
+    RadiansToDegrees(Double): PrivateScope, Public, Static, HideBySig
+    GetDistance(PointLatLng, PointLatLng): PrivateScope, Public, HideBySig
+    GetDistanceInPixels(GPoint, GPoint): PrivateScope, Public, HideBySig
+    GetBearing(PointLatLng, PointLatLng): PrivateScope, Public, HideBySig
+    FromGeodeticToCartesian(Double, Double, Double, Double&(Out), Double&(Out), Double&(Out)): PrivateScope, Public, HideBySig
+    FromCartesianTGeodetic(Double, Double, Double, Double&(Out), Double&(Out)): PrivateScope, Public, HideBySig
+Class CFMap.Projections.MercatorProjectionYandex: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :CFMap.Interface.PureProjection
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    CFMap.Projections.MercatorProjectionYandex Instance : Public, Static, InitOnly
+  Properties:
+    CFMap.CoreType.RectLatLng Bounds 'get ' : 
+    CFMap.CoreType.GSize TileSize 'get ' : 
+    Double Axis 'get ' : 
+    Double Flattening 'get ' : 
+  Methods:
+    get_Bounds(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_TileSize(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Axis(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Flattening(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    FromLatLngToPixel(Double, Double, Int32): PrivateScope, Public, Virtual, HideBySig
+    FromPixelToLatLng(Int64, Int64, Int32): PrivateScope, Public, Virtual, HideBySig
+    GetTileMatrixMinXY(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetTileMatrixMaxXY(Int32): PrivateScope, Public, Virtual, HideBySig
+Class CFMap.MapProviders.GoogleMapProvider: AutoLayout, AnsiClass, Class, Public
+  :CFMap.MapProviders.GoogleMapProviderBase
+  Fields:
+    System.String Version : Public
+    CFMap.MapProviders.GoogleMapProvider Instance : Public, Static, InitOnly
+  Properties:
+    System.Guid Id 'get ' : 
+    Int32 MapId 'get ' : 
+    System.String Name 'get ' : 
+  Methods:
+    get_Id(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_MapId(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    GetTileImage(GPoint, Int32): PrivateScope, Public, Virtual, HideBySig
+Struct CFMap.CoreType.RectLatLng: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed
+  :System.ValueType
+    Void .ctor(Double, Double, Double, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(CFMap.CoreType.PointLatLng, CFMap.CoreType.SizeLatLng): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    CFMap.CoreType.RectLatLng Empty : Public, Static, InitOnly
+  Properties:
+    CFMap.CoreType.PointLatLng LocationTopLeft 'get set' : 
+    CFMap.CoreType.PointLatLng LocationRightBottom 'get ' : 
+    CFMap.CoreType.PointLatLng LocationMiddle 'get ' : 
+    CFMap.CoreType.SizeLatLng Size 'get set' : 
+    Double Lng 'get set' : 
+    Double Lat 'get set' : 
+    Double WidthLng 'get set' : 
+    Double HeightLat 'get set' : 
+    Double Left 'get ' : 
+    Double Top 'get ' : 
+    Double Right 'get ' : 
+    Double Bottom 'get ' : 
+    Boolean IsEmpty 'get ' : 
+  Methods:
+    FromLTRB(Double, Double, Double, Double): PrivateScope, Public, Static, HideBySig
+    get_LocationTopLeft(): PrivateScope, Public, HideBySig, SpecialName
+    set_LocationTopLeft(PointLatLng): PrivateScope, Public, HideBySig, SpecialName
+    get_LocationRightBottom(): PrivateScope, Public, HideBySig, SpecialName
+    get_LocationMiddle(): PrivateScope, Public, HideBySig, SpecialName
+    get_Size(): PrivateScope, Public, HideBySig, SpecialName
+    set_Size(SizeLatLng): PrivateScope, Public, HideBySig, SpecialName
+    get_Lng(): PrivateScope, Public, HideBySig, SpecialName
+    set_Lng(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_Lat(): PrivateScope, Public, HideBySig, SpecialName
+    set_Lat(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_WidthLng(): PrivateScope, Public, HideBySig, SpecialName
+    set_WidthLng(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_HeightLat(): PrivateScope, Public, HideBySig, SpecialName
+    set_HeightLat(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_Left(): PrivateScope, Public, HideBySig, SpecialName
+    get_Top(): PrivateScope, Public, HideBySig, SpecialName
+    get_Right(): PrivateScope, Public, HideBySig, SpecialName
+    get_Bottom(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsEmpty(): PrivateScope, Public, HideBySig, SpecialName
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    op_Equality(RectLatLng, RectLatLng): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Inequality(RectLatLng, RectLatLng): PrivateScope, Public, Static, HideBySig, SpecialName
+    Contains(Double, Double): PrivateScope, Public, HideBySig
+    Contains(PointLatLng): PrivateScope, Public, HideBySig
+    Contains(RectLatLng): PrivateScope, Public, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Inflate(Double, Double): PrivateScope, Public, HideBySig
+    Inflate(SizeLatLng): PrivateScope, Public, HideBySig
+    Inflate(RectLatLng, Double, Double): PrivateScope, Public, Static, HideBySig
+    Intersect(RectLatLng): PrivateScope, Public, HideBySig
+    Intersect(RectLatLng, RectLatLng): PrivateScope, Public, Static, HideBySig
+    IntersectsWith(RectLatLng): PrivateScope, Public, HideBySig
+    Union(RectLatLng, RectLatLng): PrivateScope, Public, Static, HideBySig
+    Offset(PointLatLng): PrivateScope, Public, HideBySig
+    Offset(Double, Double): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Struct CFMap.CoreType.PointLatLng: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, Serializable, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Double, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    CFMap.CoreType.PointLatLng Empty : Public, Static, InitOnly
+  Properties:
+    Boolean IsEmpty 'get ' : 
+    Double Lat 'get set' : 
+    Double Lng 'get set' : 
+  Methods:
+    get_IsEmpty(): PrivateScope, Public, HideBySig, SpecialName
+    get_Lat(): PrivateScope, Public, HideBySig, SpecialName
+    set_Lat(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_Lng(): PrivateScope, Public, HideBySig, SpecialName
+    set_Lng(Double): PrivateScope, Public, HideBySig, SpecialName
+    op_Addition(PointLatLng, SizeLatLng): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Subtraction(PointLatLng, SizeLatLng): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Equality(PointLatLng, PointLatLng): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Inequality(PointLatLng, PointLatLng): PrivateScope, Public, Static, HideBySig, SpecialName
+    Add(PointLatLng, SizeLatLng): PrivateScope, Public, Static, HideBySig
+    Subtract(PointLatLng, SizeLatLng): PrivateScope, Public, Static, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    Offset(PointLatLng): PrivateScope, Public, HideBySig
+    Offset(Double, Double): PrivateScope, Public, HideBySig
+    LengthTwoPoint(PointLatLng): PrivateScope, Public, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Struct CFMap.CoreType.Internals.RawTile: AutoLayout, AnsiClass, Class, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Int32, CFMap.CoreType.GPoint, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 MapId : Public
+    CFMap.CoreType.GPoint Pos : Public
+    Int32 Zoom : Public
+  Methods:
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class CFMap.CoreType.Internals.KiberTileCache: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Collections.Generic.Dictionary`2[CFMap.CoreType.Internals.RawTile,System.Byte[]]
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 MemoryCacheCapacity : Public
+  Properties:
+    Double MemoryCacheSize 'get ' : 
+  Methods:
+    get_MemoryCacheSize(): PrivateScope, Public, HideBySig, SpecialName
+    Add(RawTile, Byte[]): PrivateScope, Public, HideBySig
+    Clear(): PrivateScope, Public, HideBySig
+    RemoveMemoryOverload(): PrivateScope, Assembly, HideBySig
+Class CFMap.CacheProviders.MemoryCache: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    Int32 Capacity 'get set' : 
+    Double Size 'get ' : 
+  Methods:
+    get_Capacity(): PrivateScope, Public, HideBySig, SpecialName
+    set_Capacity(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Size(): PrivateScope, Public, HideBySig, SpecialName
+    Clear(): PrivateScope, Public, HideBySig
+    GetTileFromMemoryCache(RawTile): PrivateScope, Assembly, HideBySig
+    AddTileToMemoryCache(RawTile, Byte[]): PrivateScope, Assembly, HideBySig
+    RemoveOverload(): PrivateScope, Assembly, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Struct CFMap.CoreType.GPoint: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, Serializable, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Int64, Int64): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(CFMap.CoreType.GSize): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    CFMap.CoreType.GPoint Empty : Public, Static, InitOnly
+  Properties:
+    Boolean IsEmpty 'get ' : 
+    Int64 X    'get set' : 
+    Int64 Y    'get set' : 
+  Methods:
+    get_IsEmpty(): PrivateScope, Public, HideBySig, SpecialName
+    get_X(): PrivateScope, Public, HideBySig, SpecialName
+    set_X(Int64): PrivateScope, Public, HideBySig, SpecialName
+    get_Y(): PrivateScope, Public, HideBySig, SpecialName
+    set_Y(Int64): PrivateScope, Public, HideBySig, SpecialName
+    op_Explicit(GPoint): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Addition(GPoint, GSize): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Subtraction(GPoint, GSize): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Equality(GPoint, GPoint): PrivateScope, Public, Static, HideBySig, SpecialName
+    op_Inequality(GPoint, GPoint): PrivateScope, Public, Static, HideBySig, SpecialName
+    Add(GPoint, GSize): PrivateScope, Public, Static, HideBySig
+    Subtract(GPoint, GSize): PrivateScope, Public, Static, HideBySig
+    Equals(Object): PrivateScope, Public, Virtual, HideBySig
+    GetHashCode(): PrivateScope, Public, Virtual, HideBySig
+    Offset(Int64, Int64): PrivateScope, Public, HideBySig
+    Offset(GPoint): PrivateScope, Public, HideBySig
+    OffsetNegative(GPoint): PrivateScope, Public, HideBySig
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Struct CFMap.CoreType.Internals.DrawTile: AutoLayout, AnsiClass, Class, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(CFMap.CoreType.GPoint, CFMap.CoreType.GPoint): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    CFMap.CoreType.GPoint PosXY : Public
+    CFMap.CoreType.GPoint PosPixel : Public
+  Methods:
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class CFMap.Projections.MercatorProjection: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :CFMap.Interface.PureProjection
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    CFMap.Projections.MercatorProjection Instance : Public, Static, InitOnly
+  Properties:
+    CFMap.CoreType.RectLatLng Bounds 'get ' : 
+    CFMap.CoreType.GSize TileSize 'get ' : 
+    Double Axis 'get ' : 
+    Double Flattening 'get ' : 
+  Methods:
+    get_Bounds(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_TileSize(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Axis(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Flattening(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    FromLatLngToPixel(Double, Double, Int32): PrivateScope, Public, Virtual, HideBySig
+    FromPixelToLatLng(Int64, Int64, Int32): PrivateScope, Public, Virtual, HideBySig
+    GetTileMatrixMinXY(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetTileMatrixMaxXY(Int32): PrivateScope, Public, Virtual, HideBySig
+Struct CFMap.CoreType.GeoCoderStatusCode: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    CFMap.CoreType.GeoCoderStatusCode Unknow = -1 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.GeoCoderStatusCode G_GEO_SUCCESS = 200 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.GeoCoderStatusCode G_GEO_BAD_REQUEST = 400 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.GeoCoderStatusCode G_GEO_SERVER_ERROR = 500 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.GeoCoderStatusCode G_GEO_MISSING_QUERY = 601 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.GeoCoderStatusCode G_GEO_MISSING_ADDRESS = 601 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.GeoCoderStatusCode G_GEO_UNKNOWN_ADDRESS = 602 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.GeoCoderStatusCode G_GEO_UNAVAILABLE_ADDRESS = 603 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.GeoCoderStatusCode G_GEO_UNKNOWN_DIRECTIONS = 604 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.GeoCoderStatusCode G_GEO_BAD_KEY = 610 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.GeoCoderStatusCode G_GEO_TOO_MANY_QUERIES = 620 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.GeoCoderStatusCode ExceptionInCode = 621 : Public, Static, Literal, HasDefault
+Struct CFMap.CoreType.DirectionsStatusCode: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    CFMap.CoreType.DirectionsStatusCode OK = 0 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.DirectionsStatusCode NOT_FOUND = 1 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.DirectionsStatusCode ZERO_RESULTS = 2 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.DirectionsStatusCode MAX_WAYPOINTS_EXCEEDED = 3 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.DirectionsStatusCode INVALID_REQUEST = 4 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.DirectionsStatusCode OVER_QUERY_LIMIT = 5 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.DirectionsStatusCode REQUEST_DENIED = 6 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.DirectionsStatusCode UNKNOWN_ERROR = 7 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.DirectionsStatusCode ExceptionInCode = 8 : Public, Static, Literal, HasDefault
+Class CFMap.CoreType.Internals.CacheLocator: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean Delay : Public, Static
+  Properties:
+    System.String Location 'get set' : 
+  Methods:
+    get_Location(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_Location(String): PrivateScope, Public, Static, HideBySig, SpecialName
+Class CFMap.CoreType.Internals.Cache: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :CFMap.CoreType.Singleton`1[CFMap.CoreType.Internals.Cache]
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    CFMap.Interface.PureImageCache ImageCache : Public
+    CFMap.Interface.PureImageCache ImageCacheSecond : Public
+  Properties:
+    System.String CacheLocation 'get set' : 
+  Methods:
+    get_CacheLocation(): PrivateScope, Public, HideBySig, SpecialName
+    set_CacheLocation(String): PrivateScope, Public, HideBySig, SpecialName
+    SaveContent(String, CacheType, String): PrivateScope, Public, HideBySig
+    GetContent(String, CacheType, TimeSpan): PrivateScope, Public, HideBySig
+    GetContent(String, CacheType): PrivateScope, Public, HideBySig
+Struct CFMap.CoreType.Internals.CacheType: AutoLayout, AnsiClass, Class, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    CFMap.CoreType.Internals.CacheType GeocoderCache = 0 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.Internals.CacheType PlacemarkCache = 1 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.Internals.CacheType RouteCache = 2 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.Internals.CacheType UrlCache = 3 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.Internals.CacheType DirectionsCache = 4 : Public, Static, Literal, HasDefault
+Class CFMap.MapProviders.BingMapProvider: AutoLayout, AnsiClass, Class, Public
+  :CFMap.MapProviders.BingMapProviderBase
+  Fields:
+    CFMap.MapProviders.BingMapProvider Instance : Public, Static, InitOnly
+  Properties:
+    System.Guid Id 'get ' : 
+    Int32 MapId 'get ' : 
+    System.String Name 'get ' : 
+  Methods:
+    get_Id(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_MapId(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    GetTileImage(GPoint, Int32): PrivateScope, Public, Virtual, HideBySig
+Struct CFMap.CoreType.RenderMode: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    CFMap.CoreType.RenderMode GDI_PLUS = 0 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.RenderMode WPF = 1 : Public, Static, Literal, HasDefault
+Struct CFMap.CoreType.Internals.LoadTask: AutoLayout, AnsiClass, Class, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(CFMap.CoreType.GPoint, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    CFMap.CoreType.GPoint Pos : Public
+    Int32 Zoom : Public
+  Methods:
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+Class CFMap.CoreType.Internals.FastResourceLock: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    Int32 ExclusiveWaiters 'get ' : 
+    Boolean Owned 'get ' : 
+    Int32 SharedOwners 'get ' : 
+    Int32 SharedWaiters 'get ' : 
+  Methods:
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_ExclusiveWaiters(): PrivateScope, Public, HideBySig, SpecialName
+    get_Owned(): PrivateScope, Public, HideBySig, SpecialName
+    get_SharedOwners(): PrivateScope, Public, HideBySig, SpecialName
+    get_SharedWaiters(): PrivateScope, Public, HideBySig, SpecialName
+    AcquireExclusive(): PrivateScope, Public, HideBySig
+    AcquireShared(): PrivateScope, Public, HideBySig
+    UtilsBreak(String): PrivateScope, Public, Static, HideBySig
+    ConvertExclusiveToShared(): PrivateScope, Public, HideBySig
+    GetStatistics(): PrivateScope, Public, HideBySig
+    ReleaseExclusive(): PrivateScope, Public, HideBySig
+    ReleaseShared(): PrivateScope, Public, HideBySig
+    SpinAcquireExclusive(): PrivateScope, Public, HideBySig
+    SpinAcquireShared(): PrivateScope, Public, HideBySig
+    SpinConvertSharedToExclusive(): PrivateScope, Public, HideBySig
+    TryAcquireExclusive(): PrivateScope, Public, HideBySig
+    TryAcquireShared(): PrivateScope, Public, HideBySig
+    TryConvertSharedToExclusive(): PrivateScope, Public, HideBySig
+Struct CFMap.CoreType.Internals.FastResourceLock+Statistics: AutoLayout, AnsiClass, Class, NestedPublic, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 AcqExcl : Public
+    Int32 AcqShrd : Public
+    Int32 AcqExclCont : Public
+    Int32 AcqShrdCont : Public
+    Int32 AcqExclSlp : Public
+    Int32 AcqShrdSlp : Public
+    Int32 PeakExclWtrsCount : Public
+    Int32 PeakShrdWtrsCount : Public
+Class CFMap.CoreType.Internals.NativeMethods: AutoLayout, AnsiClass, Class, HasSecurity, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 SpinCount : Public, Static, InitOnly
+    Boolean SpinEnabled : Public, Static, InitOnly
+    Int32 WaitObject0 = 0 : Public, Static, Literal, HasDefault
+    Int32 WaitAbandoned = 128 : Public, Static, Literal, HasDefault
+    Int32 WaitTimeout = 258 : Public, Static, Literal, HasDefault
+    Int32 WaitFailed = -1 : Public, Static, Literal, HasDefault
+  Methods:
+    CloseHandle(IntPtr(In)): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    CreateEvent(IntPtr(In, Optional), Boolean(In), Boolean(In), String(In, Optional)): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    CreateSemaphore(IntPtr(In, Optional), Int32(In), Int32(In), String(In, Optional)): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    ReleaseSemaphore(IntPtr(In), Int32(In), IntPtr(In)): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    ResetEvent(IntPtr(In)): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SetEvent(IntPtr(In)): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    WaitForSingleObject(IntPtr(In), Int32(In)): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    NtCreateKeyedEvent(IntPtr&(Out), Int32(In), IntPtr(In, Optional), Int32(In)): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    NtReleaseKeyedEvent(IntPtr(In), IntPtr(In), Boolean(In), IntPtr(In, Optional)): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    NtWaitForKeyedEvent(IntPtr(In), IntPtr(In), Boolean(In), IntPtr(In, Optional)): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+Class CFMap.CoreType.Internals.FastReaderWriterLock: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    AcquireReaderLock(): PrivateScope, Public, HideBySig
+    ReleaseReaderLock(): PrivateScope, Public, HideBySig
+    AcquireWriterLock(): PrivateScope, Public, HideBySig
+    ReleaseWriterLock(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Struct CFMap.CoreType.Internals.CacheQueueItem: AutoLayout, AnsiClass, Class, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(CFMap.CoreType.Internals.RawTile, Byte[], CFMap.CoreType.Internals.CacheUsage): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    CFMap.CoreType.Internals.RawTile Tile : Public
+    Byte[] Img : Public
+    CFMap.CoreType.Internals.CacheUsage CacheType : Public
+  Methods:
+    ToString(): PrivateScope, Public, Virtual, HideBySig
+    Clear(): PrivateScope, Public, HideBySig
+Struct CFMap.CoreType.Internals.CacheUsage: AutoLayout, AnsiClass, Class, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    CFMap.CoreType.Internals.CacheUsage First = 2 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.Internals.CacheUsage Second = 4 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.Internals.CacheUsage Both = 6 : Public, Static, Literal, HasDefault
+Class CFMap.MapProviders.GoogleChinaSatelliteMapProvider: AutoLayout, AnsiClass, Class, Public
+  :CFMap.MapProviders.GoogleMapProviderBase
+  Fields:
+    System.String Version : Public
+    CFMap.MapProviders.GoogleChinaSatelliteMapProvider Instance : Public, Static, InitOnly
+  Properties:
+    System.Guid Id 'get ' : 
+    Int32 MapId 'get ' : 
+    System.String Name 'get ' : 
+  Methods:
+    get_Id(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_MapId(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    GetTileImage(GPoint, Int32): PrivateScope, Public, Virtual, HideBySig
+Struct CFMap.CoreType.AccessMode: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    CFMap.CoreType.AccessMode ServerOnly = 0 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.AccessMode ServerAndCache = 1 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.AccessMode CacheAndServer = 2 : Public, Static, Literal, HasDefault
+    CFMap.CoreType.AccessMode CacheOnly = 3 : Public, Static, Literal, HasDefault
+Class CFMap.Interface.CCFMapProviders: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    CFMap.Interface.EmptyProvider EmptyProvider : Public, Static, InitOnly
+    CFMap.MapProviders.OpenStreetMapProvider OpenStreetMap : Public, Static, InitOnly
+    CFMap.MapProviders.GoogleSatelliteMapProvider GoogleSatelliteMap : Public, Static, InitOnly
+    CFMap.MapProviders.GoogleChinaSatelliteMapProvider GoogleChinaSatelliteMap : Public, Static, InitOnly
+    CFMap.MapProviders.BingMapProvider BingMap : Public, Static, InitOnly
+    CFMap.MapProviders.BingSatelliteMapProvider BingSatelliteMap : Public, Static, InitOnly
+Class CFMap.Interface.EmptyProvider: AutoLayout, AnsiClass, Class, Public
+  :CFMap.Interface.IMapProvider
+  Fields:
+    CFMap.Interface.EmptyProvider Instance : Public, Static, InitOnly
+  Properties:
+    System.Guid Id 'get ' : 
+    Int32 MapId 'get ' : 
+    System.String Name 'get ' : 
+    CFMap.Interface.PureProjection Projection 'get ' : 
+    CFMap.Interface.IMapProvider[] Overlays 'get ' : 
+  Methods:
+    get_Id(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_MapId(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Name(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Projection(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Overlays(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    GetTileImage(GPoint, Int32): PrivateScope, Public, Virtual, HideBySig
+Class CFMap.Interface.EmptyWebProxy: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Net.IWebProxy
+  Fields:
+    CFMap.Interface.EmptyWebProxy Instance : Public, Static, InitOnly
+  Properties:
+    System.Net.ICredentials Credentials 'get set' : 
+  Methods:
+    get_Credentials(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Credentials(ICredentials): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    GetProxy(Uri): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    IsBypassed(Uri): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask

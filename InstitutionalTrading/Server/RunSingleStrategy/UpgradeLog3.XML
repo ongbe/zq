@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="RunSingleStrategy">
+</Property><Property Name="解决方案文件" Value="F:\svn\InstitutionalTrading\Server\RunSingleStrategy\RunSingleStrategy.sln">
+</Property><Property Name="Date" Value="2014年5月22日">
+</Property><Property Name="Time" Value="16:13:04">
+</Property><Property Name="日志号" Value="3">
+</Property></Properties><Event ErrorLevel="0" Project="CommonBizEntity" Source="..\..\CommonBizEntity\CommonBizEntity.csproj" Description="项目文件已成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup1\CommonBizEntity.csproj">
+</Event><Event ErrorLevel="0" Project="CommonBizEntity" Source="..\..\CommonBizEntity\CommonBizEntity.csproj.user" Description="项目用户文件成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup1\CommonBizEntity.csproj.user">
+</Event><Event ErrorLevel="0" Project="CommonBizEntity" Source="..\..\CommonBizEntity\CIndicator.cs" Description="文件已成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup1\CIndicator.cs">
+</Event><Event ErrorLevel="0" Project="CommonBizEntity" Source="..\..\CommonBizEntity\BarSeries.cs" Description="文件已成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup1\BarSeries.cs">
+</Event><Event ErrorLevel="0" Project="CommonBizEntity" Source="..\..\CommonBizEntity\CStrategy.cs" Description="文件已成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup1\CStrategy.cs">
+</Event><Event ErrorLevel="0" Project="CommonBizEntity" Source="..\..\CommonBizEntity\IOrderService.cs" Description="文件已成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup1\IOrderService.cs">
+</Event><Event ErrorLevel="0" Project="CommonBizEntity" Source="..\..\CommonBizEntity\Market.cs" Description="文件已成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup1\Market.cs">
+</Event><Event ErrorLevel="0" Project="CommonBizEntity" Source="..\..\CommonBizEntity\Properties\AssemblyInfo.cs" Description="文件已成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup1\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="CommonBizEntity" Source="..\..\CommonBizEntity\Misc.cs" Description="文件已成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup1\Misc.cs">
+</Event><Event ErrorLevel="0" Project="CommonBizEntity" Source="..\..\CommonBizEntity\Trader.cs" Description="文件已成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup1\Trader.cs">
+</Event><Event ErrorLevel="0" Project="CommonBizEntity" Source="..\..\CommonBizEntity\CommonBizEntity.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="CommonBizEntity" Source="..\..\CommonBizEntity\CommonBizEntity.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CommonBizEntity" Source="..\..\CommonBizEntity\CommonBizEntity.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

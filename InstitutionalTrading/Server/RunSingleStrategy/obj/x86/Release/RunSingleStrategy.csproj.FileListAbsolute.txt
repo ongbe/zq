@@ -1,0 +1,13 @@
+F:\svn\InstitutionalTrading\Server\RunSingleStrategy\bin\Release\RunSingleStrategy.exe
+F:\svn\InstitutionalTrading\Server\RunSingleStrategy\bin\Release\RunSingleStrategy.pdb
+F:\svn\InstitutionalTrading\Server\RunSingleStrategy\bin\Release\CommonBizEntity.dll
+F:\svn\InstitutionalTrading\Server\RunSingleStrategy\bin\Release\nunit.framework.dll
+F:\svn\InstitutionalTrading\Server\RunSingleStrategy\bin\Release\ServiceStack.Common.dll
+F:\svn\InstitutionalTrading\Server\RunSingleStrategy\bin\Release\ServiceStack.Interfaces.dll
+F:\svn\InstitutionalTrading\Server\RunSingleStrategy\bin\Release\ServiceStack.Redis.dll
+F:\svn\InstitutionalTrading\Server\RunSingleStrategy\bin\Release\ServiceStack.Text.dll
+F:\svn\InstitutionalTrading\Server\RunSingleStrategy\bin\Release\CommonBizEntity.pdb
+F:\svn\InstitutionalTrading\Server\RunSingleStrategy\bin\Release\nunit.framework.xml
+F:\svn\InstitutionalTrading\Server\RunSingleStrategy\obj\x86\Release\ResolveAssemblyReference.cache
+F:\svn\InstitutionalTrading\Server\RunSingleStrategy\obj\x86\Release\RunSingleStrategy.exe
+F:\svn\InstitutionalTrading\Server\RunSingleStrategy\obj\x86\Release\RunSingleStrategy.pdb

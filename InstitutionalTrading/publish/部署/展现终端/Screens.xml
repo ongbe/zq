@@ -1,0 +1,6 @@
+<Screens Default="0">
+  <Screen Type="1" OrgId="2" OrgName="北京" ProId="0" ProName="" />
+  <Screen Type="1" OrgId="10" OrgName="中期大厦" ProId="0" ProName="" />
+  <Screen Type="2" OrgId="0" OrgName="" ProId="4" ProName="测试4" />
+  <Screen Type="2" OrgId="0" OrgName="" ProId="2" ProName="测试2" />
+</Screens>

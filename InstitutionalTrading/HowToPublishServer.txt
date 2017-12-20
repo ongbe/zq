@@ -1,0 +1,8 @@
+1, 运行cmd程序，切换目录到InstitutionalTrading目录
+   如 cd /d E:\risk-hao\机构交易版本\InstitutionalTrading
+2, 输入release ,等待rebuild结束
+3, 手动点击目录下的reshacker.exe ，打开后点击菜单的打开命令打开version.res
+   打开后，手动修改版本号为 1.0.y.mmddn (y为当前年份和2013的差值，mmddn 为当前日期的第几个版本）
+4，再切换到cmd程序的窗口，运行addversion.bat 
+5，检查publish\server 和publish\quotsever 目录下的dll和exe是否更新
+6，完成

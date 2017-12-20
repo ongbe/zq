@@ -1,0 +1,33 @@
+Assembly TriTreeControl, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=SHA1, flags=None
+Assembly System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Class TriTreeControl.TriStateTreeView: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.TreeView
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    TriStateStyles TriStateStyleProperty 'get set' : 
+  Methods:
+    get_TriStateStyleProperty(): PrivateScope, Public, HideBySig, SpecialName
+    set_TriStateStyleProperty(TriStateStyles): PrivateScope, Public, HideBySig, SpecialName
+    UpdateParentState(TreeNode): PrivateScope, Public, HideBySig
+Struct TriTreeControl.TriStateTreeView+CheckedState: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    CheckedState UnInitialised = -1 : Public, Static, Literal, HasDefault
+    CheckedState UnChecked = 0 : Public, Static, Literal, HasDefault
+    CheckedState Checked = 1 : Public, Static, Literal, HasDefault
+    CheckedState Mixed = 2 : Public, Static, Literal, HasDefault
+Struct TriTreeControl.TriStateTreeView+TriStateStyles: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    TriStateStyles Standard = 0 : Public, Static, Literal, HasDefault
+    TriStateStyles Installer = 1 : Public, Static, Literal, HasDefault

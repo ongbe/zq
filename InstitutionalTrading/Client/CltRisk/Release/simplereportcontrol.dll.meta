@@ -1,0 +1,63 @@
+  SimpleReportControl.DisplaySetting.resources - Embedded, ContainedInManifestFile, 
+  SimpleReportControl.SimpleReportControlControl.resources - Embedded, ContainedInManifestFile, 
+Assembly SimpleReportControl, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly Microsoft.VisualC, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=SHA1, flags=None
+Assembly System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=SHA1, flags=None
+Assembly System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Windows.Forms.DataVisualization, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=SHA1, flags=None
+Assembly Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c: 
+	hash=SHA1, flags=None
+Assembly office, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c: 
+	hash=SHA1, flags=None
+Assembly Microsoft.VisualC.STLCLR, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=SHA1, flags=None
+Class SimpleReportControl.DisplaySetting: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Clear(): PrivateScope, Public, HideBySig
+    AddColumn(String): PrivateScope, Public, HideBySig
+    AddHideColumn(String): PrivateScope, Public, HideBySig
+    GetUnSelectHideItem(set<System::String ^>&): PrivateScope, Public, HideBySig
+Class SimpleReportControl.CFileDBUtil: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ExportToExcel(DataTable, FlowLayoutPanel, String, ShowProgressCallback): PrivateScope, Public, Static, HideBySig
+Class SimpleReportControl.SimpleReportControlControl: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Windows.Forms.DataGridView ChildDataGridView 'get set' : 
+    System.Windows.Forms.FlowLayoutPanel ChildChart 'get set' : 
+    System.Data.DataTable StatisticDataTable 'get set' : 
+    System.Data.DataTable RealDataTable 'get set' : 
+    System.String ConfigGuid 'get set' : 
+    Boolean SimpleMode 'get set' : 
+  Methods:
+    get_SimpleMode(): PrivateScope, Public, HideBySig, SpecialName
+    set_SimpleMode(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig, SpecialName
+    get_ConfigGuid(): PrivateScope, Public, HideBySig, SpecialName
+    set_ConfigGuid(String): PrivateScope, Public, HideBySig, SpecialName
+    get_RealDataTable(): PrivateScope, Public, HideBySig, SpecialName
+    set_RealDataTable(DataTable): PrivateScope, Public, HideBySig, SpecialName
+    get_StatisticDataTable(): PrivateScope, Public, HideBySig, SpecialName
+    set_StatisticDataTable(DataTable): PrivateScope, Public, HideBySig, SpecialName
+    Clear(): PrivateScope, Public, HideBySig
+    Refresh2(): PrivateScope, Public, HideBySig
+    get_ChildChart(): PrivateScope, Public, HideBySig, SpecialName
+    set_ChildChart(FlowLayoutPanel): PrivateScope, Public, HideBySig, SpecialName
+    get_ChildDataGridView(): PrivateScope, Public, HideBySig, SpecialName
+    set_ChildDataGridView(DataGridView): PrivateScope, Public, HideBySig, SpecialName

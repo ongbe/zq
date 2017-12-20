@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="RunSingleStrategy">
+</Property><Property Name="解决方案文件" Value="F:\svn\InstitutionalTrading\Server\RunSingleStrategy\RunSingleStrategy.sln">
+</Property><Property Name="用户选项文件" Value="F:\svn\InstitutionalTrading\Server\RunSingleStrategy\RunSingleStrategy.suo">
+</Property><Property Name="Date" Value="2014年5月22日">
+</Property><Property Name="Time" Value="14:02">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="RunSingleStrategy.sln" Description="文件已成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup\RunSingleStrategy.sln">
+</Event><Event ErrorLevel="0" Project="" Source="RunSingleStrategy.suo" Description="文件已成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup\RunSingleStrategy.suo">
+</Event><Event ErrorLevel="0" Project="RunSingleStrategy" Source="RunSingleStrategy.csproj" Description="项目文件已成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup\RunSingleStrategy.csproj">
+</Event><Event ErrorLevel="0" Project="RunSingleStrategy" Source="RunSingleStrategy.csproj.user" Description="项目用户文件成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup\RunSingleStrategy.csproj.user">
+</Event><Event ErrorLevel="0" Project="RunSingleStrategy" Source="CommonDef.cs" Description="文件已成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup\CommonDef.cs">
+</Event><Event ErrorLevel="0" Project="RunSingleStrategy" Source="CommonTool.cs" Description="文件已成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup\CommonTool.cs">
+</Event><Event ErrorLevel="0" Project="RunSingleStrategy" Source="EventList.cs" Description="文件已成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup\EventList.cs">
+</Event><Event ErrorLevel="0" Project="RunSingleStrategy" Source="IOrderServiceEx.cs" Description="文件已成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup\IOrderServiceEx.cs">
+</Event><Event ErrorLevel="0" Project="RunSingleStrategy" Source="Program.cs" Description="文件已成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="RunSingleStrategy" Source="Properties\AssemblyInfo.cs" Description="文件已成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="RunSingleStrategy" Source="SubPubThread.cs" Description="文件已成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup\SubPubThread.cs">
+</Event><Event ErrorLevel="0" Project="RunSingleStrategy" Source="XmlOpration.cs" Description="文件已成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup\XmlOpration.cs">
+</Event><Event ErrorLevel="0" Project="RunSingleStrategy" Source="RunSingleStrategy.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="RunSingleStrategy" Source="RunSingleStrategy.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="RunSingleStrategyTest" Source="..\RunSingleStrategyTest\RunSingleStrategyTest.csproj" Description="项目文件已成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup\RunSingleStrategyTest.csproj">
+</Event><Event ErrorLevel="0" Project="RunSingleStrategyTest" Source="..\RunSingleStrategyTest\Program.cs" Description="备份文件名冲突。正在将文件重命名为:  F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup\Program(2).cs">
+</Event><Event ErrorLevel="0" Project="RunSingleStrategyTest" Source="..\RunSingleStrategyTest\Program.cs" Description="文件已成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup\Program(2).cs">
+</Event><Event ErrorLevel="0" Project="RunSingleStrategyTest" Source="..\RunSingleStrategyTest\Properties\AssemblyInfo.cs" Description="备份文件名冲突。正在将文件重命名为:  F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup\Properties\AssemblyInfo(2).cs">
+</Event><Event ErrorLevel="0" Project="RunSingleStrategyTest" Source="..\RunSingleStrategyTest\Properties\AssemblyInfo.cs" Description="文件已成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup\Properties\AssemblyInfo(2).cs">
+</Event><Event ErrorLevel="0" Project="RunSingleStrategyTest" Source="..\RunSingleStrategyTest\RunSingleStrategyTest.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="RunSingleStrategyTest" Source="..\RunSingleStrategyTest\RunSingleStrategyTest.csproj" Description="无需转换">
+</Event><Event ErrorLevel="1" Project="CommonBizEntity" Source="..\..\CommonBizEntity\CommonBizEntity.csproj" Description="警告: 正将项目文件备份到与原始解决方案相对路径不同的相对路径中。文件夹层次结构上的差异可能会导致在打开或生成备份的解决方案和项目时出现问题。">
+</Event><Event ErrorLevel="0" Project="CommonBizEntity" Source="..\..\CommonBizEntity\CommonBizEntity.csproj" Description="项目文件已成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup\CommonBizEntity\CommonBizEntity.csproj">
+</Event><Event ErrorLevel="0" Project="CommonBizEntity" Source="..\..\CommonBizEntity\CommonBizEntity.csproj.user" Description="项目用户文件成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup\CommonBizEntity\CommonBizEntity.csproj.user">
+</Event><Event ErrorLevel="0" Project="CommonBizEntity" Source="..\..\CommonBizEntity\CIndicator.cs" Description="文件已成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup\CommonBizEntity\CIndicator.cs">
+</Event><Event ErrorLevel="0" Project="CommonBizEntity" Source="..\..\CommonBizEntity\BarSeries.cs" Description="文件已成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup\CommonBizEntity\BarSeries.cs">
+</Event><Event ErrorLevel="0" Project="CommonBizEntity" Source="..\..\CommonBizEntity\CStrategy.cs" Description="文件已成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup\CommonBizEntity\CStrategy.cs">
+</Event><Event ErrorLevel="0" Project="CommonBizEntity" Source="..\..\CommonBizEntity\IOrderService.cs" Description="文件已成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup\CommonBizEntity\IOrderService.cs">
+</Event><Event ErrorLevel="0" Project="CommonBizEntity" Source="..\..\CommonBizEntity\Market.cs" Description="文件已成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup\CommonBizEntity\Market.cs">
+</Event><Event ErrorLevel="0" Project="CommonBizEntity" Source="..\..\CommonBizEntity\Properties\AssemblyInfo.cs" Description="文件已成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup\CommonBizEntity\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="CommonBizEntity" Source="..\..\CommonBizEntity\Misc.cs" Description="文件已成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup\CommonBizEntity\Misc.cs">
+</Event><Event ErrorLevel="0" Project="CommonBizEntity" Source="..\..\CommonBizEntity\Trader.cs" Description="文件已成功备份为 F:\svn\InstitutionalTrading\Server\RunSingleStrategy\Backup\CommonBizEntity\Trader.cs">
+</Event><Event ErrorLevel="0" Project="CommonBizEntity" Source="..\..\CommonBizEntity\CommonBizEntity.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="CommonBizEntity" Source="..\..\CommonBizEntity\CommonBizEntity.csproj" Description="Converted">
+</Event></UpgradeLog>

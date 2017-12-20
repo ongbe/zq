@@ -1,0 +1,31 @@
+  SimpleFlagControl.SimpleFlagControl.resources - Embedded, ContainedInManifestFile, 
+Assembly SimpleFlagControl, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=SHA1, flags=None
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Class SimpleFlagControl.SimpleFlagControl: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Single Minimum 'get set' : 
+    Single Maximum 'get set' : 
+    Single Value 'get set' : 
+    System.Drawing.Color ForeColour 'get set' : 
+    System.Drawing.Color BackColour 'get set' : 
+  Methods:
+    get_Minimum(): PrivateScope, Public, HideBySig, SpecialName
+    set_Minimum(Single): PrivateScope, Public, HideBySig, SpecialName
+    get_Maximum(): PrivateScope, Public, HideBySig, SpecialName
+    set_Maximum(Single): PrivateScope, Public, HideBySig, SpecialName
+    get_Value(): PrivateScope, Public, HideBySig, SpecialName
+    set_Value(Single): PrivateScope, Public, HideBySig, SpecialName
+    get_ForeColour(): PrivateScope, Public, HideBySig, SpecialName
+    set_ForeColour(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_BackColour(): PrivateScope, Public, HideBySig, SpecialName
+    set_BackColour(Color): PrivateScope, Public, HideBySig, SpecialName

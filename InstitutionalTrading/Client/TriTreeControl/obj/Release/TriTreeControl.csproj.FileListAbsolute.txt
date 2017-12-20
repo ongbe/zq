@@ -1,0 +1,5 @@
+F:\svn\InstitutionalTrading\Release\TriTreeControl.dll
+F:\svn\InstitutionalTrading\Release\TriTreeControl.pdb
+F:\svn\InstitutionalTrading\Client\TriTreeControl\obj\Release\ResolveAssemblyReference.cache
+F:\svn\InstitutionalTrading\Client\TriTreeControl\obj\Release\TriTreeControl.dll
+F:\svn\InstitutionalTrading\Client\TriTreeControl\obj\Release\TriTreeControl.pdb

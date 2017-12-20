@@ -1,0 +1,5 @@
+[CFG]
+TradingDayStart=08:55:00
+TradingDayEnd=15:15:00
+TradingNigthStart=20:00:00
+TradingNightEnd=02:00:00

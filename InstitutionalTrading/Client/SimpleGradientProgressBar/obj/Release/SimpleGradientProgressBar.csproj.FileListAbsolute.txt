@@ -1,0 +1,14 @@
+E:\svn\InstitutionalTrading\Client\SimpleGradientProgressBar\bin\Release\SimpleGradientProgressBar.dll
+E:\svn\InstitutionalTrading\Client\SimpleGradientProgressBar\bin\Release\SimpleGradientProgressBar.pdb
+E:\svn\InstitutionalTrading\Client\SimpleGradientProgressBar\obj\Release\ResolveAssemblyReference.cache
+E:\svn\InstitutionalTrading\Client\SimpleGradientProgressBar\obj\Release\SimpleGradientProgressBar.SimpleGradientProgessBar.resources
+E:\svn\InstitutionalTrading\Client\SimpleGradientProgressBar\obj\Release\SimpleGradientProgressBar.csproj.GenerateResource.Cache
+E:\svn\InstitutionalTrading\Client\SimpleGradientProgressBar\obj\Release\SimpleGradientProgressBar.dll
+E:\svn\InstitutionalTrading\Client\SimpleGradientProgressBar\obj\Release\SimpleGradientProgressBar.pdb
+F:\svn\InstitutionalTrading\Client\SimpleGradientProgressBar\bin\Release\SimpleGradientProgressBar.dll
+F:\svn\InstitutionalTrading\Client\SimpleGradientProgressBar\bin\Release\SimpleGradientProgressBar.pdb
+F:\svn\InstitutionalTrading\Client\SimpleGradientProgressBar\obj\Release\ResolveAssemblyReference.cache
+F:\svn\InstitutionalTrading\Client\SimpleGradientProgressBar\obj\Release\SimpleGradientProgressBar.SimpleGradientProgessBar.resources
+F:\svn\InstitutionalTrading\Client\SimpleGradientProgressBar\obj\Release\SimpleGradientProgressBar.csproj.GenerateResource.Cache
+F:\svn\InstitutionalTrading\Client\SimpleGradientProgressBar\obj\Release\SimpleGradientProgressBar.dll
+F:\svn\InstitutionalTrading\Client\SimpleGradientProgressBar\obj\Release\SimpleGradientProgressBar.pdb

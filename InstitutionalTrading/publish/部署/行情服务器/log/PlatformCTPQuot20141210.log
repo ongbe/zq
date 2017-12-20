@@ -1,0 +1,6 @@
+17:00:53.551 : [.\SvrQuotServer.cpp][105]:读取连接CTP参数失败,请重新启动！
+17:00:53.551 : [.\SvrQuotServerImpl.cpp][12]:删除交易日的线程成功进入
+17:00:53.551 : [.\SvrQuotServerImpl.cpp][21]:删除交易日的线程成功退出
+17:01:28.801 : [.\SvrQuotServer.cpp][105]:读取连接CTP参数失败,请重新启动！
+17:01:28.801 : [.\SvrQuotServerImpl.cpp][12]:删除交易日的线程成功进入
+17:01:28.801 : [.\SvrQuotServerImpl.cpp][21]:删除交易日的线程成功退出

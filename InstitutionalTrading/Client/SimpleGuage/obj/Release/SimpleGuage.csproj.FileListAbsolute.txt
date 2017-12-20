@@ -1,0 +1,16 @@
+E:\svn\InstitutionalTrading\Client\SimpleGuage\bin\Release\SimpleGuage.dll
+E:\svn\InstitutionalTrading\Client\SimpleGuage\bin\Release\SimpleGuage.pdb
+E:\svn\InstitutionalTrading\Client\SimpleGuage\obj\Release\ResolveAssemblyReference.cache
+E:\svn\InstitutionalTrading\Client\SimpleGuage\obj\Release\SimpleGuage.Properties.Resources.resources
+E:\svn\InstitutionalTrading\Client\SimpleGuage\obj\Release\SimpleGuage.SimpleGuage.resources
+E:\svn\InstitutionalTrading\Client\SimpleGuage\obj\Release\SimpleGuage.csproj.GenerateResource.Cache
+E:\svn\InstitutionalTrading\Client\SimpleGuage\obj\Release\SimpleGuage.dll
+E:\svn\InstitutionalTrading\Client\SimpleGuage\obj\Release\SimpleGuage.pdb
+F:\svn\InstitutionalTrading\Client\SimpleGuage\bin\Release\SimpleGuage.dll
+F:\svn\InstitutionalTrading\Client\SimpleGuage\bin\Release\SimpleGuage.pdb
+F:\svn\InstitutionalTrading\Client\SimpleGuage\obj\Release\ResolveAssemblyReference.cache
+F:\svn\InstitutionalTrading\Client\SimpleGuage\obj\Release\SimpleGuage.Properties.Resources.resources
+F:\svn\InstitutionalTrading\Client\SimpleGuage\obj\Release\SimpleGuage.SimpleGuage.resources
+F:\svn\InstitutionalTrading\Client\SimpleGuage\obj\Release\SimpleGuage.csproj.GenerateResource.Cache
+F:\svn\InstitutionalTrading\Client\SimpleGuage\obj\Release\SimpleGuage.dll
+F:\svn\InstitutionalTrading\Client\SimpleGuage\obj\Release\SimpleGuage.pdb

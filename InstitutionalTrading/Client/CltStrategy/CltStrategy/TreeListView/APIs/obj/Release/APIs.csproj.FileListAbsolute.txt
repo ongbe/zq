@@ -1,0 +1,3 @@
+F:\svn\InstitutionalTrading\Client\CltStrategy\CltStrategy\TreeListView\APIs\bin\Release\System.Runtime.InteropServices.APIs.dll
+F:\svn\InstitutionalTrading\Client\CltStrategy\CltStrategy\TreeListView\APIs\obj\Release\ResolveAssemblyReference.cache
+F:\svn\InstitutionalTrading\Client\CltStrategy\CltStrategy\TreeListView\APIs\obj\Release\System.Runtime.InteropServices.APIs.dll

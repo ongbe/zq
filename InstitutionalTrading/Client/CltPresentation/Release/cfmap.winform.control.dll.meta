@@ -1,0 +1,392 @@
+  CFMap.WinForm.Control.Properties.Resources.resources - Embedded, ContainedInManifestFile, 
+Assembly CFMap.WinForm.Control, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly CFMap.Core, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=None
+Assembly System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=SHA1, flags=None
+Interface CFMap.ObjectModel.INotifyCollectionChanged: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Events:
+    CFMap.ObjectModel.NotifyCollectionChangedEventHandler CollectionChanged: 
+  Methods:
+    add_CollectionChanged(NotifyCollectionChangedEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    remove_CollectionChanged(NotifyCollectionChangedEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Interface CFMap.ObjectModel.INotifyPropertyChanged: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Events:
+    System.ComponentModel.PropertyChangedEventHandler PropertyChanged: 
+  Methods:
+    add_PropertyChanged(PropertyChangedEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    remove_PropertyChanged(PropertyChangedEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Class CFMap.ObjectModel.ObservableCollection`1[T]: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  Type parameter: T
+  :System.Collections.ObjectModel.Collection`1[T]
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Collections.Generic.IEnumerable`1[T]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Collections.Generic.List`1[T]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    CFMap.ObjectModel.INotifyCollectionChanged
+    CFMap.ObjectModel.INotifyPropertyChanged
+  Events:
+    CFMap.ObjectModel.NotifyCollectionChangedEventHandler CollectionChanged: 
+  Methods:
+    add_CollectionChanged(NotifyCollectionChangedEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    remove_CollectionChanged(NotifyCollectionChangedEventHandler): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Move(Int32, Int32): PrivateScope, Public, HideBySig
+Class CFMap.ObjectModel.ObservableCollectionThreadSafe`1[T]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: T
+  :CFMap.ObjectModel.ObservableCollection`1[T]
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Events:
+    CFMap.ObjectModel.NotifyCollectionChangedEventHandler CollectionChanged: 
+  Methods:
+    add_CollectionChanged(NotifyCollectionChangedEventHandler): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    remove_CollectionChanged(NotifyCollectionChangedEventHandler): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class CFMap.ObjectModel.NotifyCollectionChangedEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, NotifyCollectionChangedEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, NotifyCollectionChangedEventArgs, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Struct CFMap.ObjectModel.NotifyCollectionChangedAction: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    CFMap.ObjectModel.NotifyCollectionChangedAction Add = 0 : Public, Static, Literal, HasDefault
+    CFMap.ObjectModel.NotifyCollectionChangedAction Remove = 1 : Public, Static, Literal, HasDefault
+    CFMap.ObjectModel.NotifyCollectionChangedAction Replace = 2 : Public, Static, Literal, HasDefault
+    CFMap.ObjectModel.NotifyCollectionChangedAction Move = 3 : Public, Static, Literal, HasDefault
+    CFMap.ObjectModel.NotifyCollectionChangedAction Reset = 4 : Public, Static, Literal, HasDefault
+Class CFMap.ObjectModel.NotifyCollectionChangedEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(CFMap.ObjectModel.NotifyCollectionChangedAction): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(CFMap.ObjectModel.NotifyCollectionChangedAction, System.Collections.IList): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(CFMap.ObjectModel.NotifyCollectionChangedAction, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(CFMap.ObjectModel.NotifyCollectionChangedAction, System.Collections.IList, System.Collections.IList): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(CFMap.ObjectModel.NotifyCollectionChangedAction, System.Collections.IList, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(CFMap.ObjectModel.NotifyCollectionChangedAction, System.Object, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(CFMap.ObjectModel.NotifyCollectionChangedAction, System.Object, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(CFMap.ObjectModel.NotifyCollectionChangedAction, System.Collections.IList, System.Collections.IList, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(CFMap.ObjectModel.NotifyCollectionChangedAction, System.Collections.IList, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(CFMap.ObjectModel.NotifyCollectionChangedAction, System.Object, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(CFMap.ObjectModel.NotifyCollectionChangedAction, System.Object, System.Object, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    CFMap.ObjectModel.NotifyCollectionChangedAction Action 'get ' : 
+    System.Collections.IList NewItems 'get ' : 
+    Int32 NewStartingIndex 'get ' : 
+    System.Collections.IList OldItems 'get ' : 
+    Int32 OldStartingIndex 'get ' : 
+  Methods:
+    get_Action(): PrivateScope, Public, HideBySig, SpecialName
+    get_NewItems(): PrivateScope, Public, HideBySig, SpecialName
+    get_NewStartingIndex(): PrivateScope, Public, HideBySig, SpecialName
+    get_OldItems(): PrivateScope, Public, HideBySig, SpecialName
+    get_OldStartingIndex(): PrivateScope, Public, HideBySig, SpecialName
+Class CFMap.WindowsForms.ColorMatrixs: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    System.Drawing.Imaging.ColorMatrix GrayScale : Public, Static, InitOnly
+    System.Drawing.Imaging.ColorMatrix Negative : Public, Static, InitOnly
+Class CFMap.WindowsForms.CFMapControl: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    CFMap.Interface.Interface
+  Fields:
+    CFMap.ObjectModel.ObservableCollectionThreadSafe`1[CFMap.WindowsForms.CFMapOverlay] Overlays : Public, InitOnly
+    System.String EmptyTileText : Public
+    System.Drawing.Pen EmptyTileBorders : Public
+    Boolean ShowCenter : Public
+    System.Drawing.Pen ScalePen : Public
+    System.Drawing.Pen CenterPen : Public
+    System.Drawing.Pen SelectionPen : Public
+    System.Drawing.Pen HelperLinePen : Public
+    Boolean MapScaleInfoEnabled : Public
+    Boolean FillEmptyTiles : Public
+    Boolean DisableAltForSelection : Public
+    System.Windows.Forms.MouseButtons DragButton : Public
+    System.Nullable`1[CFMap.CoreType.RectLatLng] BoundsOfMap : Public
+    Boolean ForceDoubleBuffer : Public
+    Boolean HoldInvalidation : Public
+    System.Drawing.Color EmptyMapBackground : Public
+    System.Drawing.Size DragSize : Public
+    Boolean DisableFocusOnMouseEnter : Public
+    Boolean InvertedMouseWheelZooming : Public
+    Boolean IgnoreMarkerOnMouseWheel : Public
+  Properties:
+    Int32 MaxZoom 'get set' : 
+    Int32 MinZoom 'get set' : 
+    CFMap.CoreType.MouseWheelZoomType MouseWheelZoomType 'get set' : 
+    System.Drawing.Color SelectedAreaFillColor 'get set' : 
+    CFMap.WindowsForms.HelperLineOptions HelperLineOption 'get set' : 
+    System.Drawing.Color EmptyTileColor 'get set' : 
+    Int32 RetryLoadTile 'get set' : 
+    Int32 LevelsKeepInMemmory 'get set' : 
+    Boolean ShowTileGridLines 'get set' : 
+    CFMap.CoreType.RectLatLng SelectedArea 'get set' : 
+    Boolean GrayScaleMode 'get set' : 
+    Boolean NegativeMode 'get set' : 
+    System.Drawing.Imaging.ColorMatrix ColorMatrix 'get set' : 
+    Boolean IsDesignerHosted 'get ' : 
+    Boolean IsRotated 'get ' : 
+    Single Bearing 'get set' : 
+    Boolean VirtualSizeEnabled 'get set' : 
+    Int32 Zoom 'get set' : 
+    CFMap.CoreType.PointLatLng Position 'get set' : 
+    CFMap.CoreType.GPoint PositionPixel 'get ' : 
+    System.String CacheLocation 'get set' : 
+    Boolean IsDragging 'get ' : 
+    Boolean IsMouseOverMarker 'get set' : 
+    Boolean IsMouseOverRoute 'get set' : 
+    Boolean IsMouseOverPolygon 'get set' : 
+    CFMap.CoreType.RectLatLng ViewArea 'get ' : 
+    CFMap.Interface.IMapProvider MapProvider 'get set' : 
+    Boolean RoutesEnabled 'get set' : 
+    Boolean PolygonsEnabled 'get set' : 
+    Boolean MarkersEnabled 'get set' : 
+    Boolean CanDragMap 'get set' : 
+    CFMap.CoreType.RenderMode RenderMode 'get set' : 
+    CFMap.CoreType.CFMaps Manager 'get ' : 
+  Events:
+    CFMap.WindowsForms.MarkerClick OnMarkerClick: 
+    CFMap.WindowsForms.MarkerEnter OnMarkerEnter: 
+    CFMap.WindowsForms.MarkerLeave OnMarkerLeave: 
+    CFMap.WindowsForms.SelectionChange OnSelectionChange: 
+    CFMap.CoreType.PositionChanged OnPositionChanged: 
+    CFMap.CoreType.TileLoadComplete OnTileLoadComplete: 
+    CFMap.CoreType.TileLoadStart OnTileLoadStart: 
+    CFMap.CoreType.MapDrag OnMapDrag: 
+    CFMap.CoreType.MapZoomChanged OnMapZoomChanged: 
+    CFMap.CoreType.MapTypeChanged OnMapTypeChanged: 
+    CFMap.CoreType.EmptyTileError OnEmptyTileError: 
+  Methods:
+    set_MapProvider(IMapProvider): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_RoutesEnabled(): PrivateScope, Public, HideBySig, SpecialName
+    set_RoutesEnabled(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_PolygonsEnabled(): PrivateScope, Public, HideBySig, SpecialName
+    set_PolygonsEnabled(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_MarkersEnabled(): PrivateScope, Public, HideBySig, SpecialName
+    set_MarkersEnabled(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_CanDragMap(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_CanDragMap(Boolean): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_RenderMode(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Manager(): PrivateScope, Public, HideBySig, SpecialName
+    add_OnPositionChanged(PositionChanged): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    remove_OnPositionChanged(PositionChanged): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    add_OnTileLoadComplete(TileLoadComplete): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    remove_OnTileLoadComplete(TileLoadComplete): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    add_OnTileLoadStart(TileLoadStart): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    remove_OnTileLoadStart(TileLoadStart): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    add_OnMapDrag(MapDrag): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    remove_OnMapDrag(MapDrag): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    add_OnMapZoomChanged(MapZoomChanged): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    remove_OnMapZoomChanged(MapZoomChanged): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    add_OnMapTypeChanged(MapTypeChanged): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    remove_OnMapTypeChanged(MapTypeChanged): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    add_OnEmptyTileError(EmptyTileError): PrivateScope, Public, HideBySig, SpecialName
+    remove_OnEmptyTileError(EmptyTileError): PrivateScope, Public, HideBySig, SpecialName
+    add_OnMarkerClick(MarkerClick): PrivateScope, Public, HideBySig, SpecialName
+    remove_OnMarkerClick(MarkerClick): PrivateScope, Public, HideBySig, SpecialName
+    add_OnMarkerEnter(MarkerEnter): PrivateScope, Public, HideBySig, SpecialName
+    remove_OnMarkerEnter(MarkerEnter): PrivateScope, Public, HideBySig, SpecialName
+    add_OnMarkerLeave(MarkerLeave): PrivateScope, Public, HideBySig, SpecialName
+    remove_OnMarkerLeave(MarkerLeave): PrivateScope, Public, HideBySig, SpecialName
+    add_OnSelectionChange(SelectionChange): PrivateScope, Public, HideBySig, SpecialName
+    remove_OnSelectionChange(SelectionChange): PrivateScope, Public, HideBySig, SpecialName
+    get_MaxZoom(): PrivateScope, Public, HideBySig, SpecialName
+    set_MaxZoom(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_MinZoom(): PrivateScope, Public, HideBySig, SpecialName
+    set_MinZoom(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_MouseWheelZoomType(): PrivateScope, Public, HideBySig, SpecialName
+    set_MouseWheelZoomType(MouseWheelZoomType): PrivateScope, Public, HideBySig, SpecialName
+    get_SelectedAreaFillColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_SelectedAreaFillColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_HelperLineOption(): PrivateScope, Public, HideBySig, SpecialName
+    set_HelperLineOption(HelperLineOptions): PrivateScope, Public, HideBySig, SpecialName
+    get_EmptyTileColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_EmptyTileColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_RetryLoadTile(): PrivateScope, Public, HideBySig, SpecialName
+    set_RetryLoadTile(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_LevelsKeepInMemmory(): PrivateScope, Public, HideBySig, SpecialName
+    set_LevelsKeepInMemmory(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_ShowTileGridLines(): PrivateScope, Public, HideBySig, SpecialName
+    set_ShowTileGridLines(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_SelectedArea(): PrivateScope, Public, HideBySig, SpecialName
+    set_SelectedArea(RectLatLng): PrivateScope, Public, HideBySig, SpecialName
+    Refresh(): PrivateScope, Public, Virtual, HideBySig
+    Invalidate(): PrivateScope, Public, HideBySig
+    get_GrayScaleMode(): PrivateScope, Public, HideBySig, SpecialName
+    set_GrayScaleMode(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_NegativeMode(): PrivateScope, Public, HideBySig, SpecialName
+    set_NegativeMode(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_ColorMatrix(): PrivateScope, Public, HideBySig, SpecialName
+    set_ColorMatrix(ColorMatrix): PrivateScope, Public, HideBySig, SpecialName
+    UpdateMarkerLocalPosition(IMapMarker): PrivateScope, Public, HideBySig
+    SetZoomToFitRect(RectLatLng): PrivateScope, Public, HideBySig
+    Offset(Int32, Int32): PrivateScope, Public, HideBySig
+    get_IsDesignerHosted(): PrivateScope, Public, HideBySig, SpecialName
+    IsControlDesignerHosted(Control): PrivateScope, Public, HideBySig
+    get_IsRotated(): PrivateScope, Public, HideBySig, SpecialName
+    get_Bearing(): PrivateScope, Public, HideBySig, SpecialName
+    set_Bearing(Single): PrivateScope, Public, HideBySig, SpecialName
+    get_VirtualSizeEnabled(): PrivateScope, Public, HideBySig, SpecialName
+    set_VirtualSizeEnabled(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    ReloadMap(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    SetCurrentPositionByKeywords(String): PrivateScope, Public, HideBySig
+    FromLocalToLatLng(Int32, Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    FromLatLngToLocal(PointLatLng): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_Zoom(): PrivateScope, Public, HideBySig, SpecialName
+    set_Zoom(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Position(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Position(PointLatLng): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_PositionPixel(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CacheLocation(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_CacheLocation(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_IsDragging(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_IsMouseOverMarker(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsMouseOverRoute(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsMouseOverPolygon(): PrivateScope, Public, HideBySig, SpecialName
+    get_ViewArea(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_MapProvider(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+Struct CFMap.WindowsForms.HelperLineOptions: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    CFMap.WindowsForms.HelperLineOptions DontShow = 0 : Public, Static, Literal, HasDefault
+    CFMap.WindowsForms.HelperLineOptions ShowAlways = 1 : Public, Static, Literal, HasDefault
+    CFMap.WindowsForms.HelperLineOptions ShowOnModifierKey = 2 : Public, Static, Literal, HasDefault
+Class CFMap.WindowsForms.SelectionChange: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(RectLatLng, Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(RectLatLng, Boolean, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class CFMap.WindowsForms.IMapMarker: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+    Void .ctor(CFMap.CoreType.PointLatLng): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, CFMap.CoreType.PointLatLng, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Fields:
+    System.Object Tag : Public
+    Boolean DisableRegionCheck : Public
+    Boolean IsHitTestVisible : Public
+  Properties:
+    CFMap.WindowsForms.CFMapOverlay MapOverlay 'get set' : 
+    Int32 MinShowZoomLevel 'get set' : 
+    Int32 MaxShowZoomLevel 'get set' : 
+    Int32 MakerID 'get set' : 
+    CFMap.CoreType.PointLatLng Position 'get set' : 
+    System.Drawing.Point Offset 'get set' : 
+    System.Drawing.Point LocalPosition 'get set' : 
+    System.Drawing.Size Size 'get set' : 
+    System.Drawing.Rectangle LocalArea 'get ' : 
+    Boolean IsVisible 'get set' : 
+    Boolean IsMouseOver 'get set' : 
+  Methods:
+    get_MapOverlay(): PrivateScope, Public, HideBySig, SpecialName
+    get_MinShowZoomLevel(): PrivateScope, Public, HideBySig, SpecialName
+    get_MaxShowZoomLevel(): PrivateScope, Public, HideBySig, SpecialName
+    get_MakerID(): PrivateScope, Public, HideBySig, SpecialName
+    get_Position(): PrivateScope, Public, HideBySig, SpecialName
+    set_Position(PointLatLng): PrivateScope, Public, HideBySig, SpecialName
+    get_Offset(): PrivateScope, Public, HideBySig, SpecialName
+    set_Offset(Point): PrivateScope, Public, HideBySig, SpecialName
+    get_LocalPosition(): PrivateScope, Public, HideBySig, SpecialName
+    set_LocalPosition(Point): PrivateScope, Public, HideBySig, SpecialName
+    get_Size(): PrivateScope, Public, HideBySig, SpecialName
+    set_Size(Size): PrivateScope, Public, HideBySig, SpecialName
+    get_LocalArea(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsVisible(): PrivateScope, Public, HideBySig, SpecialName
+    set_IsVisible(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_IsMouseOver(): PrivateScope, Public, HideBySig, SpecialName
+    OnRender(Graphics): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Dispose(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class CFMap.WindowsForms.MarkerClick: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(IMapMarker, MouseEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(IMapMarker, MouseEventArgs, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class CFMap.WindowsForms.MarkerEnter: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(IMapMarker): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(IMapMarker, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class CFMap.WindowsForms.MarkerLeave: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(IMapMarker): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(IMapMarker, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Struct CFMap.WindowsForms.MarkerTooltipMode: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    CFMap.WindowsForms.MarkerTooltipMode OnMouseOver = 0 : Public, Static, Literal, HasDefault
+    CFMap.WindowsForms.MarkerTooltipMode Never = 1 : Public, Static, Literal, HasDefault
+    CFMap.WindowsForms.MarkerTooltipMode Always = 2 : Public, Static, Literal, HasDefault
+Class CFMap.WindowsForms.WindowsFormsImage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :CFMap.CoreType.PureImage
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Drawing.Image Img : Public
+  Methods:
+    Dispose(): PrivateScope, Public, Virtual, HideBySig
+Class CFMap.WindowsForms.WindowsFormsImageProxy: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :CFMap.CoreType.PureImageProxy
+  Fields:
+    CFMap.WindowsForms.WindowsFormsImageProxy Instance : Public, Static, InitOnly
+  Methods:
+    FromStream(Stream): PrivateScope, Public, Virtual, HideBySig
+    Save(Stream, PureImage): PrivateScope, Public, Virtual, HideBySig
+Struct CFMap.WindowsForms.RiskLevel: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    CFMap.WindowsForms.RiskLevel RiskLevel_none = 0 : Public, Static, Literal, HasDefault
+    CFMap.WindowsForms.RiskLevel RiskLevel_normal = 1 : Public, Static, Literal, HasDefault
+    CFMap.WindowsForms.RiskLevel RiskLevel_lower = 2 : Public, Static, Literal, HasDefault
+    CFMap.WindowsForms.RiskLevel RiskLevel_low = 3 : Public, Static, Literal, HasDefault
+    CFMap.WindowsForms.RiskLevel RiskLevel_high = 4 : Public, Static, Literal, HasDefault
+    CFMap.WindowsForms.RiskLevel RiskLevel_higher = 5 : Public, Static, Literal, HasDefault
+    CFMap.WindowsForms.RiskLevel RiskLevel_highest = 6 : Public, Static, Literal, HasDefault
+Class CFMap.WindowsForms.CMarkerRisk: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :CFMap.WindowsForms.IMapMarker
+    Void .ctor(CFMap.CoreType.PointLatLng, CFMap.WindowsForms.RiskLevel, System.String, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, CFMap.CoreType.PointLatLng, Int32, Int32, CFMap.WindowsForms.RiskLevel, System.String, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Nullable`1[System.Single] Bearing : Public
+  Methods:
+    AnimateTimeOut(Object, ElapsedEventArgs): PrivateScope, Public, HideBySig
+    OnRender(Graphics): PrivateScope, Public, Virtual, HideBySig
+    Dispose(): PrivateScope, Public, Virtual, HideBySig
+Class CFMap.WindowsForms.CFMapOverlay: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Fields:
+    System.String Id : Public
+    CFMap.ObjectModel.ObservableCollectionThreadSafe`1[CFMap.WindowsForms.IMapMarker] Markers : Public, InitOnly
+  Properties:
+    Boolean IsVisibile 'get set' : 
+    CFMap.WindowsForms.CFMapControl Control 'get set' : 
+  Methods:
+    get_IsVisibile(): PrivateScope, Public, HideBySig, SpecialName
+    set_IsVisibile(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Control(): PrivateScope, Public, HideBySig, SpecialName
+    Clear(): PrivateScope, Public, HideBySig
+    OnRender(Graphics, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    IsChangedShowMarker(Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CheckWhickMarkCloseToCenter(Int32, PointLatLng): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask

@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iptb", "iptb.csproj", "{23499890-263E-46D1-A44D-EE7A48B65116}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_iptb", "..\..\IPTextBox_demo\Example_iptb\Example_iptb.csproj", "{49C1AB1A-24A4-41F7-A478-FCDA84A1A1D1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{23499890-263E-46D1-A44D-EE7A48B65116} = {23499890-263E-46D1-A44D-EE7A48B65116}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23499890-263E-46D1-A44D-EE7A48B65116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23499890-263E-46D1-A44D-EE7A48B65116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23499890-263E-46D1-A44D-EE7A48B65116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23499890-263E-46D1-A44D-EE7A48B65116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49C1AB1A-24A4-41F7-A478-FCDA84A1A1D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C1AB1A-24A4-41F7-A478-FCDA84A1A1D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C1AB1A-24A4-41F7-A478-FCDA84A1A1D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C1AB1A-24A4-41F7-A478-FCDA84A1A1D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

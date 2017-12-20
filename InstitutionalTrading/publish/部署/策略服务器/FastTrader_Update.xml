@@ -1,0 +1,28 @@
+<update>
+   <version>1,7,2,6</version>
+   <version_min>1.7.2.0</version_min>
+   <version_svrpath>update_std_01070206</version_svrpath>
+   <ReplaceFiles>
+   		<FileName>layout\1.layout</FileName>
+   		<FileName>layout\2.layout</FileName>
+   		<FileName>layout\3.layout</FileName>
+   		<FileName>layout\4.layout</FileName>
+		<FileName>AutoUpdate.xml</FileName>
+		<FileName>FastTrader.exe</FileName>
+		<FileName>help.chm</FileName>
+		<FileName>HypertextNotice.exe</FileName>
+		<FileName>language.csv</FileName>
+		<FileName>layout.xml</FileName>
+		<FileName>platform.xml</FileName>
+		<FileName>ProductSName.txt</FileName>
+		<FileName>ServerParam.xml</FileName>
+		<FileName>syscfg.xml</FileName>
+		<FileName>thostmduserapi.dll</FileName>
+		<FileName>thosttraderapi.dll</FileName>
+		<FileName>updateexe.exe</FileName>
+   </ReplaceFiles >  
+   <note>　
+1. 实现套利交易
+2. 更新升级程序
+   </note>
+</update>  

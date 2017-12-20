@@ -1,0 +1,138 @@
+//
+// DBFNAVIGATOR.RC2 - resources Microsoft Visual C++ does not edit directly
+//
+
+#ifdef APSTUDIO_INVOKED
+	#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Add manually edited resources here...
+
+#include "DBFException.h"
+#include "ALXParserException.h"
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+/*
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ALX_DBF_ERROR_DBFILE_CREATE		"Can't create file."
+    ALX_DBF_ERROR_DBFILE_OPEN		"Can't open file."
+    ALX_DBF_ERROR_DBFILE_MEMORYLOAD	"Can't load file."
+    ALX_DBF_ERROR_DBFHEADER_READ	"Read head file error."
+    ALX_DBF_ERROR_DBFHEADER_WRITE	"Write head file error."
+    ALX_DBF_ERROR_NOT_TABLE			"File destruct or not .dbf file. "
+    ALX_DBF_ERROR_NOT_FIELDS		"Not fields."
+    ALX_DBF_ERROR_FILE_SIZE			"File size error."
+    ALX_DBF_ERROR_FIELDS_READ		"Record read error."
+    ALX_DBF_ERROR_MEMO_OPEN			"Can't open memo file."
+    ALX_DBF_ERROR_MEMO_HEAD_READ	"File head error. This format not support."
+    ALX_DBF_ERROR_MEMO_BLOCK_SIZE	"Memo head block size error."
+    ALX_DBF_ERROR_MEMO_FIELD_READ	"Invalid ref from memo."
+    ALX_DBF_ERROR_MEMO_RECORD_READ	"Read error from memo file."
+    ALX_DBF_ERROR_RECORD_OUTOFRANGE	"Out of range."
+    ALX_DBF_ERROR_RECORD_READ		"Read record error."
+    ALX_DBF_ERROR_RECORD_WRITE		"Save record error."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+	ALX_PRS_ERROR_SYNTAX_ERROR			"Syntax error ""%s""."
+	ALX_PRS_ERROR_MISSING				"Missing '%c'."
+	ALX_PRS_ERROR_DATATYPE_MISMATCH		"Date type mismatch."
+	ALX_PRS_ERROR_OPERAND_MISMATCH		"Operator/operand type mismatch."
+	ALX_PRS_ERROR_ARGTYPE_MISMATCH		"Function %s(), argument %d type mismatch."
+	ALX_PRS_ERROR_VARIABLE_NOT_FOUND	"Variable '%s' is not found."
+	ALX_PRS_ERROR_FUNCTION_NOT_FOUND	"Function %s() is not implemented."
+	ALX_PRS_ERROR_TOO_FEW_ARGUMENTS		"Too few arguments for function %s()."
+	ALX_PRS_ERROR_TOO_MANY_ARGUMENTS	"Too many arguments for function %s()."
+	ALX_PRS_ERROR_INVALID_ARGUMENT		"Function argument value or type is invalid."
+	ALX_PRS_ERROR_INVALID_ARGUMENT_SQRT	"SQRT(), argument cannot be negative."
+	ALX_PRS_ERROR_INVALID_ARGUMENT_LOG	"LOG(): Zero or negative used as argument."
+	ALX_PRS_ERROR_INVALID_ARGUMENT_LOG10 "Cannot use 0 or negative as the argument for LOG10();"
+	ALX_PRS_ERROR_INVALID_ARGUMENT_CTOT	"CTOD() or CTOT() can procedure incorect result."
+	ALX_PRS_ERROR_DEVIDE_BY_ZERO		"Cannot devide by 0."
+	ALX_PRS_ERROR_EXP_DOMAIN_ERROR		"** or ^ domain error."
+	ALX_PRS_ERROR_MISSING_OPERAND		"Missing operand."
+	ALX_PRS_ERROR_FUNCTION_MISSING		"Function %s() is missing ')'."
+	ALX_PRS_ERROR_MISSING_EXPR			"Missing expression."
+	ALX_PRS_ERROR_MISSING_OPERATOR		"Missing operator."
+END
+*/
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+/*
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ALX_DBF_ERROR_DBFILE_CREATE		"Не удалось создать файл."
+    ALX_DBF_ERROR_DBFILE_OPEN		"Не удается открыть файл."
+    ALX_DBF_ERROR_DBFILE_MEMORYLOAD	"Не удается загрузить файл."
+    ALX_DBF_ERROR_DBFHEADER_READ	"Ошибка при чтении заголовка файла."
+    ALX_DBF_ERROR_DBFHEADER_WRITE	"Ошибка при записи заголовка файла."
+    ALX_DBF_ERROR_NOT_TABLE			"Файл поврежден либо не является .dbf файлом. "
+    ALX_DBF_ERROR_NOT_FIELDS		"Файл не содержит описание полей."
+    ALX_DBF_ERROR_FILE_SIZE			"Размер файла не соответствует структуре файла."
+    ALX_DBF_ERROR_FIELDS_READ		"Ошибка чтения записи."
+    ALX_DBF_ERROR_MEMO_OPEN			"Не удается открыть мемо файл."
+    ALX_DBF_ERROR_MEMO_HEAD_READ	"Заголовок файла поврежден либо имеет неизвестный формат."
+    ALX_DBF_ERROR_MEMO_BLOCK_SIZE	"Заголовок мемо файла поврежден либо не верно указан размер блока."
+    ALX_DBF_ERROR_MEMO_FIELD_READ	"Не верная ссылка в мемо поле."
+    ALX_DBF_ERROR_MEMO_RECORD_READ	"Ошибка при чтении данных из мемо файла."
+    ALX_DBF_ERROR_RECORD_OUTOFRANGE	"Попытка прочесть запись находящуюся за границей файла."
+    ALX_DBF_ERROR_RECORD_READ		"Ошибка при чтении записи."
+    ALX_DBF_ERROR_RECORD_WRITE		"Ошибка при сохранении записи в файл."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+	ALX_PRS_ERROR_SYNTAX_ERROR			"Синтаксическая ошибка ""%s""."
+	ALX_PRS_ERROR_MISSING				"Отсутствует '%c'."
+	ALX_PRS_ERROR_DATATYPE_MISMATCH		"Не соответствие типов."
+	ALX_PRS_ERROR_OPERAND_MISMATCH		"Не соответствие типов оператора/операнда."
+	ALX_PRS_ERROR_ARGTYPE_MISMATCH		"Функция %s(), аргумент %d - не соответствие типа."
+	ALX_PRS_ERROR_VARIABLE_NOT_FOUND	"Переменная '%s' не найдена."
+	ALX_PRS_ERROR_FUNCTION_NOT_FOUND	"Функция %s() не реализована."
+	ALX_PRS_ERROR_TOO_FEW_ARGUMENTS		"Не достаточно аргументов для функции %s()."
+	ALX_PRS_ERROR_TOO_MANY_ARGUMENTS	"Слишком много аргументов у функции %s()."
+	ALX_PRS_ERROR_INVALID_ARGUMENT		"Неправильное значение или топ аргумента функции."
+	ALX_PRS_ERROR_INVALID_ARGUMENT_SQRT	"SQRT(), аргумент не может быть отрицательным."
+	ALX_PRS_ERROR_INVALID_ARGUMENT_LOG	"LOG(): Ноль или отрицательное число было использовано."
+	ALX_PRS_ERROR_INVALID_ARGUMENT_LOG10 "Нельзя использовать 0 или отрицательное число в LOG10();"
+	ALX_PRS_ERROR_INVALID_ARGUMENT_CTOT	"CTOD() или CTOT() не коректный результат."
+	ALX_PRS_ERROR_DEVIDE_BY_ZERO		"Нельзя делить на 0."
+	ALX_PRS_ERROR_EXP_DOMAIN_ERROR		"** или ^ ошибка."
+	ALX_PRS_ERROR_MISSING_OPERAND		"Отсутствует операнд."
+	ALX_PRS_ERROR_FUNCTION_MISSING		"У функции %s() отсутствует ')'."
+	ALX_PRS_ERROR_MISSING_EXPR			"Отсутствует выражение."
+	ALX_PRS_ERROR_MISSING_OPERATOR		"Отсутствует оператор."
+END
+*/
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////

@@ -1,0 +1,156 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using com.cifco.zqstp.Market;
+using com.cifco.zqstp.Trader;
+using com.cifco.zqstp.strategy.Strategy;
+using com.cifco.zqstp.strategy.Indicator;
+using com.cifco.zqstp.strategy.Indicator.Customer;
+using com.cifco.zqstp.Misc;
+
+namespace com.cifco.zqstp.strategy.Strategy.Customer
+{
+    /// <summary>
+    /// 本类是服务器加载策略时使用的，请勿修改，否则服务器创建策略可能会失败。
+    /// </summary>
+    public class Factory
+    {
+        public CStrategy CreateObject<#ResetParamsDeclare#> 
+        {
+			Log.Out("调用Factory.CreateObject()函数，创建<#ClassName#>对象");
+			
+			<#ClassName#> newobj = new <#ClassName#>();
+<#ResetParamsBody#>
+            return newobj;
+        }
+    }
+
+    /// <summary>
+    /// 策略ID:<#StrategyNameEng#>
+    /// 策略名称:<#StrategyName#>
+    /// 策略描述:
+    /// </summary>
+    public class <#ClassName#> : CStrategy
+    {
+<#MembarParams#>
+
+        public <#ClassName#>()
+        {
+			Log.Out("调用<#ClassName#>构造函数");
+        }
+        
+		public override bool Initialize(String[] strInstruments) 
+		{
+			return true;
+		}
+		
+		public override bool ResetBarCycles(String[] strInstruments) 
+		{
+			return true;
+		}
+		
+		public override bool InitIndicators(String[] strInstruments) 
+		{
+<#InitIndicator#>
+		
+			return true;
+		}
+
+        /// <summary>
+        /// 一个新到深度行情到达。
+        /// </summary>
+        /// <returns>
+        /// true: 成功
+        /// false: 失败，原因指标对象可能未初始化
+        /// </returns>
+	    public override bool OnMarketDepth(MarketDetph md) 
+		{
+            // 预处理深度行情。
+            base.OnMarketDepth(md);
+            
+            List<CIndicator> lstIndicator;
+            // 这里计算与行情相关的指标
+            if (GetIndicators(md.instrumentId, out lstIndicator))
+            {
+                foreach (CIndicator indicator in lstIndicator)
+                {
+                    indicator.OnMarketDepth(md);
+                }
+            }
+            
+            
+            // 请在这里填写策略计算代码。
+            // ...
+            
+			
+			return true;
+	    }
+	    
+        /// <summary>
+        /// 一个新的Bar到达。
+        /// </summary>
+        /// <returns>
+        /// true: 成功
+        /// false: 失败，原因指标对象可能未初始化
+        /// </returns>
+		public override bool OnBar(Bar bar, BarSeries barSeries) 
+		{
+            // 预处理bar。
+            base.OnBar(bar, barSeries);
+            
+            
+            // 请在这里填写策略计算代码。
+            // ...
+            
+			
+		    return true;
+		}
+        
+        /// <summary>
+        /// 外围定时器触发。
+        /// </summary>
+        /// <returns>
+        /// true: 成功
+        /// false: 失败，原因指标对象可能未初始化
+        /// </returns>
+        public override bool OnTimer()
+		{
+            // 请在这里填写实现代码。
+			
+            
+			return true;
+	    }
+	    	    
+	    // 报单状态通知
+	    public override bool OnOrder(OrderInfo order) 
+	    {
+			return true;
+		}
+	    
+	    // 成交通知
+	    public override bool OnTrade(TradeInfo trade) 
+	    {
+			return true;
+		}
+	    
+	    // 报单失败通知
+	    public override bool OnOrderInsert(OrderInput orderInput) 
+	    {
+			return true;
+		}
+		
+	    // 报单错误通知
+	    public override bool OnOrderError(OrderInfo order) 
+	    {
+			return true;
+		}
+		
+		// 撤单失败通知
+	    public override bool OnOrderAction(ActionInput actionInput) 
+	    {
+			return true;
+		}
+
+    }
+}

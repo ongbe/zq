@@ -1,0 +1,10 @@
+<indicator type = "快照行情指标" name = "MACD">
+    <description>
+
+    </description>
+    <params>
+        <param type="int" name="p1" default="12"></param>
+        <param type="int" name="p2" default="24"></param>
+        <param type="int" name="p3" default="8"></param>
+    </params>
+</indicator>

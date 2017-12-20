@@ -1,0 +1,51 @@
+1. 解析证券行情dbf后，将实时行情提交给杨桂明的K线计算模块。（吴）
+   注意
+   (1)行情里的证券代码需要在原代码的前面加上交易所简称，如sse、szse; 
+   (2)使用期权的实时行情数据结构。
+2. 开发行情服务器的数据管理模块。统一管理期货和证券的行情数据。（吴）
+   包括：、
+   (1)每个合约的最后一条实时行情；
+   (2)每个合约的1min、5min、15min、30min、60min、日、周、月K线数据
+   (3)分时数据
+   (4)合约信息。期货合约信息，从期货的ctp接口获取，证券合约信息，从聚源数据库表读取。统一使用期货合约信息结构
+   功能为：
+   (1)启动时从数据库读入历史K线数据和分时数据，放到Cache中。Cache中保存的各个K线数据的时间长度，在配置文件中指定，以日为单位
+   (2)启动时从数据库读入当日K线数据，放到Cache中
+   (3)启动时从1minK线数据生成分时数据，放到Cache中
+   (4)提供接口，供K线计算模块插入新数据
+   (5)提供接口，供查询各种行情数据
+3. 了解目前行情服务器的情况，行情数据查询接口，和蔡国森一起进行K线数据查询调试。（吴）
+4. K线计算模块（杨）
+   (1)统一计算期货和证券的K线计算
+   (2)计算结果送给数据管理模块，同时入库
+   
+5. SKLine数据结构修改
+	去掉InstrumentID、eCycle、dJieSuan，合约和K线周期类型在数据管理中放在key里，结算价单独存储
+	dwTime用time_t来表示。(可以用tools里的easytime类转换时间)
+6. 表结构调整：不同合约、不同k线周期，放在不同表里。（动态建表）
+
+7. enum EnumPhrase
+{
+	PHRASE_1MIN		= 1,
+	PHRASE_5MIN		= 5,
+	PHRASE_15MIN	= 15,
+	PHRASE_30MIN	= 30,
+	PHRASE_60MIN	= 60,
+	PHRASE_DAY,		= 24*60，
+	PHRASE_WEEK,	= 7*24*60，
+	PHRASE_MONTH,	= 31*24*60，
+	PHRASE_USERDEFINE = 0
+}
+
+struct SKLine   //k线数据结构，1分钟 到 月线都是这个数据结构
+{
+	time_t     dwTime;
+	double dOpenPrice;				// 开盘价
+	double dHighPrice;				// 最高价
+	double dLowPrice;				// 最低价
+	double dClosePrice;				// 收盘价
+	double dSumTradeVolume;			//成交金额
+	DWORD  dwVolume;					//成交量
+	DWORD  dwHoldVolume;				//持仓量
+......
+}

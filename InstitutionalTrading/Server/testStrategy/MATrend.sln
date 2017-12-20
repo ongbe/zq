@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MA", "MA\MA.csproj", "{A91E1A48-6E69-4A40-9117-6747B3B7B8E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MACD", "MACD\MACD.csproj", "{CE3C2CB0-7CD7-4D7C-B0CE-1B41DA45F83C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MATrend", "MATrend\MATrend.csproj", "{D0A42D22-D35B-490F-9FD1-6AA885ECC21B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A91E1A48-6E69-4A40-9117-6747B3B7B8E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A91E1A48-6E69-4A40-9117-6747B3B7B8E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A91E1A48-6E69-4A40-9117-6747B3B7B8E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A91E1A48-6E69-4A40-9117-6747B3B7B8E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE3C2CB0-7CD7-4D7C-B0CE-1B41DA45F83C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE3C2CB0-7CD7-4D7C-B0CE-1B41DA45F83C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE3C2CB0-7CD7-4D7C-B0CE-1B41DA45F83C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE3C2CB0-7CD7-4D7C-B0CE-1B41DA45F83C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0A42D22-D35B-490F-9FD1-6AA885ECC21B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0A42D22-D35B-490F-9FD1-6AA885ECC21B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0A42D22-D35B-490F-9FD1-6AA885ECC21B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0A42D22-D35B-490F-9FD1-6AA885ECC21B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

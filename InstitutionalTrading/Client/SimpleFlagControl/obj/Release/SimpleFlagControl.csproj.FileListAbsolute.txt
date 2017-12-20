@@ -1,0 +1,14 @@
+E:\svn\InstitutionalTrading\Client\SimpleFlagControl\bin\Release\SimpleFlagControl.dll
+E:\svn\InstitutionalTrading\Client\SimpleFlagControl\bin\Release\SimpleFlagControl.pdb
+E:\svn\InstitutionalTrading\Client\SimpleFlagControl\obj\Release\ResolveAssemblyReference.cache
+E:\svn\InstitutionalTrading\Client\SimpleFlagControl\obj\Release\SimpleFlagControl.SimpleFlagControl.resources
+E:\svn\InstitutionalTrading\Client\SimpleFlagControl\obj\Release\SimpleFlagControl.csproj.GenerateResource.Cache
+E:\svn\InstitutionalTrading\Client\SimpleFlagControl\obj\Release\SimpleFlagControl.dll
+E:\svn\InstitutionalTrading\Client\SimpleFlagControl\obj\Release\SimpleFlagControl.pdb
+F:\svn\InstitutionalTrading\Client\SimpleFlagControl\bin\Release\SimpleFlagControl.dll
+F:\svn\InstitutionalTrading\Client\SimpleFlagControl\bin\Release\SimpleFlagControl.pdb
+F:\svn\InstitutionalTrading\Client\SimpleFlagControl\obj\Release\ResolveAssemblyReference.cache
+F:\svn\InstitutionalTrading\Client\SimpleFlagControl\obj\Release\SimpleFlagControl.SimpleFlagControl.resources
+F:\svn\InstitutionalTrading\Client\SimpleFlagControl\obj\Release\SimpleFlagControl.csproj.GenerateResource.Cache
+F:\svn\InstitutionalTrading\Client\SimpleFlagControl\obj\Release\SimpleFlagControl.dll
+F:\svn\InstitutionalTrading\Client\SimpleFlagControl\obj\Release\SimpleFlagControl.pdb

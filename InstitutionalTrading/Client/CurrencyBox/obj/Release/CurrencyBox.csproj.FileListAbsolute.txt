@@ -1,0 +1,14 @@
+E:\svn\InstitutionalTrading\Client\CurrencyBox\bin\Release\CurrencyBox.dll
+E:\svn\InstitutionalTrading\Client\CurrencyBox\bin\Release\CurrencyBox.pdb
+E:\svn\InstitutionalTrading\Client\CurrencyBox\obj\Release\ResolveAssemblyReference.cache
+E:\svn\InstitutionalTrading\Client\CurrencyBox\obj\Release\CurrencyBox.CurrencyBox.resources
+E:\svn\InstitutionalTrading\Client\CurrencyBox\obj\Release\CurrencyBox.csproj.GenerateResource.Cache
+E:\svn\InstitutionalTrading\Client\CurrencyBox\obj\Release\CurrencyBox.dll
+E:\svn\InstitutionalTrading\Client\CurrencyBox\obj\Release\CurrencyBox.pdb
+F:\svn\InstitutionalTrading\Client\CurrencyBox\bin\Release\CurrencyBox.dll
+F:\svn\InstitutionalTrading\Client\CurrencyBox\bin\Release\CurrencyBox.pdb
+F:\svn\InstitutionalTrading\Client\CurrencyBox\obj\Release\ResolveAssemblyReference.cache
+F:\svn\InstitutionalTrading\Client\CurrencyBox\obj\Release\CurrencyBox.CurrencyBox.resources
+F:\svn\InstitutionalTrading\Client\CurrencyBox\obj\Release\CurrencyBox.csproj.GenerateResource.Cache
+F:\svn\InstitutionalTrading\Client\CurrencyBox\obj\Release\CurrencyBox.dll
+F:\svn\InstitutionalTrading\Client\CurrencyBox\obj\Release\CurrencyBox.pdb

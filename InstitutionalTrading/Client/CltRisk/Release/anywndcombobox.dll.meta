@@ -1,0 +1,32 @@
+  AnywndComboBox.AnywndComboBoxControl.resources - Embedded, ContainedInManifestFile, 
+Assembly AnywndComboBox, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly Microsoft.VisualC, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=SHA1, flags=None
+Assembly System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=SHA1, flags=None
+Assembly System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Class AnywndComboBox.CAnywndComboBoxControlContainter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ProcessData(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DropClose(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AnywndComboBox.AnywndComboBoxControl: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.ComboBox
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    AnywndComboBox.CAnywndComboBoxControlContainter ChildControl 'get set' : 
+  Methods:
+    get_ChildControl(): PrivateScope, Public, HideBySig, SpecialName
+    set_ChildControl(CAnywndComboBoxControlContainter): PrivateScope, Public, HideBySig, SpecialName
+    OnDropDownLeavedClose(Object, ToolStripDropDownClosedEventArgs): PrivateScope, Public, HideBySig

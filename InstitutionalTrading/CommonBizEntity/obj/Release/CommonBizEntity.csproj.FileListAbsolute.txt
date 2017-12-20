@@ -1,0 +1,5 @@
+F:\Release\CommonBizEntity.dll
+F:\Release\CommonBizEntity.pdb
+F:\svn\InstitutionalTrading\CommonBizEntity\obj\Release\ResolveAssemblyReference.cache
+F:\svn\InstitutionalTrading\CommonBizEntity\obj\Release\CommonBizEntity.dll
+F:\svn\InstitutionalTrading\CommonBizEntity\obj\Release\CommonBizEntity.pdb

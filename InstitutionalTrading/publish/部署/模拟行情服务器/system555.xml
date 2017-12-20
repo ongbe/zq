@@ -1,0 +1,7 @@
+<system>
+    <DataBase>
+        <SID>orcl</SID>
+        <User>test555</User>
+        <Password>test555</Password>
+    </DataBase>
+</system>

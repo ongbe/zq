@@ -1,0 +1,8 @@
+; SvrDBFTransfer.def : Declares the module parameters for the DLL.
+
+LIBRARY      "SvrDBFTransfer"
+
+EXPORTS
+    ; Explicit exports can go here
+	InitFunc
+	ReleaseFunc

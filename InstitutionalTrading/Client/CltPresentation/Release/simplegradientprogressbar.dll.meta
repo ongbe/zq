@@ -1,0 +1,37 @@
+  SimpleGradientProgressBar.SimpleGradientProgessBar.resources - Embedded, ContainedInManifestFile, 
+Assembly SimpleGradientProgressBar, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=SHA1, flags=None
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Class SimpleGradientProgressBar.SimpleGradientProgessBar: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Drawing.Drawing2D.LinearGradientMode GradientStyle 'get set' : 
+    Int32 Minimum 'get set' : 
+    Int32 Maximum 'get set' : 
+    Int32 Value 'get set' : 
+    System.Drawing.Color ProgressBarForeColour 'get set' : 
+    System.Drawing.Color ProgressBarBackColour 'get set' : 
+    Boolean ShowLabel 'get set' : 
+  Methods:
+    get_GradientStyle(): PrivateScope, Public, HideBySig, SpecialName
+    set_GradientStyle(LinearGradientMode): PrivateScope, Public, HideBySig, SpecialName
+    get_Minimum(): PrivateScope, Public, HideBySig, SpecialName
+    set_Minimum(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Maximum(): PrivateScope, Public, HideBySig, SpecialName
+    set_Maximum(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Value(): PrivateScope, Public, HideBySig, SpecialName
+    set_Value(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_ProgressBarForeColour(): PrivateScope, Public, HideBySig, SpecialName
+    set_ProgressBarForeColour(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ProgressBarBackColour(): PrivateScope, Public, HideBySig, SpecialName
+    set_ProgressBarBackColour(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ShowLabel(): PrivateScope, Public, HideBySig, SpecialName
+    set_ShowLabel(Boolean): PrivateScope, Public, HideBySig, SpecialName

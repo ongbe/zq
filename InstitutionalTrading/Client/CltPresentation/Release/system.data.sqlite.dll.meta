@@ -1,0 +1,1348 @@
+  System.Data.SQLite.SQLiteCommand.bmp - Embedded, ContainedInManifestFile, 
+  System.Data.SQLite.SQLiteConnection.bmp - Embedded, ContainedInManifestFile, 
+  System.Data.SQLite.SQLiteDataAdapter.bmp - Embedded, ContainedInManifestFile, 
+  System.Data.SQLite.SR.resources - Embedded, ContainedInManifestFile, 
+Assembly System.Data.SQLite, Version=1.0.81.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Transactions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Class System.Data.SQLite.SQLiteLogCallback: AutoLayout, AnsiClass, Class, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(IntPtr, Int32, IntPtr): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(IntPtr, Int32, IntPtr, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Data.SQLite.SQLiteConvert: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+    Void .ctor(System.Data.SQLite.SQLiteDateFormats, System.DateTimeKind): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Data.SQLite.SQLiteDateFormats _datetimeFormat : Assembly
+    System.DateTimeKind _datetimeKind : Assembly
+  Methods:
+    ToUTF8(String): PrivateScope, Public, Static, HideBySig
+    ToUTF8(DateTime): PrivateScope, Public, HideBySig
+    ToString(IntPtr, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    UTF8ToString(IntPtr, Int32): PrivateScope, Public, Static, HideBySig
+    ToDateTime(String): PrivateScope, Public, HideBySig
+    ToDateTime(String, SQLiteDateFormats, DateTimeKind): PrivateScope, Public, Static, HideBySig
+    ToDateTime(Double): PrivateScope, Public, HideBySig
+    ToDateTime(Double, DateTimeKind): PrivateScope, Public, Static, HideBySig
+    ToJulianDay(DateTime): PrivateScope, Public, Static, HideBySig
+    ToUnixEpoch(DateTime): PrivateScope, Public, Static, HideBySig
+    ToString(DateTime): PrivateScope, Public, HideBySig
+    ToDateTime(IntPtr, Int32): PrivateScope, Assembly, HideBySig
+    Split(String, Char): PrivateScope, Public, Static, HideBySig
+    ToBoolean(Object): PrivateScope, Public, Static, HideBySig
+    ToBoolean(String): PrivateScope, Public, Static, HideBySig
+    ColumnToType(SQLiteStatement, Int32, SQLiteType): PrivateScope, Assembly, Static, HideBySig
+    SQLiteTypeToType(SQLiteType): PrivateScope, Assembly, Static, HideBySig
+    TypeToDbType(Type): PrivateScope, Assembly, Static, HideBySig
+    DbTypeToColumnSize(DbType): PrivateScope, Assembly, Static, HideBySig
+    DbTypeToNumericPrecision(DbType): PrivateScope, Assembly, Static, HideBySig
+    DbTypeToNumericScale(DbType): PrivateScope, Assembly, Static, HideBySig
+    DbTypeToTypeName(DbType): PrivateScope, Assembly, Static, HideBySig
+    DbTypeToType(DbType): PrivateScope, Assembly, Static, HideBySig
+    TypeToAffinity(Type): PrivateScope, Assembly, Static, HideBySig
+    TypeNameToDbType(String): PrivateScope, Assembly, Static, HideBySig
+Class System.Data.SQLite.SQLiteBase: AutoLayout, AnsiClass, Class, Abstract, BeforeFieldInit
+  :System.Data.SQLite.SQLiteConvert
+    Void .ctor(System.Data.SQLite.SQLiteDateFormats, System.DateTimeKind): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    System.String Version 'get ' : 
+    Int64 LastInsertRowId 'get ' : 
+    Int32 Changes 'get ' : 
+    Int64 MemoryUsed 'get ' : 
+    Int64 MemoryHighwater 'get ' : 
+    Boolean AutoCommit 'get ' : 
+  Methods:
+    get_Version(): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract, SpecialName
+    get_LastInsertRowId(): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract, SpecialName
+    get_Changes(): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract, SpecialName
+    get_MemoryUsed(): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract, SpecialName
+    get_MemoryHighwater(): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract, SpecialName
+    Shutdown(): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    IsOpen(): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    Open(String, SQLiteConnectionFlags, SQLiteOpenFlagsEnum, Int32, Boolean): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    Close(): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    SetTimeout(Int32): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    GetLastError(): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    ClearPool(): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    CountPool(): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    Prepare(SQLiteConnection, String, SQLiteStatement, UInt32, String&(Out)): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    Step(SQLiteStatement): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    Reset(SQLiteStatement): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    Cancel(): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    Bind_Double(SQLiteStatement, SQLiteConnectionFlags, Int32, Double): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    Bind_Int32(SQLiteStatement, SQLiteConnectionFlags, Int32, Int32): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    Bind_UInt32(SQLiteStatement, SQLiteConnectionFlags, Int32, UInt32): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    Bind_Int64(SQLiteStatement, SQLiteConnectionFlags, Int32, Int64): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    Bind_UInt64(SQLiteStatement, SQLiteConnectionFlags, Int32, UInt64): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    Bind_Text(SQLiteStatement, SQLiteConnectionFlags, Int32, String): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    Bind_Blob(SQLiteStatement, SQLiteConnectionFlags, Int32, Byte[]): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    Bind_DateTime(SQLiteStatement, SQLiteConnectionFlags, Int32, DateTime): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    Bind_Null(SQLiteStatement, SQLiteConnectionFlags, Int32): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    Bind_ParamCount(SQLiteStatement, SQLiteConnectionFlags): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    Bind_ParamName(SQLiteStatement, SQLiteConnectionFlags, Int32): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    Bind_ParamIndex(SQLiteStatement, SQLiteConnectionFlags, String): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    ColumnCount(SQLiteStatement): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    ColumnName(SQLiteStatement, Int32): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    ColumnAffinity(SQLiteStatement, Int32): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    ColumnType(SQLiteStatement, Int32, TypeAffinity&(Out)): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    ColumnIndex(SQLiteStatement, String): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    ColumnOriginalName(SQLiteStatement, Int32): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    ColumnDatabaseName(SQLiteStatement, Int32): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    ColumnTableName(SQLiteStatement, Int32): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    ColumnMetaData(String, String, String, String&(Out), String&(Out), Boolean&(Out), Boolean&(Out), Boolean&(Out)): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    GetIndexColumnExtendedInfo(String, String, String, Int32&(Out), Int32&(Out), String&(Out)): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    GetDouble(SQLiteStatement, Int32): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    GetInt32(SQLiteStatement, Int32): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    GetInt64(SQLiteStatement, Int32): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    GetText(SQLiteStatement, Int32): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    GetBytes(SQLiteStatement, Int32, Int32, Byte[], Int32, Int32): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    GetChars(SQLiteStatement, Int32, Int32, Char[], Int32, Int32): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    GetDateTime(SQLiteStatement, Int32): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    IsNull(SQLiteStatement, Int32): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    CreateCollation(String, SQLiteCollation, SQLiteCollation): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    CreateFunction(String, Int32, Boolean, SQLiteCallback, SQLiteCallback, SQLiteFinalCallback): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    GetCollationSequence(SQLiteFunction, IntPtr): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    ContextCollateCompare(CollationEncodingEnum, IntPtr, String, String): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    ContextCollateCompare(CollationEncodingEnum, IntPtr, Char[], Char[]): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    AggregateCount(IntPtr): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    AggregateContext(IntPtr): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    GetParamValueBytes(IntPtr, Int32, Byte[], Int32, Int32): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    GetParamValueDouble(IntPtr): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    GetParamValueInt32(IntPtr): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    GetParamValueInt64(IntPtr): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    GetParamValueText(IntPtr): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    GetParamValueType(IntPtr): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    ReturnBlob(IntPtr, Byte[]): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    ReturnDouble(IntPtr, Double): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    ReturnError(IntPtr, String): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    ReturnInt32(IntPtr, Int32): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    ReturnInt64(IntPtr, Int64): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    ReturnNull(IntPtr): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    ReturnText(IntPtr, String): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    SetExtendedResultCodes(Boolean): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    ResultCode(): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    ExtendedResultCode(): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    LogMessage(Int32, String): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    SetPassword(Byte[]): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    ChangePassword(Byte[]): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    SetUpdateHook(SQLiteUpdateCallback): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    SetCommitHook(SQLiteCommitCallback): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    SetTraceCallback(SQLiteTraceCallback): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    SetRollbackHook(SQLiteRollbackCallback): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    SetLogCallback(SQLiteLogCallback): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    IsInitialized(): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    GetCursorForTable(SQLiteStatement, Int32, Int32): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    GetRowIdForCursor(SQLiteStatement, Int32): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    GetValue(SQLiteStatement, Int32, SQLiteType): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    get_AutoCommit(): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract, SpecialName
+    FileControl(String, Int32, IntPtr): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    InitializeBackup(SQLiteConnection, String, String): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    StepBackup(SQLiteBackup, Int32, Boolean&(Out)): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    RemainingBackup(SQLiteBackup): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    PageCountBackup(SQLiteBackup): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    FinishBackup(SQLiteBackup): PrivateScope, Assembly, Virtual, HideBySig, VtableLayoutMask, CheckAccessOnOverride, Abstract
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetLastError(SQLiteConnectionHandle, IntPtr): PrivateScope, Assembly, Static, HideBySig
+    FinishBackup(SQLiteConnectionHandle, IntPtr): PrivateScope, Assembly, Static, HideBySig
+    FinalizeStatement(SQLiteConnectionHandle, IntPtr): PrivateScope, Assembly, Static, HideBySig
+    CloseConnection(SQLiteConnectionHandle, IntPtr): PrivateScope, Assembly, Static, HideBySig
+    ResetConnection(SQLiteConnectionHandle, IntPtr): PrivateScope, Assembly, Static, HideBySig
+    IsAutocommit(SQLiteConnectionHandle, IntPtr): PrivateScope, Assembly, Static, HideBySig
+Class System.Data.SQLite.SQLite3: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Data.SQLite.SQLiteBase
+    Void .ctor(System.Data.SQLite.SQLiteDateFormats, System.DateTimeKind): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String PublicKey = 002400000480000094000000060200000024000052534131000400000100010005a288de5687c4e1b621ddff5d844727418956997f475eb829429e411aff3e93f97b70de698b972640925bdd44280df0a25a843266973704137cbb0e7441c1fe7cae4e2440ae91ab8cde3933febcb1ac48dd33b40e13c421d8215c18a4349a436dd499e3c385cc683015f886f6c10bd90115eb2bd61b67750839e3a19941dc9c : Assembly, Static, Literal, HasDefault
+    System.String DesignerVersion = 1.0.81.0 : Assembly, Static, Literal, HasDefault
+  Properties:
+    System.String Version 'get ' : 
+    System.String DefineConstants 'get ' : 
+    System.String SQLiteVersion 'get ' : 
+    System.String SQLiteSourceId 'get ' : 
+    Boolean AutoCommit 'get ' : 
+    Int64 LastInsertRowId 'get ' : 
+    Int32 Changes 'get ' : 
+    Int64 MemoryUsed 'get ' : 
+    Int64 MemoryHighwater 'get ' : 
+  Methods:
+    Close(): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    Cancel(): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    get_Version(): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride, SpecialName
+    get_DefineConstants(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_SQLiteVersion(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_SQLiteSourceId(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_AutoCommit(): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride, SpecialName
+    get_LastInsertRowId(): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride, SpecialName
+    get_Changes(): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride, SpecialName
+    get_MemoryUsed(): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride, SpecialName
+    get_MemoryHighwater(): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride, SpecialName
+    Shutdown(): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    IsOpen(): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    Open(String, SQLiteConnectionFlags, SQLiteOpenFlagsEnum, Int32, Boolean): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    ClearPool(): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    CountPool(): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    SetTimeout(Int32): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    Step(SQLiteStatement): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    Reset(SQLiteStatement): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    GetLastError(): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    Prepare(SQLiteConnection, String, SQLiteStatement, UInt32, String&(Out)): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    Bind_Double(SQLiteStatement, SQLiteConnectionFlags, Int32, Double): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    Bind_Int32(SQLiteStatement, SQLiteConnectionFlags, Int32, Int32): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    Bind_UInt32(SQLiteStatement, SQLiteConnectionFlags, Int32, UInt32): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    Bind_Int64(SQLiteStatement, SQLiteConnectionFlags, Int32, Int64): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    Bind_UInt64(SQLiteStatement, SQLiteConnectionFlags, Int32, UInt64): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    Bind_Text(SQLiteStatement, SQLiteConnectionFlags, Int32, String): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    Bind_DateTime(SQLiteStatement, SQLiteConnectionFlags, Int32, DateTime): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    Bind_Blob(SQLiteStatement, SQLiteConnectionFlags, Int32, Byte[]): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    Bind_Null(SQLiteStatement, SQLiteConnectionFlags, Int32): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    Bind_ParamCount(SQLiteStatement, SQLiteConnectionFlags): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    Bind_ParamName(SQLiteStatement, SQLiteConnectionFlags, Int32): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    Bind_ParamIndex(SQLiteStatement, SQLiteConnectionFlags, String): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    ColumnCount(SQLiteStatement): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    ColumnName(SQLiteStatement, Int32): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    ColumnAffinity(SQLiteStatement, Int32): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    ColumnType(SQLiteStatement, Int32, TypeAffinity&(Out)): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    ColumnIndex(SQLiteStatement, String): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    ColumnOriginalName(SQLiteStatement, Int32): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    ColumnDatabaseName(SQLiteStatement, Int32): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    ColumnTableName(SQLiteStatement, Int32): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    ColumnMetaData(String, String, String, String&(Out), String&(Out), Boolean&(Out), Boolean&(Out), Boolean&(Out)): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    GetDouble(SQLiteStatement, Int32): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    GetInt32(SQLiteStatement, Int32): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    GetInt64(SQLiteStatement, Int32): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    GetText(SQLiteStatement, Int32): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    GetDateTime(SQLiteStatement, Int32): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    GetBytes(SQLiteStatement, Int32, Int32, Byte[], Int32, Int32): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    GetChars(SQLiteStatement, Int32, Int32, Char[], Int32, Int32): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    IsNull(SQLiteStatement, Int32): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    AggregateCount(IntPtr): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    CreateFunction(String, Int32, Boolean, SQLiteCallback, SQLiteCallback, SQLiteFinalCallback): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    CreateCollation(String, SQLiteCollation, SQLiteCollation): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    ContextCollateCompare(CollationEncodingEnum, IntPtr, String, String): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    ContextCollateCompare(CollationEncodingEnum, IntPtr, Char[], Char[]): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    GetCollationSequence(SQLiteFunction, IntPtr): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    GetParamValueBytes(IntPtr, Int32, Byte[], Int32, Int32): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    GetParamValueDouble(IntPtr): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    GetParamValueInt32(IntPtr): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    GetParamValueInt64(IntPtr): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    GetParamValueText(IntPtr): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    GetParamValueType(IntPtr): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    ReturnBlob(IntPtr, Byte[]): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    ReturnDouble(IntPtr, Double): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    ReturnError(IntPtr, String): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    ReturnInt32(IntPtr, Int32): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    ReturnInt64(IntPtr, Int64): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    ReturnNull(IntPtr): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    ReturnText(IntPtr, String): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    AggregateContext(IntPtr): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    SetExtendedResultCodes(Boolean): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    ResultCode(): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    ExtendedResultCode(): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    LogMessage(Int32, String): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    SetPassword(Byte[]): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    ChangePassword(Byte[]): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    SetUpdateHook(SQLiteUpdateCallback): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    SetCommitHook(SQLiteCommitCallback): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    SetTraceCallback(SQLiteTraceCallback): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    SetRollbackHook(SQLiteRollbackCallback): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    SetLogCallback(SQLiteLogCallback): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    InitializeBackup(SQLiteConnection, String, String): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    StepBackup(SQLiteBackup, Int32, Boolean&(Out)): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    RemainingBackup(SQLiteBackup): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    PageCountBackup(SQLiteBackup): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    FinishBackup(SQLiteBackup): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    IsInitialized(): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    StaticIsInitialized(): PrivateScope, Assembly, Static, HideBySig
+    GetValue(SQLiteStatement, Int32, SQLiteType): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    GetCursorForTable(SQLiteStatement, Int32, Int32): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    GetRowIdForCursor(SQLiteStatement, Int32): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    GetIndexColumnExtendedInfo(String, String, String, Int32&(Out), Int32&(Out), String&(Out)): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    FileControl(String, Int32, IntPtr): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+Class System.Data.SQLite.SQLite3_UTF16: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Data.SQLite.SQLite3
+    Void .ctor(System.Data.SQLite.SQLiteDateFormats, System.DateTimeKind): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ToString(IntPtr, Int32): PrivateScope, Public, Virtual, HideBySig
+    UTF16ToString(IntPtr, Int32): PrivateScope, Public, Static, HideBySig
+    Open(String, SQLiteConnectionFlags, SQLiteOpenFlagsEnum, Int32, Boolean): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    Bind_DateTime(SQLiteStatement, SQLiteConnectionFlags, Int32, DateTime): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    Bind_Text(SQLiteStatement, SQLiteConnectionFlags, Int32, String): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    GetDateTime(SQLiteStatement, Int32): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    ColumnName(SQLiteStatement, Int32): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    GetText(SQLiteStatement, Int32): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    ColumnOriginalName(SQLiteStatement, Int32): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    ColumnDatabaseName(SQLiteStatement, Int32): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    ColumnTableName(SQLiteStatement, Int32): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    GetParamValueText(IntPtr): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    ReturnError(IntPtr, String): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+    ReturnText(IntPtr, String): PrivateScope, Assembly, Virtual, HideBySig, CheckAccessOnOverride
+Class System.Data.SQLite.SQLiteBackup: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+    Void .ctor(System.Data.SQLite.SQLiteBase, System.Data.SQLite.SQLiteBackupHandle, IntPtr, Byte[], IntPtr, Byte[]): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Fields:
+    System.Data.SQLite.SQLiteBase _sql : Assembly
+    System.Data.SQLite.SQLiteBackupHandle _sqlite_backup : Assembly
+    IntPtr _destDb : Assembly
+    Byte[] _zDestName : Assembly
+    IntPtr _sourceDb : Assembly
+    Byte[] _zSourceName : Assembly
+    Int32 _stepResult : Assembly
+  Methods:
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Interface System.Data.SQLite.ISQLiteSchemaExtensions: AutoLayout, AnsiClass, Class, ClassSemanticsMask, Abstract
+  Methods:
+    BuildTempSchema(SQLiteConnection): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Struct System.Data.SQLite.SQLiteOpenFlagsEnum: AutoLayout, AnsiClass, Class, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Data.SQLite.SQLiteOpenFlagsEnum None = 0 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteOpenFlagsEnum ReadOnly = 1 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteOpenFlagsEnum ReadWrite = 2 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteOpenFlagsEnum Create = 4 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteOpenFlagsEnum SharedCache = 16777216 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteOpenFlagsEnum Default = 6 : Public, Static, Literal, HasDefault
+Struct System.Data.SQLite.SQLiteConnectionFlags: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Data.SQLite.SQLiteConnectionFlags None = 0 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteConnectionFlags LogPrepare = 1 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteConnectionFlags LogPreBind = 2 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteConnectionFlags LogBind = 4 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteConnectionFlags LogCallbackException = 8 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteConnectionFlags LogBackup = 16 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteConnectionFlags LogAll = 31 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteConnectionFlags Default = 8 : Public, Static, Literal, HasDefault
+Class System.Data.SQLite.SQLiteCommand: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Common.DbCommand
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Data.SQLite.SQLiteConnection): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Data.SQLite.SQLiteConnection): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Data.SQLite.SQLiteConnection, System.Data.SQLite.SQLiteTransaction): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.ICloneable
+  Fields:
+    Int32 _commandTimeout : Assembly
+    System.Collections.Generic.List`1[System.Data.SQLite.SQLiteStatement] _statementList : Assembly
+    System.String _remainingText : Assembly
+  Properties:
+    System.String CommandText 'get set' : 
+    Int32 CommandTimeout 'get set' : 
+    System.Data.CommandType CommandType 'get set' : 
+    System.Data.SQLite.SQLiteConnection Connection 'get set' : 
+    System.Data.SQLite.SQLiteParameterCollection Parameters 'get ' : 
+    System.Data.SQLite.SQLiteTransaction Transaction 'get set' : 
+    System.Data.UpdateRowSource UpdatedRowSource 'get set' : 
+    Boolean DesignTimeVisible 'get set' : 
+  Methods:
+    ClearCommands(): PrivateScope, Assembly, HideBySig
+    BuildNextCommand(): PrivateScope, Assembly, HideBySig
+    GetStatement(Int32): PrivateScope, Assembly, HideBySig
+    Cancel(): PrivateScope, Public, Virtual, HideBySig
+    get_CommandText(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_CommandText(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CommandTimeout(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_CommandTimeout(Int32): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CommandType(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_CommandType(CommandType): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    CreateParameter(): PrivateScope, Public, HideBySig
+    get_Connection(): PrivateScope, Public, HideBySig, SpecialName
+    set_Connection(SQLiteConnection): PrivateScope, Public, HideBySig, SpecialName
+    get_Parameters(): PrivateScope, Public, HideBySig, SpecialName
+    get_Transaction(): PrivateScope, Public, HideBySig, SpecialName
+    set_Transaction(SQLiteTransaction): PrivateScope, Public, HideBySig, SpecialName
+    ExecuteReader(CommandBehavior): PrivateScope, Public, HideBySig
+    ExecuteReader(): PrivateScope, Public, HideBySig
+    ClearDataReader(): PrivateScope, Assembly, HideBySig
+    ExecuteNonQuery(): PrivateScope, Public, Virtual, HideBySig
+    ExecuteScalar(): PrivateScope, Public, Virtual, HideBySig
+    Prepare(): PrivateScope, Public, Virtual, HideBySig
+    get_UpdatedRowSource(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_UpdatedRowSource(UpdateRowSource): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_DesignTimeVisible(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_DesignTimeVisible(Boolean): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Clone(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Data.SQLite.SQLiteCommandBuilder: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Common.DbCommandBuilder
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Data.SQLite.SQLiteDataAdapter): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Data.SQLite.SQLiteDataAdapter DataAdapter 'get set' : 
+    System.Data.Common.CatalogLocation CatalogLocation 'get set' : 
+    System.String CatalogSeparator 'get set' : 
+    System.String QuotePrefix 'get set' : 
+    System.String QuoteSuffix 'get set' : 
+    System.String SchemaSeparator 'get set' : 
+  Methods:
+    get_DataAdapter(): PrivateScope, Public, HideBySig, SpecialName
+    set_DataAdapter(SQLiteDataAdapter): PrivateScope, Public, HideBySig, SpecialName
+    GetDeleteCommand(): PrivateScope, Public, HideBySig
+    GetDeleteCommand(Boolean): PrivateScope, Public, HideBySig
+    GetUpdateCommand(): PrivateScope, Public, HideBySig
+    GetUpdateCommand(Boolean): PrivateScope, Public, HideBySig
+    GetInsertCommand(): PrivateScope, Public, HideBySig
+    GetInsertCommand(Boolean): PrivateScope, Public, HideBySig
+    get_CatalogLocation(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_CatalogLocation(CatalogLocation): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CatalogSeparator(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_CatalogSeparator(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_QuotePrefix(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_QuotePrefix(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_QuoteSuffix(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_QuoteSuffix(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    QuoteIdentifier(String): PrivateScope, Public, Virtual, HideBySig
+    UnquoteIdentifier(String): PrivateScope, Public, Virtual, HideBySig
+    get_SchemaSeparator(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_SchemaSeparator(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class System.Data.SQLite.SQLiteConnection: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Common.DbConnection
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Data.SQLite.SQLiteConnection): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.ICloneable
+  Fields:
+    Int32 _transactionLevel : Assembly
+    System.Data.SQLite.SQLiteEnlistment _enlistment : Assembly
+    System.Data.SQLite.SQLiteBase _sql : Assembly
+    System.String _baseSchemaName : Assembly
+    Boolean _binaryGuid : Assembly
+    Int64 _version : Assembly
+    System.String DefaultBaseSchemaName = sqlite_default_schema : Assembly, Static, Literal, HasDefault
+  Properties:
+    Int32 PoolCount 'get ' : 
+    System.String ConnectionString 'get set' : 
+    System.String DataSource 'get ' : 
+    System.String Database 'get ' : 
+    Int32 DefaultTimeout 'get set' : 
+    System.Data.SQLite.SQLiteConnectionFlags Flags 'get set' : 
+    System.String ServerVersion 'get ' : 
+    Int64 LastInsertRowId 'get ' : 
+    Int32 Changes 'get ' : 
+    Int64 MemoryUsed 'get ' : 
+    Int64 MemoryHighwater 'get ' : 
+    System.String DefineConstants 'get ' : 
+    System.String SQLiteVersion 'get ' : 
+    System.String SQLiteSourceId 'get ' : 
+    System.Data.ConnectionState State 'get ' : 
+  Events:
+    System.Data.SQLite.SQLiteUpdateEventHandler _updateHandler: 
+    System.Data.SQLite.SQLiteCommitHandler _commitHandler: 
+    System.Data.SQLite.SQLiteTraceEventHandler _traceHandler: 
+    System.EventHandler _rollbackHandler: 
+    System.Data.StateChangeEventHandler StateChange: 
+    System.Data.SQLite.SQLiteUpdateEventHandler Update: 
+    System.Data.SQLite.SQLiteCommitHandler Commit: 
+    System.Data.SQLite.SQLiteTraceEventHandler Trace: 
+    System.EventHandler RollBack: 
+  Methods:
+    add_StateChange(StateChangeEventHandler): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    remove_StateChange(StateChangeEventHandler): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    BackupDatabase(SQLiteConnection, String, String, Int32, SQLiteBackupCallback, Int32): PrivateScope, Public, HideBySig
+    Clone(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    CreateFile(String): PrivateScope, Public, Static, HideBySig
+    OnStateChange(ConnectionState): PrivateScope, Assembly, HideBySig
+    BeginTransaction(IsolationLevel, Boolean): PrivateScope, Public, HideBySig (Obsolete)
+    BeginTransaction(Boolean): PrivateScope, Public, HideBySig (Obsolete)
+    BeginTransaction(IsolationLevel): PrivateScope, Public, HideBySig
+    BeginTransaction(): PrivateScope, Public, HideBySig
+    ChangeDatabase(String): PrivateScope, Public, Virtual, HideBySig
+    Close(): PrivateScope, Public, Virtual, HideBySig
+    get_PoolCount(): PrivateScope, Public, HideBySig, SpecialName
+    ClearPool(SQLiteConnection): PrivateScope, Public, Static, HideBySig
+    ClearAllPools(): PrivateScope, Public, Static, HideBySig
+    get_ConnectionString(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_ConnectionString(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    CreateCommand(): PrivateScope, Public, HideBySig
+    get_DataSource(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Database(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    MapUriPath(String): PrivateScope, Assembly, Static, HideBySig
+    ParseConnectionString(String): PrivateScope, Assembly, Static, HideBySig
+    EnlistTransaction(Transaction): PrivateScope, Public, Virtual, HideBySig
+    FindKey(SortedList`2, String, String): PrivateScope, Assembly, Static, HideBySig
+    Open(): PrivateScope, Public, Virtual, HideBySig
+    OpenAndReturn(): PrivateScope, Public, HideBySig
+    get_DefaultTimeout(): PrivateScope, Public, HideBySig, SpecialName
+    set_DefaultTimeout(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Flags(): PrivateScope, Public, HideBySig, SpecialName
+    set_Flags(SQLiteConnectionFlags): PrivateScope, Public, HideBySig, SpecialName
+    get_ServerVersion(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_LastInsertRowId(): PrivateScope, Public, HideBySig, SpecialName
+    get_Changes(): PrivateScope, Public, HideBySig, SpecialName
+    get_MemoryUsed(): PrivateScope, Public, HideBySig, SpecialName
+    get_MemoryHighwater(): PrivateScope, Public, HideBySig, SpecialName
+    get_DefineConstants(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_SQLiteVersion(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_SQLiteSourceId(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_State(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Shutdown(): PrivateScope, Public, HideBySig
+    SetExtendedResultCodes(Boolean): PrivateScope, Public, HideBySig
+    ResultCode(): PrivateScope, Public, HideBySig
+    ExtendedResultCode(): PrivateScope, Public, HideBySig
+    LogMessage(Int32, String): PrivateScope, Public, HideBySig
+    ChangePassword(String): PrivateScope, Public, HideBySig
+    ChangePassword(Byte[]): PrivateScope, Public, HideBySig
+    SetPassword(String): PrivateScope, Public, HideBySig
+    SetPassword(Byte[]): PrivateScope, Public, HideBySig
+    SetAvRetry(Int32&, Int32&): PrivateScope, Public, HideBySig
+    GetSchema(): PrivateScope, Public, Virtual, HideBySig
+    GetSchema(String): PrivateScope, Public, Virtual, HideBySig
+    GetSchema(String, String[]): PrivateScope, Public, Virtual, HideBySig
+    add_Update(SQLiteUpdateEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_Update(SQLiteUpdateEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_Commit(SQLiteCommitHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_Commit(SQLiteCommitHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_Trace(SQLiteTraceEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_Trace(SQLiteTraceEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_RollBack(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_RollBack(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+Struct System.Data.SQLite.SynchronizationModes: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Data.SQLite.SynchronizationModes Normal = 0 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SynchronizationModes Full = 1 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SynchronizationModes Off = 2 : Public, Static, Literal, HasDefault
+Class System.Data.SQLite.SQLiteUpdateCallback: AutoLayout, AnsiClass, Class, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(IntPtr, Int32, IntPtr, IntPtr, Int64): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(IntPtr, Int32, IntPtr, IntPtr, Int64, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Data.SQLite.SQLiteCommitCallback: AutoLayout, AnsiClass, Class, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(IntPtr): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(IntPtr, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Data.SQLite.SQLiteTraceCallback: AutoLayout, AnsiClass, Class, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(IntPtr, IntPtr): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(IntPtr, IntPtr, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Data.SQLite.SQLiteRollbackCallback: AutoLayout, AnsiClass, Class, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(IntPtr): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(IntPtr, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Data.SQLite.SQLiteCommitHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, CommitEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, CommitEventArgs, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Data.SQLite.SQLiteUpdateEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, UpdateEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, UpdateEventArgs, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Data.SQLite.SQLiteTraceEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, TraceEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, TraceEventArgs, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Data.SQLite.SQLiteBackupCallback: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(SQLiteConnection, String, SQLiteConnection, String, Int32, Int32, Int32, Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(SQLiteConnection, String, SQLiteConnection, String, Int32, Int32, Int32, Boolean, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Struct System.Data.SQLite.UpdateEventType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Data.SQLite.UpdateEventType Delete = 9 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.UpdateEventType Insert = 18 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.UpdateEventType Update = 23 : Public, Static, Literal, HasDefault
+Class System.Data.SQLite.UpdateEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(System.String, System.String, System.Data.SQLite.UpdateEventType, Int64): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Database : Public, InitOnly
+    System.String Table : Public, InitOnly
+    System.Data.SQLite.UpdateEventType Event : Public, InitOnly
+    Int64 RowId : Public, InitOnly
+Class System.Data.SQLite.CommitEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean AbortTransaction : Public
+Class System.Data.SQLite.TraceEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(System.String): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Statement : Public, InitOnly
+Class System.Data.SQLite.SQLiteConnectionPool: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    GetCounts(String, Dictionary`2&, Int32&, Int32&, Int32&): PrivateScope, Assembly, Static, HideBySig
+    Remove(String, Int32, Int32&(Out)): PrivateScope, Assembly, Static, HideBySig
+    ClearAllPools(): PrivateScope, Assembly, Static, HideBySig
+    ClearPool(String): PrivateScope, Assembly, Static, HideBySig
+    Add(String, SQLiteConnectionHandle, Int32): PrivateScope, Assembly, Static, HideBySig
+Class System.Data.SQLite.SQLiteConnectionPool+Pool: AutoLayout, AnsiClass, Class, NestedAssembly, BeforeFieldInit
+    Void .ctor(Int32, Int32): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Collections.Generic.Queue`1[System.WeakReference] Queue : Assembly, InitOnly
+    Int32 PoolVersion : Assembly
+    Int32 MaxPoolSize : Assembly
+Class System.Data.SQLite.SQLiteConnectionStringBuilder: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Common.DbConnectionStringBuilder
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 Version 'get set' : 
+    System.Data.SQLite.SynchronizationModes SyncMode 'get set' : 
+    Boolean UseUTF16Encoding 'get set' : 
+    Boolean Pooling 'get set' : 
+    Boolean BinaryGUID 'get set' : 
+    System.String DataSource 'get set' : 
+    System.String Uri 'get set' : 
+    Int32 DefaultTimeout 'get set' : 
+    Boolean Enlist 'get set' : 
+    Boolean FailIfMissing 'get set' : 
+    Boolean LegacyFormat 'get set' : 
+    Boolean ReadOnly 'get set' : 
+    System.String Password 'get set' : 
+    Int32 PageSize 'get set' : 
+    Int32 MaxPageCount 'get set' : 
+    Int32 CacheSize 'get set' : 
+    System.Data.SQLite.SQLiteDateFormats DateTimeFormat 'get set' : 
+    System.DateTimeKind DateTimeKind 'get set' : 
+    System.String BaseSchemaName 'get set' : 
+    System.Data.SQLite.SQLiteJournalModeEnum JournalMode 'get set' : 
+    System.Data.IsolationLevel DefaultIsolationLevel 'get set' : 
+    Boolean ForeignKeys 'get set' : 
+    System.Data.SQLite.SQLiteConnectionFlags Flags 'get set' : 
+  Methods:
+    get_Version(): PrivateScope, Public, HideBySig, SpecialName
+    set_Version(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_SyncMode(): PrivateScope, Public, HideBySig, SpecialName
+    set_SyncMode(SynchronizationModes): PrivateScope, Public, HideBySig, SpecialName
+    get_UseUTF16Encoding(): PrivateScope, Public, HideBySig, SpecialName
+    set_UseUTF16Encoding(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Pooling(): PrivateScope, Public, HideBySig, SpecialName
+    set_Pooling(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_BinaryGUID(): PrivateScope, Public, HideBySig, SpecialName
+    set_BinaryGUID(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_DataSource(): PrivateScope, Public, HideBySig, SpecialName
+    set_DataSource(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Uri(): PrivateScope, Public, HideBySig, SpecialName
+    set_Uri(String): PrivateScope, Public, HideBySig, SpecialName
+    get_DefaultTimeout(): PrivateScope, Public, HideBySig, SpecialName
+    set_DefaultTimeout(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Enlist(): PrivateScope, Public, HideBySig, SpecialName
+    set_Enlist(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_FailIfMissing(): PrivateScope, Public, HideBySig, SpecialName
+    set_FailIfMissing(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_LegacyFormat(): PrivateScope, Public, HideBySig, SpecialName
+    set_LegacyFormat(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_ReadOnly(): PrivateScope, Public, HideBySig, SpecialName
+    set_ReadOnly(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Password(): PrivateScope, Public, HideBySig, SpecialName
+    set_Password(String): PrivateScope, Public, HideBySig, SpecialName
+    get_PageSize(): PrivateScope, Public, HideBySig, SpecialName
+    set_PageSize(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_MaxPageCount(): PrivateScope, Public, HideBySig, SpecialName
+    set_MaxPageCount(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_CacheSize(): PrivateScope, Public, HideBySig, SpecialName
+    set_CacheSize(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_DateTimeFormat(): PrivateScope, Public, HideBySig, SpecialName
+    set_DateTimeFormat(SQLiteDateFormats): PrivateScope, Public, HideBySig, SpecialName
+    get_DateTimeKind(): PrivateScope, Public, HideBySig, SpecialName
+    set_DateTimeKind(DateTimeKind): PrivateScope, Public, HideBySig, SpecialName
+    get_BaseSchemaName(): PrivateScope, Public, HideBySig, SpecialName
+    set_BaseSchemaName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_JournalMode(): PrivateScope, Public, HideBySig, SpecialName
+    set_JournalMode(SQLiteJournalModeEnum): PrivateScope, Public, HideBySig, SpecialName
+    get_DefaultIsolationLevel(): PrivateScope, Public, HideBySig, SpecialName
+    set_DefaultIsolationLevel(IsolationLevel): PrivateScope, Public, HideBySig, SpecialName
+    get_ForeignKeys(): PrivateScope, Public, HideBySig, SpecialName
+    set_ForeignKeys(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Flags(): PrivateScope, Public, HideBySig, SpecialName
+    set_Flags(SQLiteConnectionFlags): PrivateScope, Public, HideBySig, SpecialName
+    TryGetValue(String, Object&(Out)): PrivateScope, Public, Virtual, HideBySig
+Struct System.Data.SQLite.TypeAffinity: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Data.SQLite.TypeAffinity Uninitialized = 0 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.TypeAffinity Int64 = 1 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.TypeAffinity Double = 2 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.TypeAffinity Text = 3 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.TypeAffinity Blob = 4 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.TypeAffinity Null = 5 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.TypeAffinity DateTime = 10 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.TypeAffinity None = 11 : Public, Static, Literal, HasDefault
+Struct System.Data.SQLite.SQLiteDateFormats: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Data.SQLite.SQLiteDateFormats Ticks = 0 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteDateFormats ISO8601 = 1 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteDateFormats JulianDay = 2 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteDateFormats UnixEpoch = 3 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteDateFormats InvariantCulture = 4 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteDateFormats CurrentCulture = 5 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteDateFormats Default = 1 : Public, Static, Literal, HasDefault
+Struct System.Data.SQLite.SQLiteJournalModeEnum: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Data.SQLite.SQLiteJournalModeEnum Default = -1 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteJournalModeEnum Delete = 0 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteJournalModeEnum Persist = 1 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteJournalModeEnum Off = 2 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteJournalModeEnum Truncate = 3 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteJournalModeEnum Memory = 4 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteJournalModeEnum Wal = 5 : Public, Static, Literal, HasDefault
+Class System.Data.SQLite.SQLiteType: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Data.DbType Type : Assembly
+    System.Data.SQLite.TypeAffinity Affinity : Assembly
+Struct System.Data.SQLite.SQLiteTypeNames: AutoLayout, AnsiClass, Class, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(System.String, System.Data.DbType): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String typeName : Assembly
+    System.Data.DbType dataType : Assembly
+Class System.Data.SQLite.TypeNameStringComparer: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Collections.Generic.IEqualityComparer`1[System.String]
+  Methods:
+    Equals(String, String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetHashCode(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Data.SQLite.SQLiteDataAdapter: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Common.DbDataAdapter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Data.SQLite.SQLiteCommand): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Data.SQLite.SQLiteConnection): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Data.SQLite.SQLiteCommand SelectCommand 'get set' : 
+    System.Data.SQLite.SQLiteCommand InsertCommand 'get set' : 
+    System.Data.SQLite.SQLiteCommand UpdateCommand 'get set' : 
+    System.Data.SQLite.SQLiteCommand DeleteCommand 'get set' : 
+  Events:
+    System.EventHandler`1[System.Data.Common.RowUpdatingEventArgs] RowUpdating: 
+    System.EventHandler`1[System.Data.Common.RowUpdatedEventArgs] RowUpdated: 
+  Methods:
+    add_RowUpdating(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_RowUpdating(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    FindBuilder(MulticastDelegate): PrivateScope, Assembly, Static, HideBySig
+    add_RowUpdated(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_RowUpdated(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    get_SelectCommand(): PrivateScope, Public, HideBySig, SpecialName
+    set_SelectCommand(SQLiteCommand): PrivateScope, Public, HideBySig, SpecialName
+    get_InsertCommand(): PrivateScope, Public, HideBySig, SpecialName
+    set_InsertCommand(SQLiteCommand): PrivateScope, Public, HideBySig, SpecialName
+    get_UpdateCommand(): PrivateScope, Public, HideBySig, SpecialName
+    set_UpdateCommand(SQLiteCommand): PrivateScope, Public, HideBySig, SpecialName
+    get_DeleteCommand(): PrivateScope, Public, HideBySig, SpecialName
+    set_DeleteCommand(SQLiteCommand): PrivateScope, Public, HideBySig, SpecialName
+Class System.Data.SQLite.SQLiteDataReader: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Common.DbDataReader
+    Void .ctor(System.Data.SQLite.SQLiteCommand, System.Data.CommandBehavior): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean _disposeCommand : Assembly
+    Boolean _throwOnDisposed : Assembly
+    Int64 _version : Assembly
+  Properties:
+    Int32 Depth 'get ' : 
+    Int32 FieldCount 'get ' : 
+    Int32 VisibleFieldCount 'get ' : 
+    Boolean HasRows 'get ' : 
+    Boolean IsClosed 'get ' : 
+    Int32 RecordsAffected 'get ' : 
+    System.Object Item [System.String] 'get ' : 
+    System.Object Item [Int32] 'get ' : 
+  Methods:
+    Cancel(): PrivateScope, Assembly, HideBySig
+    Close(): PrivateScope, Public, Virtual, HideBySig
+    GetEnumerator(): PrivateScope, Public, Virtual, HideBySig
+    get_Depth(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_FieldCount(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_VisibleFieldCount(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    GetBoolean(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetByte(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetBytes(Int32, Int64, Byte[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    GetChar(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetChars(Int32, Int64, Char[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    GetDataTypeName(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetDateTime(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetDecimal(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetDouble(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetFieldType(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetFloat(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetGuid(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetInt16(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetInt32(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetInt64(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetName(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetOrdinal(String): PrivateScope, Public, Virtual, HideBySig
+    GetSchemaTable(): PrivateScope, Public, Virtual, HideBySig
+    GetSchemaTable(Boolean, Boolean): PrivateScope, Assembly, HideBySig
+    GetString(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetValue(Int32): PrivateScope, Public, Virtual, HideBySig
+    GetValues(Object[]): PrivateScope, Public, Virtual, HideBySig
+    GetValues(): PrivateScope, Public, HideBySig
+    get_HasRows(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_IsClosed(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    IsDBNull(Int32): PrivateScope, Public, Virtual, HideBySig
+    NextResult(): PrivateScope, Public, Virtual, HideBySig
+    Read(): PrivateScope, Public, Virtual, HideBySig
+    get_RecordsAffected(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Item(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Item(Int32): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class System.Data.SQLite.SQLiteDefineConstants: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    System.Collections.Generic.IList`1[System.String] OptionList : Public, Static, InitOnly
+Class System.Data.SQLite.SQLiteException: AutoLayout, AnsiClass, Class, Public, Sealed, Serializable, BeforeFieldInit
+  :System.Data.Common.DbException
+    Void .ctor(Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Exception): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Data.SQLite.SQLiteErrorCode ErrorCode 'get ' : 
+  Methods:
+    get_ErrorCode(): PrivateScope, Public, HideBySig, SpecialName
+Struct System.Data.SQLite.SQLiteErrorCode: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Data.SQLite.SQLiteErrorCode Ok = 0 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteErrorCode Error = 1 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteErrorCode Internal = 2 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteErrorCode Perm = 3 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteErrorCode Abort = 4 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteErrorCode Busy = 5 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteErrorCode Locked = 6 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteErrorCode NoMem = 7 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteErrorCode ReadOnly = 8 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteErrorCode Interrupt = 9 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteErrorCode IOErr = 10 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteErrorCode Corrupt = 11 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteErrorCode NotFound = 12 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteErrorCode Full = 13 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteErrorCode CantOpen = 14 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteErrorCode Protocol = 15 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteErrorCode Empty = 16 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteErrorCode Schema = 17 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteErrorCode TooBig = 18 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteErrorCode Constraint = 19 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteErrorCode Mismatch = 20 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteErrorCode Misuse = 21 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteErrorCode NOLFS = 22 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteErrorCode Auth = 23 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteErrorCode Format = 24 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteErrorCode Range = 25 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteErrorCode NotADatabase = 26 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteErrorCode Row = 100 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.SQLiteErrorCode Done = 101 : Public, Static, Literal, HasDefault
+Class System.Data.SQLite.SQLiteFactory: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Data.Common.DbProviderFactory
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+    System.IServiceProvider
+  Fields:
+    System.Data.SQLite.SQLiteFactory Instance : Public, Static, InitOnly
+  Events:
+    System.Data.SQLite.SQLiteLogEventHandler Log: 
+  Methods:
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    add_Log(SQLiteLogEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_Log(SQLiteLogEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    CreateCommand(): PrivateScope, Public, Virtual, HideBySig
+    CreateCommandBuilder(): PrivateScope, Public, Virtual, HideBySig
+    CreateConnection(): PrivateScope, Public, Virtual, HideBySig
+    CreateConnectionStringBuilder(): PrivateScope, Public, Virtual, HideBySig
+    CreateDataAdapter(): PrivateScope, Public, Virtual, HideBySig
+    CreateParameter(): PrivateScope, Public, Virtual, HideBySig
+Class System.Data.SQLite.SQLiteFunction: AutoLayout, AnsiClass, Class, Public, Abstract
+  Interfaces:
+    System.IDisposable
+  Fields:
+    System.Data.SQLite.SQLiteBase _base : Assembly
+    IntPtr _context : Assembly
+  Properties:
+    System.Data.SQLite.SQLiteConvert SQLiteConvert 'get ' : 
+  Methods:
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_SQLiteConvert(): PrivateScope, Public, HideBySig, SpecialName
+    Invoke(Object[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Step(Object[], Int32, Object&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Final(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Compare(String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ConvertParams(Int32, IntPtr): PrivateScope, Assembly, HideBySig
+    ScalarCallback(IntPtr, Int32, IntPtr): PrivateScope, Assembly, HideBySig
+    CompareCallback(IntPtr, Int32, IntPtr, Int32, IntPtr): PrivateScope, Assembly, HideBySig
+    CompareCallback16(IntPtr, Int32, IntPtr, Int32, IntPtr): PrivateScope, Assembly, HideBySig
+    StepCallback(IntPtr, Int32, IntPtr): PrivateScope, Assembly, HideBySig
+    FinalCallback(IntPtr): PrivateScope, Assembly, HideBySig
+    RegisterFunction(Type): PrivateScope, Public, Static, HideBySig
+    BindFunctions(SQLiteBase, SQLiteConnectionFlags): PrivateScope, Assembly, Static, HideBySig
+Class System.Data.SQLite.SQLiteFunctionEx: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Data.SQLite.SQLiteFunction
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Struct System.Data.SQLite.FunctionType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Data.SQLite.FunctionType Scalar = 0 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.FunctionType Aggregate = 1 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.FunctionType Collation = 2 : Public, Static, Literal, HasDefault
+Class System.Data.SQLite.SQLiteCallback: AutoLayout, AnsiClass, Class, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(IntPtr, Int32, IntPtr): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(IntPtr, Int32, IntPtr, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Data.SQLite.SQLiteFinalCallback: AutoLayout, AnsiClass, Class, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(IntPtr): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(IntPtr, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Data.SQLite.SQLiteCollation: AutoLayout, AnsiClass, Class, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(IntPtr, Int32, IntPtr, Int32, IntPtr): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(IntPtr, Int32, IntPtr, Int32, IntPtr, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Struct System.Data.SQLite.CollationTypeEnum: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Data.SQLite.CollationTypeEnum Binary = 1 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.CollationTypeEnum NoCase = 2 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.CollationTypeEnum Reverse = 3 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.CollationTypeEnum Custom = 0 : Public, Static, Literal, HasDefault
+Struct System.Data.SQLite.CollationEncodingEnum: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Data.SQLite.CollationEncodingEnum UTF8 = 1 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.CollationEncodingEnum UTF16LE = 2 : Public, Static, Literal, HasDefault
+    System.Data.SQLite.CollationEncodingEnum UTF16BE = 3 : Public, Static, Literal, HasDefault
+Struct System.Data.SQLite.CollationSequence: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    System.String Name : Public
+    System.Data.SQLite.CollationTypeEnum Type : Public
+    System.Data.SQLite.CollationEncodingEnum Encoding : Public
+    System.Data.SQLite.SQLiteFunction _func : Assembly
+  Methods:
+    Compare(String, String): PrivateScope, Public, HideBySig
+    Compare(Char[], Char[]): PrivateScope, Public, HideBySig
+Class System.Data.SQLite.SQLiteFunctionAttribute: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Attribute
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Type _instanceType : Assembly
+  Properties:
+    System.String Name 'get set' : 
+    Int32 Arguments 'get set' : 
+    System.Data.SQLite.FunctionType FuncType 'get set' : 
+  Methods:
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    set_Name(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Arguments(): PrivateScope, Public, HideBySig, SpecialName
+    set_Arguments(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_FuncType(): PrivateScope, Public, HideBySig, SpecialName
+    set_FuncType(FunctionType): PrivateScope, Public, HideBySig, SpecialName
+Class System.Data.SQLite.SQLiteKeyReader: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+    Void .ctor(System.Data.SQLite.SQLiteConnection, System.Data.SQLite.SQLiteDataReader, System.Data.SQLite.SQLiteStatement): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    Int32 Count 'get ' : 
+  Methods:
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_Count(): PrivateScope, Assembly, HideBySig, SpecialName
+    Sync(Int32): PrivateScope, Assembly, HideBySig
+    Sync(): PrivateScope, Assembly, HideBySig
+    Reset(): PrivateScope, Assembly, HideBySig
+    GetDataTypeName(Int32): PrivateScope, Assembly, HideBySig
+    GetFieldType(Int32): PrivateScope, Assembly, HideBySig
+    GetName(Int32): PrivateScope, Assembly, HideBySig
+    GetOrdinal(String): PrivateScope, Assembly, HideBySig
+    GetBoolean(Int32): PrivateScope, Assembly, HideBySig
+    GetByte(Int32): PrivateScope, Assembly, HideBySig
+    GetBytes(Int32, Int64, Byte[], Int32, Int32): PrivateScope, Assembly, HideBySig
+    GetChar(Int32): PrivateScope, Assembly, HideBySig
+    GetChars(Int32, Int64, Char[], Int32, Int32): PrivateScope, Assembly, HideBySig
+    GetDateTime(Int32): PrivateScope, Assembly, HideBySig
+    GetDecimal(Int32): PrivateScope, Assembly, HideBySig
+    GetDouble(Int32): PrivateScope, Assembly, HideBySig
+    GetFloat(Int32): PrivateScope, Assembly, HideBySig
+    GetGuid(Int32): PrivateScope, Assembly, HideBySig
+    GetInt16(Int32): PrivateScope, Assembly, HideBySig
+    GetInt32(Int32): PrivateScope, Assembly, HideBySig
+    GetInt64(Int32): PrivateScope, Assembly, HideBySig
+    GetString(Int32): PrivateScope, Assembly, HideBySig
+    GetValue(Int32): PrivateScope, Assembly, HideBySig
+    IsDBNull(Int32): PrivateScope, Assembly, HideBySig
+    AppendSchemaTable(DataTable): PrivateScope, Assembly, HideBySig
+Class System.Data.SQLite.LogEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(IntPtr, Int32, System.String, System.Object): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 ErrorCode : Public, InitOnly
+    System.String Message : Public, InitOnly
+    System.Object Data : Public, InitOnly
+Class System.Data.SQLite.SQLiteLogEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, LogEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, LogEventArgs, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Data.SQLite.SQLiteLog: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Properties:
+    Boolean Enabled 'get set' : 
+  Events:
+    System.Data.SQLite.SQLiteLogEventHandler _handlers: 
+    System.Data.SQLite.SQLiteLogEventHandler Log: 
+  Methods:
+    Initialize(): PrivateScope, Public, Static, HideBySig
+    add_Log(SQLiteLogEventHandler): PrivateScope, Public, Static, HideBySig, SpecialName
+    remove_Log(SQLiteLogEventHandler): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Enabled(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_Enabled(Boolean): PrivateScope, Public, Static, HideBySig, SpecialName
+    LogMessage(Int32, String): PrivateScope, Public, Static, HideBySig
+    AddDefaultHandler(): PrivateScope, Public, Static, HideBySig
+    RemoveDefaultHandler(): PrivateScope, Public, Static, HideBySig
+Class System.Data.SQLite.SQLiteMetaDataCollectionNames: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    System.String Catalogs : Public, Static, InitOnly
+    System.String Columns : Public, Static, InitOnly
+    System.String Indexes : Public, Static, InitOnly
+    System.String IndexColumns : Public, Static, InitOnly
+    System.String Tables : Public, Static, InitOnly
+    System.String Views : Public, Static, InitOnly
+    System.String ViewColumns : Public, Static, InitOnly
+    System.String ForeignKeys : Public, Static, InitOnly
+    System.String Triggers : Public, Static, InitOnly
+Class System.Data.SQLite.SQLiteParameter: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Common.DbParameter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Data.DbType): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Data.DbType, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Data.DbType, System.String, System.Data.DataRowVersion): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Data.DbType): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Data.DbType, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Data.DbType, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Data.DbType, System.String, System.Data.DataRowVersion): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Data.DbType, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Data.DbType, Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Data.DbType, Int32, System.String, System.Data.DataRowVersion): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Data.DbType, Int32, System.Data.ParameterDirection, Boolean, Byte, Byte, System.String, System.Data.DataRowVersion, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.Data.DbType, Int32, System.Data.ParameterDirection, Byte, Byte, System.String, System.Data.DataRowVersion, Boolean, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Data.DbType, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Data.DbType, Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Data.DbType, Int32, System.String, System.Data.DataRowVersion): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.ICloneable
+  Fields:
+    Int32 _dbType : Assembly
+  Properties:
+    Boolean IsNullable 'get set' : 
+    System.Data.DbType DbType 'get set' : 
+    System.Data.ParameterDirection Direction 'get set' : 
+    System.String ParameterName 'get set' : 
+    Int32 Size 'get set' : 
+    System.String SourceColumn 'get set' : 
+    Boolean SourceColumnNullMapping 'get set' : 
+    System.Data.DataRowVersion SourceVersion 'get set' : 
+    System.Object Value 'get set' : 
+  Methods:
+    get_IsNullable(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_IsNullable(Boolean): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_DbType(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_DbType(DbType): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Direction(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Direction(ParameterDirection): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_ParameterName(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_ParameterName(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    ResetDbType(): PrivateScope, Public, Virtual, HideBySig
+    get_Size(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Size(Int32): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_SourceColumn(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_SourceColumn(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_SourceColumnNullMapping(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_SourceColumnNullMapping(Boolean): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_SourceVersion(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_SourceVersion(DataRowVersion): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Value(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Value(Object): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Clone(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Data.SQLite.SQLiteParameterCollection: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Common.DbParameterCollection
+    Void .ctor(System.Data.SQLite.SQLiteCommand): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean IsSynchronized 'get ' : 
+    Boolean IsFixedSize 'get ' : 
+    Boolean IsReadOnly 'get ' : 
+    System.Object SyncRoot 'get ' : 
+    Int32 Count 'get ' : 
+    System.Data.SQLite.SQLiteParameter Item [System.String] 'get set' : 
+    System.Data.SQLite.SQLiteParameter Item [Int32] 'get set' : 
+  Methods:
+    get_IsSynchronized(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_IsFixedSize(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_IsReadOnly(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_SyncRoot(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    GetEnumerator(): PrivateScope, Public, Virtual, HideBySig
+    Add(String, DbType, Int32, String): PrivateScope, Public, HideBySig
+    Add(String, DbType, Int32): PrivateScope, Public, HideBySig
+    Add(String, DbType): PrivateScope, Public, HideBySig
+    Add(SQLiteParameter): PrivateScope, Public, HideBySig
+    Add(Object): PrivateScope, Public, Virtual, HideBySig
+    AddWithValue(String, Object): PrivateScope, Public, HideBySig
+    AddRange(SQLiteParameter[]): PrivateScope, Public, HideBySig
+    AddRange(Array): PrivateScope, Public, Virtual, HideBySig
+    Clear(): PrivateScope, Public, Virtual, HideBySig
+    Contains(String): PrivateScope, Public, Virtual, HideBySig
+    Contains(Object): PrivateScope, Public, Virtual, HideBySig
+    CopyTo(Array, Int32): PrivateScope, Public, Virtual, HideBySig
+    get_Count(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Item(String): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(String, SQLiteParameter): PrivateScope, Public, HideBySig, SpecialName
+    get_Item(Int32): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(Int32, SQLiteParameter): PrivateScope, Public, HideBySig, SpecialName
+    IndexOf(String): PrivateScope, Public, Virtual, HideBySig
+    IndexOf(Object): PrivateScope, Public, Virtual, HideBySig
+    Insert(Int32, Object): PrivateScope, Public, Virtual, HideBySig
+    Remove(Object): PrivateScope, Public, Virtual, HideBySig
+    RemoveAt(String): PrivateScope, Public, Virtual, HideBySig
+    RemoveAt(Int32): PrivateScope, Public, Virtual, HideBySig
+    Unbind(): PrivateScope, Assembly, HideBySig
+    MapParameters(SQLiteStatement): PrivateScope, Assembly, HideBySig
+Class System.Data.SQLite.SQLiteStatement: AutoLayout, AnsiClass, Class, Sealed, BeforeFieldInit
+    Void .ctor(System.Data.SQLite.SQLiteBase, System.Data.SQLite.SQLiteConnectionFlags, System.Data.SQLite.SQLiteStatementHandle, System.String, System.Data.SQLite.SQLiteStatement): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Fields:
+    System.Data.SQLite.SQLiteBase _sql : Assembly
+    System.String _sqlStatement : Assembly
+    System.Data.SQLite.SQLiteStatementHandle _sqlite_stmt : Assembly
+    Int32 _unnamedParameters : Assembly
+    System.String[] _paramNames : Assembly
+    System.Data.SQLite.SQLiteParameter[] _paramValues : Assembly
+    System.Data.SQLite.SQLiteCommand _command : Assembly
+  Properties:
+    System.String[] TypeDefinitions 'get ' : 
+  Methods:
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    MapParameter(String, SQLiteParameter): PrivateScope, Assembly, HideBySig
+    BindParameters(): PrivateScope, Assembly, HideBySig
+    get_TypeDefinitions(): PrivateScope, Assembly, HideBySig, SpecialName
+    SetTypes(String): PrivateScope, Assembly, HideBySig
+Class System.Data.SQLite.SQLiteTransaction: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Data.Common.DbTransaction
+    Void .ctor(System.Data.SQLite.SQLiteConnection, Boolean): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Data.SQLite.SQLiteConnection _cnn : Assembly
+    Int64 _version : Assembly
+  Properties:
+    System.Data.SQLite.SQLiteConnection Connection 'get ' : 
+    System.Data.IsolationLevel IsolationLevel 'get ' : 
+  Methods:
+    Commit(): PrivateScope, Public, Virtual, HideBySig
+    get_Connection(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsolationLevel(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Rollback(): PrivateScope, Public, Virtual, HideBySig
+    IssueRollback(Boolean): PrivateScope, Assembly, HideBySig
+    IsValid(Boolean): PrivateScope, Assembly, HideBySig
+Class System.Data.SQLite.SR: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Resources.ResourceManager ResourceManager 'get ' : 
+    System.Globalization.CultureInfo Culture 'get set' : 
+    System.String DataTypes 'get ' : 
+    System.String Keywords 'get ' : 
+    System.String MetaDataCollections 'get ' : 
+  Methods:
+    get_ResourceManager(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Culture(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    set_Culture(CultureInfo): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_DataTypes(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_Keywords(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+    get_MetaDataCollections(): PrivateScope, Assembly, Static, HideBySig, SpecialName
+Class System.Data.SQLite.UnsafeNativeMethods: AutoLayout, AnsiClass, Class, Abstract, Sealed, HasSecurity, BeforeFieldInit
+  Methods:
+    sqlite3_next_stmt(IntPtr, IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_exec(IntPtr, Byte[], IntPtr, IntPtr, IntPtr&(Out)): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_get_autocommit(IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_extended_result_codes(IntPtr, Int32): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_errcode(IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_extended_errcode(IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_log(Int32, Byte[]): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_file_control(IntPtr, Byte[], Int32, IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_backup_init(IntPtr, Byte[], IntPtr, Byte[]): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_backup_step(IntPtr, Int32): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_backup_finish(IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_backup_remaining(IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_backup_pagecount(IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_column_type(IntPtr, Int32): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_create_collation(IntPtr, Byte[], Int32, IntPtr, SQLiteCollation): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_aggregate_count(IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_value_blob(IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_value_bytes(IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_value_double(IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_value_int(IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_value_int64(IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_value_type(IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_result_blob(IntPtr, Byte[], Int32, IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_result_double(IntPtr, Double): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_result_error(IntPtr, Byte[], Int32): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_result_int(IntPtr, Int32): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_result_int64(IntPtr, Int64): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_result_null(IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_result_text(IntPtr, Byte[], Int32, IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_aggregate_context(IntPtr, Int32): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_bind_text16(IntPtr, Int32, String, Int32, IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_result_error16(IntPtr, String, Int32): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_result_text16(IntPtr, String, Int32, IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_key(IntPtr, Byte[], Int32): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_rekey(IntPtr, Byte[], Int32): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_update_hook(IntPtr, SQLiteUpdateCallback, IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_commit_hook(IntPtr, SQLiteCommitCallback, IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_trace(IntPtr, SQLiteTraceCallback, IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_config(Int32, SQLiteLogCallback, IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_rollback_hook(IntPtr, SQLiteRollbackCallback, IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_db_handle(IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_resetall_interop(IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_table_cursor(IntPtr, Int32, Int32): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_libversion(): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_sourceid(): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_interrupt(IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_last_insert_rowid(IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_changes(IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_memory_used(): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_memory_highwater(Int32): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_shutdown(): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_busy_timeout(IntPtr, Int32): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_bind_blob(IntPtr, Int32, Byte[], Int32, IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_bind_double(IntPtr, Int32, Double): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_bind_int(IntPtr, Int32, Int32): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_bind_uint(IntPtr, Int32, UInt32): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_bind_int64(IntPtr, Int32, Int64): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_bind_uint64(IntPtr, Int32, UInt64): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_bind_null(IntPtr, Int32): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_bind_text(IntPtr, Int32, Byte[], Int32, IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_bind_parameter_count(IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_bind_parameter_index(IntPtr, Byte[]): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_column_count(IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_step(IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_column_double(IntPtr, Int32): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_column_int(IntPtr, Int32): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_column_int64(IntPtr, Int32): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_column_blob(IntPtr, Int32): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_column_bytes(IntPtr, Int32): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_bind_parameter_name_interop(IntPtr, Int32, Int32&(Out)): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_column_database_name_interop(IntPtr, Int32, Int32&(Out)): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_column_database_name16_interop(IntPtr, Int32, Int32&(Out)): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_column_decltype_interop(IntPtr, Int32, Int32&(Out)): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_column_decltype16_interop(IntPtr, Int32, Int32&(Out)): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_column_name_interop(IntPtr, Int32, Int32&(Out)): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_column_name16_interop(IntPtr, Int32, Int32&(Out)): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_column_origin_name_interop(IntPtr, Int32, Int32&(Out)): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_column_origin_name16_interop(IntPtr, Int32, Int32&(Out)): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_column_table_name_interop(IntPtr, Int32, Int32&(Out)): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_column_table_name16_interop(IntPtr, Int32, Int32&(Out)): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_column_text_interop(IntPtr, Int32, Int32&(Out)): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_column_text16_interop(IntPtr, Int32, Int32&(Out)): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_errmsg_interop(IntPtr, Int32&(Out)): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_prepare_interop(IntPtr, IntPtr, Int32, IntPtr&(Out), IntPtr&(Out), Int32&(Out)): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_table_column_metadata_interop(IntPtr, Byte[], Byte[], Byte[], IntPtr&(Out), IntPtr&(Out), Int32&(Out), Int32&(Out), Int32&(Out), Int32&(Out), Int32&(Out)): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_value_text_interop(IntPtr, Int32&(Out)): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_value_text16_interop(IntPtr, Int32&(Out)): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_close_interop(IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_create_function_interop(IntPtr, Byte[], Int32, Int32, IntPtr, SQLiteCallback, SQLiteCallback, SQLiteFinalCallback, Int32): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_finalize_interop(IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_open_interop(Byte[], Int32, IntPtr&(Out)): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_open16_interop(Byte[], Int32, IntPtr&(Out)): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_reset_interop(IntPtr): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_context_collseq(IntPtr, Int32&(Out), Int32&(Out), Int32&(Out)): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_context_collcompare(IntPtr, Byte[], Int32, Byte[], Int32): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_cursor_rowid(IntPtr, Int32, Int64&(Out)): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+    sqlite3_index_column_info_interop(IntPtr, Byte[], Byte[], Byte[], Int32&(Out), Int32&(Out), IntPtr&(Out), Int32&(Out)): PrivateScope, Assembly, Static, HideBySig, PinvokeImpl
+Class System.Data.SQLite.SQLiteConnectionHandle: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Runtime.InteropServices.CriticalHandle
+    Void .ctor(IntPtr): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean IsInvalid 'get ' : 
+  Methods:
+    op_Implicit(SQLiteConnectionHandle): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_IsInvalid(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class System.Data.SQLite.SQLiteStatementHandle: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Runtime.InteropServices.CriticalHandle
+    Void .ctor(System.Data.SQLite.SQLiteConnectionHandle, IntPtr): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean IsInvalid 'get ' : 
+  Methods:
+    op_Implicit(SQLiteStatementHandle): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_IsInvalid(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class System.Data.SQLite.SQLiteBackupHandle: AutoLayout, AnsiClass, Class, BeforeFieldInit
+  :System.Runtime.InteropServices.CriticalHandle
+    Void .ctor(System.Data.SQLite.SQLiteConnectionHandle, IntPtr): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean IsInvalid 'get ' : 
+  Methods:
+    op_Implicit(SQLiteBackupHandle): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_IsInvalid(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class System.Data.SQLite.SQLiteEnlistment: AutoLayout, AnsiClass, Class, BeforeFieldInit
+    Void .ctor(System.Data.SQLite.SQLiteConnection, System.Transactions.Transaction): PrivateScope, Assembly, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Transactions.IEnlistmentNotification
+    System.IDisposable
+  Fields:
+    System.Data.SQLite.SQLiteTransaction _transaction : Assembly
+    System.Transactions.Transaction _scope : Assembly
+    Boolean _disposeConnection : Assembly
+  Methods:
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Commit(Enlistment): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    InDoubt(Enlistment): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Prepare(PreparingEnlistment): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Rollback(Enlistment): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class <PrivateImplementationDetails>{54B6ABEB-8E62-4975-8800-83F80DD72418}: NotPublic
+  Fields:
+    System.Collections.Generic.Dictionary`2[System.String,System.Int32] $$method0x6000015-1 : Assembly, Static
+    __StaticArrayInitTypeSize=104 $$method0x60003b2-1 : Assembly, Static, HasFieldRVA
+    System.Collections.Generic.Dictionary`2[System.String,System.Int32] $$method0x6000191-1 : Assembly, Static

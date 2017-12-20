@@ -1,0 +1,396 @@
+  System.Windows.Forms.TreeListView.resources - Embedded, ContainedInManifestFile, 
+  System.Windows.Forms.CustomEdit.resources - Embedded, ContainedInManifestFile, 
+  System.Windows.Forms.TreeListViewItemsEditorForm.resources - Embedded, ContainedInManifestFile, 
+Assembly System.Windows.Forms.TreeListView, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=SHA1, flags=None
+Assembly System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Runtime.InteropServices.APIs, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=None
+Class System.Windows.Forms.TreeListViewItemCollection: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Collections.CollectionBase
+    Void .ctor(System.Windows.Forms.TreeListView): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Windows.Forms.TreeListViewItem): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.TreeListViewEventHandler ItemAdded : Public
+    System.Windows.Forms.TreeListViewEventHandler ItemRemoved : Public
+  Properties:
+    Boolean Sortable 'get set' : 
+    System.Windows.Forms.SortOrder SortOrder 'get set' : 
+    System.Windows.Forms.ITreeListViewItemComparer Comparer 'get set' : 
+    System.Windows.Forms.SortOrder SortOrderRecursively 'set' : 
+    System.Windows.Forms.TreeListView Owner 'get ' : 
+    System.Windows.Forms.TreeListViewItem Parent 'get ' : 
+    System.Windows.Forms.TreeListViewItem Item [Int32] 'get ' : 
+  Methods:
+    get_Sortable(): PrivateScope, Public, HideBySig, SpecialName
+    set_Sortable(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_SortOrder(): PrivateScope, Public, HideBySig, SpecialName
+    set_SortOrder(SortOrder): PrivateScope, Public, HideBySig, SpecialName
+    get_Comparer(): PrivateScope, Public, HideBySig, SpecialName
+    set_Comparer(ITreeListViewItemComparer): PrivateScope, Public, HideBySig, SpecialName
+    set_SortOrderRecursively(SortOrder): PrivateScope, Public, HideBySig, SpecialName
+    get_Owner(): PrivateScope, Public, HideBySig, SpecialName
+    get_Parent(): PrivateScope, Public, HideBySig, SpecialName
+    get_Item(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    ToArray(): PrivateScope, Public, HideBySig
+    Sort(Boolean): PrivateScope, Public, HideBySig
+    Contains(TreeListViewItem): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Add(TreeListViewItem): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Add(String, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Add(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    AddRange(TreeListViewItemCollection): PrivateScope, Public, HideBySig
+    Clear(): PrivateScope, Public, HideBySig
+    Remove(TreeListViewItem): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetIndexOf(TreeListViewItem): PrivateScope, Public, HideBySig
+    RemoveAt(Int32): PrivateScope, Public, HideBySig
+Interface System.Windows.Forms.ITreeListViewItemComparer: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Interfaces:
+    System.Collections.IComparer
+  Properties:
+    System.Windows.Forms.SortOrder SortOrder 'get set' : 
+    Int32 Column 'get set' : 
+  Methods:
+    get_SortOrder(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_SortOrder(SortOrder): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_Column(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_Column(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Class System.Windows.Forms.TreeListViewItemCollection+TreeListViewItemCollectionComparer: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Windows.Forms.SortOrder): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Windows.Forms.SortOrder, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Windows.Forms.ITreeListViewItemComparer
+    System.Collections.IComparer
+  Properties:
+    System.Windows.Forms.SortOrder SortOrder 'get set' : 
+    Int32 Column 'get set' : 
+  Methods:
+    get_SortOrder(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_SortOrder(SortOrder): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Column(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Column(Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Compare(Object, Object): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class System.Windows.Forms.SelectedTreeListViewItemCollection: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.ListView+SelectedListViewItemCollection
+    Void .ctor(System.Windows.Forms.TreeListView): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Windows.Forms.TreeListViewItem Item [Int32] 'get ' : 
+  Methods:
+    get_Item(Int32): PrivateScope, Public, HideBySig, SpecialName
+    Contains(TreeListViewItem): PrivateScope, Public, HideBySig
+    IndexOf(TreeListViewItem): PrivateScope, Public, HideBySig
+Class System.Windows.Forms.TreeListViewItemsEditorForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.TreeListViewItemCollection): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Windows.Forms.TreeListViewItemCollection Items 'get ' : 
+  Methods:
+    get_Items(): PrivateScope, Public, HideBySig, SpecialName
+Class System.Windows.Forms.TreeListViewItemsEditor: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Drawing.Design.UITypeEditor
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetEditStyle(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+    EditValue(ITypeDescriptorContext, IServiceProvider, Object): PrivateScope, Public, Virtual, HideBySig
+Struct System.Windows.Forms.TreeListViewItemBoundsPortion: AutoLayout, AnsiClass, Class, Public, Sealed, Serializable
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Windows.Forms.TreeListViewItemBoundsPortion Entire = 0 : Public, Static, Literal, HasDefault
+    System.Windows.Forms.TreeListViewItemBoundsPortion Icon = 1 : Public, Static, Literal, HasDefault
+    System.Windows.Forms.TreeListViewItemBoundsPortion ItemOnly = 3 : Public, Static, Literal, HasDefault
+    System.Windows.Forms.TreeListViewItemBoundsPortion Label = 2 : Public, Static, Literal, HasDefault
+    System.Windows.Forms.TreeListViewItemBoundsPortion PlusMinus = 4 : Public, Static, Literal, HasDefault
+Class System.Windows.Forms.TreeListViewItem: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.ListViewItem
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Windows.Forms.TreeListViewItem NextVisibleItem 'get ' : 
+    System.Windows.Forms.TreeListViewItem PrevVisibleItem 'get ' : 
+    Boolean Checked 'get set' : 
+    System.Windows.Forms.CheckState CheckStatus 'get ' : 
+    System.Windows.Forms.TreeListViewItem[] ParentsInHierarch 'get ' : 
+    System.String FullPath 'get ' : 
+    System.String Text 'get set' : 
+    System.Windows.Forms.TreeListViewItemCollection Container 'get ' : 
+    Int32 LastChildIndexInListView 'get ' : 
+    Int32 ChildrenCount 'get ' : 
+    Boolean IsExpanded 'get set' : 
+    Int32 Level 'get ' : 
+    System.Windows.Forms.TreeListViewItemCollection Items 'get ' : 
+    System.Windows.Forms.TreeListViewItem Parent 'get ' : 
+    System.Windows.Forms.TreeListView ListView 'get ' : 
+    System.Windows.Forms.TreeListView TreeListView 'get ' : 
+    Boolean Visible 'get ' : 
+  Events:
+    TreeListViewItemHanlder AfterCollapse: 
+    TreeListViewItemHanlder AfterExpand: 
+  Methods:
+    add_AfterCollapse(TreeListViewItemHanlder): PrivateScope, Public, HideBySig, SpecialName
+    remove_AfterCollapse(TreeListViewItemHanlder): PrivateScope, Public, HideBySig, SpecialName
+    add_AfterExpand(TreeListViewItemHanlder): PrivateScope, Public, HideBySig, SpecialName
+    remove_AfterExpand(TreeListViewItemHanlder): PrivateScope, Public, HideBySig, SpecialName
+    get_NextVisibleItem(): PrivateScope, Public, HideBySig, SpecialName
+    get_PrevVisibleItem(): PrivateScope, Public, HideBySig, SpecialName
+    get_Checked(): PrivateScope, Public, HideBySig, SpecialName
+    set_Checked(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_CheckStatus(): PrivateScope, Public, HideBySig, SpecialName
+    get_ParentsInHierarch(): PrivateScope, Public, HideBySig, SpecialName
+    get_FullPath(): PrivateScope, Public, HideBySig, SpecialName
+    get_Text(): PrivateScope, Public, HideBySig, SpecialName
+    set_Text(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Container(): PrivateScope, Public, HideBySig, SpecialName
+    get_LastChildIndexInListView(): PrivateScope, Public, HideBySig, SpecialName
+    get_ChildrenCount(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsExpanded(): PrivateScope, Public, HideBySig, SpecialName
+    set_IsExpanded(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Level(): PrivateScope, Public, HideBySig, SpecialName
+    get_Items(): PrivateScope, Public, HideBySig, SpecialName
+    get_Parent(): PrivateScope, Public, HideBySig, SpecialName
+    get_ListView(): PrivateScope, Public, HideBySig, SpecialName
+    get_TreeListView(): PrivateScope, Public, HideBySig, SpecialName
+    get_Visible(): PrivateScope, Public, HideBySig, SpecialName
+    BeginEdit(Int32): PrivateScope, Public, HideBySig
+    BeginEdit(): PrivateScope, Public, HideBySig
+    Redraw(): PrivateScope, Public, HideBySig
+    GetBounds(TreeListViewItemBoundsPortion): PrivateScope, Public, HideBySig
+    Remove(): PrivateScope, Public, HideBySig
+    IsAParentOf(TreeListViewItem): PrivateScope, Public, HideBySig
+    EnsureVisible(): PrivateScope, Public, HideBySig
+    SetIndentation(): PrivateScope, Public, HideBySig
+    RefreshIndentation(Boolean): PrivateScope, Public, HideBySig
+    Expand(): PrivateScope, Public, HideBySig
+    ExpandAll(): PrivateScope, Public, HideBySig
+    Collapse(): PrivateScope, Public, HideBySig
+    CollapseAll(): PrivateScope, Public, HideBySig
+Class System.Windows.Forms.TreeListViewItem+TreeListViewItemHanlder: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Windows.Forms.TreeListViewItem+TreeListViewItemCheckedHandler: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, Boolean, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Windows.Forms.TreeListView: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.ListView
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean Scrollable 'get set' : 
+    System.Windows.Forms.CheckBoxesTypes CheckBoxes 'get set' : 
+    Boolean FullRowSelect 'get set' : 
+    System.Windows.Forms.ImageList StateImageList 'get set' : 
+    System.Windows.Forms.ImageList LargeImageList 'get set' : 
+    System.Windows.Forms.ImageList SmallImageList 'get set' : 
+    System.Windows.Forms.SortOrder Sorting 'get set' : 
+    System.Windows.Forms.TreeListViewExpandMethod ExpandMethod 'get set' : 
+    System.Windows.Forms.View View 'get set' : 
+    System.Windows.Forms.TreeListViewItemCollection Items 'get ' : 
+    System.Windows.Forms.SelectedTreeListViewItemCollection SelectedItems 'get ' : 
+    System.Windows.Forms.TreeListViewItem[] CheckedItems 'get ' : 
+    System.Windows.Forms.TreeListViewItem FocusedItem 'get ' : 
+    Boolean HasMarquee 'get ' : 
+    System.Windows.Forms.EditItemInformations EditedItem 'get ' : 
+    Boolean InEdit 'get ' : 
+    Int32 ItemsCount 'get ' : 
+    System.Windows.Forms.ITreeListViewItemComparer Comparer 'get set' : 
+    Boolean ShowPlusMinus 'get set' : 
+    System.Drawing.Color PlusMinusLineColor 'get set' : 
+    Boolean UseXPHighlightStyle 'get set' : 
+    System.String PathSeparator 'get set' : 
+  Events:
+    System.Windows.Forms.TreeListViewLabelEditEventHandler AfterLabelEdit: 
+    System.Windows.Forms.TreeListViewBeforeLabelEditEventHandler BeforeLabelEdit: 
+    System.Windows.Forms.TreeListViewCancelEventHandler BeforeExpand: 
+    System.Windows.Forms.TreeListViewCancelEventHandler BeforeCollapse: 
+    System.Windows.Forms.TreeListViewEventHandler AfterExpand: 
+    System.Windows.Forms.TreeListViewEventHandler AfterCollapse: 
+  Methods:
+    GetColumnIndex(Int32): PrivateScope, Public, HideBySig
+    GetColumnOrder(Int32): PrivateScope, Public, HideBySig
+    GetColumnsOrder(): PrivateScope, Public, HideBySig
+    SetColumnsOrder(Int32[]): PrivateScope, Public, HideBySig
+    Scroll(Int32, Int32): PrivateScope, Public, HideBySig
+    SetColumnsOrder(String): PrivateScope, Public, HideBySig
+    GetVisibleItems(): PrivateScope, Public, HideBySig
+    GetColumnAt(Point): PrivateScope, Public, HideBySig
+    GetSubItemRect(TreeListViewItem, Int32): PrivateScope, Public, HideBySig
+    GetSubItemRect(Int32, Int32): PrivateScope, Public, HideBySig
+    GetHeaderItemText(Int32): PrivateScope, Public, HideBySig
+    GetRowRect(Int32): PrivateScope, Public, HideBySig
+    add_AfterLabelEdit(TreeListViewLabelEditEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_AfterLabelEdit(TreeListViewLabelEditEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_BeforeLabelEdit(TreeListViewBeforeLabelEditEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_BeforeLabelEdit(TreeListViewBeforeLabelEditEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_BeforeExpand(TreeListViewCancelEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_BeforeExpand(TreeListViewCancelEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_BeforeCollapse(TreeListViewCancelEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_BeforeCollapse(TreeListViewCancelEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_AfterExpand(TreeListViewEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_AfterExpand(TreeListViewEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_AfterCollapse(TreeListViewEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_AfterCollapse(TreeListViewEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    get_Scrollable(): PrivateScope, Public, HideBySig, SpecialName
+    set_Scrollable(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_CheckBoxes(): PrivateScope, Public, HideBySig, SpecialName
+    set_CheckBoxes(CheckBoxesTypes): PrivateScope, Public, HideBySig, SpecialName
+    get_FullRowSelect(): PrivateScope, Public, HideBySig, SpecialName
+    set_FullRowSelect(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_StateImageList(): PrivateScope, Public, HideBySig, SpecialName
+    set_StateImageList(ImageList): PrivateScope, Public, HideBySig, SpecialName
+    get_LargeImageList(): PrivateScope, Public, HideBySig, SpecialName
+    set_LargeImageList(ImageList): PrivateScope, Public, HideBySig, SpecialName
+    get_SmallImageList(): PrivateScope, Public, HideBySig, SpecialName
+    set_SmallImageList(ImageList): PrivateScope, Public, HideBySig, SpecialName
+    get_Sorting(): PrivateScope, Public, HideBySig, SpecialName
+    set_Sorting(SortOrder): PrivateScope, Public, HideBySig, SpecialName
+    get_ExpandMethod(): PrivateScope, Public, HideBySig, SpecialName
+    set_ExpandMethod(TreeListViewExpandMethod): PrivateScope, Public, HideBySig, SpecialName
+    get_View(): PrivateScope, Public, HideBySig, SpecialName
+    set_View(View): PrivateScope, Public, HideBySig, SpecialName
+    get_Items(): PrivateScope, Public, HideBySig, SpecialName
+    get_SelectedItems(): PrivateScope, Public, HideBySig, SpecialName
+    get_CheckedItems(): PrivateScope, Public, HideBySig, SpecialName
+    get_FocusedItem(): PrivateScope, Public, HideBySig, SpecialName
+    get_HasMarquee(): PrivateScope, Public, HideBySig, SpecialName
+    get_EditedItem(): PrivateScope, Public, HideBySig, SpecialName
+    get_InEdit(): PrivateScope, Public, HideBySig, SpecialName
+    get_ItemsCount(): PrivateScope, Public, HideBySig, SpecialName
+    get_Comparer(): PrivateScope, Public, HideBySig, SpecialName
+    set_Comparer(ITreeListViewItemComparer): PrivateScope, Public, HideBySig, SpecialName
+    get_ShowPlusMinus(): PrivateScope, Public, HideBySig, SpecialName
+    set_ShowPlusMinus(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_PlusMinusLineColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_PlusMinusLineColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_UseXPHighlightStyle(): PrivateScope, Public, HideBySig, SpecialName
+    set_UseXPHighlightStyle(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_PathSeparator(): PrivateScope, Public, HideBySig, SpecialName
+    set_PathSeparator(String): PrivateScope, Public, HideBySig, SpecialName
+    ExpandAll(): PrivateScope, Public, HideBySig
+    CollapseAll(): PrivateScope, Public, HideBySig
+    GetItemRect(Int32, TreeListViewItemBoundsPortion): PrivateScope, Public, HideBySig
+    KillFocus(): PrivateScope, Public, HideBySig
+    GetItemAt(Point): PrivateScope, Public, HideBySig
+    GetItemAtFullRow(Point): PrivateScope, Public, HideBySig
+    GetItemAt(Int32, Int32): PrivateScope, Public, HideBySig
+    GetTreeListViewItemFromIndex(Int32): PrivateScope, Public, HideBySig
+    Sort(): PrivateScope, Public, HideBySig
+    BeginUpdate(): PrivateScope, Public, HideBySig
+    EndUpdate(): PrivateScope, Public, HideBySig
+Struct System.Windows.Forms.EditItemInformations: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(System.Windows.Forms.TreeListViewItem, Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Label 'get ' : 
+    System.Windows.Forms.TreeListViewItem Item 'get ' : 
+    Int32 ColumnIndex 'get ' : 
+  Methods:
+    get_Label(): PrivateScope, Public, HideBySig, SpecialName
+    get_Item(): PrivateScope, Public, HideBySig, SpecialName
+    get_ColumnIndex(): PrivateScope, Public, HideBySig, SpecialName
+Class System.Windows.Forms.TreeListViewBeforeLabelEditEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, TreeListViewBeforeLabelEditEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, TreeListViewBeforeLabelEditEventArgs, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Windows.Forms.TreeListViewLabelEditEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, TreeListViewLabelEditEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, TreeListViewLabelEditEventArgs, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Windows.Forms.TreeListViewCancelEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, TreeListViewCancelEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, TreeListViewCancelEventArgs, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Windows.Forms.TreeListViewEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, TreeListViewEventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, TreeListViewEventArgs, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class System.Windows.Forms.TreeListViewLabelEditEventArgs: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :System.ComponentModel.CancelEventArgs
+    Void .ctor(System.Windows.Forms.TreeListViewItem, Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Label 'get ' : 
+    System.Windows.Forms.TreeListViewItem Item 'get ' : 
+    Int32 ColumnIndex 'get ' : 
+  Methods:
+    get_Label(): PrivateScope, Public, HideBySig, SpecialName
+    get_Item(): PrivateScope, Public, HideBySig, SpecialName
+    get_ColumnIndex(): PrivateScope, Public, HideBySig, SpecialName
+Class System.Windows.Forms.TreeListViewBeforeLabelEditEventArgs: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :System.Windows.Forms.TreeListViewLabelEditEventArgs
+    Void .ctor(System.Windows.Forms.TreeListViewItem, Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 ColumnIndex 'get set' : 
+    System.Windows.Forms.Control Editor 'get set' : 
+  Methods:
+    get_ColumnIndex(): PrivateScope, Public, HideBySig, SpecialName
+    set_ColumnIndex(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Editor(): PrivateScope, Public, HideBySig, SpecialName
+    set_Editor(Control): PrivateScope, Public, HideBySig, SpecialName
+Class System.Windows.Forms.TreeListViewEventArgs: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(System.Windows.Forms.TreeListViewItem, System.Windows.Forms.TreeListViewAction): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Windows.Forms.TreeListViewItem Item 'get ' : 
+    System.Windows.Forms.TreeListViewAction Action 'get ' : 
+  Methods:
+    get_Item(): PrivateScope, Public, HideBySig, SpecialName
+    get_Action(): PrivateScope, Public, HideBySig, SpecialName
+Class System.Windows.Forms.TreeListViewCancelEventArgs: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+  :System.Windows.Forms.TreeListViewEventArgs
+    Void .ctor(System.Windows.Forms.TreeListViewItem, System.Windows.Forms.TreeListViewAction): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean Cancel 'get set' : 
+  Methods:
+    get_Cancel(): PrivateScope, Public, HideBySig, SpecialName
+    set_Cancel(Boolean): PrivateScope, Public, HideBySig, SpecialName
+Struct System.Windows.Forms.TreeListViewAction: AutoLayout, AnsiClass, Class, Public, Sealed, Serializable
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Windows.Forms.TreeListViewAction ByKeyboard = 0 : Public, Static, Literal, HasDefault
+    System.Windows.Forms.TreeListViewAction ByMouse = 1 : Public, Static, Literal, HasDefault
+    System.Windows.Forms.TreeListViewAction Collapse = 2 : Public, Static, Literal, HasDefault
+    System.Windows.Forms.TreeListViewAction Expand = 3 : Public, Static, Literal, HasDefault
+    System.Windows.Forms.TreeListViewAction Unknown = 4 : Public, Static, Literal, HasDefault
+Struct System.Windows.Forms.TreeListViewExpandMethod: AutoLayout, AnsiClass, Class, Public, Sealed, Serializable
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Windows.Forms.TreeListViewExpandMethod IconDbleClick = 0 : Public, Static, Literal, HasDefault
+    System.Windows.Forms.TreeListViewExpandMethod EntireItemDbleClick = 1 : Public, Static, Literal, HasDefault
+    System.Windows.Forms.TreeListViewExpandMethod ItemOnlyDbleClick = 2 : Public, Static, Literal, HasDefault
+    System.Windows.Forms.TreeListViewExpandMethod None = 3 : Public, Static, Literal, HasDefault
+Struct System.Windows.Forms.CheckBoxesTypes: AutoLayout, AnsiClass, Class, Public, Sealed, Serializable
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    System.Windows.Forms.CheckBoxesTypes None = 0 : Public, Static, Literal, HasDefault
+    System.Windows.Forms.CheckBoxesTypes Simple = 1 : Public, Static, Literal, HasDefault
+    System.Windows.Forms.CheckBoxesTypes Recursive = 2 : Public, Static, Literal, HasDefault

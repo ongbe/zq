@@ -1,0 +1,10 @@
+E:\svn\InstitutionalTrading\Client\IPControl\bin\Release\IPControl.dll
+E:\svn\InstitutionalTrading\Client\IPControl\obj\Release\ResolveAssemblyReference.cache
+E:\svn\InstitutionalTrading\Client\IPControl\obj\Release\IPControl.IPTextBox.resources
+E:\svn\InstitutionalTrading\Client\IPControl\obj\Release\IPControl.csproj.GenerateResource.Cache
+E:\svn\InstitutionalTrading\Client\IPControl\obj\Release\IPControl.dll
+F:\svn\InstitutionalTrading\Client\IPControl\bin\Release\IPControl.dll
+F:\svn\InstitutionalTrading\Client\IPControl\obj\Release\ResolveAssemblyReference.cache
+F:\svn\InstitutionalTrading\Client\IPControl\obj\Release\IPControl.IPTextBox.resources
+F:\svn\InstitutionalTrading\Client\IPControl\obj\Release\IPControl.csproj.GenerateResource.Cache
+F:\svn\InstitutionalTrading\Client\IPControl\obj\Release\IPControl.dll

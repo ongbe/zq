@@ -1,0 +1,163 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#include "DBFExceptionRes.h"
+#include "ALXParserExceptionRes.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#include ""DBFExceptionRes.h""\r\n"
+    "#include ""ALXParserExceptionRes.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 25, 1\r\n"
+    "#pragma code_page(1251)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\alxBASE.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#endif\r\n"
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ALX_DBF_ERROR_DBFILE_CREATE "Не удалось создать файл."
+    ALX_DBF_ERROR_DBFILE_OPEN "Не удается открыть файл."
+    ALX_DBF_ERROR_DBFILE_MEMORYLOAD "Не удается загрузить файл."
+    ALX_DBF_ERROR_DBFHEADER_READ "Ошибка при чтении заголовка файла."
+    ALX_DBF_ERROR_DBFHEADER_WRITE "Ошибка при записи заголовка файла."
+    ALX_DBF_ERROR_NOT_TABLE "Файл поврежден либо не является .dbf файлом. "
+    ALX_DBF_ERROR_NOT_FIELDS "Файл не содержит описание полей."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ALX_DBF_ERROR_FILE_SIZE "Размер файла не соответствует структуре файла."
+    ALX_DBF_ERROR_FIELDS_READ "Ошибка чтения записи."
+    ALX_DBF_ERROR_MEMO_CREATE "Не удается создать мемо файл."
+    ALX_DBF_ERROR_MEMO_OPEN "Не удается открыть мемо файл."
+    ALX_DBF_ERROR_MEMO_HEAD_READ 
+                            "Заголовок файла поврежден либо имеет неизвестный формат."
+    ALX_DBF_ERROR_MEMO_BLOCK_SIZE 
+                            "Заголовок мемо файла поврежден либо не верно указан размер блока."
+    ALX_DBF_ERROR_MEMO_FIELD_READ "Не верная ссылка в мемо поле."
+    ALX_DBF_ERROR_MEMO_RECORD_READ "Ошибка при чтении данных из мемо файла."
+    ALX_DBF_ERROR_RECORD_OUTOFRANGE 
+                            "Попытка прочесть запись находящуюся за границей файла."
+    ALX_DBF_ERROR_RECORD_READ "Ошибка при чтении записи."
+    ALX_DBF_ERROR_RECORD_WRITE "Ошибка при сохранении записи в файл."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ALX_PRS_ERROR_SYNTAX_ERROR "Синтаксическая ошибка ""%s""."
+    ALX_PRS_ERROR_MISSING   "Отсутствует '%c'."
+    ALX_PRS_ERROR_DATATYPE_MISMATCH "Не соответствие типов."
+    ALX_PRS_ERROR_OPERAND_MISMATCH "Не соответствие типов оператора/операнда."
+    ALX_PRS_ERROR_ARGTYPE_MISMATCH 
+                            "Функция %s(), аргумент %d - не соответствие типа."
+    ALX_PRS_ERROR_VARIABLE_NOT_FOUND "Переменная '%s' не найдена."
+    ALX_PRS_ERROR_FUNCTION_NOT_FOUND "Функция %s() не реализована."
+    ALX_PRS_ERROR_TOO_FEW_ARGUMENTS 
+                            "Не достаточно аргументов для функции %s()."
+    ALX_PRS_ERROR_TOO_MANY_ARGUMENTS 
+                            "Слишком много аргументов у функции %s()."
+    ALX_PRS_ERROR_INVALID_ARGUMENT 
+                            "Неправильное значение или топ аргумента функции."
+    ALX_PRS_ERROR_INVALID_ARGUMENT_SQRT 
+                            "SQRT(), аргумент не может быть отрицательным."
+    ALX_PRS_ERROR_INVALID_ARGUMENT_LOG 
+                            "LOG(): Ноль или отрицательное число было использовано."
+    ALX_PRS_ERROR_INVALID_ARGUMENT_LOG10 
+                            "Нельзя использовать 0 или отрицательное число в LOG10()."
+    ALX_PRS_ERROR_INVALID_ARGUMENT_CTOT 
+                            "CTOD() или CTOT() не коректный результат."
+    ALX_PRS_ERROR_DEVIDE_BY_ZERO "Нельзя делить на 0."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ALX_PRS_ERROR_EXP_DOMAIN_ERROR "** или ^ ошибка."
+    ALX_PRS_ERROR_MISSING_OPERAND "Отсутствует операнд."
+    ALX_PRS_ERROR_FUNCTION_MISSING "У функции %s() отсутствует ')'."
+    ALX_PRS_ERROR_MISSING_EXPR "Отсутствует выражение."
+    ALX_PRS_ERROR_MISSING_OPERATOR "Отсутствует оператор."
+    ALX_DBF_ERROR_NOT_LOGIC_EXPR "Должно быть логическое выражение."
+END
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE 25, 1
+#pragma code_page(1251)
+#endif //_WIN32
+#include "res\alxBASE.rc2"  // non-Microsoft Visual C++ edited resources
+#endif
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

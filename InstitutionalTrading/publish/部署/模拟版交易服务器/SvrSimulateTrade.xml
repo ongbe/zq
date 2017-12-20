@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<root>
+    <tradingtime>
+        <group id="shfe" time="00:00-02:30 9:00-10:15 10:30-11:30 13:30-15:00 21:00-24:00" />
+        <group id="czce" time="9:00-10:15 10:30-11:30 13:30-15:00" />
+        <group id="dce" time="9:00-10:15 10:30-11:30 13:30-15:00" />
+        <group id="cffex" time="9:15-11:30 13:00-15:15" />
+    </tradingtime>
+</root>

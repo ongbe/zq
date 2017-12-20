@@ -1,0 +1,760 @@
+  WeifenLuo.WinFormsUI.Docking.Resources.resources - Embedded, ContainedInManifestFile, 
+  WeifenLuo.WinFormsUI.Docking.Strings.resources - Embedded, ContainedInManifestFile, 
+  WeifenLuo.WinFormsUI.Docking.DockPanel.bmp - Embedded, ContainedInManifestFile, 
+Assembly WeifenLuo.WinFormsUI.Docking, Version=2.7.0.0, Culture=neutral, PublicKeyToken=5cded1a1a0a7b481: 
+	hash=SHA1, flags=PublicKey
+Assembly System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=SHA1, flags=None
+Assembly System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Class WeifenLuo.WinFormsUI.Docking.DockPanel: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Panel
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Drawing.Color DockBackColor 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.IDockContent ActiveAutoHideContent 'get set' : 
+    Boolean AllowEndUserDocking 'get set' : 
+    Boolean AllowEndUserNestedDocking 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.DockContentCollection Contents 'get ' : 
+    Boolean RightToLeftLayout 'get set' : 
+    Boolean ShowDocumentIcon 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.DocumentTabStripLocation DocumentTabStripLocation 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.DockPanelExtender Extender 'get ' : 
+    IDockPaneFactory DockPaneFactory 'get ' : 
+    IFloatWindowFactory FloatWindowFactory 'get ' : 
+    WeifenLuo.WinFormsUI.Docking.DockPaneCollection Panes 'get ' : 
+    Double DockBottomPortion 'get set' : 
+    Double DockLeftPortion 'get set' : 
+    Double DockRightPortion 'get set' : 
+    Double DockTopPortion 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.DockWindowCollection DockWindows 'get ' : 
+    Int32 DocumentsCount 'get ' : 
+    System.Collections.Generic.IEnumerable`1[WeifenLuo.WinFormsUI.Docking.IDockContent] Documents 'get ' : 
+    WeifenLuo.WinFormsUI.Docking.FloatWindowCollection FloatWindows 'get ' : 
+    System.Drawing.Size DefaultFloatWindowSize 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.DocumentStyle DocumentStyle 'get set' : 
+    Boolean SupportDeeplyNestedContent 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.IDockContent ActiveContent 'get ' : 
+    WeifenLuo.WinFormsUI.Docking.DockPane ActivePane 'get ' : 
+    WeifenLuo.WinFormsUI.Docking.IDockContent ActiveDocument 'get ' : 
+    WeifenLuo.WinFormsUI.Docking.DockPane ActiveDocumentPane 'get ' : 
+    WeifenLuo.WinFormsUI.Docking.DockPanelSkin Skin 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.Skins.Style SkinStyle 'get set' : 
+  Events:
+    System.EventHandler`1[WeifenLuo.WinFormsUI.Docking.DockContentEventArgs] ContentAdded: 
+    System.EventHandler`1[WeifenLuo.WinFormsUI.Docking.DockContentEventArgs] ContentRemoved: 
+    System.EventHandler ActiveDocumentChanged: 
+    System.EventHandler ActiveContentChanged: 
+    System.EventHandler ActivePaneChanged: 
+  Methods:
+    SetPaneIndex(DockPane, Int32): PrivateScope, Public, HideBySig
+    SuspendLayout(Boolean): PrivateScope, Public, HideBySig
+    ResumeLayout(Boolean, Boolean): PrivateScope, Public, HideBySig
+    add_ContentAdded(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_ContentAdded(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    add_ContentRemoved(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    remove_ContentRemoved(EventHandler`1): PrivateScope, Public, HideBySig, SpecialName
+    SaveAsXml(String): PrivateScope, Public, HideBySig
+    SaveAsXml(String, Encoding): PrivateScope, Public, HideBySig
+    SaveAsXml(Stream, Encoding): PrivateScope, Public, HideBySig
+    SaveAsXml(Stream, Encoding, Boolean): PrivateScope, Public, HideBySig
+    LoadFromXml(String, DeserializeDockContent): PrivateScope, Public, HideBySig
+    LoadFromXml(Stream, DeserializeDockContent): PrivateScope, Public, HideBySig
+    LoadFromXml(Stream, DeserializeDockContent, Boolean): PrivateScope, Public, HideBySig
+    get_ActiveContent(): PrivateScope, Public, HideBySig, SpecialName
+    get_ActivePane(): PrivateScope, Public, HideBySig, SpecialName
+    get_ActiveDocument(): PrivateScope, Public, HideBySig, SpecialName
+    get_ActiveDocumentPane(): PrivateScope, Public, HideBySig, SpecialName
+    add_ActiveDocumentChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_ActiveDocumentChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_ActiveContentChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_ActiveContentChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_ActivePaneChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_ActivePaneChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    get_Skin(): PrivateScope, Public, HideBySig, SpecialName
+    set_Skin(DockPanelSkin): PrivateScope, Public, HideBySig, SpecialName
+    get_SkinStyle(): PrivateScope, Public, HideBySig, SpecialName
+    set_SkinStyle(Style): PrivateScope, Public, HideBySig, SpecialName
+    get_DockBackColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_DockBackColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_ActiveAutoHideContent(): PrivateScope, Public, HideBySig, SpecialName
+    set_ActiveAutoHideContent(IDockContent): PrivateScope, Public, HideBySig, SpecialName
+    get_AllowEndUserDocking(): PrivateScope, Public, HideBySig, SpecialName
+    set_AllowEndUserDocking(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_AllowEndUserNestedDocking(): PrivateScope, Public, HideBySig, SpecialName
+    set_AllowEndUserNestedDocking(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Contents(): PrivateScope, Public, HideBySig, SpecialName
+    get_RightToLeftLayout(): PrivateScope, Public, HideBySig, SpecialName
+    set_RightToLeftLayout(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_ShowDocumentIcon(): PrivateScope, Public, HideBySig, SpecialName
+    set_ShowDocumentIcon(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_DocumentTabStripLocation(): PrivateScope, Public, HideBySig, SpecialName
+    set_DocumentTabStripLocation(DocumentTabStripLocation): PrivateScope, Public, HideBySig, SpecialName
+    get_Extender(): PrivateScope, Public, HideBySig, SpecialName
+    get_DockPaneFactory(): PrivateScope, Public, HideBySig, SpecialName
+    get_FloatWindowFactory(): PrivateScope, Public, HideBySig, SpecialName
+    get_Panes(): PrivateScope, Public, HideBySig, SpecialName
+    get_DockBottomPortion(): PrivateScope, Public, HideBySig, SpecialName
+    set_DockBottomPortion(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_DockLeftPortion(): PrivateScope, Public, HideBySig, SpecialName
+    set_DockLeftPortion(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_DockRightPortion(): PrivateScope, Public, HideBySig, SpecialName
+    set_DockRightPortion(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_DockTopPortion(): PrivateScope, Public, HideBySig, SpecialName
+    set_DockTopPortion(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_DockWindows(): PrivateScope, Public, HideBySig, SpecialName
+    UpdateDockWindowZOrder(DockStyle, Boolean): PrivateScope, Public, HideBySig
+    get_DocumentsCount(): PrivateScope, Public, HideBySig, SpecialName
+    DocumentsToArray(): PrivateScope, Public, HideBySig
+    get_Documents(): PrivateScope, Public, HideBySig, SpecialName
+    get_FloatWindows(): PrivateScope, Public, HideBySig, SpecialName
+    get_DefaultFloatWindowSize(): PrivateScope, Public, HideBySig, SpecialName
+    set_DefaultFloatWindowSize(Size): PrivateScope, Public, HideBySig, SpecialName
+    get_DocumentStyle(): PrivateScope, Public, HideBySig, SpecialName
+    set_DocumentStyle(DocumentStyle): PrivateScope, Public, HideBySig, SpecialName
+    get_SupportDeeplyNestedContent(): PrivateScope, Public, HideBySig, SpecialName
+    set_SupportDeeplyNestedContent(Boolean): PrivateScope, Public, HideBySig, SpecialName
+Interface WeifenLuo.WinFormsUI.Docking.IDockContent: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Properties:
+    WeifenLuo.WinFormsUI.Docking.DockContentHandler DockHandler 'get ' : 
+  Methods:
+    get_DockHandler(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    OnActivated(EventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    OnDeactivate(EventArgs): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class WeifenLuo.WinFormsUI.Docking.DockContent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    WeifenLuo.WinFormsUI.Docking.IDockContent
+  Properties:
+    WeifenLuo.WinFormsUI.Docking.DockContentHandler DockHandler 'get ' : 
+    Boolean AllowEndUserDocking 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.DockAreas DockAreas 'get set' : 
+    Double AutoHidePortion 'get set' : 
+    System.String TabText 'get set' : 
+    Boolean CloseButton 'get set' : 
+    Boolean CloseButtonVisible 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.DockPanel DockPanel 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.DockState DockState 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.DockPane Pane 'get set' : 
+    Boolean IsHidden 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.DockState VisibleState 'get set' : 
+    Boolean IsFloat 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.DockPane PanelPane 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.DockPane FloatPane 'get set' : 
+    Boolean HideOnClose 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.DockState ShowHint 'get set' : 
+    Boolean IsActivated 'get ' : 
+    System.Windows.Forms.ContextMenu TabPageContextMenu 'get set' : 
+    System.Windows.Forms.ContextMenuStrip TabPageContextMenuStrip 'get set' : 
+    System.String ToolTipText 'get set' : 
+  Events:
+    System.EventHandler DockStateChanged: 
+  Methods:
+    get_DockHandler(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_AllowEndUserDocking(): PrivateScope, Public, HideBySig, SpecialName
+    set_AllowEndUserDocking(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_DockAreas(): PrivateScope, Public, HideBySig, SpecialName
+    set_DockAreas(DockAreas): PrivateScope, Public, HideBySig, SpecialName
+    get_AutoHidePortion(): PrivateScope, Public, HideBySig, SpecialName
+    set_AutoHidePortion(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_TabText(): PrivateScope, Public, HideBySig, SpecialName
+    set_TabText(String): PrivateScope, Public, HideBySig, SpecialName
+    get_CloseButton(): PrivateScope, Public, HideBySig, SpecialName
+    set_CloseButton(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_CloseButtonVisible(): PrivateScope, Public, HideBySig, SpecialName
+    set_CloseButtonVisible(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_DockPanel(): PrivateScope, Public, HideBySig, SpecialName
+    set_DockPanel(DockPanel): PrivateScope, Public, HideBySig, SpecialName
+    get_DockState(): PrivateScope, Public, HideBySig, SpecialName
+    set_DockState(DockState): PrivateScope, Public, HideBySig, SpecialName
+    get_Pane(): PrivateScope, Public, HideBySig, SpecialName
+    set_Pane(DockPane): PrivateScope, Public, HideBySig, SpecialName
+    get_IsHidden(): PrivateScope, Public, HideBySig, SpecialName
+    set_IsHidden(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_VisibleState(): PrivateScope, Public, HideBySig, SpecialName
+    set_VisibleState(DockState): PrivateScope, Public, HideBySig, SpecialName
+    get_IsFloat(): PrivateScope, Public, HideBySig, SpecialName
+    set_IsFloat(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_PanelPane(): PrivateScope, Public, HideBySig, SpecialName
+    set_PanelPane(DockPane): PrivateScope, Public, HideBySig, SpecialName
+    get_FloatPane(): PrivateScope, Public, HideBySig, SpecialName
+    set_FloatPane(DockPane): PrivateScope, Public, HideBySig, SpecialName
+    get_HideOnClose(): PrivateScope, Public, HideBySig, SpecialName
+    set_HideOnClose(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_ShowHint(): PrivateScope, Public, HideBySig, SpecialName
+    set_ShowHint(DockState): PrivateScope, Public, HideBySig, SpecialName
+    get_IsActivated(): PrivateScope, Public, HideBySig, SpecialName
+    IsDockStateValid(DockState): PrivateScope, Public, HideBySig
+    get_TabPageContextMenu(): PrivateScope, Public, HideBySig, SpecialName
+    set_TabPageContextMenu(ContextMenu): PrivateScope, Public, HideBySig, SpecialName
+    get_TabPageContextMenuStrip(): PrivateScope, Public, HideBySig, SpecialName
+    set_TabPageContextMenuStrip(ContextMenuStrip): PrivateScope, Public, HideBySig, SpecialName
+    get_ToolTipText(): PrivateScope, Public, HideBySig, SpecialName
+    set_ToolTipText(String): PrivateScope, Public, HideBySig, SpecialName
+    Activate(): PrivateScope, Public, HideBySig
+    Hide(): PrivateScope, Public, HideBySig
+    Show(): PrivateScope, Public, HideBySig
+    Show(DockPanel): PrivateScope, Public, HideBySig
+    Show(DockPanel, DockState): PrivateScope, Public, HideBySig
+    Show(DockPanel, Rectangle): PrivateScope, Public, HideBySig
+    Show(DockPane, IDockContent): PrivateScope, Public, HideBySig
+    Show(DockPane, DockAlignment, Double): PrivateScope, Public, HideBySig
+    FloatAt(Rectangle): PrivateScope, Public, HideBySig
+    DockTo(DockPane, DockStyle, Int32): PrivateScope, Public, HideBySig
+    DockTo(DockPanel, DockStyle): PrivateScope, Public, HideBySig
+    add_DockStateChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_DockStateChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+Class WeifenLuo.WinFormsUI.Docking.AutoHideStripBase: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :System.Windows.Forms.Control
+Class WeifenLuo.WinFormsUI.Docking.DockPanelSkin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    WeifenLuo.WinFormsUI.Docking.AutoHideStripSkin AutoHideStripSkin 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.DockPaneStripSkin DockPaneStripSkin 'get set' : 
+  Methods:
+    get_AutoHideStripSkin(): PrivateScope, Public, HideBySig, SpecialName
+    set_AutoHideStripSkin(AutoHideStripSkin): PrivateScope, Public, HideBySig, SpecialName
+    get_DockPaneStripSkin(): PrivateScope, Public, HideBySig, SpecialName
+    set_DockPaneStripSkin(DockPaneStripSkin): PrivateScope, Public, HideBySig, SpecialName
+Class WeifenLuo.WinFormsUI.Docking.AutoHideStripSkin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    WeifenLuo.WinFormsUI.Docking.DockPanelGradient DockStripGradient 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.TabGradient TabGradient 'get set' : 
+    System.Drawing.Font TextFont 'get set' : 
+  Methods:
+    get_DockStripGradient(): PrivateScope, Public, HideBySig, SpecialName
+    set_DockStripGradient(DockPanelGradient): PrivateScope, Public, HideBySig, SpecialName
+    get_TabGradient(): PrivateScope, Public, HideBySig, SpecialName
+    set_TabGradient(TabGradient): PrivateScope, Public, HideBySig, SpecialName
+    get_TextFont(): PrivateScope, Public, HideBySig, SpecialName
+    set_TextFont(Font): PrivateScope, Public, HideBySig, SpecialName
+Class WeifenLuo.WinFormsUI.Docking.DockPaneStripSkin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    WeifenLuo.WinFormsUI.Docking.DockPaneStripGradient DocumentGradient 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.DockPaneStripToolWindowGradient ToolWindowGradient 'get set' : 
+    System.Drawing.Font TextFont 'get set' : 
+  Methods:
+    get_DocumentGradient(): PrivateScope, Public, HideBySig, SpecialName
+    set_DocumentGradient(DockPaneStripGradient): PrivateScope, Public, HideBySig, SpecialName
+    get_ToolWindowGradient(): PrivateScope, Public, HideBySig, SpecialName
+    set_ToolWindowGradient(DockPaneStripToolWindowGradient): PrivateScope, Public, HideBySig, SpecialName
+    get_TextFont(): PrivateScope, Public, HideBySig, SpecialName
+    set_TextFont(Font): PrivateScope, Public, HideBySig, SpecialName
+Class WeifenLuo.WinFormsUI.Docking.DockPaneStripGradient: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    WeifenLuo.WinFormsUI.Docking.DockPanelGradient DockStripGradient 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.TabGradient ActiveTabGradient 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.TabGradient InactiveTabGradient 'get set' : 
+  Methods:
+    get_DockStripGradient(): PrivateScope, Public, HideBySig, SpecialName
+    set_DockStripGradient(DockPanelGradient): PrivateScope, Public, HideBySig, SpecialName
+    get_ActiveTabGradient(): PrivateScope, Public, HideBySig, SpecialName
+    set_ActiveTabGradient(TabGradient): PrivateScope, Public, HideBySig, SpecialName
+    get_InactiveTabGradient(): PrivateScope, Public, HideBySig, SpecialName
+    set_InactiveTabGradient(TabGradient): PrivateScope, Public, HideBySig, SpecialName
+Class WeifenLuo.WinFormsUI.Docking.DockPaneStripToolWindowGradient: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :WeifenLuo.WinFormsUI.Docking.DockPaneStripGradient
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    WeifenLuo.WinFormsUI.Docking.TabGradient ActiveCaptionGradient 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.TabGradient InactiveCaptionGradient 'get set' : 
+  Methods:
+    get_ActiveCaptionGradient(): PrivateScope, Public, HideBySig, SpecialName
+    set_ActiveCaptionGradient(TabGradient): PrivateScope, Public, HideBySig, SpecialName
+    get_InactiveCaptionGradient(): PrivateScope, Public, HideBySig, SpecialName
+    set_InactiveCaptionGradient(TabGradient): PrivateScope, Public, HideBySig, SpecialName
+Class WeifenLuo.WinFormsUI.Docking.DockPanelGradient: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Drawing.Color StartColor 'get set' : 
+    System.Drawing.Color EndColor 'get set' : 
+    System.Drawing.Drawing2D.LinearGradientMode LinearGradientMode 'get set' : 
+  Methods:
+    get_StartColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_StartColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_EndColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_EndColor(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_LinearGradientMode(): PrivateScope, Public, HideBySig, SpecialName
+    set_LinearGradientMode(LinearGradientMode): PrivateScope, Public, HideBySig, SpecialName
+Class WeifenLuo.WinFormsUI.Docking.TabGradient: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :WeifenLuo.WinFormsUI.Docking.DockPanelGradient
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Drawing.Color TextColor 'get set' : 
+  Methods:
+    get_TextColor(): PrivateScope, Public, HideBySig, SpecialName
+    set_TextColor(Color): PrivateScope, Public, HideBySig, SpecialName
+Class WeifenLuo.WinFormsUI.Docking.DockPanelSkinConverter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ComponentModel.ExpandableObjectConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    CanConvertTo(ITypeDescriptorContext, Type): PrivateScope, Public, Virtual, HideBySig
+    ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type): PrivateScope, Public, Virtual, HideBySig
+Class WeifenLuo.WinFormsUI.Docking.DockPanelGradientConverter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ComponentModel.ExpandableObjectConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    CanConvertTo(ITypeDescriptorContext, Type): PrivateScope, Public, Virtual, HideBySig
+    ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type): PrivateScope, Public, Virtual, HideBySig
+Class WeifenLuo.WinFormsUI.Docking.AutoHideStripConverter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ComponentModel.ExpandableObjectConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    CanConvertTo(ITypeDescriptorContext, Type): PrivateScope, Public, Virtual, HideBySig
+    ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type): PrivateScope, Public, Virtual, HideBySig
+Class WeifenLuo.WinFormsUI.Docking.DockPaneStripConverter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ComponentModel.ExpandableObjectConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    CanConvertTo(ITypeDescriptorContext, Type): PrivateScope, Public, Virtual, HideBySig
+    ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type): PrivateScope, Public, Virtual, HideBySig
+Class WeifenLuo.WinFormsUI.Docking.DockPaneStripGradientConverter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ComponentModel.ExpandableObjectConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    CanConvertTo(ITypeDescriptorContext, Type): PrivateScope, Public, Virtual, HideBySig
+    ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type): PrivateScope, Public, Virtual, HideBySig
+Class WeifenLuo.WinFormsUI.Docking.DockPaneTabGradientConverter: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.ComponentModel.ExpandableObjectConverter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    CanConvertTo(ITypeDescriptorContext, Type): PrivateScope, Public, Virtual, HideBySig
+    ConvertTo(ITypeDescriptorContext, CultureInfo, Object, Type): PrivateScope, Public, Virtual, HideBySig
+Struct WeifenLuo.WinFormsUI.Docking.Skins.Style: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    WeifenLuo.WinFormsUI.Docking.Skins.Style VisualStudio2005 = 1 : Public, Static, Literal, HasDefault
+Class WeifenLuo.WinFormsUI.Docking.VisibleNestedPaneCollection: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Collections.ObjectModel.ReadOnlyCollection`1[WeifenLuo.WinFormsUI.Docking.DockPane]
+  Properties:
+    WeifenLuo.WinFormsUI.Docking.NestedPaneCollection NestedPanes 'get ' : 
+    WeifenLuo.WinFormsUI.Docking.INestedPanesContainer Container 'get ' : 
+    WeifenLuo.WinFormsUI.Docking.DockState DockState 'get ' : 
+    Boolean IsFloat 'get ' : 
+  Methods:
+    get_NestedPanes(): PrivateScope, Public, HideBySig, SpecialName
+    get_Container(): PrivateScope, Public, HideBySig, SpecialName
+    get_DockState(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsFloat(): PrivateScope, Public, HideBySig, SpecialName
+Class WeifenLuo.WinFormsUI.Docking.DockContentCollection: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Collections.ObjectModel.ReadOnlyCollection`1[WeifenLuo.WinFormsUI.Docking.IDockContent]
+  Properties:
+    WeifenLuo.WinFormsUI.Docking.IDockContent Item [Int32] 'get ' : 
+    Int32 Count 'get ' : 
+  Methods:
+    get_Item(Int32): PrivateScope, Public, HideBySig, SpecialName
+    Contains(IDockContent): PrivateScope, Public, HideBySig
+    get_Count(): PrivateScope, Public, HideBySig, SpecialName
+    IndexOf(IDockContent): PrivateScope, Public, HideBySig
+Class WeifenLuo.WinFormsUI.Docking.GetPersistStringCallback: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class WeifenLuo.WinFormsUI.Docking.DockContentHandler: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Windows.Forms.Form): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Windows.Forms.Form, WeifenLuo.WinFormsUI.Docking.GetPersistStringCallback): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+    WeifenLuo.WinFormsUI.Docking.IDockDragSource
+    WeifenLuo.WinFormsUI.Docking.IDragSource
+  Properties:
+    System.Windows.Forms.Form Form 'get ' : 
+    WeifenLuo.WinFormsUI.Docking.IDockContent Content 'get ' : 
+    WeifenLuo.WinFormsUI.Docking.IDockContent PreviousActive 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.IDockContent NextActive 'get set' : 
+    Boolean AllowEndUserDocking 'get set' : 
+    Double AutoHidePortion 'get set' : 
+    Boolean CloseButton 'get set' : 
+    Boolean CloseButtonVisible 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.DockAreas DockAreas 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.DockState DockState 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.DockPanel DockPanel 'get set' : 
+    System.Drawing.Icon Icon 'get ' : 
+    WeifenLuo.WinFormsUI.Docking.DockPane Pane 'get set' : 
+    Boolean IsHidden 'get set' : 
+    System.String TabText 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.DockState VisibleState 'get set' : 
+    Boolean IsFloat 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.DockPane PanelPane 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.DockPane FloatPane 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.GetPersistStringCallback GetPersistStringCallback 'get set' : 
+    Boolean HideOnClose 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.DockState ShowHint 'get set' : 
+    Boolean IsActivated 'get set' : 
+    System.Windows.Forms.ContextMenu TabPageContextMenu 'get set' : 
+    System.String ToolTipText 'get set' : 
+    System.Windows.Forms.ContextMenuStrip TabPageContextMenuStrip 'get set' : 
+  Events:
+    System.EventHandler DockStateChanged: 
+  Methods:
+    get_TabPageContextMenuStrip(): PrivateScope, Public, HideBySig, SpecialName
+    set_TabPageContextMenuStrip(ContextMenuStrip): PrivateScope, Public, HideBySig, SpecialName
+    FloatAt(Rectangle): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    DockTo(DockPane, DockStyle, Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    DockTo(DockPanel, DockStyle): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_Form(): PrivateScope, Public, HideBySig, SpecialName
+    get_Content(): PrivateScope, Public, HideBySig, SpecialName
+    get_PreviousActive(): PrivateScope, Public, HideBySig, SpecialName
+    get_NextActive(): PrivateScope, Public, HideBySig, SpecialName
+    get_AllowEndUserDocking(): PrivateScope, Public, HideBySig, SpecialName
+    set_AllowEndUserDocking(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_AutoHidePortion(): PrivateScope, Public, HideBySig, SpecialName
+    set_AutoHidePortion(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_CloseButton(): PrivateScope, Public, HideBySig, SpecialName
+    set_CloseButton(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_CloseButtonVisible(): PrivateScope, Public, HideBySig, SpecialName
+    set_CloseButtonVisible(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_DockAreas(): PrivateScope, Public, HideBySig, SpecialName
+    set_DockAreas(DockAreas): PrivateScope, Public, HideBySig, SpecialName
+    get_DockState(): PrivateScope, Public, HideBySig, SpecialName
+    set_DockState(DockState): PrivateScope, Public, HideBySig, SpecialName
+    get_DockPanel(): PrivateScope, Public, HideBySig, SpecialName
+    set_DockPanel(DockPanel): PrivateScope, Public, HideBySig, SpecialName
+    get_Icon(): PrivateScope, Public, HideBySig, SpecialName
+    get_Pane(): PrivateScope, Public, HideBySig, SpecialName
+    set_Pane(DockPane): PrivateScope, Public, HideBySig, SpecialName
+    get_IsHidden(): PrivateScope, Public, HideBySig, SpecialName
+    set_IsHidden(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_TabText(): PrivateScope, Public, HideBySig, SpecialName
+    set_TabText(String): PrivateScope, Public, HideBySig, SpecialName
+    get_VisibleState(): PrivateScope, Public, HideBySig, SpecialName
+    set_VisibleState(DockState): PrivateScope, Public, HideBySig, SpecialName
+    get_IsFloat(): PrivateScope, Public, HideBySig, SpecialName
+    set_IsFloat(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    CheckDockState(Boolean): PrivateScope, Public, HideBySig
+    get_PanelPane(): PrivateScope, Public, HideBySig, SpecialName
+    set_PanelPane(DockPane): PrivateScope, Public, HideBySig, SpecialName
+    get_FloatPane(): PrivateScope, Public, HideBySig, SpecialName
+    set_FloatPane(DockPane): PrivateScope, Public, HideBySig, SpecialName
+    get_GetPersistStringCallback(): PrivateScope, Public, HideBySig, SpecialName
+    set_GetPersistStringCallback(GetPersistStringCallback): PrivateScope, Public, HideBySig, SpecialName
+    get_HideOnClose(): PrivateScope, Public, HideBySig, SpecialName
+    set_HideOnClose(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_ShowHint(): PrivateScope, Public, HideBySig, SpecialName
+    set_ShowHint(DockState): PrivateScope, Public, HideBySig, SpecialName
+    get_IsActivated(): PrivateScope, Public, HideBySig, SpecialName
+    IsDockStateValid(DockState): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_TabPageContextMenu(): PrivateScope, Public, HideBySig, SpecialName
+    set_TabPageContextMenu(ContextMenu): PrivateScope, Public, HideBySig, SpecialName
+    get_ToolTipText(): PrivateScope, Public, HideBySig, SpecialName
+    set_ToolTipText(String): PrivateScope, Public, HideBySig, SpecialName
+    Activate(): PrivateScope, Public, HideBySig
+    GiveUpFocus(): PrivateScope, Public, HideBySig
+    Hide(): PrivateScope, Public, HideBySig
+    Show(): PrivateScope, Public, HideBySig
+    Show(DockPanel): PrivateScope, Public, HideBySig
+    Show(DockPanel, DockState): PrivateScope, Public, HideBySig
+    Show(DockPanel, Rectangle): PrivateScope, Public, HideBySig
+    Show(DockPane, IDockContent): PrivateScope, Public, HideBySig
+    Show(DockPane, DockAlignment, Double): PrivateScope, Public, HideBySig
+    Close(): PrivateScope, Public, HideBySig
+    add_DockStateChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_DockStateChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+Class WeifenLuo.WinFormsUI.Docking.NestedPaneCollection: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Collections.ObjectModel.ReadOnlyCollection`1[WeifenLuo.WinFormsUI.Docking.DockPane]
+  Properties:
+    WeifenLuo.WinFormsUI.Docking.INestedPanesContainer Container 'get ' : 
+    WeifenLuo.WinFormsUI.Docking.VisibleNestedPaneCollection VisibleNestedPanes 'get ' : 
+    WeifenLuo.WinFormsUI.Docking.DockState DockState 'get ' : 
+    Boolean IsFloat 'get ' : 
+  Methods:
+    get_Container(): PrivateScope, Public, HideBySig, SpecialName
+    get_VisibleNestedPanes(): PrivateScope, Public, HideBySig, SpecialName
+    get_DockState(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsFloat(): PrivateScope, Public, HideBySig, SpecialName
+    GetDefaultPreviousPane(DockPane): PrivateScope, Public, HideBySig
+Class WeifenLuo.WinFormsUI.Docking.DockPane: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+  Interfaces:
+    WeifenLuo.WinFormsUI.Docking.IDockDragSource
+    WeifenLuo.WinFormsUI.Docking.IDragSource
+  Properties:
+    WeifenLuo.WinFormsUI.Docking.IDockContent ActiveContent 'get set' : 
+    Boolean AllowDockDragAndDrop 'get set' : 
+    System.String CaptionText 'get ' : 
+    WeifenLuo.WinFormsUI.Docking.DockContentCollection Contents 'get ' : 
+    WeifenLuo.WinFormsUI.Docking.DockContentCollection DisplayingContents 'get ' : 
+    WeifenLuo.WinFormsUI.Docking.DockPanel DockPanel 'get ' : 
+    Boolean IsActivated 'get ' : 
+    Boolean IsActiveDocumentPane 'get ' : 
+    Boolean IsAutoHide 'get ' : 
+    AppearanceStyle Appearance 'get ' : 
+    Boolean IsHidden 'get ' : 
+    WeifenLuo.WinFormsUI.Docking.DockWindow DockWindow 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.FloatWindow FloatWindow 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.NestedDockingStatus NestedDockingStatus 'get ' : 
+    Boolean IsFloat 'get ' : 
+    WeifenLuo.WinFormsUI.Docking.INestedPanesContainer NestedPanesContainer 'get ' : 
+    WeifenLuo.WinFormsUI.Docking.DockState DockState 'get set' : 
+  Events:
+    System.EventHandler DockStateChanged: 
+    System.EventHandler IsActivatedChanged: 
+    System.EventHandler IsActiveDocumentPaneChanged: 
+  Methods:
+    Float(): PrivateScope, Public, HideBySig
+    RestoreToPanel(): PrivateScope, Public, HideBySig
+    FloatAt(Rectangle): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    DockTo(DockPane, DockStyle, Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    DockTo(DockPanel, DockStyle): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_ActiveContent(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_ActiveContent(IDockContent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_AllowDockDragAndDrop(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_AllowDockDragAndDrop(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_CaptionText(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Contents(): PrivateScope, Public, HideBySig, SpecialName
+    get_DisplayingContents(): PrivateScope, Public, HideBySig, SpecialName
+    get_DockPanel(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsActivated(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsActiveDocumentPane(): PrivateScope, Public, HideBySig, SpecialName
+    IsDockStateValid(DockState): PrivateScope, Public, HideBySig
+    get_IsAutoHide(): PrivateScope, Public, HideBySig, SpecialName
+    get_Appearance(): PrivateScope, Public, HideBySig, SpecialName
+    Activate(): PrivateScope, Public, HideBySig
+    CloseActiveContent(): PrivateScope, Public, HideBySig
+    get_IsHidden(): PrivateScope, Public, HideBySig, SpecialName
+    SetContentIndex(IDockContent, Int32): PrivateScope, Public, HideBySig
+    Show(): PrivateScope, Public, HideBySig
+    add_DockStateChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_DockStateChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_IsActivatedChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_IsActivatedChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_IsActiveDocumentPaneChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_IsActiveDocumentPaneChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    get_DockWindow(): PrivateScope, Public, HideBySig, SpecialName
+    set_DockWindow(DockWindow): PrivateScope, Public, HideBySig, SpecialName
+    get_FloatWindow(): PrivateScope, Public, HideBySig, SpecialName
+    set_FloatWindow(FloatWindow): PrivateScope, Public, HideBySig, SpecialName
+    get_NestedDockingStatus(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsFloat(): PrivateScope, Public, HideBySig, SpecialName
+    get_NestedPanesContainer(): PrivateScope, Public, HideBySig, SpecialName
+    get_DockState(): PrivateScope, Public, HideBySig, SpecialName
+    set_DockState(DockState): PrivateScope, Public, HideBySig, SpecialName
+    SetDockState(DockState): PrivateScope, Public, HideBySig
+    DockTo(INestedPanesContainer): PrivateScope, Public, HideBySig
+    DockTo(INestedPanesContainer, DockPane, DockAlignment, Double): PrivateScope, Public, HideBySig
+    SetNestedDockingProportion(Double): PrivateScope, Public, HideBySig
+Struct WeifenLuo.WinFormsUI.Docking.DockPane+AppearanceStyle: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    AppearanceStyle ToolWindow = 0 : Public, Static, Literal, HasDefault
+    AppearanceStyle Document = 1 : Public, Static, Literal, HasDefault
+Class WeifenLuo.WinFormsUI.Docking.DockPaneCaptionBase: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :System.Windows.Forms.Control
+Class WeifenLuo.WinFormsUI.Docking.DockPaneCollection: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Collections.ObjectModel.ReadOnlyCollection`1[WeifenLuo.WinFormsUI.Docking.DockPane]
+Class WeifenLuo.WinFormsUI.Docking.DeserializeDockContent: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(String, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class WeifenLuo.WinFormsUI.Docking.DockPanelExtender: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Properties:
+    IDockPaneFactory DockPaneFactory 'get set' : 
+    IFloatWindowFactory FloatWindowFactory 'get set' : 
+    IDockPaneCaptionFactory DockPaneCaptionFactory 'get set' : 
+    IDockPaneStripFactory DockPaneStripFactory 'get set' : 
+    IAutoHideStripFactory AutoHideStripFactory 'get set' : 
+  Methods:
+    get_DockPaneFactory(): PrivateScope, Public, HideBySig, SpecialName
+    set_DockPaneFactory(IDockPaneFactory): PrivateScope, Public, HideBySig, SpecialName
+    get_FloatWindowFactory(): PrivateScope, Public, HideBySig, SpecialName
+    set_FloatWindowFactory(IFloatWindowFactory): PrivateScope, Public, HideBySig, SpecialName
+    get_DockPaneCaptionFactory(): PrivateScope, Public, HideBySig, SpecialName
+    set_DockPaneCaptionFactory(IDockPaneCaptionFactory): PrivateScope, Public, HideBySig, SpecialName
+    get_DockPaneStripFactory(): PrivateScope, Public, HideBySig, SpecialName
+    set_DockPaneStripFactory(IDockPaneStripFactory): PrivateScope, Public, HideBySig, SpecialName
+    get_AutoHideStripFactory(): PrivateScope, Public, HideBySig, SpecialName
+    set_AutoHideStripFactory(IAutoHideStripFactory): PrivateScope, Public, HideBySig, SpecialName
+Interface WeifenLuo.WinFormsUI.Docking.DockPanelExtender+IDockPaneFactory: AutoLayout, AnsiClass, Class, NestedPublic, ClassSemanticsMask, Abstract
+  Methods:
+    CreateDockPane(IDockContent, DockState, Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CreateDockPane(IDockContent, FloatWindow, Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CreateDockPane(IDockContent, DockPane, DockAlignment, Double, Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CreateDockPane(IDockContent, Rectangle, Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface WeifenLuo.WinFormsUI.Docking.DockPanelExtender+IFloatWindowFactory: AutoLayout, AnsiClass, Class, NestedPublic, ClassSemanticsMask, Abstract
+  Methods:
+    CreateFloatWindow(DockPanel, DockPane): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CreateFloatWindow(DockPanel, DockPane, Rectangle): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface WeifenLuo.WinFormsUI.Docking.DockPanelExtender+IDockPaneCaptionFactory: AutoLayout, AnsiClass, Class, NestedPublic, ClassSemanticsMask, Abstract
+  Methods:
+    CreateDockPaneCaption(DockPane): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface WeifenLuo.WinFormsUI.Docking.DockPanelExtender+IDockPaneStripFactory: AutoLayout, AnsiClass, Class, NestedPublic, ClassSemanticsMask, Abstract
+  Methods:
+    CreateDockPaneStrip(DockPane): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface WeifenLuo.WinFormsUI.Docking.DockPanelExtender+IAutoHideStripFactory: AutoLayout, AnsiClass, Class, NestedPublic, ClassSemanticsMask, Abstract
+  Methods:
+    CreateAutoHideStrip(DockPanel): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class WeifenLuo.WinFormsUI.Docking.DockPaneStripBase: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  :System.Windows.Forms.Control
+Interface WeifenLuo.WinFormsUI.Docking.INestedPanesContainer: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Properties:
+    WeifenLuo.WinFormsUI.Docking.DockState DockState 'get ' : 
+    System.Drawing.Rectangle DisplayingRectangle 'get ' : 
+    WeifenLuo.WinFormsUI.Docking.NestedPaneCollection NestedPanes 'get ' : 
+    WeifenLuo.WinFormsUI.Docking.VisibleNestedPaneCollection VisibleNestedPanes 'get ' : 
+    Boolean IsFloat 'get ' : 
+  Methods:
+    get_DockState(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_DisplayingRectangle(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_NestedPanes(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_VisibleNestedPanes(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    get_IsFloat(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+Class WeifenLuo.WinFormsUI.Docking.DockWindow: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Panel
+  Interfaces:
+    WeifenLuo.WinFormsUI.Docking.INestedPanesContainer
+    WeifenLuo.WinFormsUI.Docking.ISplitterDragSource
+    WeifenLuo.WinFormsUI.Docking.IDragSource
+  Properties:
+    WeifenLuo.WinFormsUI.Docking.VisibleNestedPaneCollection VisibleNestedPanes 'get ' : 
+    WeifenLuo.WinFormsUI.Docking.NestedPaneCollection NestedPanes 'get ' : 
+    WeifenLuo.WinFormsUI.Docking.DockPanel DockPanel 'get ' : 
+    WeifenLuo.WinFormsUI.Docking.DockState DockState 'get ' : 
+    Boolean IsFloat 'get ' : 
+    System.Drawing.Rectangle DisplayingRectangle 'get ' : 
+  Methods:
+    get_VisibleNestedPanes(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_NestedPanes(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_DockPanel(): PrivateScope, Public, HideBySig, SpecialName
+    get_DockState(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_IsFloat(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_DisplayingRectangle(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+Class WeifenLuo.WinFormsUI.Docking.DockWindowCollection: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Collections.ObjectModel.ReadOnlyCollection`1[WeifenLuo.WinFormsUI.Docking.DockWindow]
+  Properties:
+    WeifenLuo.WinFormsUI.Docking.DockWindow Item [WeifenLuo.WinFormsUI.Docking.DockState] 'get ' : 
+  Methods:
+    get_Item(DockState): PrivateScope, Public, HideBySig, SpecialName
+Struct WeifenLuo.WinFormsUI.Docking.DockAreas: AutoLayout, AnsiClass, Class, Public, Sealed, Serializable
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    WeifenLuo.WinFormsUI.Docking.DockAreas Float = 1 : Public, Static, Literal, HasDefault
+    WeifenLuo.WinFormsUI.Docking.DockAreas DockLeft = 2 : Public, Static, Literal, HasDefault
+    WeifenLuo.WinFormsUI.Docking.DockAreas DockRight = 4 : Public, Static, Literal, HasDefault
+    WeifenLuo.WinFormsUI.Docking.DockAreas DockTop = 8 : Public, Static, Literal, HasDefault
+    WeifenLuo.WinFormsUI.Docking.DockAreas DockBottom = 16 : Public, Static, Literal, HasDefault
+    WeifenLuo.WinFormsUI.Docking.DockAreas Document = 32 : Public, Static, Literal, HasDefault
+Struct WeifenLuo.WinFormsUI.Docking.DockState: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    WeifenLuo.WinFormsUI.Docking.DockState Unknown = 0 : Public, Static, Literal, HasDefault
+    WeifenLuo.WinFormsUI.Docking.DockState Float = 1 : Public, Static, Literal, HasDefault
+    WeifenLuo.WinFormsUI.Docking.DockState DockTopAutoHide = 2 : Public, Static, Literal, HasDefault
+    WeifenLuo.WinFormsUI.Docking.DockState DockLeftAutoHide = 3 : Public, Static, Literal, HasDefault
+    WeifenLuo.WinFormsUI.Docking.DockState DockBottomAutoHide = 4 : Public, Static, Literal, HasDefault
+    WeifenLuo.WinFormsUI.Docking.DockState DockRightAutoHide = 5 : Public, Static, Literal, HasDefault
+    WeifenLuo.WinFormsUI.Docking.DockState Document = 6 : Public, Static, Literal, HasDefault
+    WeifenLuo.WinFormsUI.Docking.DockState DockTop = 7 : Public, Static, Literal, HasDefault
+    WeifenLuo.WinFormsUI.Docking.DockState DockLeft = 8 : Public, Static, Literal, HasDefault
+    WeifenLuo.WinFormsUI.Docking.DockState DockBottom = 9 : Public, Static, Literal, HasDefault
+    WeifenLuo.WinFormsUI.Docking.DockState DockRight = 10 : Public, Static, Literal, HasDefault
+    WeifenLuo.WinFormsUI.Docking.DockState Hidden = 11 : Public, Static, Literal, HasDefault
+Struct WeifenLuo.WinFormsUI.Docking.DockAlignment: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    WeifenLuo.WinFormsUI.Docking.DockAlignment Left = 0 : Public, Static, Literal, HasDefault
+    WeifenLuo.WinFormsUI.Docking.DockAlignment Right = 1 : Public, Static, Literal, HasDefault
+    WeifenLuo.WinFormsUI.Docking.DockAlignment Top = 2 : Public, Static, Literal, HasDefault
+    WeifenLuo.WinFormsUI.Docking.DockAlignment Bottom = 3 : Public, Static, Literal, HasDefault
+Struct WeifenLuo.WinFormsUI.Docking.DocumentStyle: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    WeifenLuo.WinFormsUI.Docking.DocumentStyle DockingMdi = 0 : Public, Static, Literal, HasDefault
+    WeifenLuo.WinFormsUI.Docking.DocumentStyle DockingWindow = 1 : Public, Static, Literal, HasDefault
+    WeifenLuo.WinFormsUI.Docking.DocumentStyle DockingSdi = 2 : Public, Static, Literal, HasDefault
+    WeifenLuo.WinFormsUI.Docking.DocumentStyle SystemMdi = 3 : Public, Static, Literal, HasDefault
+Struct WeifenLuo.WinFormsUI.Docking.DocumentTabStripLocation: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    WeifenLuo.WinFormsUI.Docking.DocumentTabStripLocation Top = 0 : Public, Static, Literal, HasDefault
+    WeifenLuo.WinFormsUI.Docking.DocumentTabStripLocation Bottom = 1 : Public, Static, Literal, HasDefault
+Class WeifenLuo.WinFormsUI.Docking.DockContentEventArgs: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.EventArgs
+    Void .ctor(WeifenLuo.WinFormsUI.Docking.IDockContent): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    WeifenLuo.WinFormsUI.Docking.IDockContent Content 'get ' : 
+  Methods:
+    get_Content(): PrivateScope, Public, HideBySig, SpecialName
+Class WeifenLuo.WinFormsUI.Docking.FloatWindow: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+  Interfaces:
+    WeifenLuo.WinFormsUI.Docking.INestedPanesContainer
+    WeifenLuo.WinFormsUI.Docking.IDockDragSource
+    WeifenLuo.WinFormsUI.Docking.IDragSource
+  Properties:
+    Boolean AllowEndUserDocking 'get set' : 
+    WeifenLuo.WinFormsUI.Docking.NestedPaneCollection NestedPanes 'get ' : 
+    WeifenLuo.WinFormsUI.Docking.VisibleNestedPaneCollection VisibleNestedPanes 'get ' : 
+    WeifenLuo.WinFormsUI.Docking.DockPanel DockPanel 'get ' : 
+    WeifenLuo.WinFormsUI.Docking.DockState DockState 'get ' : 
+    Boolean IsFloat 'get ' : 
+    System.Drawing.Rectangle DisplayingRectangle 'get ' : 
+  Methods:
+    get_AllowEndUserDocking(): PrivateScope, Public, HideBySig, SpecialName
+    set_AllowEndUserDocking(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_NestedPanes(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_VisibleNestedPanes(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_DockPanel(): PrivateScope, Public, HideBySig, SpecialName
+    get_DockState(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_IsFloat(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_DisplayingRectangle(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    FloatAt(Rectangle): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    DockTo(DockPane, DockStyle, Int32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    DockTo(DockPanel, DockStyle): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class WeifenLuo.WinFormsUI.Docking.FloatWindowCollection: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Collections.ObjectModel.ReadOnlyCollection`1[WeifenLuo.WinFormsUI.Docking.FloatWindow]
+Class WeifenLuo.WinFormsUI.Docking.NestedDockingStatus: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  Properties:
+    WeifenLuo.WinFormsUI.Docking.DockPane DockPane 'get ' : 
+    WeifenLuo.WinFormsUI.Docking.NestedPaneCollection NestedPanes 'get ' : 
+    WeifenLuo.WinFormsUI.Docking.DockPane PreviousPane 'get ' : 
+    WeifenLuo.WinFormsUI.Docking.DockAlignment Alignment 'get ' : 
+    Double Proportion 'get ' : 
+    Boolean IsDisplaying 'get ' : 
+    WeifenLuo.WinFormsUI.Docking.DockPane DisplayingPreviousPane 'get ' : 
+    WeifenLuo.WinFormsUI.Docking.DockAlignment DisplayingAlignment 'get ' : 
+    Double DisplayingProportion 'get ' : 
+    System.Drawing.Rectangle LogicalBounds 'get ' : 
+    System.Drawing.Rectangle PaneBounds 'get ' : 
+    System.Drawing.Rectangle SplitterBounds 'get ' : 
+  Methods:
+    get_DockPane(): PrivateScope, Public, HideBySig, SpecialName
+    get_NestedPanes(): PrivateScope, Public, HideBySig, SpecialName
+    get_PreviousPane(): PrivateScope, Public, HideBySig, SpecialName
+    get_Alignment(): PrivateScope, Public, HideBySig, SpecialName
+    get_Proportion(): PrivateScope, Public, HideBySig, SpecialName
+    get_IsDisplaying(): PrivateScope, Public, HideBySig, SpecialName
+    get_DisplayingPreviousPane(): PrivateScope, Public, HideBySig, SpecialName
+    get_DisplayingAlignment(): PrivateScope, Public, HideBySig, SpecialName
+    get_DisplayingProportion(): PrivateScope, Public, HideBySig, SpecialName
+    get_LogicalBounds(): PrivateScope, Public, HideBySig, SpecialName
+    get_PaneBounds(): PrivateScope, Public, HideBySig, SpecialName
+    get_SplitterBounds(): PrivateScope, Public, HideBySig, SpecialName
+Class WeifenLuo.WinFormsUI.Docking.Win32Helper: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Properties:
+    Boolean IsRunningOnMono 'get ' : 
+  Methods:
+    get_IsRunningOnMono(): PrivateScope, Public, Static, HideBySig, SpecialName

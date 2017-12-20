@@ -1,0 +1,4168 @@
+
+(object Petal
+    version    	47
+    _written   	"Rose 8.2.0310.2800"
+    charSet    	134)
+
+(object Design "显示逻辑"
+    is_unit    	TRUE
+    is_loaded  	TRUE
+    quid       	"512D797E00EA"
+    defaults   	(object defaults
+	rightMargin 	0.250000
+	leftMargin 	0.250000
+	topMargin  	0.250000
+	bottomMargin 	0.500000
+	pageOverlap 	0.250000
+	clipIconLabels 	TRUE
+	autoResize 	TRUE
+	snapToGrid 	TRUE
+	gridX      	0
+	gridY      	0
+	defaultFont 	(object Font
+	    size       	12
+	    face       	"宋体"
+	    charSet    	134
+	    bold       	FALSE
+	    italics    	FALSE
+	    underline  	FALSE
+	    strike     	FALSE
+	    color      	0
+	    default_color 	TRUE)
+	showMessageNum 	3
+	showClassOfObject 	TRUE
+	notation   	"Unified")
+    root_usecase_package 	(object Class_Category "显示用例"
+	quid       	"512D797E00EC"
+	exportControl 	"Public"
+	global     	TRUE
+	logical_models 	(list unit_reference_list
+	    (object Class "管理员"
+		quid       	"517B241F029F"
+		stereotype 	"Actor")
+	    (object UseCase "管理理财产品"
+		quid       	"517B242C0271")
+	    (object UseCase "增加"
+		quid       	"517B242E0280")
+	    (object UseCase "删除"
+		quid       	"517B24300280")
+	    (object UseCase "修改"
+		quid       	"517B243203D8")
+	    (object UseCase "查询"
+		quid       	"517B243602CE")
+	    (object UseCase "管理关系"
+		quid       	"517B24AA0251")
+	    (object Association "$UNNAMED$0"
+		quid       	"517B2488003E"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$1"
+			quid       	"517B24890196"
+			supplier   	"显示用例::管理理财产品"
+			quidu      	"517B242C0271"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$2"
+			quid       	"517B24890198"
+			supplier   	"显示用例::管理员"
+			quidu      	"517B241F029F")))
+	    (object Association "$UNNAMED$3"
+		quid       	"517B248B03D8"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$4"
+			quid       	"517B248D0399"
+			supplier   	"显示用例::增加"
+			quidu      	"517B242E0280"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$5"
+			quid       	"517B248D039B"
+			supplier   	"显示用例::管理理财产品"
+			quidu      	"517B242C0271")))
+	    (object Association "$UNNAMED$6"
+		quid       	"517B24900167"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$7"
+			quid       	"517B24910242"
+			supplier   	"显示用例::删除"
+			quidu      	"517B24300280"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$8"
+			quid       	"517B24910244"
+			supplier   	"显示用例::管理理财产品"
+			quidu      	"517B242C0271")))
+	    (object Association "$UNNAMED$9"
+		quid       	"517B249502AF"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$10"
+			quid       	"517B249603A9"
+			supplier   	"显示用例::修改"
+			quidu      	"517B243203D8"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$11"
+			quid       	"517B249603AB"
+			supplier   	"显示用例::管理理财产品"
+			quidu      	"517B242C0271")))
+	    (object Association "$UNNAMED$12"
+		quid       	"517B2499004E"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$13"
+			quid       	"517B249E006D"
+			supplier   	"显示用例::查询"
+			quidu      	"517B243602CE"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$14"
+			quid       	"517B249E006F"
+			supplier   	"显示用例::管理理财产品"
+			quidu      	"517B242C0271")))
+	    (object Association "$UNNAMED$15"
+		quid       	"517B25050399"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$16"
+			quid       	"517B2507000F"
+			supplier   	"显示用例::管理关系"
+			quidu      	"517B24AA0251"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$17"
+			quid       	"517B25070011"
+			supplier   	"显示用例::管理员"
+			quidu      	"517B241F029F")))
+	    (object Association "$UNNAMED$18"
+		quid       	"517B250901A5"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$19"
+			quid       	"517B250A034B"
+			supplier   	"显示用例::增加"
+			quidu      	"517B242E0280"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$20"
+			quid       	"517B250A034D"
+			supplier   	"显示用例::管理关系"
+			quidu      	"517B24AA0251")))
+	    (object Association "$UNNAMED$21"
+		quid       	"517B250D036B"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$22"
+			quid       	"517B250E01B5"
+			supplier   	"显示用例::删除"
+			quidu      	"517B24300280"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$23"
+			quid       	"517B250E01B7"
+			supplier   	"显示用例::管理关系"
+			quidu      	"517B24AA0251")))
+	    (object Association "$UNNAMED$24"
+		quid       	"517B2510037A"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$25"
+			quid       	"517B2514033C"
+			supplier   	"显示用例::查询"
+			quidu      	"517B243602CE"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$26"
+			quid       	"517B2514033E"
+			supplier   	"显示用例::管理关系"
+			quidu      	"517B24AA0251"))))
+	logical_presentations 	(list unit_reference_list
+	    (object UseCaseDiagram "用例图"
+		quid       	"512D797E0233"
+		title      	"用例图"
+		zoom       	100
+		max_height 	28350
+		max_width  	21600
+		origin_x   	0
+		origin_y   	569
+		items      	(list diagram_item_list
+		    (object ClassView "Class" "显示用例::管理员" @1
+			ShowCompartmentStereotypes 	TRUE
+			location   	(267, 695)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@1
+			    location   	(267, 855)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	325
+			    justify    	0
+			    label      	"管理员")
+			icon       	"Actor"
+			icon_style 	"Icon"
+			line_color 	3342489
+			quidu      	"517B241F029F"
+			autoResize 	TRUE)
+		    (object UseCaseView "显示用例::增加" @2
+			location   	(1450, 256)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@2
+			    location   	(1450, 394)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	630
+			    justify    	0
+			    label      	"增加")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"517B242E0280"
+			height     	118)
+		    (object UseCaseView "显示用例::删除" @3
+			location   	(1453, 550)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@3
+			    location   	(1453, 688)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	630
+			    justify    	0
+			    label      	"删除")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"517B24300280"
+			height     	118)
+		    (object UseCaseView "显示用例::修改" @4
+			location   	(1465, 821)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@4
+			    location   	(1465, 959)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	630
+			    justify    	0
+			    label      	"修改")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"517B243203D8"
+			height     	118)
+		    (object UseCaseView "显示用例::查询" @5
+			location   	(1468, 1084)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@5
+			    location   	(1468, 1222)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	630
+			    justify    	0
+			    label      	"查询")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"517B243602CE"
+			height     	118)
+		    (object UseCaseView "显示用例::管理理财产品" @6
+			location   	(790, 684)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@6
+			    location   	(790, 822)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	630
+			    justify    	0
+			    label      	"管理理财产品")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"517B242C0271"
+			height     	118)
+		    (object AssociationViewNew "$UNNAMED$0" @7
+			location   	(501, 688)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"517B2488003E"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$1" @8
+				Parent_View 	@7
+				location   	(234, -7)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"517B24890196"
+				client     	@7
+				supplier   	@6
+				line_style 	3
+				origin_attachment 	(501, 688)
+				terminal_attachment 	(678, 688))
+			    (object RoleView "$UNNAMED$2" @9
+				Parent_View 	@7
+				location   	(234, -7)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"517B24890198"
+				client     	@7
+				supplier   	@1
+				line_style 	3
+				origin_attachment 	(501, 688)
+				terminal_attachment 	(324, 688))))
+		    (object AssociationViewNew "$UNNAMED$3" @10
+			location   	(870, 235)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"517B248B03D8"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$4" @11
+				Parent_View 	@10
+				location   	(80, -449)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"517B248D0399"
+				client     	@10
+				supplier   	@2
+				line_style 	3
+				origin_attachment 	(870, 235)
+				terminal_attachment 	(1338, 235))
+			    (object RoleView "$UNNAMED$5" @12
+				Parent_View 	@10
+				location   	(80, -449)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"517B248D039B"
+				client     	@10
+				supplier   	@6
+				vertices   	(list Points
+				    (870, 235)
+				    (790, 235)
+				    (790, 626))
+				line_style 	3
+				origin_attachment 	(870, 235)
+				terminal_attachment 	(790, 626))))
+		    (object AssociationViewNew "$UNNAMED$6" @13
+			location   	(1019, 529)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"517B24900167"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$7" @14
+				Parent_View 	@13
+				location   	(229, -155)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"517B24910242"
+				client     	@13
+				supplier   	@3
+				line_style 	3
+				origin_attachment 	(1019, 529)
+				terminal_attachment 	(1341, 529))
+			    (object RoleView "$UNNAMED$8" @15
+				Parent_View 	@13
+				location   	(229, -155)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"517B24910244"
+				client     	@13
+				supplier   	@6
+				vertices   	(list Points
+				    (1019, 529)
+				    (790, 529)
+				    (790, 625))
+				line_style 	3
+				origin_attachment 	(1019, 529)
+				terminal_attachment 	(790, 625))))
+		    (object AssociationViewNew "$UNNAMED$9" @16
+			location   	(1148, 816)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"517B249502AF"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$10" @17
+				Parent_View 	@16
+				location   	(358, 132)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"517B249603A9"
+				client     	@16
+				supplier   	@4
+				line_style 	3
+				origin_attachment 	(1148, 816)
+				terminal_attachment 	(1353, 816))
+			    (object RoleView "$UNNAMED$11" @18
+				Parent_View 	@16
+				location   	(358, 132)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"517B249603AB"
+				client     	@16
+				supplier   	@6
+				line_style 	3
+				origin_attachment 	(1148, 816)
+				terminal_attachment 	(1109, 816))))
+		    (object AssociationViewNew "$UNNAMED$12" @19
+			location   	(995, 1077)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"517B2499004E"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$13" @20
+				Parent_View 	@19
+				location   	(205, 393)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"517B249E006D"
+				client     	@19
+				supplier   	@5
+				line_style 	3
+				origin_attachment 	(995, 1077)
+				terminal_attachment 	(1356, 1077))
+			    (object RoleView "$UNNAMED$14" @21
+				Parent_View 	@19
+				location   	(205, 393)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"517B249E006F"
+				client     	@19
+				supplier   	@6
+				vertices   	(list Points
+				    (995, 1077)
+				    (860, 1077)
+				    (860, 847))
+				line_style 	3
+				origin_attachment 	(995, 1077)
+				terminal_attachment 	(860, 847))))
+		    (object ClassView "Class" "显示用例::管理员" @22
+			ShowCompartmentStereotypes 	TRUE
+			location   	(272, 1775)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@22
+			    location   	(272, 1935)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	325
+			    justify    	0
+			    label      	"管理员")
+			icon       	"Actor"
+			icon_style 	"Icon"
+			line_color 	3342489
+			quidu      	"517B241F029F"
+			autoResize 	TRUE)
+		    (object UseCaseView "显示用例::增加" @23
+			location   	(1429, 1523)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@23
+			    location   	(1429, 1661)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	630
+			    justify    	0
+			    label      	"增加")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"517B242E0280"
+			height     	118)
+		    (object UseCaseView "显示用例::删除" @24
+			location   	(1441, 1774)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@24
+			    location   	(1441, 1912)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	630
+			    justify    	0
+			    label      	"删除")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"517B24300280"
+			height     	118)
+		    (object UseCaseView "显示用例::查询" @25
+			location   	(1447, 2049)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@25
+			    location   	(1447, 2187)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	630
+			    justify    	0
+			    label      	"查询")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"517B243602CE"
+			height     	118)
+		    (object UseCaseView "显示用例::管理关系" @26
+			location   	(822, 1759)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@26
+			    location   	(822, 1897)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	630
+			    justify    	0
+			    label      	"管理关系")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"517B24AA0251"
+			height     	118)
+		    (object AssociationViewNew "$UNNAMED$15" @27
+			location   	(519, 1757)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"517B25050399"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$16" @28
+				Parent_View 	@27
+				location   	(247, -18)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"517B2507000F"
+				client     	@27
+				supplier   	@26
+				line_style 	3
+				origin_attachment 	(519, 1757)
+				terminal_attachment 	(710, 1757))
+			    (object RoleView "$UNNAMED$17" @29
+				Parent_View 	@27
+				location   	(247, -18)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"517B25070011"
+				client     	@27
+				supplier   	@22
+				line_style 	3
+				origin_attachment 	(519, 1757)
+				terminal_attachment 	(329, 1757))))
+		    (object AssociationViewNew "$UNNAMED$18" @30
+			location   	(981, 1516)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"517B250901A5"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$19" @31
+				Parent_View 	@30
+				location   	(159, -243)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"517B250A034B"
+				client     	@30
+				supplier   	@23
+				line_style 	3
+				origin_attachment 	(981, 1516)
+				terminal_attachment 	(1317, 1516))
+			    (object RoleView "$UNNAMED$20" @32
+				Parent_View 	@30
+				location   	(159, -243)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"517B250A034D"
+				client     	@30
+				supplier   	@26
+				vertices   	(list Points
+				    (981, 1516)
+				    (827, 1516)
+				    (827, 1701))
+				line_style 	3
+				origin_attachment 	(981, 1516)
+				terminal_attachment 	(827, 1701))))
+		    (object AssociationViewNew "$UNNAMED$21" @33
+			location   	(1129, 1769)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"517B250D036B"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$22" @34
+				Parent_View 	@33
+				location   	(307, 10)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"517B250E01B5"
+				client     	@33
+				supplier   	@24
+				line_style 	3
+				origin_attachment 	(1129, 1769)
+				terminal_attachment 	(1329, 1769))
+			    (object RoleView "$UNNAMED$23" @35
+				Parent_View 	@33
+				location   	(307, 10)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"517B250E01B7"
+				client     	@33
+				supplier   	@26
+				line_style 	3
+				origin_attachment 	(1129, 1769)
+				terminal_attachment 	(930, 1769))))
+		    (object AssociationViewNew "$UNNAMED$24" @36
+			location   	(1054, 2042)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"517B2510037A"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$25" @37
+				Parent_View 	@36
+				location   	(232, 283)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"517B2514033C"
+				client     	@36
+				supplier   	@25
+				line_style 	3
+				origin_attachment 	(1054, 2042)
+				terminal_attachment 	(1335, 2042))
+			    (object RoleView "$UNNAMED$26" @38
+				Parent_View 	@36
+				location   	(232, 283)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"517B2514033E"
+				client     	@36
+				supplier   	@26
+				vertices   	(list Points
+				    (1054, 2042)
+				    (891, 2042)
+				    (891, 1922))
+				line_style 	3
+				origin_attachment 	(1054, 2042)
+				terminal_attachment 	(891, 1922))))))))
+    root_category 	(object Class_Category "显示逻辑"
+	quid       	"512D797E00EB"
+	exportControl 	"Public"
+	global     	TRUE
+	subsystem  	"显示组成"
+	quidu      	"512D797E00ED"
+	logical_models 	(list unit_reference_list
+	    (object Class "FinanceProductMgrForm"
+		quid       	"512DB78C0213"
+		used_nodes 	(list uses_relationship_list
+		    (object Uses_Relationship
+			quid       	"512EB78C01B5"
+			supplier   	"显示逻辑::CInterface_SvrDBOpr"
+			quidu      	"512EB71D0242")
+		    (object Uses_Relationship
+			quid       	"5153E4F1001F"
+			supplier   	"显示逻辑::CInterface_SvrTcp"
+			quidu      	"5153E4AB006D")
+		    (object Uses_Relationship
+			quid       	"5153ED1A03D8"
+			supplier   	"显示逻辑::CDataInfo"
+			quidu      	"5153EACC02CE"))
+		operations 	(list Operations
+		    (object Operation "Void add_button_Click"
+			quid       	"5136A7A903A9"
+			parameters 	(list Parameters
+			    (object Parameter "System"
+				quid       	"5153E3FF00FA"
+				type       	":EventArgs^  e"))
+			concurrency 	"Sequential"
+			opExportControl 	"Private"
+			uid        	0)
+		    (object Operation "Void delete_button_Click"
+			quid       	"5136A7AD031C"
+			parameters 	(list Parameters
+			    (object Parameter "System"
+				quid       	"5153E410000F"
+				type       	":EventArgs^  e"))
+			concurrency 	"Sequential"
+			opExportControl 	"Private"
+			uid        	0)
+		    (object Operation "Void modify_button_Click"
+			quid       	"5136A7B10177"
+			parameters 	(list Parameters
+			    (object Parameter "System"
+				quid       	"5153E41F00EA"
+				type       	":EventArgs^  e"))
+			concurrency 	"Sequential"
+			opExportControl 	"Private"
+			uid        	0)
+		    (object Operation "Void save_button_Click"
+			quid       	"5136A7BA00DA"
+			parameters 	(list Parameters
+			    (object Parameter "System"
+				quid       	"5153E42A035B"
+				type       	":EventArgs^  e"))
+			concurrency 	"Sequential"
+			opExportControl 	"Private"
+			uid        	0))
+		class_attributes 	(list class_attribute_list
+		    (object ClassAttribute "CDataInfo*  m_pdataInfo"
+			quid       	"5153E2370271")
+		    (object ClassAttribute "FinanceProductForm^ m_FinanceProductForm"
+			quid       	"5153E26A02BF")
+		    (object ClassAttribute "CFinanceProductMgrFormBLL* m_pFinanceProductMgrFormBLL"
+			quid       	"5153E2960261")))
+	    (object Class "CInterface_SvrDBOpr"
+		quid       	"512EB71D0242"
+		operations 	(list Operations
+		    (object Operation "static getObj"
+			quid       	"5136A35301F4"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "static deleteObj"
+			quid       	"5136A35601D4"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)))
+	    (object Class "CFinanceProductMgrFormBLL"
+		quid       	"5153DFE902DE"
+		operations 	(list Operations
+		    (object Operation "static CFinanceProductMgrFormBLL* NewInstance"
+			quid       	"5153E15E002E"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "static void DestroyInstance"
+			quid       	"5153E16700FA"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "void SetFinancialProduct"
+			quid       	"5153E17401C5"
+			parameters 	(list Parameters
+			    (object Parameter "FinancialProduct *pFP"
+				quid       	"5153E17500BB"))
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "void SetProductTraderRelation"
+			quid       	"5153E18900CB"
+			parameters 	(list Parameters
+			    (object Parameter "TraderProRelation *pRelate"
+				quid       	"5153E18A0157"))
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "void GetFinancialProduct"
+			quid       	"5153E1950138"
+			parameters 	(list Parameters
+			    (object Parameter "MAPFinancialProduct&	mapFinancialProduct"
+				quid       	"5153E19503D8"))
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "bool GetFinancialProduct"
+			quid       	"5153E19F030D"
+			parameters 	(list Parameters
+			    (object Parameter "int nFinancialID"
+				quid       	"5153E1A00109")
+			    (object Parameter "FinancialProduct& fP"
+				quid       	"5153E1A00128"))
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "int  GetFiancialSequeIDByName"
+			quid       	"5153E1AB02AF"
+			parameters 	(list Parameters
+			    (object Parameter "std"
+				quid       	"5153E1AC0157"
+				type       	":string name"))
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "void GetFinancialProductByID"
+			quid       	"5153E1B302FD"
+			parameters 	(list Parameters
+			    (object Parameter "FinancialProduct& oFp"
+				quid       	"5153E1B400BB")
+			    (object Parameter "int& id"
+				quid       	"5153E1B400EA"))
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "void ClearFinancialProduct"
+			quid       	"5153E1C303D8"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "void DeleteFinancialProductByID"
+			quid       	"5153E1CC01A5"
+			parameters 	(list Parameters
+			    (object Parameter "int& id"
+				quid       	"5153E1CC0399"))
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "void ModigyFinancialProductByID"
+			quid       	"5153E1D402DE"
+			parameters 	(list Parameters
+			    (object Parameter "FinancialProduct& oFP"
+				quid       	"5153E1D5008C")
+			    (object Parameter "int& id"
+				quid       	"5153E1D500AB"))
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "void GetProTraderRelation"
+			quid       	"5153E1EA01B5"
+			parameters 	(list Parameters
+			    (object Parameter "VECProductID2TraderID& vec"
+				quid       	"5153E1EA036B"))
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "void ClearProTraderRelation"
+			quid       	"5153E1F10290"
+			parameters 	(list Parameters
+			    (object Parameter "int nProductID"
+				quid       	"5153E1F20109"))
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0))
+		class_attributes 	(list class_attribute_list
+		    (object ClassAttribute "map<int, FinancialProduct> m_mapFinancialProduct"
+			quid       	"5153E071007D")
+		    (object ClassAttribute "vector<TraderProRelation> m_vecTraderProRelation"
+			quid       	"5153E0C9006D")
+		    (object ClassAttribute "static CFinanceProductMgrFormBLL* m_pInstance;"
+			quid       	"5153E1340242"
+			exportControl 	"Public")))
+	    (object Class "FinanceProductForm"
+		quid       	"5153E20002CE"
+		operations 	(list Operations
+		    (object Operation "String^ GetProductName"
+			quid       	"5153E34B01D4"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "String^ GetProductDesc"
+			quid       	"5153E362006D"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0))
+		class_attributes 	(list class_attribute_list
+		    (object ClassAttribute "String^  mStrName"
+			quid       	"5153E33001D4")
+		    (object ClassAttribute "String^  mStrDesc"
+			quid       	"5153E344032C")
+		    (object ClassAttribute "CFinanceProductMgrFormBLL* m_pCFinanceProductMgrFormBLL"
+			quid       	"516F4F300109")))
+	    (object Class "CInterface_SvrTcp"
+		quid       	"5153E4AB006D"
+		operations 	(list Operations
+		    (object Operation "static void SubscribePkg"
+			quid       	"5153E4C50186"
+			parameters 	(list Parameters
+			    (object Parameter "unsigned int CmdID"
+				quid       	"5153E4C6006D")
+			    (object Parameter "int hModuleWnd"
+				quid       	"5153E4C6008C"))
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "static bool SendData"
+			quid       	"5153E4D901B5"
+			parameters 	(list Parameters
+			    (object Parameter "UINT nCMDID"
+				quid       	"5153E4DA005D")
+			    (object Parameter "void* pData"
+				quid       	"5153E4DA007D")
+			    (object Parameter "int nLen"
+				quid       	"5153E4DA008C")
+			    (object Parameter "UINT seq"
+				quid       	"5153E4DA00AB"))
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)))
+	    (object Class "CSvrFinanceProductBusiness"
+		quid       	"5153E544029F"
+		superclasses 	(list inheritance_relationship_list
+		    (object Inheritance_Relationship
+			quid       	"51553FA302FD"
+			supplier   	"显示逻辑::CInterface_SvrFinanceProduct"
+			quidu      	"51553F380399"))
+		used_nodes 	(list uses_relationship_list
+		    (object Uses_Relationship
+			quid       	"5153E7990261"
+			supplier   	"显示逻辑::CInterface_SvrDBOpr"
+			quidu      	"512EB71D0242"))
+		realized_interfaces 	(list realize_rel_list
+		    (object Realize_Relationship
+			quid       	"51553F8C0167"
+			supplier   	"显示逻辑::CInterface_SvrFinanceProduct"
+			quidu      	"51553F380399"))
+		exportControl 	"Private"
+		operations 	(list Operations
+		    (object Operation "static CSvrFinanceProductBusiness& getObj"
+			quid       	"5153E959004E"
+			parameters 	(list Parameters
+			    (object Parameter "void"
+				quid       	"5153E9A50232"))
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "static void deleteObj"
+			quid       	"5153E9AB0109"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "int AddFinancialProduct"
+			quid       	"5153E9E3004E"
+			parameters 	(list Parameters
+			    (object Parameter "FinancialProduct *pFP"
+				quid       	"5153E9E301F4")
+			    (object Parameter "int& nID"
+				quid       	"5153E9E30222"))
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "int DeleteFinancialProduct"
+			quid       	"5153E9E803D8"
+			parameters 	(list Parameters
+			    (object Parameter "int nID"
+				quid       	"5153E9E90167"))
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "int ModifyFinancialProduct"
+			quid       	"5153E9EE0222"
+			parameters 	(list Parameters
+			    (object Parameter "const FinancialProduct *pFP"
+				quid       	"5153E9EE03B9"))
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "void GetFinancialProduct"
+			quid       	"5153E9F30186"
+			parameters 	(list Parameters
+			    (object Parameter "VECFinancialProduct& vecFP"
+				quid       	"5153E9F3032C"))
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "int AddTraderProRelation"
+			quid       	"5153EA0902CE"
+			parameters 	(list Parameters
+			    (object Parameter "const TraderProRelation& oRelation"
+				quid       	"5153EA0A00AB"))
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "int DeleteTraderProRelation"
+			quid       	"5153EA0E03D8"
+			parameters 	(list Parameters
+			    (object Parameter "int nProductID"
+				quid       	"5153EA0F02CE"))
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "void GetTraderProRelation"
+			quid       	"5153EA160222"
+			parameters 	(list Parameters
+			    (object Parameter "VECTraderAndProRelation& vecPro"
+				quid       	"5153EA17004E"))
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "bool LoadDataFromDB"
+			quid       	"5153EA2602CE"
+			concurrency 	"Sequential"
+			opExportControl 	"Private"
+			uid        	0)
+		    (object Operation "bool LoadFinancialProductFromDB"
+			quid       	"5153EA2B0177"
+			concurrency 	"Sequential"
+			opExportControl 	"Private"
+			uid        	0)
+		    (object Operation "bool LoadTraderAndProRelationFromDB"
+			quid       	"5153EA370119"
+			concurrency 	"Sequential"
+			opExportControl 	"Private"
+			uid        	0))
+		class_attributes 	(list class_attribute_list
+		    (object ClassAttribute "map<int, FinancialProduct> m_mapFinancialProduct"
+			quid       	"5153E945033C")
+		    (object ClassAttribute "vector<TraderProRelation> m_vecTraderAndProRelation"
+			quid       	"5153E964031C")
+		    (object ClassAttribute "static CSvrFinanceProductBusiness* m_pObj"
+			quid       	"5153E9980251"
+			exportControl 	"Public")))
+	    (object Class "CDataInfo"
+		quid       	"5153EACC02CE"
+		used_nodes 	(list uses_relationship_list
+		    (object Uses_Relationship
+			quid       	"5153EB580251"
+			supplier   	"显示逻辑::CInterface_SvrTcp"
+			quidu      	"5153E4AB006D"))
+		operations 	(list Operations
+		    (object Operation "static CDataInfo* NewInstance"
+			quid       	"5153EC6A0109"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "static void DestroyInstance"
+			quid       	"5153EC780213"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "void Clear"
+			quid       	"5153EC8101C5"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "void SetAeestMgmtOrg"
+			quid       	"5153EC880157"
+			parameters 	(list Parameters
+			    (object Parameter "MAPAssetMgmtOrg&   mapAssetMgmtOrg"
+				quid       	"5153EC8803A9"))
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "void SetUserInfo"
+			quid       	"5153EC8E0232"
+			parameters 	(list Parameters
+			    (object Parameter "MAPUserInfo& mapUserInfo"
+				quid       	"5153EC8F000F"))
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "void SetUserAndOrg"
+			quid       	"5153EC94005D"
+			parameters 	(list Parameters
+			    (object Parameter "MAPUserAndOrg& mapUserAndOrg"
+				quid       	"5153EC940213"))
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "void GetAssetMgmtOrg"
+			quid       	"5153ECA1003E"
+			parameters 	(list Parameters
+			    (object Parameter "MAPAeestMgmtOrganization&	mapAssetMgmtOrgTree"
+				quid       	"5153ECA10232"))
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "bool GetAssetMgmtOrg"
+			quid       	"5153ECA70148"
+			parameters 	(list Parameters
+			    (object Parameter "int nAssetMgmtOrgID"
+				quid       	"5153ECA702DE")
+			    (object Parameter "AssetMgmtOrganization& sOrg"
+				quid       	"5153ECA702FD"))
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "int  GetAssetMgmtOrgIDByName"
+			quid       	"5153ECB0008C"
+			parameters 	(list Parameters
+			    (object Parameter "std"
+				quid       	"5153ECB002CE"
+				type       	":string& sName"))
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "void GetUserInfo"
+			quid       	"5153ECB603C8"
+			parameters 	(list Parameters
+			    (object Parameter "MAPUserInfo& mapUserInfo"
+				quid       	"5153ECB70167"))
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "bool GetUserInfoByUserID"
+			quid       	"5153ECBC0261"
+			parameters 	(list Parameters
+			    (object Parameter "int nUserID"
+				quid       	"5153ECBD007D")
+			    (object Parameter "UserInfo& sUserInfo"
+				quid       	"5153ECBD009C"))
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "void GetUserAndOrg"
+			quid       	"5153ECC20000"
+			parameters 	(list Parameters
+			    (object Parameter "MAPUserAndOrg& mapUserAndOrg"
+				quid       	"5153ECC20213"))
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "void GetFinancialProduct"
+			quid       	"517CCED901A5"
+			parameters 	(list Parameters
+			    (object Parameter "std"
+				quid       	"517CCEDA00DA"
+				type       	":map<int, FinancialProduct>& mapFinancialProduct"))
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "bool GetFinancialProductByID"
+			quid       	"517CCEE30232"
+			parameters 	(list Parameters
+			    (object Parameter "int nFinancialID"
+				quid       	"517CCEE6004E")
+			    (object Parameter "FinancialProduct& fP"
+				quid       	"517CCEE6009C"))
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "bool GetFinancialProductByName"
+			quid       	"517CCEEA00FA"
+			parameters 	(list Parameters
+			    (object Parameter "FinancialProduct& oFp"
+				quid       	"517CCEEB008C")
+			    (object Parameter "string& sName"
+				quid       	"517CCEEB00BB"))
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0))
+		class_attributes 	(list class_attribute_list
+		    (object ClassAttribute "static CDataInfo* m_pInstance"
+			quid       	"5153EBD7038A"
+			exportControl 	"Public")
+		    (object ClassAttribute "map<int, AssetMgmtOrganization>> m_mapAssetMgmtOrgTree"
+			quid       	"5153EC22032C")
+		    (object ClassAttribute "map<int, AssetMgmtOrganization> m_mapAssetMgmtOrg"
+			quid       	"5153EC3E006D")
+		    (object ClassAttribute "map<int, UserInfo> m_mapUserInfo"
+			quid       	"5153EC4A01E4")
+		    (object ClassAttribute "multimap<int, UserAndOrg> m_mapUserAndOrg"
+			quid       	"5153EC5103C8")
+		    (object ClassAttribute "map<int, FinancialProduct>	 m_mapFinancialProduct"
+			quid       	"517CCE580109")
+		    (object ClassAttribute "vector<TraderProRelation>    m_vecTraderProRelation;"
+			quid       	"517CCE6900EA")
+		    (object ClassAttribute "map<int, TradeStrategy>    m_mapTradeStrategy"
+			quid       	"517CCE970138")
+		    (object ClassAttribute "vector<AssetOrgStrategyRelation>   m_vecOrgStrategyRelation"
+			quid       	"517CCEA101C5")))
+	    (object Class "CInterface_SvrFinanceProduct"
+		quid       	"51553F380399"
+		stereotype 	"Interface")
+	    (object Association "$UNNAMED$27"
+		quid       	"5153E02E01F4"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$28"
+			quid       	"5153E02F01B5"
+			supplier   	"显示逻辑::CFinanceProductMgrFormBLL"
+			quidu      	"5153DFE902DE"
+			Containment 	"By Value"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$29"
+			quid       	"5153E02F01C5"
+			supplier   	"显示逻辑::FinanceProductMgrForm"
+			quidu      	"512DB78C0213"
+			is_aggregate 	TRUE)))
+	    (object Association "$UNNAMED$30"
+		quid       	"5153E2FC029F"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$31"
+			quid       	"5153E2FD0186"
+			supplier   	"显示逻辑::FinanceProductForm"
+			quidu      	"5153E20002CE"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$32"
+			quid       	"5153E2FD0188"
+			supplier   	"显示逻辑::FinanceProductMgrForm"
+			quidu      	"512DB78C0213"
+			is_aggregate 	TRUE)))
+	    (object Association "$UNNAMED$33"
+		quid       	"5153EEE90213"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$34"
+			quid       	"5153EEE9038A"
+			supplier   	"显示逻辑::FinanceProductForm"
+			quidu      	"5153E20002CE"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$35"
+			quid       	"5153EEE9038C"
+			supplier   	"显示逻辑::FinanceProductMgrForm"
+			quidu      	"512DB78C0213")))
+	    (object Association "$UNNAMED$36"
+		quid       	"5153EF2E0138"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$37"
+			quid       	"5153EF2E032C"
+			supplier   	"显示逻辑::FinanceProductForm"
+			quidu      	"5153E20002CE"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$38"
+			quid       	"5153EF2E032E"
+			supplier   	"显示逻辑::FinanceProductMgrForm"
+			quidu      	"512DB78C0213"
+			is_aggregate 	TRUE)))
+	    (object Association "$UNNAMED$39"
+		quid       	"5153EF4D02AF"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$40"
+			quid       	"5153EF4E00BB"
+			supplier   	"显示逻辑::CFinanceProductMgrFormBLL"
+			quidu      	"5153DFE902DE"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$41"
+			quid       	"5153EF4E00BD"
+			supplier   	"显示逻辑::FinanceProductMgrForm"
+			quidu      	"512DB78C0213")))
+	    (object Association "$UNNAMED$42"
+		quid       	"5153F0270271"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$43"
+			quid       	"5153F028000F"
+			supplier   	"显示逻辑::CDataInfo"
+			quidu      	"5153EACC02CE"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$44"
+			quid       	"5153F0280011"
+			supplier   	"显示逻辑::FinanceProductMgrForm"
+			quidu      	"512DB78C0213")))
+	    (object Association "$UNNAMED$45"
+		quid       	"515538D6000F"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$46"
+			quid       	"515538DB032C"
+			supplier   	"显示逻辑::CFinanceProductMgrFormBLL"
+			quidu      	"5153DFE902DE"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$47"
+			quid       	"515538DB032E"
+			supplier   	"显示逻辑::CFinanceProductMgrFormBLL"
+			quidu      	"5153DFE902DE"
+			is_aggregate 	TRUE)))
+	    (object Association "$UNNAMED$48"
+		quid       	"515538E702EE"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$49"
+			quid       	"515538EB035B"
+			supplier   	"显示逻辑::CDataInfo"
+			quidu      	"5153EACC02CE"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$50"
+			quid       	"515538EB035D"
+			supplier   	"显示逻辑::CDataInfo"
+			quidu      	"5153EACC02CE"
+			is_aggregate 	TRUE)))
+	    (object Association "$UNNAMED$51"
+		quid       	"51553A6500AB"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$52"
+			quid       	"51553A6602AF"
+			supplier   	"显示逻辑::CFinanceProductMgrFormBLL"
+			quidu      	"5153DFE902DE"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$53"
+			quid       	"51553A6602B1"
+			supplier   	"显示逻辑::FinanceProductMgrForm"
+			quidu      	"512DB78C0213"
+			is_aggregate 	TRUE)))
+	    (object Association "$UNNAMED$54"
+		quid       	"51553E9E00EA"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$55"
+			quid       	"51553EA10148"
+			supplier   	"显示逻辑::CSvrFinanceProductBusiness"
+			quidu      	"5153E544029F"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$56"
+			quid       	"51553EA1014A"
+			supplier   	"显示逻辑::CSvrFinanceProductBusiness"
+			quidu      	"5153E544029F"
+			is_aggregate 	TRUE)))
+	    (object Association "$UNNAMED$57"
+		quid       	"516F4E6402AF"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$58"
+			quid       	"516F4E6500DA"
+			supplier   	"显示逻辑::FinanceProductForm"
+			quidu      	"5153E20002CE"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$59"
+			quid       	"516F4E6500DC"
+			supplier   	"显示逻辑::FinanceProductMgrForm"
+			quidu      	"512DB78C0213")))
+	    (object Association "$UNNAMED$60"
+		quid       	"516F4E6C0290"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$61"
+			quid       	"516F4E6D00AB"
+			supplier   	"显示逻辑::CFinanceProductMgrFormBLL"
+			quidu      	"5153DFE902DE"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$62"
+			quid       	"516F4E6D00AD"
+			supplier   	"显示逻辑::FinanceProductMgrForm"
+			quidu      	"512DB78C0213")))
+	    (object Association "$UNNAMED$63"
+		quid       	"516F4E77034B"
+		roles      	(list role_list
+		    (object Role "$UNNAMED$64"
+			quid       	"516F4E7B002E"
+			supplier   	"显示逻辑::CFinanceProductMgrFormBLL"
+			quidu      	"5153DFE902DE"
+			is_navigable 	TRUE)
+		    (object Role "$UNNAMED$65"
+			quid       	"516F4E7B0030"
+			supplier   	"显示逻辑::FinanceProductForm"
+			quidu      	"5153E20002CE")))
+	    (object Mechanism @39
+		logical_models 	(list unit_reference_list
+		    (object Object "服务主线程 uniServer"
+			quid       	"512D7C460000"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"512D7CA1003E"
+				supplier   	"理财产品服务svrFinancialProduct"
+				quidu      	"512D7C48004E"
+				messages   	(list Messages
+				    (object Message "InitFunc"
+					quid       	"512D7CA1003F"
+					frequency  	"Aperiodic"
+					synchronization 	"ProcedureCall"
+					dir        	"FromClientToSupplier"
+					sequence   	"1"
+					ordinal    	0
+					quidu      	"000000000000"
+					creation   	FALSE))))
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)
+		    (object Object "理财产品服务svrFinancialProduct"
+			quid       	"512D7C48004E"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"512D7D6300FA"
+				supplier   	"理财产品服务线程ThreadWorker"
+				quidu      	"512D7C4B01F4"
+				messages   	(list Messages
+				    (object Message "CreateThread"
+					quid       	"512D7D6300FB"
+					frequency  	"Aperiodic"
+					synchronization 	"ProcedureCall"
+					dir        	"FromClientToSupplier"
+					sequence   	"1.1"
+					ordinal    	1
+					quidu      	"000000000000"
+					creation   	FALSE)))
+			    (object Link
+				quid       	"516FBA8500FA"
+				supplier   	"理财产品服务应用接口CSvrFinanceProductBusiness"
+				quidu      	"516FB9EC033C"
+				messages   	(list Messages
+				    (object Message "new obj"
+					quid       	"516FBA8500FB"
+					frequency  	"Aperiodic"
+					synchronization 	"ProcedureCall"
+					dir        	"FromClientToSupplier"
+					sequence   	"1.2"
+					ordinal    	2
+					quidu      	"000000000000"
+					creation   	FALSE))))
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)
+		    (object Object "理财产品服务线程ThreadWorker"
+			quid       	"512D7C4B01F4"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"512DA6EE0157"
+				supplier   	"理财产品服务线程ThreadWorker"
+				quidu      	"512D7C4B01F4"
+				messages   	(list Messages
+				    (object Message "ProcessOneUniPkg_InThread"
+					quid       	"516FBD61038A"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"2.1.1"
+					ordinal    	7
+					quidu      	"000000000000"
+					creation   	FALSE)))
+			    (object Link
+				quid       	"512DA73503B9"
+				supplier   	"理财产品服务线程ThreadWorker"
+				quidu      	"512D7C4B01F4")
+			    (object Link
+				quid       	"516FBB23000F"
+				supplier   	"理财产品服务线程ThreadWorker"
+				quidu      	"512D7C4B01F4"
+				messages   	(list Messages
+				    (object Message "Result"
+					quid       	"516FBB380148"
+					frequency  	"Aperiodic"
+					synchronization 	"Return"
+					dir        	"ToClientFromSupplier"
+					sequence   	"2.1.2.1"
+					ordinal    	9
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "Operate"
+					quid       	"516FBD7E0222"
+					frequency  	"Aperiodic"
+					synchronization 	"ProcedureCall"
+					dir        	"FromClientToSupplier"
+					sequence   	"2.1.2"
+					ordinal    	8
+					quidu      	"000000000000"
+					creation   	FALSE))))
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)
+		    (object Object "数据库"
+			quid       	"512D7C500271"
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)
+		    (object Object "机构客户端ClientTerminal"
+			quid       	"512DA483036B"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"512DA52C0196"
+				supplier   	"服务主线程 uniServer"
+				quidu      	"512D7C460000")
+			    (object Link
+				quid       	"516FBCB0030D"
+				supplier   	"通信模块SvrTcpBusiness"
+				quidu      	"516FBC35002E"
+				messages   	(list Messages
+				    (object Message "Request"
+					quid       	"516FBCB0030E"
+					frequency  	"Aperiodic"
+					synchronization 	"ProcedureCall"
+					dir        	"FromClientToSupplier"
+					sequence   	"2"
+					ordinal    	5
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "Result"
+					quid       	"516FBDAC01A5"
+					frequency  	"Aperiodic"
+					synchronization 	"Return"
+					dir        	"ToClientFromSupplier"
+					sequence   	"2.2"
+					ordinal    	11
+					quidu      	"000000000000"
+					creation   	FALSE))))
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)
+		    (object Object "理财产品服务应用接口CSvrFinanceProductBusiness"
+			quid       	"516FB9EC033C"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"516FBAD2001F"
+				supplier   	"数据库"
+				quidu      	"512D7C500271"
+				messages   	(list Messages
+				    (object Message "LoadDB"
+					quid       	"516FBAD20020"
+					frequency  	"Aperiodic"
+					synchronization 	"ProcedureCall"
+					dir        	"FromClientToSupplier"
+					sequence   	"1.2.1"
+					ordinal    	3
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "Save"
+					quid       	"516FBADF0203"
+					frequency  	"Aperiodic"
+					synchronization 	"ProcedureCall"
+					dir        	"ToClientFromSupplier"
+					sequence   	"1.2.1.1"
+					ordinal    	4
+					quidu      	"000000000000"
+					creation   	FALSE))))
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)
+		    (object Object "通信模块SvrTcpBusiness"
+			quid       	"516FBC35002E"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"516FBCEA03A9"
+				supplier   	"理财产品服务线程ThreadWorker"
+				quidu      	"512D7C4B01F4"
+				messages   	(list Messages
+				    (object Message "PostThreadMessage"
+					quid       	"516FBCEA03AA"
+					frequency  	"Aperiodic"
+					synchronization 	"ProcedureCall"
+					dir        	"FromClientToSupplier"
+					sequence   	"2.1"
+					ordinal    	6
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "Result"
+					quid       	"516FBDA700CB"
+					frequency  	"Aperiodic"
+					synchronization 	"Return"
+					dir        	"ToClientFromSupplier"
+					sequence   	"2.1.3"
+					ordinal    	10
+					quidu      	"000000000000"
+					creation   	FALSE)))
+			    (object Link
+				quid       	"516FBE890399"
+				supplier   	"服务主线程 uniServer"
+				quidu      	"512D7C460000"))
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)))
+	    (object Mechanism @40
+		logical_models 	(list unit_reference_list
+		    (object Object "管理员administrator"
+			quid       	"512DD0EE0109"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"512DD117005D"
+				supplier   	"理财产品管理 FinanceProductMgrForm"
+				quidu      	"512DD0F00119"
+				messages   	(list Messages
+				    (object Message "Add/Modify"
+					quid       	"516FC0EB00FA"
+					frequency  	"Aperiodic"
+					synchronization 	"ProcedureCall"
+					dir        	"FromClientToSupplier"
+					sequence   	"2"
+					ordinal    	3
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "Delete"
+					quid       	"516FC1AC03C8"
+					frequency  	"Aperiodic"
+					synchronization 	"ProcedureCall"
+					dir        	"FromClientToSupplier"
+					sequence   	"3"
+					ordinal    	6
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "Save"
+					quid       	"517CD1C700CB"
+					frequency  	"Aperiodic"
+					synchronization 	"ProcedureCall"
+					dir        	"FromClientToSupplier"
+					sequence   	"4"
+					ordinal    	8
+					quidu      	"000000000000"
+					creation   	FALSE)))
+			    (object Link
+				quid       	"512DD60A0128"
+				supplier   	"登录界面SvrLogin"
+				quidu      	"512DD5E70157"
+				messages   	(list Messages
+				    (object Message "Login"
+					quid       	"512DD60A0129"
+					frequency  	"Aperiodic"
+					synchronization 	"ProcedureCall"
+					dir        	"FromClientToSupplier"
+					sequence   	"1"
+					ordinal    	0
+					quidu      	"000000000000"
+					creation   	FALSE))))
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)
+		    (object Object "理财产品管理 FinanceProductMgrForm"
+			quid       	"512DD0F00119"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"512DD21E00AB"
+				supplier   	"理财产品FinancialProductForm"
+				quidu      	"512DD0F8034B"
+				messages   	(list Messages
+				    (object Message "gcnew"
+					quid       	"516FC0FF02FD"
+					frequency  	"Aperiodic"
+					synchronization 	"ProcedureCall"
+					dir        	"FromClientToSupplier"
+					sequence   	"2.1"
+					ordinal    	4
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message "Update"
+					quid       	"516FC13D031C"
+					frequency  	"Aperiodic"
+					synchronization 	"ProcedureCall"
+					dir        	"ToClientFromSupplier"
+					sequence   	"2.1.1"
+					ordinal    	5
+					quidu      	"000000000000"
+					creation   	FALSE)))
+			    (object Link
+				quid       	"516FC1C603C8"
+				supplier   	"理财产品管理 FinanceProductMgrForm"
+				quidu      	"512DD0F00119"
+				messages   	(list Messages
+				    (object Message "Update"
+					quid       	"516FC1C603C9"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"3.1"
+					ordinal    	7
+					quidu      	"000000000000"
+					creation   	FALSE)))
+			    (object Link
+				quid       	"517CD1810138"
+				supplier   	"CDataInfo"
+				quidu      	"517CD15501A5"
+				messages   	(list Messages
+				    (object Message "Save"
+					quid       	"517CD5020128"
+					frequency  	"Aperiodic"
+					synchronization 	"ProcedureCall"
+					dir        	"FromClientToSupplier"
+					sequence   	"4.2"
+					ordinal    	12
+					quidu      	"000000000000"
+					creation   	FALSE)))
+			    (object Link
+				quid       	"517CD1EA0290"
+				supplier   	"数据库"
+				quidu      	"517CD15B0000"
+				messages   	(list Messages
+				    (object Message "Cmd_RM_SaveFinicialProduct_Req"
+					quid       	"517CD1EA0291"
+					frequency  	"Aperiodic"
+					synchronization 	"ProcedureCall"
+					dir        	"FromClientToSupplier"
+					sequence   	"4.1"
+					ordinal    	9
+					quidu      	"000000000000"
+					creation   	FALSE)
+				    (object Message ""
+					quid       	"517CD4E300FA"
+					frequency  	"Aperiodic"
+					synchronization 	"Return"
+					dir        	"ToClientFromSupplier"
+					sequence   	"4.1.2"
+					ordinal    	11
+					quidu      	"000000000000"
+					creation   	FALSE))))
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)
+		    (object Object "理财产品FinancialProductForm"
+			quid       	"512DD0F8034B"
+			persistence 	"Transient"
+			creationObj 	FALSE
+			multi      	FALSE)
+		    (object Object "登录界面SvrLogin"
+			quid       	"512DD5E70157"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"512DD6150399"
+				supplier   	"登录界面SvrLogin"
+				quidu      	"512DD5E70157")
+			    (object Link
+				quid       	"516FC0440157"
+				supplier   	"理财产品管理 FinanceProductMgrForm"
+				quidu      	"512DD0F00119")
+			    (object Link
+				quid       	"517CD32000EA"
+				supplier   	"数据库"
+				quidu      	"517CD15B0000"
+				messages   	(list Messages
+				    (object Message "Cmd_RM_QueryFinicialProduct_Req  Cmd_RM_QueryProductTraderRelation_Req"
+					quid       	"517CD32000EB"
+					frequency  	"Aperiodic"
+					synchronization 	"ProcedureCall"
+					dir        	"FromClientToSupplier"
+					sequence   	"1.1"
+					ordinal    	1
+					quidu      	"000000000000"
+					creation   	FALSE))))
+			persistence 	"Transient"
+			creationObj 	TRUE
+			multi      	FALSE)
+		    (object Object "CDataInfo"
+			quid       	"517CD15501A5"
+			class      	"显示逻辑::CDataInfo"
+			quidu      	"5153EACC02CE"
+			persistence 	"Transient"
+			creationObj 	TRUE
+			multi      	FALSE)
+		    (object Object "数据库"
+			quid       	"517CD15B0000"
+			collaborators 	(list link_list
+			    (object Link
+				quid       	"517CD350032C"
+				supplier   	"CDataInfo"
+				quidu      	"517CD15501A5"
+				messages   	(list Messages
+				    (object Message "Save"
+					quid       	"517CD4EF0157"
+					frequency  	"Aperiodic"
+					synchronization 	"Return"
+					dir        	"FromClientToSupplier"
+					sequence   	"1.1.1"
+					ordinal    	2
+					quidu      	"000000000000"
+					creation   	FALSE)))
+			    (object Link
+				quid       	"517CD518004E"
+				supplier   	"数据库"
+				quidu      	"517CD15B0000"
+				messages   	(list Messages
+				    (object Message "问询验证"
+					quid       	"517CD518004F"
+					frequency  	"Aperiodic"
+					synchronization 	"Simple"
+					dir        	"FromClientToSupplier"
+					sequence   	"4.1.1"
+					ordinal    	10
+					quidu      	"000000000000"
+					creation   	FALSE))))
+			persistence 	"Transient"
+			creationObj 	TRUE
+			multi      	FALSE))))
+	logical_presentations 	(list unit_reference_list
+	    (object ClassDiagram "类图"
+		quid       	"512D797E0234"
+		title      	"类图"
+		zoom       	85
+		max_height 	28350
+		max_width  	21600
+		origin_x   	0
+		origin_y   	1405
+		items      	(list diagram_item_list
+		    (object ClassView "Class" "显示逻辑::CInterface_SvrDBOpr" @41
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(634, 903)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@41
+			    location   	(332, 797)
+			    fill_color 	13434879
+			    nlines     	1
+			    max_width  	604
+			    justify    	0
+			    label      	"CInterface_SvrDBOpr")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"512EB71D0242"
+			compartment 	(object Compartment
+			    Parent_View 	@41
+			    location   	(332, 856)
+			    font       	(object Font
+				size       	12
+				face       	"宋体"
+				charSet    	134
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    fill_color 	16777215
+			    anchor     	2
+			    nlines     	3
+			    max_width  	509)
+			width      	622
+			height     	236
+			annotation 	8
+			autoResize 	TRUE)
+		    (object ClassView "Class" "显示逻辑::CInterface_SvrTcp" @42
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(1195, 1737)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@42
+			    location   	(830, 1644)
+			    fill_color 	13434879
+			    nlines     	1
+			    max_width  	730
+			    justify    	0
+			    label      	"CInterface_SvrTcp")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5153E4AB006D"
+			compartment 	(object Compartment
+			    Parent_View 	@42
+			    location   	(830, 1703)
+			    font       	(object Font
+				size       	10
+				face       	"宋体"
+				charSet    	134
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    fill_color 	13434879
+			    anchor     	2
+			    nlines     	3
+			    max_width  	628)
+			width      	748
+			height     	210
+			annotation 	8
+			autoResize 	TRUE)
+		    (object ClassView "Class" "显示逻辑::CSvrFinanceProductBusiness" @43
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(1900, 959)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@43
+			    location   	(1211, 574)
+			    fill_color 	13434879
+			    nlines     	1
+			    max_width  	1379
+			    justify    	0
+			    label      	"CSvrFinanceProductBusiness")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5153E544029F"
+			compartment 	(object Compartment
+			    Parent_View 	@43
+			    location   	(1211, 633)
+			    font       	(object Font
+				size       	10
+				face       	"宋体"
+				charSet    	134
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    fill_color 	13434879
+			    anchor     	2
+			    nlines     	16
+			    max_width  	1183)
+			width      	1397
+			height     	794
+			annotation 	8
+			autoResize 	TRUE)
+		    (object AssociationViewNew "$UNNAMED$54" @44
+			location   	(2777, 304)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"51553E9E00EA"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$55" @45
+				Parent_View 	@44
+				location   	(870, -745)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"51553EA10148"
+				client     	@44
+				supplier   	@43
+				vertices   	(list Points
+				    (2777, 304)
+				    (2350, 304)
+				    (2350, 562))
+				line_style 	3
+				origin_attachment 	(2777, 304)
+				terminal_attachment 	(2350, 562))
+			    (object RoleView "$UNNAMED$56" @46
+				Parent_View 	@44
+				location   	(870, -745)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"51553EA1014A"
+				client     	@44
+				supplier   	@43
+				vertices   	(list Points
+				    (2777, 304)
+				    (2837, 304)
+				    (2837, 813)
+				    (2598, 813))
+				line_style 	3
+				origin_attachment 	(2777, 304)
+				terminal_attachment 	(2598, 813))))
+		    (object ClassView "Class" "显示逻辑::CInterface_SvrFinanceProduct" @47
+			ShowCompartmentStereotypes 	TRUE
+			location   	(1797, 84)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@47
+			    location   	(1796, 194)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	347
+			    justify    	0
+			    label      	"CInterface_SvrFinanceProduct")
+			icon       	"Interface"
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"51553F380399"
+			width      	62
+			height     	62
+			autoResize 	TRUE)
+		    (object InheritView "" @48
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"51553FA302FD"
+			client     	@43
+			supplier   	@47
+			line_style 	3
+			origin_attachment 	(1788, 562)
+			terminal_attachment 	(1788, 218))
+		    (object UsesView "" @49
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"5153E7990261"
+			client     	@43
+			supplier   	@41
+			line_style 	3
+			origin_attachment 	(1202, 905)
+			terminal_attachment 	(945, 905))
+		    (object ClassView "Class" "显示逻辑::CDataInfo" @50
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(3040, 2572)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@50
+			    location   	(2242, 1992)
+			    fill_color 	13434879
+			    nlines     	1
+			    max_width  	1596
+			    justify    	0
+			    label      	"CDataInfo")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5153EACC02CE"
+			compartment 	(object Compartment
+			    Parent_View 	@50
+			    location   	(2242, 2051)
+			    font       	(object Font
+				size       	10
+				face       	"宋体"
+				charSet    	134
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    fill_color 	13434879
+			    anchor     	2
+			    nlines     	25
+			    max_width  	1359)
+			width      	1614
+			height     	1184
+			annotation 	8
+			autoResize 	TRUE)
+		    (object AssociationViewNew "$UNNAMED$48" @51
+			location   	(4014, 1724)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"515538E702EE"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$49" @52
+				Parent_View 	@51
+				location   	(87, -887)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"515538EB035B"
+				client     	@51
+				supplier   	@50
+				vertices   	(list Points
+				    (4014, 1724)
+				    (3584, 1724)
+				    (3584, 1980))
+				line_style 	3
+				origin_attachment 	(4014, 1724)
+				terminal_attachment 	(3584, 1980))
+			    (object RoleView "$UNNAMED$50" @53
+				Parent_View 	@51
+				location   	(87, -887)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"515538EB035D"
+				client     	@51
+				supplier   	@50
+				vertices   	(list Points
+				    (4014, 1724)
+				    (4074, 1724)
+				    (4074, 2229)
+				    (3847, 2229))
+				line_style 	3
+				origin_attachment 	(4014, 1724)
+				terminal_attachment 	(3847, 2229))))
+		    (object ClassView "Class" "显示逻辑::FinanceProductForm" @54
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(1329, 3015)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@54
+			    location   	(582, 2853)
+			    fill_color 	13434879
+			    nlines     	1
+			    max_width  	1494
+			    justify    	0
+			    label      	"FinanceProductForm")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"5153E20002CE"
+			compartment 	(object Compartment
+			    Parent_View 	@54
+			    location   	(582, 2912)
+			    font       	(object Font
+				size       	10
+				face       	"宋体"
+				charSet    	134
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    fill_color 	13434879
+			    anchor     	2
+			    nlines     	6
+			    max_width  	1273)
+			width      	1512
+			height     	348
+			annotation 	8
+			autoResize 	TRUE)
+		    (object ClassView "Class" "显示逻辑::FinanceProductMgrForm" @55
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(1255, 2366)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@55
+			    location   	(527, 2125)
+			    fill_color 	13434879
+			    nlines     	1
+			    max_width  	1457
+			    justify    	0
+			    label      	"FinanceProductMgrForm")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"512DB78C0213"
+			compartment 	(object Compartment
+			    Parent_View 	@55
+			    location   	(527, 2184)
+			    font       	(object Font
+				size       	12
+				face       	"宋体"
+				charSet    	134
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    fill_color 	16777215
+			    anchor     	2
+			    nlines     	8
+			    max_width  	1409)
+			width      	1475
+			height     	507
+			annotation 	8
+			autoResize 	TRUE)
+		    (object AssociationViewNew "$UNNAMED$42" @56
+			location   	(2112, 2337)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"5153F0270271"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$43" @57
+				Parent_View 	@56
+				location   	(37, -111)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"5153F028000F"
+				client     	@56
+				supplier   	@50
+				line_style 	3
+				origin_attachment 	(2112, 2337)
+				terminal_attachment 	(2233, 2337))
+			    (object RoleView "$UNNAMED$44" @58
+				Parent_View 	@56
+				location   	(37, -111)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"5153F0280011"
+				client     	@56
+				supplier   	@55
+				line_style 	3
+				origin_attachment 	(2112, 2337)
+				terminal_attachment 	(1992, 2337))))
+		    (object AssociationViewNew "$UNNAMED$57" @59
+			location   	(1158, 2729)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"516F4E6402AF"
+			roleview_list 	(list RoleViews
+			    (object RoleView "$UNNAMED$58" @60
+				Parent_View 	@59
+				location   	(134, 301)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"516F4E6500DA"
+				client     	@59
+				supplier   	@54
+				line_style 	3
+				origin_attachment 	(1158, 2729)
+				terminal_attachment 	(1158, 2841))
+			    (object RoleView "$UNNAMED$59" @61
+				Parent_View 	@59
+				location   	(134, 301)
+				stereotype 	TRUE
+				line_color 	3342489
+				quidu      	"516F4E6500DC"
+				client     	@59
+				supplier   	@55
+				line_style 	3
+				origin_attachment 	(1158, 2729)
+				terminal_attachment 	(1158, 2618))))
+		    (object UsesView "" @62
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"5153E4F1001F"
+			client     	@55
+			supplier   	@42
+			line_style 	3
+			origin_attachment 	(1173, 2113)
+			terminal_attachment 	(1173, 1841))))
+	    (object InteractionDiagram "机构客户端工作时序图"
+		mechanism_ref 	@39
+		quid       	"512D7A770213"
+		title      	"机构客户端工作时序图"
+		zoom       	85
+		max_height 	28350
+		max_width  	21600
+		origin_x   	0
+		origin_y   	0
+		items      	(list diagram_item_list
+		    (object InterObjView "机构客户端ClientTerminal" @63
+			location   	(349, 225)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	TRUE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@63
+			    location   	(349, 225)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	363
+			    justify    	0
+			    label      	"机构客户端ClientTerminal")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"512DA483036B"
+			width      	381
+			height     	1912
+			icon_height 	0
+			icon_width 	0
+			icon_y_offset 	0
+			annotation 	1
+			Focus_Of_Control 	(object Focus_Of_Control "" @64
+			    location   	(349, 1205)
+			    line_color 	3342489
+			    InterObjView 	@63
+			    height     	842
+			    y_coord    	782
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @65
+			    location   	(349, 1867)
+			    line_color 	3342489
+			    InterObjView 	@63
+			    height     	60
+			    y_coord    	0
+			    Nested     	FALSE))
+		    (object InterObjView "服务主线程 uniServer" @66
+			location   	(1257, 225)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	TRUE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@66
+			    location   	(1257, 225)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	320
+			    justify    	0
+			    label      	"服务主线程 uniServer")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"512D7C460000"
+			width      	338
+			height     	1912
+			icon_height 	0
+			icon_width 	0
+			icon_y_offset 	0
+			annotation 	1
+			Focus_Of_Control 	(object Focus_Of_Control "" @67
+			    location   	(1257, 416)
+			    line_color 	3342489
+			    InterObjView 	@66
+			    height     	772
+			    y_coord    	712
+			    Nested     	FALSE))
+		    (object InterObjView "理财产品服务svrFinancialProduct" @68
+			location   	(1837, 225)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	TRUE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@68
+			    location   	(1837, 225)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	507
+			    justify    	0
+			    label      	"理财产品服务svrFinancialProduct")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"512D7C48004E"
+			width      	525
+			height     	1912
+			icon_height 	0
+			icon_width 	0
+			icon_y_offset 	0
+			annotation 	1
+			Focus_Of_Control 	(object Focus_Of_Control "" @69
+			    location   	(1837, 416)
+			    line_color 	3342489
+			    InterObjView 	@68
+			    height     	712
+			    y_coord    	652
+			    Nested     	FALSE))
+		    (object InterObjView "理财产品服务线程ThreadWorker" @70
+			location   	(2477, 225)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	TRUE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@70
+			    location   	(2477, 225)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	463
+			    justify    	0
+			    label      	"理财产品服务线程ThreadWorker")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"512D7C4B01F4"
+			width      	481
+			height     	1912
+			icon_height 	0
+			icon_width 	0
+			icon_y_offset 	0
+			annotation 	1
+			Focus_Of_Control 	(object Focus_Of_Control "" @71
+			    location   	(2477, 550)
+			    line_color 	3342489
+			    InterObjView 	@70
+			    height     	60
+			    y_coord    	0
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @72
+			    location   	(2477, 1338)
+			    line_color 	3342489
+			    InterObjView 	@70
+			    height     	543
+			    y_coord    	483
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @73
+			    location   	(2477, 1430)
+			    line_color 	3342489
+			    InterObjView 	@70
+			    height     	60
+			    y_coord    	0
+			    Nested     	TRUE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @74
+			    location   	(2477, 1661)
+			    line_color 	3342489
+			    InterObjView 	@70
+			    height     	60
+			    y_coord    	0
+			    Nested     	TRUE))
+		    (object InterObjView "理财产品服务应用接口CSvrFinanceProductBusiness" @75
+			location   	(3135, 225)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	TRUE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@75
+			    location   	(3135, 225)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	701
+			    justify    	0
+			    label      	"理财产品服务应用接口CSvrFinanceProductBusiness")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"516FB9EC033C"
+			width      	719
+			height     	1912
+			icon_height 	0
+			icon_width 	0
+			icon_y_offset 	0
+			annotation 	1
+			Focus_Of_Control 	(object Focus_Of_Control "" @76
+			    location   	(3135, 688)
+			    line_color 	3342489
+			    InterObjView 	@75
+			    height     	380
+			    y_coord    	320
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @77
+			    location   	(3135, 888)
+			    line_color 	3342489
+			    InterObjView 	@75
+			    height     	60
+			    y_coord    	0
+			    Nested     	TRUE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @78
+			    location   	(3135, 1540)
+			    line_color 	3342489
+			    InterObjView 	@75
+			    height     	241
+			    y_coord    	181
+			    Nested     	FALSE))
+		    (object InterObjView "数据库" @79
+			location   	(3713, 225)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	TRUE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@79
+			    location   	(3713, 225)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	282
+			    justify    	0
+			    label      	"数据库")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"512D7C500271"
+			width      	300
+			height     	1912
+			icon_height 	0
+			icon_width 	0
+			icon_y_offset 	0
+			annotation 	1
+			Focus_Of_Control 	(object Focus_Of_Control "" @80
+			    location   	(3713, 748)
+			    line_color 	3342489
+			    InterObjView 	@79
+			    height     	260
+			    y_coord    	200
+			    Nested     	FALSE))
+		    (object InterObjView "通信模块SvrTcpBusiness" @81
+			location   	(806, 225)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	TRUE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@81
+			    location   	(806, 225)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	372
+			    justify    	0
+			    label      	"通信模块SvrTcpBusiness")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"516FBC35002E"
+			width      	390
+			height     	1912
+			icon_height 	0
+			icon_width 	0
+			icon_y_offset 	0
+			annotation 	1
+			Focus_Of_Control 	(object Focus_Of_Control "" @82
+			    location   	(806, 1205)
+			    line_color 	3342489
+			    InterObjView 	@81
+			    height     	782
+			    y_coord    	722
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @83
+			    location   	(806, 1761)
+			    line_color 	3342489
+			    InterObjView 	@81
+			    height     	60
+			    y_coord    	0
+			    Nested     	FALSE))
+		    (object InterMessView "" @84
+			location   	(0, 416)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object SegLabel @85
+			    Parent_View 	@84
+			    location   	(1546, 372)
+			    font       	(object Font
+				size       	12
+				face       	"宋体"
+				charSet    	134
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"512D7CA1003F"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	283
+			    justify    	0
+			    label      	"InitFunc"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	0)
+			line_color 	3342489
+			client     	@66
+			supplier   	@68
+			Focus_Src  	@67
+			Focus_Entry 	@69
+			origin     	(1272, 416)
+			terminus   	(1821, 416)
+			ordinal    	0)
+		    (object InterMessView "" @86
+			location   	(0, 550)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object SegLabel @87
+			    Parent_View 	@86
+			    location   	(2156, 506)
+			    font       	(object Font
+				size       	12
+				face       	"宋体"
+				charSet    	134
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"512D7D6300FB"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	386
+			    justify    	0
+			    label      	"CreateThread"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	0)
+			line_color 	3342489
+			client     	@68
+			supplier   	@70
+			Focus_Src  	@69
+			Focus_Entry 	@71
+			origin     	(1852, 550)
+			terminus   	(2461, 550)
+			ordinal    	1)
+		    (object InterMessView "" @88
+			location   	(2247, 688)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object SegLabel @89
+			    Parent_View 	@88
+			    location   	(2485, 644)
+			    font       	(object Font
+				size       	12
+				face       	"宋体"
+				charSet    	134
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"516FBA8500FB"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	257
+			    justify    	0
+			    label      	"new obj"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	0)
+			line_color 	3342489
+			client     	@68
+			supplier   	@75
+			Focus_Src  	@69
+			Focus_Entry 	@76
+			origin     	(1852, 688)
+			terminus   	(3119, 688)
+			ordinal    	2)
+		    (object InterMessView "" @90
+			location   	(0, 748)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object SegLabel @91
+			    Parent_View 	@90
+			    location   	(3423, 704)
+			    font       	(object Font
+				size       	12
+				face       	"宋体"
+				charSet    	134
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"516FBAD20020"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	231
+			    justify    	0
+			    label      	"LoadDB"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	0)
+			line_color 	3342489
+			client     	@75
+			supplier   	@79
+			Focus_Src  	@76
+			Focus_Entry 	@80
+			origin     	(3150, 748)
+			terminus   	(3697, 748)
+			ordinal    	3)
+		    (object InterMessView "" @92
+			location   	(3248, 888)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object SegLabel @93
+			    Parent_View 	@92
+			    location   	(3424, 844)
+			    font       	(object Font
+				size       	12
+				face       	"宋体"
+				charSet    	134
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"516FBADF0203"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	180
+			    justify    	0
+			    label      	"Save"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	1)
+			line_color 	3342489
+			client     	@79
+			supplier   	@75
+			Focus_Src  	@80
+			Focus_Entry 	@77
+			origin     	(3697, 888)
+			terminus   	(3151, 888)
+			ordinal    	4)
+		    (object InterMessView "" @94
+			location   	(2949, 1661)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object SegLabel @95
+			    Parent_View 	@94
+			    location   	(2806, 1617)
+			    font       	(object Font
+				size       	12
+				face       	"宋体"
+				charSet    	134
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"516FBB380148"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	256
+			    justify    	0
+			    label      	"Result"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	1)
+			line_color 	3342489
+			client     	@75
+			supplier   	@70
+			Focus_Src  	@78
+			Focus_Entry 	@74
+			origin     	(3119, 1661)
+			terminus   	(2493, 1661)
+			ordinal    	9)
+		    (object InterMessView "" @96
+			location   	(580, 1205)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object SegLabel @97
+			    Parent_View 	@96
+			    location   	(577, 1161)
+			    font       	(object Font
+				size       	12
+				face       	"宋体"
+				charSet    	134
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"516FBCB0030E"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	257
+			    justify    	0
+			    label      	"Request"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	0)
+			line_color 	3342489
+			client     	@63
+			supplier   	@81
+			Focus_Src  	@64
+			Focus_Entry 	@82
+			origin     	(364, 1205)
+			terminus   	(790, 1205)
+			ordinal    	5)
+		    (object InterMessView "" @98
+			location   	(1694, 1338)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object SegLabel @99
+			    Parent_View 	@98
+			    location   	(1641, 1294)
+			    font       	(object Font
+				size       	12
+				face       	"宋体"
+				charSet    	134
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"516FBCEA03AA"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	515
+			    justify    	0
+			    label      	"PostThreadMessage"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	0)
+			line_color 	3342489
+			client     	@81
+			supplier   	@70
+			Focus_Src  	@82
+			Focus_Entry 	@72
+			origin     	(821, 1338)
+			terminus   	(2461, 1338)
+			ordinal    	6)
+		    (object SelfMessView "" @100
+			location   	(0, 1430)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object SegLabel @101
+			    Parent_View 	@100
+			    location   	(2568, 1386)
+			    font       	(object Font
+				size       	12
+				face       	"宋体"
+				charSet    	134
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"516FBD61038A"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	721
+			    justify    	0
+			    label      	"ProcessOneUniPkg_InThread"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	0)
+			line_color 	3342489
+			client     	@70
+			supplier   	@70
+			Focus_Src  	@72
+			Focus_Entry 	@73
+			origin     	(2493, 1430)
+			terminus   	(2643, 1430)
+			ordinal    	7)
+		    (object InterMessView "" @102
+			location   	(2958, 1540)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object SegLabel @103
+			    Parent_View 	@102
+			    location   	(2805, 1496)
+			    font       	(object Font
+				size       	12
+				face       	"宋体"
+				charSet    	134
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"516FBD7E0222"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	257
+			    justify    	0
+			    label      	"Operate"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	0)
+			line_color 	3342489
+			client     	@70
+			supplier   	@75
+			Focus_Src  	@72
+			Focus_Entry 	@78
+			origin     	(2492, 1540)
+			terminus   	(3119, 1540)
+			ordinal    	8)
+		    (object InterMessView "" @104
+			location   	(0, 1761)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object SegLabel @105
+			    Parent_View 	@104
+			    location   	(1642, 1717)
+			    font       	(object Font
+				size       	12
+				face       	"宋体"
+				charSet    	134
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"516FBDA700CB"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	256
+			    justify    	0
+			    label      	"Result"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	1)
+			line_color 	3342489
+			client     	@70
+			supplier   	@81
+			Focus_Src  	@72
+			Focus_Entry 	@83
+			origin     	(2461, 1761)
+			terminus   	(822, 1761)
+			ordinal    	10)
+		    (object InterMessView "" @106
+			location   	(573, 1867)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object SegLabel @107
+			    Parent_View 	@106
+			    location   	(578, 1823)
+			    font       	(object Font
+				size       	12
+				face       	"宋体"
+				charSet    	134
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"516FBDAC01A5"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	256
+			    justify    	0
+			    label      	"Result"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	1)
+			line_color 	3342489
+			client     	@81
+			supplier   	@63
+			Focus_Src  	@82
+			Focus_Entry 	@65
+			origin     	(790, 1867)
+			terminus   	(365, 1867)
+			ordinal    	11)))
+	    (object InteractionDiagram "管理客户端工作时序图"
+		mechanism_ref 	@40
+		quid       	"512DD0AA032C"
+		title      	"管理客户端工作时序图"
+		zoom       	100
+		max_height 	28350
+		max_width  	21600
+		origin_x   	1315
+		origin_y   	231
+		items      	(list diagram_item_list
+		    (object InterObjView "管理员administrator" @108
+			location   	(331, 225)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	TRUE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@108
+			    location   	(331, 225)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	346
+			    justify    	0
+			    label      	"管理员administrator")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"512DD0EE0109"
+			width      	364
+			height     	2345
+			icon_height 	0
+			icon_width 	0
+			icon_y_offset 	0
+			annotation 	1
+			Focus_Of_Control 	(object Focus_Of_Control "" @109
+			    location   	(334, 427)
+			    line_color 	3342489
+			    InterObjView 	@108
+			    height     	360
+			    y_coord    	300
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @110
+			    location   	(450, 898)
+			    line_color 	3342489
+			    InterObjView 	@108
+			    height     	411
+			    y_coord    	351
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @111
+			    location   	(331, 1370)
+			    line_color 	3342489
+			    InterObjView 	@108
+			    height     	346
+			    y_coord    	286
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @112
+			    location   	(331, 1822)
+			    line_color 	3342489
+			    InterObjView 	@108
+			    height     	658
+			    y_coord    	598
+			    Nested     	FALSE))
+		    (object InterObjView "登录界面SvrLogin" @113
+			location   	(726, 228)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	TRUE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@113
+			    location   	(726, 228)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	312
+			    justify    	0
+			    label      	"登录界面SvrLogin")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"512DD5E70157"
+			width      	330
+			height     	442
+			icon_height 	0
+			icon_width 	0
+			icon_y_offset 	0
+			annotation 	1
+			Focus_Of_Control 	(object Focus_Of_Control "" @114
+			    location   	(726, 288)
+			    line_color 	3342489
+			    InterObjView 	@113
+			    height     	60
+			    y_coord    	0
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @115
+			    location   	(934, 427)
+			    line_color 	3342489
+			    InterObjView 	@113
+			    height     	300
+			    y_coord    	240
+			    Nested     	FALSE))
+		    (object InterObjView "理财产品管理 FinanceProductMgrForm" @116
+			location   	(1247, 225)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	TRUE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@116
+			    location   	(1247, 225)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	537
+			    justify    	0
+			    label      	"理财产品管理 FinanceProductMgrForm")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"512DD0F00119"
+			width      	555
+			height     	2345
+			icon_height 	0
+			icon_width 	0
+			icon_y_offset 	0
+			annotation 	1
+			Focus_Of_Control 	(object Focus_Of_Control "" @117
+			    location   	(1541, 898)
+			    line_color 	3342489
+			    InterObjView 	@116
+			    height     	351
+			    y_coord    	291
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @118
+			    location   	(1541, 1069)
+			    line_color 	3342489
+			    InterObjView 	@116
+			    height     	60
+			    y_coord    	0
+			    Nested     	TRUE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @119
+			    location   	(1541, 1370)
+			    line_color 	3342489
+			    InterObjView 	@116
+			    height     	286
+			    y_coord    	226
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @120
+			    location   	(1541, 1536)
+			    line_color 	3342489
+			    InterObjView 	@116
+			    height     	60
+			    y_coord    	0
+			    Nested     	TRUE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @121
+			    location   	(1541, 1822)
+			    line_color 	3342489
+			    InterObjView 	@116
+			    height     	598
+			    y_coord    	538
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @122
+			    location   	(1406, 2165)
+			    line_color 	3342489
+			    InterObjView 	@116
+			    height     	60
+			    y_coord    	0
+			    Nested     	FALSE))
+		    (object InterObjView "理财产品FinancialProductForm" @123
+			location   	(1920, 225)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	TRUE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@123
+			    location   	(1920, 225)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	542
+			    justify    	0
+			    label      	"理财产品FinancialProductForm")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"512DD0F8034B"
+			width      	560
+			height     	1037
+			icon_height 	0
+			icon_width 	0
+			icon_y_offset 	0
+			annotation 	1
+			Focus_Of_Control 	(object Focus_Of_Control "" @124
+			    location   	(2270, 960)
+			    line_color 	3342489
+			    InterObjView 	@123
+			    height     	229
+			    y_coord    	169
+			    Nested     	FALSE))
+		    (object InterObjView "CDataInfo" @125
+			location   	(2506, 231)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	TRUE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@125
+			    location   	(2506, 231)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	358
+			    justify    	0
+			    label      	"CDataInfo")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"517CD15501A5"
+			width      	376
+			height     	2339
+			icon_height 	0
+			icon_width 	0
+			icon_y_offset 	0
+			annotation 	1
+			Focus_Of_Control 	(object Focus_Of_Control "" @126
+			    location   	(2506, 291)
+			    line_color 	3342489
+			    InterObjView 	@125
+			    height     	60
+			    y_coord    	0
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @127
+			    location   	(2850, 547)
+			    line_color 	3342489
+			    InterObjView 	@125
+			    height     	60
+			    y_coord    	0
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @128
+			    location   	(2850, 2300)
+			    line_color 	3342489
+			    InterObjView 	@125
+			    height     	60
+			    y_coord    	0
+			    Nested     	FALSE))
+		    (object InterObjView "数据库" @129
+			location   	(2943, 234)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	TRUE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@129
+			    location   	(2943, 234)
+			    fill_color 	13434879
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	282
+			    justify    	0
+			    label      	"数据库")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"517CD15B0000"
+			width      	300
+			height     	2336
+			icon_height 	0
+			icon_width 	0
+			icon_y_offset 	0
+			annotation 	1
+			Focus_Of_Control 	(object Focus_Of_Control "" @130
+			    location   	(2943, 294)
+			    line_color 	3342489
+			    InterObjView 	@129
+			    height     	60
+			    y_coord    	0
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @131
+			    location   	(3287, 487)
+			    line_color 	3342489
+			    InterObjView 	@129
+			    height     	180
+			    y_coord    	120
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @132
+			    location   	(3257, 1894)
+			    line_color 	3342489
+			    InterObjView 	@129
+			    height     	391
+			    y_coord    	331
+			    Nested     	FALSE)
+			Focus_Of_Control 	(object Focus_Of_Control "" @133
+			    location   	(3287, 2039)
+			    line_color 	3342489
+			    InterObjView 	@129
+			    height     	60
+			    y_coord    	0
+			    Nested     	TRUE))
+		    (object InterMessView "" @134
+			location   	(587, 427)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object SegLabel @135
+			    Parent_View 	@134
+			    location   	(528, 383)
+			    font       	(object Font
+				size       	12
+				face       	"宋体"
+				charSet    	134
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"512DD60A0129"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	200
+			    justify    	0
+			    label      	"Login"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	0)
+			line_color 	3342489
+			client     	@108
+			supplier   	@113
+			Focus_Src  	@109
+			Focus_Entry 	@115
+			origin     	(346, 427)
+			terminus   	(710, 427)
+			ordinal    	0)
+		    (object Destruction_Marker @136
+			Parent_View 	@123
+			location   	(1920, 1362)
+			line_color 	3342489
+			fill_color 	13434879)
+		    (object Destruction_Marker @137
+			Parent_View 	@113
+			location   	(726, 770)
+			line_color 	3342489
+			fill_color 	13434879)
+		    (object InterMessView "" @138
+			location   	(792, 898)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object SegLabel @139
+			    Parent_View 	@138
+			    location   	(796, 854)
+			    font       	(object Font
+				size       	12
+				face       	"宋体"
+				charSet    	134
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"516FC0EB00FA"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	335
+			    justify    	0
+			    label      	"Add/Modify"
+			    pctDist    	0.509434
+			    height     	45
+			    orientation 	0)
+			line_color 	3342489
+			client     	@108
+			supplier   	@116
+			Focus_Src  	@110
+			Focus_Entry 	@117
+			origin     	(346, 898)
+			terminus   	(1231, 898)
+			ordinal    	3)
+		    (object InterMessView "" @140
+			location   	(1868, 960)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object SegLabel @141
+			    Parent_View 	@140
+			    location   	(1583, 917)
+			    font       	(object Font
+				size       	12
+				face       	"宋体"
+				charSet    	134
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"516FC0FF02FD"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	200
+			    justify    	0
+			    label      	"gcnew"
+			    pctDist    	0.500000
+			    height     	44
+			    orientation 	0)
+			line_color 	3342489
+			client     	@116
+			supplier   	@123
+			Focus_Src  	@117
+			Focus_Entry 	@124
+			origin     	(1262, 960)
+			terminus   	(1904, 960)
+			ordinal    	4)
+		    (object InterMessView "" @142
+			location   	(1878, 1069)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object SegLabel @143
+			    Parent_View 	@142
+			    location   	(1584, 1025)
+			    font       	(object Font
+				size       	12
+				face       	"宋体"
+				charSet    	134
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"516FC13D031C"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	235
+			    justify    	0
+			    label      	"Update"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	1)
+			line_color 	3342489
+			client     	@123
+			supplier   	@116
+			Focus_Src  	@124
+			Focus_Entry 	@118
+			origin     	(1904, 1069)
+			terminus   	(1263, 1069)
+			ordinal    	5)
+		    (object InterMessView "" @144
+			location   	(788, 1370)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object SegLabel @145
+			    Parent_View 	@144
+			    location   	(788, 1326)
+			    font       	(object Font
+				size       	12
+				face       	"宋体"
+				charSet    	134
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"516FC1AC03C8"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	235
+			    justify    	0
+			    label      	"Delete"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	0)
+			line_color 	3342489
+			client     	@108
+			supplier   	@116
+			Focus_Src  	@111
+			Focus_Entry 	@119
+			origin     	(346, 1370)
+			terminus   	(1231, 1370)
+			ordinal    	6)
+		    (object SelfMessView "" @146
+			location   	(0, 1536)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object SegLabel @147
+			    Parent_View 	@146
+			    location   	(1338, 1492)
+			    font       	(object Font
+				size       	12
+				face       	"宋体"
+				charSet    	134
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"516FC1C603C9"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	235
+			    justify    	0
+			    label      	"Update"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	0)
+			line_color 	3342489
+			client     	@116
+			supplier   	@116
+			Focus_Src  	@119
+			Focus_Entry 	@120
+			origin     	(1263, 1536)
+			terminus   	(1413, 1536)
+			ordinal    	7)
+		    (object InterMessView "" @148
+			location   	(926, 1822)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object SegLabel @149
+			    Parent_View 	@148
+			    location   	(788, 1778)
+			    font       	(object Font
+				size       	12
+				face       	"宋体"
+				charSet    	134
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"517CD1C700CB"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	185
+			    justify    	0
+			    label      	"Save"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	0)
+			line_color 	3342489
+			client     	@108
+			supplier   	@116
+			Focus_Src  	@112
+			Focus_Entry 	@121
+			origin     	(346, 1822)
+			terminus   	(1231, 1822)
+			ordinal    	8)
+		    (object InterMessView "" @150
+			location   	(2343, 1894)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object SegLabel @151
+			    Parent_View 	@150
+			    location   	(2094, 1851)
+			    font       	(object Font
+				size       	12
+				face       	"宋体"
+				charSet    	134
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"517CD1EA0291"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	850
+			    justify    	0
+			    label      	"Cmd_RM_SaveFinicialProduct_Req"
+			    pctDist    	0.499703
+			    height     	44
+			    orientation 	0)
+			line_color 	3342489
+			client     	@116
+			supplier   	@129
+			Focus_Src  	@121
+			Focus_Entry 	@132
+			origin     	(1262, 1894)
+			terminus   	(2927, 1894)
+			ordinal    	9)
+		    (object InterMessView "" @152
+			location   	(0, 487)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object SegLabel @153
+			    Parent_View 	@152
+			    location   	(1834, 443)
+			    font       	(object Font
+				size       	12
+				face       	"宋体"
+				charSet    	134
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"517CD32000EB"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	1956
+			    justify    	0
+			    label      	"Cmd_RM_QueryFinicialProduct_Req  Cmd_RM_QueryProductTraderRelation_Req"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	0)
+			line_color 	3342489
+			client     	@113
+			supplier   	@129
+			Focus_Src  	@115
+			Focus_Entry 	@131
+			origin     	(741, 487)
+			terminus   	(2927, 487)
+			ordinal    	1)
+		    (object InterMessView "" @154
+			location   	(2343, 2165)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object SegLabel @155
+			    Parent_View 	@154
+			    location   	(2095, 2121)
+			    font       	(object Font
+				size       	12
+				face       	"宋体"
+				charSet    	134
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"517CD4E300FA"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	100
+			    justify    	0
+			    label      	""
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	1)
+			line_color 	3342489
+			client     	@129
+			supplier   	@116
+			Focus_Src  	@132
+			Focus_Entry 	@122
+			origin     	(2927, 2165)
+			terminus   	(1263, 2165)
+			ordinal    	11)
+		    (object InterMessView "" @156
+			location   	(3069, 547)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object SegLabel @157
+			    Parent_View 	@156
+			    location   	(2725, 503)
+			    font       	(object Font
+				size       	12
+				face       	"宋体"
+				charSet    	134
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"517CD4EF0157"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	175
+			    justify    	0
+			    label      	"Save"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	1)
+			line_color 	3342489
+			client     	@129
+			supplier   	@125
+			Focus_Src  	@131
+			Focus_Entry 	@127
+			origin     	(2927, 547)
+			terminus   	(2522, 547)
+			ordinal    	2)
+		    (object InterMessView "" @158
+			location   	(0, 2300)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object SegLabel @159
+			    Parent_View 	@158
+			    location   	(1876, 2256)
+			    font       	(object Font
+				size       	12
+				face       	"宋体"
+				charSet    	134
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"517CD5020128"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	200
+			    justify    	0
+			    label      	"Save"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	0)
+			line_color 	3342489
+			client     	@116
+			supplier   	@125
+			Focus_Src  	@121
+			Focus_Entry 	@128
+			origin     	(1262, 2300)
+			terminus   	(2490, 2300)
+			ordinal    	12)
+		    (object SelfMessView "" @160
+			location   	(0, 2039)
+			font       	(object Font
+			    size       	12
+			    face       	"宋体"
+			    charSet    	134
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object SegLabel @161
+			    Parent_View 	@160
+			    location   	(3034, 1995)
+			    font       	(object Font
+				size       	12
+				face       	"宋体"
+				charSet    	134
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    quidu      	"517CD518004F"
+			    anchor_loc 	1
+			    nlines     	1
+			    max_width  	300
+			    justify    	0
+			    label      	"问询验证"
+			    pctDist    	0.500000
+			    height     	45
+			    orientation 	0)
+			line_color 	3342489
+			client     	@129
+			supplier   	@129
+			Focus_Src  	@132
+			Focus_Entry 	@133
+			origin     	(2959, 2039)
+			terminus   	(3109, 2039)
+			ordinal    	10)))))
+    root_subsystem 	(object SubSystem "显示组成"
+	quid       	"512D797E00ED"
+	physical_models 	(list unit_reference_list)
+	physical_presentations 	(list unit_reference_list
+	    (object Module_Diagram "Main"
+		quid       	"512D797E0232"
+		title      	"Main"
+		zoom       	100
+		max_height 	28350
+		max_width  	21600
+		origin_x   	0
+		origin_y   	0
+		items      	(list diagram_item_list))))
+    process_structure 	(object Processes
+	quid       	"512D797E00EE"
+	ProcsNDevs 	(list
+	    (object Process_Diagram "Deployment View"
+		quid       	"512D797E00F0"
+		title      	"Deployment View"
+		zoom       	100
+		max_height 	28350
+		max_width  	21600
+		origin_x   	0
+		origin_y   	0
+		items      	(list diagram_item_list))))
+    properties 	(object Properties
+	quid       	"512D797E00EF"))

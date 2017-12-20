@@ -1,0 +1,124 @@
+  CurrencyBox.CurrencyBox.resources - Embedded, ContainedInManifestFile, 
+Assembly CurrencyBox, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Design, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=SHA1, flags=None
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=SHA1, flags=None
+Class CurrencyBox.CurrencyBox: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean PermiteNumerosNegativos 'get set' : 
+    System.Drawing.Color ColorNumerosNegativos 'get set' : 
+    Int32 DigitosDespuesDelSimboloDecimal 'get set' : 
+    System.String Text 'get set' : 
+  Methods:
+    CreateCaret(IntPtr, IntPtr, Int32, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    DestroyCaret(): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    HideCaret(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    ShowCaret(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SetCaretPos(Int32, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    get_PermiteNumerosNegativos(): PrivateScope, Public, HideBySig, SpecialName
+    set_PermiteNumerosNegativos(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_ColorNumerosNegativos(): PrivateScope, Public, HideBySig, SpecialName
+    set_ColorNumerosNegativos(Color): PrivateScope, Public, HideBySig, SpecialName
+    get_DigitosDespuesDelSimboloDecimal(): PrivateScope, Public, HideBySig, SpecialName
+    set_DigitosDespuesDelSimboloDecimal(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Text(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Text(String): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Class CurrencyBox.CurrencyBox+DigitosDecimalesConverter: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
+  :System.ComponentModel.Int16Converter
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetStandardValues(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+    GetStandardValuesExclusive(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+    GetStandardValuesSupported(ITypeDescriptorContext): PrivateScope, Public, Virtual, HideBySig
+Class CurrencyBox.CurrencyBox+CurrencyBoxControlDesigner: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
+  :System.Windows.Forms.Design.ControlDesigner
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Windows.Forms.Design.SelectionRules SelectionRules 'get ' : 
+  Methods:
+    get_SelectionRules(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+Struct CurrencyBox.Msg: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    CurrencyBox.Msg WM_CONTEXTMENU = 123 : Public, Static, Literal, HasDefault
+    CurrencyBox.Msg WM_COPY = 769 : Public, Static, Literal, HasDefault
+    CurrencyBox.Msg WM_NULL = 0 : Public, Static, Literal, HasDefault
+    CurrencyBox.Msg WM_REFLECT = 8192 : Public, Static, Literal, HasDefault
+    CurrencyBox.Msg WM_USER = 1024 : Public, Static, Literal, HasDefault
+    CurrencyBox.Msg WM_XPTHEME = 794 : Public, Static, Literal, HasDefault
+Struct CurrencyBox.PART_STATES_EDITTEXT: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    CurrencyBox.PART_STATES_EDITTEXT ASSIST = 7 : Public, Static, Literal, HasDefault
+    CurrencyBox.PART_STATES_EDITTEXT DISABLED = 4 : Public, Static, Literal, HasDefault
+    CurrencyBox.PART_STATES_EDITTEXT FOCUSED = 5 : Public, Static, Literal, HasDefault
+    CurrencyBox.PART_STATES_EDITTEXT HOT = 2 : Public, Static, Literal, HasDefault
+    CurrencyBox.PART_STATES_EDITTEXT NORMAL = 1 : Public, Static, Literal, HasDefault
+    CurrencyBox.PART_STATES_EDITTEXT READONLY = 6 : Public, Static, Literal, HasDefault
+    CurrencyBox.PART_STATES_EDITTEXT SELECTED = 3 : Public, Static, Literal, HasDefault
+Struct CurrencyBox.PARTS_EDIT: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    CurrencyBox.PARTS_EDIT CARET = 2 : Public, Static, Literal, HasDefault
+    CurrencyBox.PARTS_EDIT EDITTEXT = 1 : Public, Static, Literal, HasDefault
+Struct CurrencyBox.Style: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    CurrencyBox.Style XpStyle = 0 : Public, Static, Literal, HasDefault
+    CurrencyBox.Style Normal = 1 : Public, Static, Literal, HasDefault
+Struct CurrencyBox.RECT: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(Int32, Int32, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Drawing.Rectangle): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 left : Public
+    Int32 top : Public
+    Int32 right : Public
+    Int32 bottom : Public
+  Methods:
+    ToRectangle(): PrivateScope, Public, HideBySig
+Class CurrencyBox.Win32Util: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 OPAQUE = 2 : Public, Static, Literal, HasDefault
+    Int32 TRANSPARENT = 1 : Public, Static, Literal, HasDefault
+  Methods:
+    ExtTextOut(IntPtr, Int32, Int32, Rectangle, String): PrivateScope, Public, Static, HideBySig
+    FillRect(IntPtr, Rectangle, Color): PrivateScope, Public, Static, HideBySig
+    GET_X_LPARAM(Int32): PrivateScope, Public, Static, HideBySig
+    GET_Y_LPARAM(Int32): PrivateScope, Public, Static, HideBySig
+    GetPointFromLPARAM(Int32): PrivateScope, Public, Static, HideBySig
+    GetTextExtent(IntPtr, String): PrivateScope, Public, Static, HideBySig
+    HIGH_ORDER(Int32): PrivateScope, Public, Static, HideBySig
+    LOW_ORDER(Int32): PrivateScope, Public, Static, HideBySig
+    SelectObject(IntPtr, IntPtr): PrivateScope, Public, Static, HideBySig
+    SetBkColor(IntPtr, Color): PrivateScope, Public, Static, HideBySig
+    SetBkMode(IntPtr, Int32): PrivateScope, Public, Static, HideBySig
+    SetTextColor(IntPtr, Color): PrivateScope, Public, Static, HideBySig
+Class CurrencyBox.XPTheme: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    CloseThemeData(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    DrawThemeBackground(IntPtr, IntPtr, Int32, Int32, RECT&, RECT&): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    DrawThemeEdge(IntPtr, IntPtr, Int32, Int32, RECT&, Int32, Int32, RECT&): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    DrawThemeLine(IntPtr, IntPtr, Int32, RECT&, Int32): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    DrawThemeParentBackground(IntPtr, IntPtr, RECT&): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    DrawThemeText(IntPtr, IntPtr, Int32, Int32, String(HasFieldMarshal), Int32, Int32, Int32, RECT&): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    IsAppThemed(): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    IsThemeActive(): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    OpenThemeData(IntPtr, String(HasFieldMarshal)): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    SetWindowTheme(IntPtr, String(HasFieldMarshal), String(HasFieldMarshal)): PrivateScope, Public, Static, HideBySig, PinvokeImpl
