@@ -1,0 +1,27 @@
+#include <windows.h>
+//发布前先更新下面版本信息
+#include "../inc/gui/VersionDefine.h"
+1 VERSIONINFO
+FILEVERSION VER_VALUE
+PRODUCTVERSION VER_VALUE
+FILETYPE VFT_APP
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+            VALUE "CompanyName", "中期信息技术服务有限公司"
+            VALUE "FileVersion", VER_STRING
+            VALUE "FileDescription", PATS_DLL_NAME
+            VALUE "LegalCopyright", "Copyright (C) 2010-2011"
+            VALUE "OriginalFilename", "Patsystem.dll"
+            VALUE "ProductName", PATS_DLL_NAME
+            VALUE "ProductVersion", VER_STRING
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 1252
+    END
+END
+

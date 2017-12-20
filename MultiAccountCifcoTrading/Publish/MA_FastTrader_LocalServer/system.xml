@@ -1,0 +1,9 @@
+<system>
+    <Port>8999</Port>
+    <TimeOutSec>180</TimeOutSec>
+    <DataBase>
+        <SID>orcl</SID>
+        <User>maaccount</User>
+        <Password>maaccount</Password>
+    </DataBase>
+</system>

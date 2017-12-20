@@ -1,0 +1,10 @@
+LIBRARY
+
+EXPORTS
+	InitFunc
+	ReleaseFunc
+	TcpSvrAcceptFunc
+	TcpSvrDisconnFunc
+	TcpSvrOntimeFunc
+	TcpSvrRecvFunc
+	UdpRecvFunc

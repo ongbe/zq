@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReadZQLog", "ReadZQLog.vcproj", "{A748985D-E6FA-4E88-A699-C09DE92F0C8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A748985D-E6FA-4E88-A699-C09DE92F0C8F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A748985D-E6FA-4E88-A699-C09DE92F0C8F}.Debug|Win32.Build.0 = Debug|Win32
+		{A748985D-E6FA-4E88-A699-C09DE92F0C8F}.Release|Win32.ActiveCfg = Release|Win32
+		{A748985D-E6FA-4E88-A699-C09DE92F0C8F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

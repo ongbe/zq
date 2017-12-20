@@ -1,0 +1,1656 @@
+TEXTFILE_FILTER,文本文件(*.txt;*.csv)|*.txt;*.csv||,Text File(*.txt;*.csv)|*.txt;*.csv||,文字檔案(*.txt;*.csv)|*.txt;*.csv||
+TEXT_OR_ALL_FILE_FILTER,文本文件(*.txt)|*.txt|全部文件|*.*||,Text File(*.txt)|*.txt|All File Type|*.*||,文字檔案(*.txt)|*.txt|全部檔|*.*||
+SAVE_AS,另存为,Save As,另存為
+RETURN_NORMAL,返回主界面,Return,返回主介面
+CONFIRMATIONDLG_TITLE                  ,结算结果确定,Confirm Settlement,結算結果確定
+TRADEREPORTDLG_TITLE                  ,交易及账号报告,Trader Report,交易及帳號報告
+ABOUTDLG_TITLE                         ,关于 中国国际期货网上交易终端,About CIFCO FastTrader Client,關於 中國國際期貨網上交易終端
+MAINFRAME_INITIALIZE_ERROR_MSG      ,主窗口初始化失败,Initialize Error,主窗口初始化失敗
+MAINFRAME_INITIALIZE_ERROR_CAPTION  ,错误,Error,錯誤
+MAINFRAME_CLOSEMSGBOX_TITLE      ,注意,Information,注意
+MAINFRAME_CLOSEMSGBOX_MSG           ,您确定要退出?,Exist Now?,您確定要退出?
+MAINFRAME_CLOSEMSGBOX_MSG_HASLOCALORDER,您还有本地条件单/预埋单未触发，退出系统后我们将在当日内为您保留，但离线状态下无法触发，请注意。,"You have the local conditions of single / embedded single did not trigger, exit the system, we will be reserved for you in the day, not trigger offline, please note that.",您還有本地條件單/預埋單未觸發，退出系統後我們將在當日內為您保留，但離線狀態下無法觸發，請注意。
+LOCKFRAMEDLG_TITLE                 ,锁定软件,Locked,鎖定軟體
+LOCKFRAMEDLG_STATICTEXT1           ,软件终端已被锁定，请输入登录密码解除锁定,Please input password,軟體終端已被鎖定，請輸入登錄密碼解除鎖定
+LOCKFRAMEDLG_STATICTEXT2           ,密码:,Password:,密碼:
+LOCKFRAMEDLG_BUTTON                ,解除锁定,Unlocked,解除鎖定
+STATIC_CONTRACT_TEXT,合约:,Contract:,合約:
+STATIC_LONGCODE_TEXT             ,编码:,Code:,編碼:
+STATIC_ORDERTYPE_TEXT,下单类型:,OrderType:,下單類型:
+STATIC_DIRECT_TEXT              ,买卖:,Buy/Sell:,買賣:
+STATIC_OFFSETFLAG_TEXT          ,开平: ,Open/Close:,開平: 
+STATIC_OFFSETFLAG_AUTO         ,自动: ,Auto:,自動: 
+STATIC_VOLUME_TEXT              ,手数:,Volumne:,手數:
+STATIC_PRICE_TEXT,价格:,Price:,價格:
+CONTEXTMENU_AUTO_ADJUST_COL_WIDTH,自动调整列宽,Auto Adjust Column Width,自動調整列寬
+STATIC_LIMITPRICE_TEXT          ,限价:,Limit Price:,限價:
+STATIC_AUTOLIMITPRICE_TEXT          ,指定价:,Limit Price:,指定價:
+STATIC_AUTOMARKETPRICE_TEXT          ,跟盘价:,Market Price:,跟盤價:
+STATIC_ACCOUNT_TEXT          ,帐号:,Account:,帳號:
+ASKNAMEDLG_TITLE               ,保存当前配置,Save Style,保存當前配置
+ASKNAMEDLG_STATIC               ,保存名称:,Name:,保存名稱:
+ASKNAMEDLG_DEL                  ,删除,Delete,刪除
+ASKNAMEDLG_ADD                 ,添加,Add,添加
+ASKNAMEDLG_OK                  ,确定,OK,確定
+ASKNAMEDLG_CANCEL                ,取消,Cancel,取消
+TRADING_NOTICE_TITLE             ,通知,Notice,通知
+HISTORY_SETTLE_DLG_CAPTION       ,历史结算结果查询,History Settlement,歷史結算結果查詢
+OLS_VIRTUAL_KEYBOARD,虚拟键盘,Virtual KeyBoard,虛擬鍵盤
+OLS_ACCOUNT,帐号:,Account:,帳號:
+OLS_ASK_FD,卖%d  ,Ask%d,賣%d  
+OLS_ASKPRICE,卖一价,AskPrice,賣一價
+OLS_AUTO,自动:,Auto:,自動:
+OLS_B_S_PRICE2,买卖价,B/S Price,買賣價
+OLS_BUY_SELL,买卖:,B/S:,買賣:
+OLS_DIRECTION,买卖方向,Direction,買賣方向
+OLS_B_S_PRICE3,买卖价,B/S Price,買賣價
+OLS_BATCH,批量下单,Batch,批量下單
+OLS_BID_FD,买%d  ,Bid%d  ,買%d  
+OLS_BIDPRICE,买一价,BidPrice,買一價
+OLS_BUY,买入,Buy,買入
+OLS_CANCEL,清空手数,Enpty QTY,清空手數
+OLS_CLOSE,平仓,Close,平倉
+OLS_CLOSE_MODE,平仓方式,Close Mode,平倉方式
+OLS_CLOSE_TODAY,平今,Close Today,平今
+OLS_CONDITION,下条件单,Condition,下條件單
+OLS_CONDITION_SEND_ORDER,条件委托,Condition Send Order,條件委託
+OLS_CONTRACT,合约:,Contract:,合約:
+OLS_FIVE_PRICE_LIST,五档行情,Five Price List,五檔行情
+OLS_HEDGE,保值,Hedge,保值
+OLS_SPECULATE,投机,Speculate,投機
+OLS_INTERVAL_SEC,批次间隔[秒],Interval Sec,批次間隔[秒]
+OLS_LAST,最新 ,Last,最新 
+OLS_LASTPRICE2,最新价,LastPrice,最新價
+OLS_LASTPRICE3,最新价,LastPrice,最新價
+OLS_LOWER,跌停 ,Lower ,跌停 
+OLS_MOST_TOP_WINDOW,前端窗口,Most Top Window,前端窗口
+OLS_NEW_ORDER,下单,New Order,下單
+OLS_OPENCLOSE,开平:,O/C:,開平:
+OLS_ON,按,On,按
+OLS_OP_LARGE,大于,>,大於
+OLS_OP_LARGEEQU,大于等于,>=,大於等於
+OLS_OP_SM,小于,<,小於
+OLS_OP_SMEQU,小于等于,<=,小於等於
+OLS_OPEN,开仓,Open,開倉
+OLS_ORDER_CONFIRM,委托确认,Order confirm,委託確認
+OLS_ORDER_PRICE,委托价,Order Price,委託價
+OLS_ORDERTYPE_LIMIT,报单类型: 限价单,OrderType: Limit,報單類型: 限價單
+OLS_ORDERTYPE_MARKET,报单类型: 市价单,OrderType: Market,報單類型: 市價單
+OLS_ORDERTYPE_STOP,报单类型: 停止单,OrderType: Stop,報單類型: 停止單
+OLS_ORDERTYPE_STOP_LIMIT,报单类型: 停止限价单,OrderType: Stop Limit,報單類型: 停止限價單
+OLS_PARK,预埋,Park,預埋
+OLS_PLEASE_INPUT_VERIFICATION,请输入验证码!,Please input Verification!,請輸入驗證碼!
+OLS_PRICE,价格,Price,價格
+OLS_INPUTPRICE,输入价,Price,輸入價
+OLS_PRICE3,价格:,Price:,價格:
+OLS_PRICE_LIMIT,反向涨跌停价,Price Limit,反向漲跌停價
+OLS_QTY,手数:,QTY:,手數:
+OLS_QTY_EACH,每批手数,Qty each,每批手數
+OLS_REPLACE_CURRENT_ORDER,修改当前报单,Replace current order,修改當前報單
+OLS_REVERSE,反向加减,Reverse,反向加減
+OLS_RUN_IN_SERVER,在服务器上运行,Run in Server,在伺服器上運行
+OLS_SELL,卖出,Sell,賣出
+OLS_SEND_ORDER_FAIL,下单失败,Send order fail,下單失敗
+OLS_CANCEL_ORDER_FAIL,撤单失败,Cancel order fail,撤單失敗
+OLS_SET_OFFSET,偏移设置,Set Offset,偏移設置
+OLS_STOP,停止,Stop,停止
+OLS_STOP_L,止损价差,Stop L,止損價差
+OLS_STOP_LIMIT,停止限价,Stop Limit,停止限價
+OLS_STOP_ORDER,下停止单,Stop Order,下停止單
+OLS_PROFIT_ORDER,下盈损单,Profit Order,下盈損單
+OLS_STOP_P,止盈价差,Stop P,止盈價差
+OLS_STOP_P_L,止盈止损,Stop P&L,止盈止損
+OLS_T_PRICE,跟盘:,T Price:,跟盤:
+OLS_TRADE_PRICE,成交价,Trade Price,成交價
+OLS_TRIGGER_CONDITION_TYPE,触发价格类型,Trigger Condition Type,觸發價格類型
+OLS_TRIGGER_PRICE,触发价格,Trigger Price,觸發價格
+OLS_UPPER,涨停 ,Upper ,漲停 
+OLS_MARKET,市价,MKT,市價
+OLS_ARBITRAGE,套利,Arbitrage,套利
+EOCD_BUYSELL_B,买卖:  买入,BS:  BUY,買賣:  買入
+EOCD_BUYSELL_S,买卖:  卖出,BS:  SELL,買賣:  賣出
+EOCD_CONTACT,合约:  %s,Cont:  %s,合約:  %s
+EOCD_ECLCO,编辑当前本地条件单: %d,Edit current local condition order: %d,編輯當前本地條件單: %d
+EOCD_FCOSID,快速改单，报单编号: %s,Fast Change，Order SysID: %s,快速改單，報單編號: %s
+EOCD_HEDG_H,投保:  保值,HEDG:  HEDG,投保:  保值
+EOCD_HEDG_S,投保:  投机,HEDG:  SEPC,投保:  投機
+EOCD_OCT_C,开平:  平仓,OC:  CLOSE,開平:  平倉
+EOCD_OCT_O,开平:  开仓,OC:  OPEN,開平:  開倉
+EOCD_OCT_T,开平:  平今,OC:  CLOSE TODAY,開平:  平今
+EOCD_ORDERNO,单号:  %s,OrdN:  %s,單號:  %s
+EOPD_ECLPO,编辑当前本地预埋单: %d,Edit current local parking order: %d,編輯當前本地預埋單: %d
+EOPD_ECLSO,编辑当前本地止盈止损单: %d,Edit current local stop P & L order: %d,編輯當前本地止盈止損單: %d
+ID_QUERY_ACCOUNTBTN,查询,Query,查詢
+MAINFRAME_TITLE,中国国际期货网上交易终端,CIFCO FastTrader Client,中國國際期貨網上交易終端
+OBD_GROUPNO,组号: %d,GrpN: %d,組號: %d
+OBD_LMTPRC,价格: %0.2f,Pric: %0.2f,價格: %0.2f
+OBD_LMTPRC_STR,价格: %s,Pric: %s,價格: %s
+OBD_MKTPRC,价格: 市价,Pric: MKT,價格: 市價
+OBD_QTY,数量: %d,QTY: %d,數量: %d
+OIP_ACTIVE,激活,Active,啟動
+OIP_ASKPRICE,卖一价,Ask1Price,賣一價
+OIP_BATCHCONF,批量单下单确认,Bacth order confirm,批量單下單確認
+OIP_BIDPRICE,买一价,Bid1Price,買一價
+OIP_CHGPARKORDER,预埋单转换成功,Parking order convert OK,預埋單轉換成功
+OIP_CHGPARKORDERFAIL,预埋单转换失败,Parking order convert fail,預埋單轉換失敗
+OIP_COMPLETE,完成,Complete,完成
+OIP_CONDITIONCONF,条件下单确认,Condition order confirm,條件下單確認
+OIP_CONDITIONMEETCONF,当前行情已满足条件，是否直接下单？,"Conditions have been met, Would you order limit order?",當前行情已滿足條件，是否直接下單？
+OIP_CONDITIONPRCNOT0,条件价格必须大于0,condition price must > 0,條件價格必須大於0
+OIP_CONTRERR,合约代码有误,ContractID is invalid,合約代碼有誤
+OIP_DELETEED,撤单,Deleted,撤單
+OIP_ERROR,错误,Error,錯誤
+OIP_FASTTRADER,中国国际期货网上交易终端,CIFCO FastTrader,中國國際期貨網上交易終端
+OIP_FILLED,已成交,filled,已成交
+OIP_FRORDER,快速改单,fast replace order,快速改單
+OIP_LASTPRICE,最新价,LastPrice,最新價
+OIP_LOCALCONDORD,本地条件单:% 12d,Local Cond Order:% 12d,本地條件單:% 12d
+OIP_LRTSFC,限价，平仓反向价差 = %0.2f,Limit，Reverse the spread for close = %0.2f,限價，平倉反向價差 = %0.2f
+OIP_NOFILL,未成交,No fill,未成交
+OIP_NOSEND,未发送,No send,未發送
+OIP_NOTOUCH,未触发,No touch,未觸發
+OIP_TOUCHED,已触发,Touched,已觸發
+OIP_ALLTRADED,全部成交,All Traded,全部成交
+OIP_PARTTRADEDQUEUEING,部分成交在队列中,Part trade in queue,部分成交在佇列中
+OIP_PARTTRADEDNOTQUEUEING,部分成交不在队列中,Part trade no in queue,部分成交不在佇列中
+OIP_NOTRADENOTQUEUEING,未成交不在队列中,No trade no in queue,未成交不在佇列中
+OIP_NOTRADEQUEUEING,未成交在队列中,No trade in queue,未成交在佇列中
+OIP_ORDERCONF,委托确认,Order confirm,委託確認
+OIP_OVERLIMITPRICE,您的下单价格超过限制，是否继续下单？,Order price over limit，Would you bo going?,您的下單價格超過限制，是否繼續下單？
+OIP_OVERLIMITPRICE_UL,您的下单价格超过涨跌停价，是否继续下单？,Order price over limit，Would you bo going?,您的下單價格超過漲跌停價，是否繼續下單？
+OIP_OVERLIMITQTY,您的下单手数超过限制，是否继续下单？,Order QTY over limit，Would you be going?,您的下單手數超過限制，是否繼續下單？
+OIP_PARKCONF,预埋确认,Parking confirm,預埋確認
+OIP_PAUSE,暂停,Pause,暫停
+OIP_CONTINUE,继续,Continue,繼續
+OIP_PLCONF,盈损下单确认,P & L order confirm,盈損下單確認
+OIP_PRCDELTABIGZERO,止盈价差必须大于0,Must only profit price offset > 0,止盈價差必須大於0
+OIP_QTYBIGZERO,下单手数必须大于0,Order QTY must >= 0,下單手數必須大於0
+OIP_RESPFAIL,委托失败,Response fail,委託失敗
+OIP_RESPOK,委托成功,Response success,委託成功
+OIP_SENDED,已发送,Sent,已發送
+OIP_SENDPARKORDER,下预埋单成功,Send parking order OK,下預埋單成功
+OIP_SENDPARKORDERFAIL,下预埋单失败,Send parking order fail,下預埋單失敗
+OIP_SERVERCANCEL,服务器预埋撤单:%s,Server cancel:%s,伺服器預埋撤單:%s
+OIP_SERVERCONDORD,服务器条件单:%s,Server condition order:%s,伺服器條件單:%s
+OIP_SNEDFAIL,发送失败,Send fail,發送失敗
+OIP_SNEDOK,发送成功,Send OK,發送成功
+OIP_SOF,下单失败,Send order fail,下單失敗
+OIP_SOPPO,请选择止盈价差,Select only profit price offset,請選擇止盈價差
+OIP_STEOPPRCBIGZERO,止损价差必须大于0,Must stop price offset > 0,止損價差必須大於0
+OIP_STOPCONF,止损下单确认,Stop order confirm,止損下單確認
+OIP_SUBMITORDER,提交报单,Submited Order,提交報單
+OIP_SYSCANCEL,已取消,cancel,已取消
+PRE_POSITION,昨仓,Pre Position,昨倉
+TODAY_POSITION,今仓,Today Position,今倉
+GID_ACCOUNT_CAPTION,资金,Trading Account,資金
+GID_QUOT_TABLE_CAPTION,报价表,Quot List,報價表
+GID_INSTRUMENT_CAPTION,合约,InstrumentID List,合約
+GID_OPEN_ORDER_CAPTION,挂单,Order Open,掛單
+GID_ALL_ORDER_CAPTION,委托,Order All,委託
+GID_ORDER_INSERT_PANEL_CAPTION,下单板,New Order Panel,下單板
+GID_POSITIONALL_CAPTION,持仓,Position,持倉
+GID_POSITION_CAPTION,持仓,Position,持倉
+GID_POSITION_DETAIL_CAPTION,持仓明细,Position Detail,持倉明細
+GID_THRADE_RECORD_CAPTION,成交,Trading Record,成交
+GID_QUERY_ORDER_BATCH_CAPTION,批量,Query Batch Order,批量
+GID_QUERY_ORDER_CONDITION_CAPTION,条件,Query Condition Order,條件
+GID_QUERY_ORDER_POSITION_CAPTION,盈损,Query Stop Order,盈損
+GID_QUERYLOCAL_ORDER_CAPTION,扩展,extend,擴展
+GID_QUERY_ORDER_PARKED_CAPTION,预埋,Query Parking Order,預埋
+GID_COMBO_POSITION_CAPTION,组合持仓,Combo position,組合持倉
+GID_MULTI_ACCOUNT_CAPTION,多账号,Multi Account,多帳號
+GID_MULTI_POSITION_CAPTION,持仓汇总,Multi Position,持倉匯總
+DELAYLOCKED,300秒后锁屏,Delay Locked,300秒後鎖屏
+TOPMOST,置顶,Top Most,置頂
+TRADE_TIME_START_AND_END_PROMPT,开盘收盘及小结休息的声音提示:,Trade Start End And Middle Rest Prompt:,開盤收盤及小結休息的聲音提示:
+VIDEOINFO,视频资讯,Video Info,視頻資訊
+ID_SELECT_ACCOUNT,账户：,Account:,帳戶：
+ID_CONFIG_SUNGARD,设置(&C),&Configuration,設置(&C)
+ID_HELP_CAPTION,帮助(&H),&Help,説明(&H)
+ID_OPTION_CAPTION,交易风格切换(&L),Sty&le,交易風格切換(&L)
+ID_ORDER_SUNGARD,下单(&O),&Order,下單(&O)
+ID_POSITION_CAPTION,扩展功能(&X),E&xtension,擴展功能(&X)
+ID_QUERY_SUNGARD,查询(&Q),in&quiry,查詢(&Q)
+ID_REPORT_CAPTION,报告(&R),&Report,報告(&R)
+ID_SYSTEM_CAPTION,系统(&S),&System,系統(&S)
+ID_SYSTEM_SUNGARD,系统(&S),&System,系統(&S)
+ID_TRANSFER_CAPTION,银期转账(&B),&Transfer,銀期轉賬(&B)
+ID_TRANSFER_SUNGARD,转账(&T),&Transfer,轉賬(&T)
+ID_CONFIG_SUNGARD_ACCE,数字快捷键(&A),&Accelerator,數字快捷鍵(&A)
+ID_CONFIG_OPTION_CAPTION,选项设置(&C),&Configuration,選項設置(&C)
+ID_CONFIG_SUNGARD_ORDER,委托参数(&O),&Order parameter,委託參數(&O)
+ID_CONFIG_SUNGARD_PASSWORD,修改密码(&P),Modify &Password,修改密碼(&P)
+ID_CONFIG_SAVE_CAPTION,保存当前交易风格(&S),&Save Style,保存當前交易風格(&S)
+ID_CONFIG_SUNGARD_SELECT,自选合约(&M),&Myself contract,自選合約(&M)
+ID_CONFIG_SUNGARD_SYSTEM,系统参数(&S),&System parameter,系統參數(&S)
+ID_DEFAULT_CONFIG_CAPTION,恢复默认配置(&D),&Default configuration,恢復默認配置(&D)
+ID_HELP_CONTENT_CAPTION,使用说明(&H),&Help,使用說明(&H)
+ID_HELP_SUNGARD_DOC,帮助文档(&D),&Document,説明文檔(&D)
+ID_HELP_SUNGARD_LOG,打开日志(&L),&Log,打開日誌(&L)
+ID_LOCK_FRAME_CAPTION,锁定软件(&L),&Lock,鎖定軟體(&L)
+ID_SYSTEM_SUNGARD_LOCK,立即锁屏(&L),&Lock,立即鎖屏(&L)
+ID_SYSTEM_SUNGARD_RELOGIN,重新登录(&R),Logon again,重新登錄(&R)
+ID_MODIFY_PSW_CAPTION,修改密码(&P),Modify &Password,修改密碼(&P)
+ID_MONTH_REPORT_CAPTION,报告-最近一月,Report-Month,報告-最近一月
+ID_ORDER_SUNGARD_BATCH,批量下单(&B),&Batch Order,批量下單(&B)
+ID_ORDER_SUNGARD_CONDITION,条件单(&C),&Condition Order,條件單(&C)
+ID_ORDER_SUNGARD_STOP,盈损单(&P),&Stop Order,盈損單(&P)
+ID_ORDER_SUNGARD_SMALLWIN,小窗委托(&W),Popup &Window,小窗委託(&W)
+ID_ORDER_SUNGARD_STANDARD,标准下单(&S),&Standard Order,標準下單(&S)
+ID_POSITION_MOVE_CAPTION,移仓(&M),&Move Position,移倉(&M)
+ID_POSITION_SWAP_CAPTION,换仓(&S),&Swap Position,換倉(&S)
+ID_QRY_ACCOUNT_CAPTION,查期货账户资金(&F),Account &Funds,查期貨帳戶資金(&F)
+ID_QRY_SETTLE_CAPTION,查历史结算单(&H),&History Settlement,查歷史結算單(&H)
+ID_QUERY_SUNGARD_SETTLEMENT,结算单(&S),&Settlement,結算單(&S)
+ID_QUERY_SUNGARD_WITHDRAW,出入金(&D),With&draw,出入金(&D)
+ID_TODAY_REPORT_CAPTION,报告-今日,Report-Today,報告-今日
+ID_TRADE_REPORT_CAPTION,账户和交易报告,Account Report,帳戶和交易報告
+ID_TRANSFER_ITEM_CAPTION,银期转账(&B)...,&Bank Transfer...,銀期轉賬(&B)...
+ID_TRANSFER_SUNGARD_BANK,银期转账(&B),&Bank Transfer,銀期轉賬(&B)
+ID_WEEK_REPORT_CAPTION,报告-最近一周,Report-Week,報告-最近一周
+ID_ABOUT_CAPTION,关于(&A)...,&About...,關於(&A)...
+ID_EXIT_CAPTION,退出(&X),E&xit,退出(&X)
+ID_SYSTEM_SUNGARD_EXIT,退出系统(&X),E&xit,退出系統(&X)
+ID_CONFIG_LOAD_CAPTION,加载交易风格(&L),&Load Style,載入交易風格(&L)
+ID_ORDER_SUNGARD_SMALLWIN_T,小窗委托,Popup Window,小窗委託
+ID_ORDER_SUNGARD_STANDARD_T,标准下单,Standard Order,標準下單
+ID_ORDER_SUNGARD_BATCH_T,批量下单,Batch Order,批量下單
+ID_ORDER_SUNGARD_CONDITION_T,条件单,Condition Order,條件單
+ID_ORDER_SUNGARD_STOP_T,盈损单,Stop Order,盈損單
+ID_ORDER_STOPLIMIT_T,停止单,Stop Limit Order,停止單
+CONTEXTMENU_COLUMNCONFIG,表格列设置,Column configuration,表格列設置
+CONTEXTMENU_FUNDSTYLECHANGE2H,变成横条样式,To ToolBar Style,變成橫條樣式
+CONTEXTMENU_FUNDSTYLECHANGE2T,变成页签样式,To TabCtrl Style,變成頁簽樣式
+CONTEXTMENU_EXPORT,导出列表,Export,導出列表
+CONTEXTMENU_REMOVE,撤单,Cancel,撤單
+CONTEXTMENU_REMOVEALL,全撤,Cancel All,全撤
+CONTEXTMENU_CHANGEORDER,快速改单,Modify Order,快速改單
+CONTEXTMENU_PRICEBACKHAND,市价反手,Price Backhand,市價反手
+CONTEXTMENU_AUTO_ADJUST_COL_WIDTH,自动调整列宽,Auto Adjust Column Width,自動調整列寬
+CONTEXTMENU_FASTCLOSE,快捷平仓,Fast Close,快捷平倉
+CONTEXTMENU_FASTLOCK,快捷锁仓,Fast Lock,快捷鎖倉
+CONTEXTMENU_QP_BUTTONQUERY,查询(&Q),&Query,查詢(&Q)
+CONTEXTMENU_QP_BUTTONEDIT,编辑(&E),&Edit,編輯(&E)
+CONTEXTMENU_QP_BUTTONDELETE,撤单(&D),&Cancel,撤單(&D)
+CONTEXTMENU_QP_BUTTONCLEAR,全部撤单(&C),&Clear,全部撤單(&C)
+CONTEXTMENU_QP_BUTTONPAUSE,暂停(&P),&Pause,暫停(&P)
+CONTEXTMENU_QP_BUTTONACTIVE,激活(&A),&Active,啟動(&A)
+CONTEXTMENU_QP_BUTTONDONOW,立即执行(&X),E&xecute,立即執行(&X)
+CONTEXTMENU_ADDTOMYSELF,添加到...,Add to...,添加到...
+CONTEXTMENU_SELECTINSTRUMENT,设置自选合约,Myself contract,設置自選合約
+CONTEXTMENU_PROFIT,下盈损单,Profit Order,下盈損單
+CONTEXTMENU_CONDITION,下条件单,Condition Order,下條件單
+CONTEXTMENU_Statisticsofnumber,统计数量,Statistics of number,統計數量
+IDT_INSTRUMENTGROUP,品种和合约,class and contract,品種和合約
+IDT_SELFGROUP,自选合约,Myself contract,自選合約
+IDT_VARIETYINFOSET,品种设置,Class setup,品種設置
+IDT_GROUPSET,合约组设置,Group setup,合約組設置
+IDT_SHOW,显示,display,顯示
+IDT_FONTANDCOLOR,表格字体颜色,table font and color,表格字體顏色
+IDT_OPENORDER,下单,order,下單
+IDT_GENERALSET,常规,general,常規
+IDT_AUTOOPENCLOSESET,自动开平,auto open and close,自動開平
+IDT_KEYBOARDOPENODER,键盘快速下单,add order by keyboard,鍵盤快速下單
+IDT_MOUSEOPENORDER,鼠标快速下单,add order by mouse,滑鼠快速下單
+IDT_ADVANCEDSET,高级,advance,高級
+IDT_GENERALCANCELORDER,撤单,cancel order,撤單
+IDT_RISKMANAGER,风险管理,risk manager,風險管理
+IDT_PROMPT,提示及反馈,prompt,提示及回饋
+IDT_TABLESET,表格设置,columen setup,表格設置
+IDT_QUOTETABLE,报价表,Quot List,報價表
+IDT_TRADERECORD,成交,Trading Record,成交
+IDT_TRADESTATISTIC,成交统计,Trading Record sum,成交統計
+IDT_POSITION,持仓,position,持倉
+IDT_COMBOPOSITION,组合持仓,Combo position,組合持倉
+IDT_POSITIONDETAIL,持仓明细,position detail,持倉明細
+IDT_INSTRUMENTLIST,合约,instrument list,合約
+IDT_ALLORDER,委托,order all,委託
+IDT_WAITTRADE,挂单,order open,掛單
+IDT_PARKEDORDER,预埋,parkiing order,預埋
+IDT_ACCOUNT,资金,Trading Account,資金
+IDT_QUERYORDERBATCH,批量,batch order,批量
+IDT_QUERYORDERCONDITION,条件,condition order,條件
+IDT_QUERYORDERPOSITION,盈损,stop order,盈損
+IDT_ORDERINSERT,下单面板,Order Insert,下單面板
+IDT_ORDERPLDETAIL,盈损明细,P&L Detail,盈損明細
+USERLOGINDLG_EXIT,退出,Exit,退出
+USERLOGINDLG_LOGIN,登录,Login,登錄
+USERLOGINDLG_SAVEACCOUNT,保存账户,Save Account,保存帳戶
+USERLOGINDLG_ACCOUNT,用户代码:,Account,用戶代碼:
+USERLOGINDLG_ERROR,错误,Error,錯誤
+USERLOGINDLG_FINSIH,同步完成,Finish successfully,同步完成
+USERLOGINDLG_INFORMATION,提示,Information,提示
+USERLOGINDLG_FAILED,用户登录失败,Login Failed,用戶登錄失敗
+USERLOGINDLG_TITLE,用户登录,User Login,用戶登錄
+USERLOGINDLG_LOGINING,开始登录...,Login...,開始登錄...
+USERLOGINDLG_PASSWORD,用户密码:,Password,用戶密碼:
+USERLOGINDLG_INPUTACCOUNT,请输入用户代码!,Please input Account!,請輸入用戶代碼!
+USERLOGINDLG_PROGRESS,登录进度:,Progress,登錄進度:
+USERLOGINDLG_QRYSTL,查询结算...,Query Settlement,查詢結算...
+USERLOGINDLG_QRYINST,查询合约...,Query Instruments,查詢合約...
+USERLOGINDLG_QRYFUND,查询资金...,Query Fund,查詢資金...
+USERLOGINDLG_QRYTRADER,查询成交...,Query Trade Records,查詢成交...
+USERLOGINDLG_QRYPOS,查询持仓...,Query Positions,查詢持倉...
+USERLOGINDLG_QRYPOSDETA,查询持仓明细...,Query Detail Positions,查詢持倉明細...
+USERLOGINDLG_QRYPOSCOMB,查询组合持仓...,Query Comb Positions,查詢組合持倉...
+USERLOGINDLG_QRYORDER,查询报单...,Query Orders,查詢報單...
+USERLOGINDLG_QRYCONTRACTBANK,......,Query Orders,......
+USERLOGINDLG_DYNAMICPWD,动态密码:,Safe Code,動態密碼:
+USERLOGINDLG_SERVER,服务器:,Server,伺服器:
+USERLOGINDLG_QRYTIMEOUT,查询超时,Query timeout,查詢超時
+USERLOGINDLG_LOGINTIMEOUT,登录超时,Login timeout,登錄超時
+USERLOGINDLG_VERIFYERROR,验证码错误!,Verification is mismatch.,驗證碼錯誤!
+USERLOGINDLG_VERIFICATION,验证码:,Verification,驗證碼:
+ZQ_SYSDIR_READONLY,安装目录为只读，系统无法启动！,"The system directory is not writeable, system cannot start!",安裝目錄為唯讀，系統無法啟動！
+CONFIRMATIONLG_OK,确认,Confirm,確認
+CONFIRMATIONLG_CANCEL,不确认,No Confirm,不確認
+ID_PLUSIN_CAPTION,高级(&A),Advance(&A),高級(&A)
+ID_PLUSIN_MANAGER_CAPTION,插件管理(&P),&Plus-in,插件管理(&P)
+DISCONNECTED_PROMPT_TEXT,"网络连接已中断,正在自动重连",Network disconnect.Client reconnect automatically now,"網路連接已中斷,正在自動重連"
+DISCONNECTED_PROMPT_TITLE,网络连接中断,Network disconnect,網路連接中斷
+ID_QUERY_TRADER,查询账号,Query Trader,查詢帳號
+ID_QUERY_EXCHANGE,查询交易所,Query Exchange,查詢交易所
+ID_QUERY_CONTRACT,查询合约,Query Contract,查詢合約
+ID_QUERY_COMMODITY,查询商品,Query Commodity,查詢商品
+ID_QUERY_ORDERTYPE,查询报单类型,Query OrderType,查詢報單類型
+ID_QUERY_POSITION,查询账户持仓,Query Account Position,查詢帳戶持倉
+ID_QUERY_REPORT,查询报告,Query Report,查詢報告
+ID_QUERY_EXCHANGE_RATE,查询汇率,Query Exchange Rate,查詢匯率
+EXCHANGE_RATE_CURRENCY,货币,Currency,貨幣
+EXCHANGE_RATE,汇率,Exchange Rate,匯率
+ID_REPORT_TYPE,报告类型,Report Type,報告類型
+CHANGEPASSWORD,修改密码,Change Password,修改密碼
+OLDPWD,旧密码,Old PWD,舊密碼
+NEWPWD,新密码,New PWD,新密碼
+PWDCONFIRM,确认密码,PWD Confirm,確認密碼
+OK,确认,OK,確認
+CANCEL,取消,Cancel,取消
+PWDNOTEMPTY,密码不能为空,Password can not be empty,密碼不能為空
+PWDNOTSAME,两次输入密码不一致,The two new passwords are not the same,兩次輸入密碼不一致
+PWDNOTCHANGE,新旧密码不能一样,The new password can not be the same as the old one,新舊密碼不能一樣
+PWNNOTALPHA,密码必须是数字和字母组合，且第一位必须为字母,"Password must be numbers and letters combination, and the first word must be a letter",密碼必須是數位和字母組合，且第一位必須為字母
+FILEVERSION,文件版本:,File Version：,檔版本:
+COPYRIGHT,Copyright(C) 2010-2011 中期信息技术服务有限公司,"Copyright(C) 2010-2011 CIFCO ITSER VICES CO.,LTD",Copyright(C) 2010-2011 中期資訊技術服務有限公司
+TELEPHONE,客服热线:400-8888-160,Tele:400-8888-160,客服熱線:400-8888-160
+BTN_QP_BUTTONQUERY,查询,Query,查詢
+BTN_QP_BUTTONEDIT,编辑,Edit,編輯
+BTN_QP_BUTTONDELETE,撤单,Delete,撤單
+BTN_QP_BUTTONDETAIL,盈损明细,P&L Detail,盈損明細
+BTN_QP_BUTTONCLEAR,全部撤单,Clear,全部撤單
+BTN_QP_BUTTONPLDETAIL,赢损单明细,P&L Detail,贏損單明細
+BTN_QP_BUTTONPAUSE,暂停,Pause,暫停
+BTN_QP_BUTTONACTIVE,激活,Active,啟動
+BTN_QP_BUTTONDONOW,立即执行,Execute,立即執行
+BTN_QP_SHOWDELETED,显示撤单,Show Deleted,顯示撤單
+BTN_QP_HIDESTEOPCONDITION,隐藏盈损条件单,Hide Stop Condition Order,隱藏盈損條件單
+BTN_QP_ALL,全部,All,全部
+MSG_PRO_CANNOTDELETE,属于止盈止损单的条件单无法直接编辑、撤单或改变状态，\n请到止盈止损单板块中修改。,"Belong to only the profit of a stop order conditions for a single edit, delete, or change the status \ n go to modify a single plate, only the profit stop.",屬於止盈止損單的條件單無法直接編輯、撤單或改變狀態，\n請到止盈止損單板塊中修改。
+MSG_PRO_CANNOTDONOW,本地条件单非激活状态，无法立即执行。,"Local conditions of a single non-active, immediate implementation of the failure.",本地條件單非激活狀態，無法立即執行。
+MSG_PRO_CLEARCONDITION,撤销所有的本地的服务器上的条件单，请确认？,Would you delete all condition order?,撤銷所有的本地的伺服器上的條件單，請確認？
+MSG_PRO_DELETEFIALED,撤销失败，未找到指定的条件单。,Do'nt find the stop condition order.,撤銷失敗，未找到指定的條件單。
+MSG_POS_DELETEFIALED,撤销失败，未找到指定的止盈止损单。,Do'nt find the stop P & L order.,撤銷失敗，未找到指定的止盈止損單。
+MSG_PRO_PAUSEFIALED,暂停失败，条件单被撤销删除或已过期。,Pause fail，condition order be delete or over.,暫停失敗，條件單被撤銷或已過期。
+CONDITIONCURRENT_TITLE,编辑当前条件单,Edit Current,編輯當前條件單
+MSG_PRO_CONFIDTIONDELETED,激活失败，条件单被撤销或已过期。,"Active fail, The condition order has deleted or over.",啟動失敗，條件單被撤銷或已過期。
+MSG_PRO_DONOWLOCAL,是否要立即执行当前服务器条件单的下单？,Would you launch the server condition order Immediately?,是否要立即執行當前伺服器條件單的下單？
+MSG_PRO_DONOWSERVER,是否要立即执行当前本地条件单的下单？,Would you launch the local condition order Immediately?,是否要立即執行當前本地條件單的下單？
+MSG_PRO_ORDERFINAL,当前本地条件单已执行完成，不能在执行。,The local condition order is final,當前本地條件單已執行完成，不能在執行。
+MSG_POS_MAKECONDITIONORDER,生成条件单,Make condition order,生成條件單
+MSG_POS_PL_EXECUTE,执行止盈止损,Execute stop P & L,執行止盈止損
+MSG_POS_PL_CANCEL,撤销止盈止损,Cancel stop P & L,撤銷止盈止損
+MSG_POS_PL_FINISH,止盈止损完成,Stop P & L finish,止盈止損完成
+OLS_UPLWPRICE,涨跌停价,Upper/Lower price,漲跌停價
+OLS_LIMITPRICE,限价,Limit price,限價
+MSG_POS_CLEARNOW,现在准备撤销所有的盈损单,Would you delete all profit order Immediately?,現在準備撤銷所有的盈損單
+BTN_MANSEND,手动发出,Manual Send,手動發出
+BTN_INTOTRADER,当重新进入交易状态时,Enter Normal Status,當重新進入交易狀態時
+TRADER_DLG_FORMAT,合　　约： %s\n买　　卖： %s\n[[开　　平： %s\n]]申报数量： %s\n申报价格： %s\n,Contract: %s\nBuySell: %s\n[[OpenClose: %s\n]]QTY: %s\nPrice: %s\n,合　　約： %s\n買　　賣： %s\n[[開　　平： %s\n]]申報數量： %s\n申報價格： %s\n
+TRADER_ERROR_FORMAT,预埋单编号： %s\n错误编号： %s\n错误信息： %s\n,Parking Number: %s\nError Number: %s\nError Message: %s\n,預埋單編號： %s\n錯誤編號： %s\n錯誤資訊： %s\n
+PARK_SEND_CANCEL_OK,下预埋撤单成功,Send parking cancel OK,下預埋撤單成功
+PARK_CONVERT_CANCEL_OK,预埋撤单转换成功,Parking cancel convert OK,預埋撤單轉換成功
+PARK_SEND_CANCEL_FAILED,下预埋撤单失败,Send parking cancel fail,下預埋撤單失敗
+PARK_CONVERT_CANCEL_FAILED,预埋撤单转换失败,Parking cancel convert fail,預埋撤單轉換失敗
+PARK_ORDER_FORMAT,报单编号： %s\n合　　约： %s\n数量变化： %s\n,Order SysID: %s\nContract: %s\nQTY Change: %s\n,報單編號： %s\n合　　約： %s\n數量變化： %s\n
+PARK_DELETE_OK,撤销预埋单成功,Delete parking order OK,撤銷預埋單成功
+PARK_DELETE_OK_TEXT,编号： %s 的预埋单从服务器上成功删除\n,"The number: %s of Parking Order, delete OK from server\n",編號： %s 的預埋單從伺服器上成功刪除\n
+PARK_DELETE_FAIL,撤销预埋单失败,Delete parking order fail,撤銷預埋單失敗
+PARK_DELETE_FAIL_TEXT,错误编号： %s\n错误信息： %s\n,Error Number: %s\nError message: %s\n,錯誤編號： %s\n錯誤資訊： %s\n
+PARK_DELETE_ALL_ORDER,撤销所有的本地的服务器的预埋单，请确认？,Would you delete all parking order?,撤銷所有的本地的伺服器的預埋單，請確認？
+PARK_DELETE_NOTEXIST,本地预埋单非激活状态，无法立即执行。,"The local parking order has not found or be pause, don't launch immediately.",本地預埋單非激活狀態，無法立即執行。
+PARK_DELETE_NOTACTIVE,当前本地预埋单非活动状态或已执行,The local parking order is pause or over,當前本地預埋單非活動狀態或已執行
+PARK_DONOW_LOCALINSERT,是否要立即执行当前本地预埋单的下单？,Would you launch the local parking order immediately?,是否要立即執行當前本地預埋單的下單？
+PARK_DONOW_SERVERINSERT,是否要立即执行当前服务器预埋单的下单？,Would you launch the server parking order immediately?,是否要立即執行當前伺服器預埋單的下單？
+PARK_DONOW_SERVERCANCEL,是否要立即执行当前服务器预埋撤单的下单？,Would you launch the server parking cancel immediately?,是否要立即執行當前伺服器預埋撤單的下單？
+PARK_PAUSEFIALED,暂停失败，预埋单被删除或已过期。,Pause fail，Parking order be delete or over.,暫停失敗，預埋單被刪除或已過期。
+PARK_DELETENOTEXIST,撤销失败，当前预埋单的状态不适合撤单。,"Delete failed, the current state is not suitable for embedded single deleted.",撤銷失敗，當前預埋單的狀態不適合撤銷。
+PARK_SERVERID,服务器单:%s,Server:%s,伺服器單:%s
+PARKED_ERROR_MESSAGE,当前本地预埋单状态不适合本次操作。,Local embedded single state is not suitable for this operation.,當前本地預埋單狀態不適合本次操作。
+PARKED_ERROR_TITLE,错误提示,Error,错误提示
+PARK_LOCALID,本地%s单:% 12d,Local %s:% 12d,本地%s單:% 12d
+PARK_MANUAL,手动,Manual,手動
+PARK_AUTO,自动,Auto,自動
+VK_BACKSPACE_TEXT,退格,BackSpace,退格
+VK_ESC_TEXT,关闭,ESC,關閉
+VK_SPACE_TEXT,空格,Space,空格
+VK_CAPS_TEXT,大写锁定,Caps Lock,大寫鎖定
+DETAIL_TEXT,明细,Detail,明細
+SUM_TEXT,合计,Sum,合計
+CANCEL_OVER_TIME,撤单响应超期，本次下单失败,"Cancel order time out, The cancel is fail",撤單回應超期，本次下單失敗
+DEFAULTQTY_MUL,默认手数: %d * %d(倍率),Default QTY: %d * %d(Multiple),默認手數: %d * %d(倍率)
+FUNDS_AVAILABLE,可用资金: -,Funds available: -,可用資金: -
+FUNDS_AVAILABLE_2F,可用资金: %0.2f,Funds available: %0.2f,可用資金: %0.2f
+OPEN_QTY,可开手数: -,Open QTY: -,可開手數: -
+OPEN_QTY_F,可开手数: %d,Open QTY: %d,可開手數: %d
+CLOSE_OR_TODAY,可平/今: -/-,Close/Today: -/-,可平/今: -/-
+CLOSE_OR_TODAY_F,可平/今: %d/%d,Close/Today: %d/%d,可平/今: %d/%d
+CDOCQPM_FORMAT,合约： %s\n方向： %s\n[[开平： %s\n]]委托量： %s\n委托价： %s\n备注： %s,ContractID: %s\nDirection: %s\n[[OpenClose: %s\n]]QTY: %s\nPrice: %s\nComment: %s,合約： %s\n方向： %s\n[[開平： %s\n]]委託量： %s\n委託價： %s\n備註： %s
+CANCEL_ORDER_FORMAT,合约： %s\n方向： %s\n[[开平： %s\n]]委托量： %s\n委托类型： %s\n委托价： %s\n备注： %s,ContractID: %s\nDirection: %s\n[[OpenClose: %s\n]]QTY: %s\nOrderType: %s\nPrice: %s\nComment: %s,合約： %s\n方向： %s\n[[開平： %s\n]]委託量： %s\n委託類型： %s\n委託價： %s\n備註： %s
+CANCELQTYPRC_FORMAT,"撤单 %s: [[%s]] %s %s %s手 于价格 %s[[, %s]]\n","Cancel %s: [[%s]] %s %s QTY:%s Price:%s[[, %s]]\n","撤單 %s: %s %s %s %s手 於價格 %s[[, %s]]\n"
+NEW_ORDER_F,下单: \n,New Order:\n,下單: \n
+CONMENO_FORMAT,合约： %s\n备注： %s,ContractID: %s\nMemo: %s,合約： %s\n備註： %s
+PRCQTY_FORMAT,以价格:%s %s %s %s %s %d手 %s\n,price:%s %s %s %s %s QTY:%d %s\n,以價格:%s %s %s %s %s %d手 %s\n
+Printf_OrderTypeTitle,下单类型,OrderType,下單類型
+Printf_AccountTitle,帐号,Account,帳號
+Printf_InstrumentIDTitle,合约,InstrumentID,合約
+Printf_DirectionTitle,方向,B/S,方向
+Printf_OpenCloseTitle,开平,OC,開平
+Printf_QtyTitle,手数,QTY,手數
+Printf_PriceTitle,价格,LimitPrice,價格
+Printf_TriggerPriceTitle,触发价,Price,觸發價
+PROFIT_ERROR_MESSAGE,已没有未成交单可进行编辑/删除操作，请在盈损明细里继续操作,"Has been no transaction is not single can edit / delete operations, continue to operate in a profit loss details",已沒有未成交單可進行編輯/刪除操作，請在盈損明細裡繼續操作
+PROFIT_ERROR_TITLE,错误提示,Error,错误提示
+PROMPT_BEFORE_SECONDS,秒的声音提示:,Seconds Before Trade End:,秒的聲音提示
+Printf_HedgeTitle,投保,H/S,投保
+ORDER_MARKET_TYPE,市价单,Market,市價單
+ORDER_LIMIT_TYPE,限价单,Limit,限價單
+ORDER_STOP_TYPE,止损单,Stop,止損單
+ORDER_STOPLIMIT_TYPE,止损限价单,Stop Limit,止損限價單
+ORDERSTATUS,报单状态,Order Status,報單狀態
+STOP_TYPE_FORMAT,%s:\n合约 %s\n触发价 %s\n%s\n%s\n%d手,%s:\nContractID %s \nTriggerPrice %s\n%s\n%s\nQTY:%d,%s:\n合約 %s\n觸發價 %s\n%s\n%s\n%d手
+STOPLIMIT_TYPE_FORMAT,%s:\n合约 %s\n触发价 %s\n价格%s\n%s\n%s\n%d手,%s:\nContractID %s \nTriggerPrice %s\nOderPrice %s\n%s\n%s\nQTY:%d,%s:\n合約 %s\n觸發價 %s\n價格%s\n%s\n%s\n%d手
+SELECT_STOP_MODE,请选择止损模式,"Select stop mode, please",請選擇止損模式
+COPQSOC_FOMRAT,合约：%s\n操作：%s、%s、%s\n价格：%s\n数量：%d\n\n止损价差：%0.2f\n止盈价差：%0.2f\n平仓方式：%s\n\n,ContractID:%s\nOprate：%s、%s、%s\nPrice:%s\nQTY:%d\n\nStop price offset:%0.2f\nOnly profit price offset:%0.2f\nClose mode:%s\n\n,合約：%s\n操作：%s、%s、%s\n價格：%s\n數量：%d\n\n止損價差：%0.2f\n止盈價差：%0.2f\n平倉方式：%s\n\n
+OIP_SERVER,服务器,Server,伺服器
+OIP_LOCAL,本地,Local,本地
+OIP_EXECONPRC_FORMAT,在%s执行：\n当合约 %s 的行情 %s %s %s 时，\n按 %s 价格，\n%s %s %d手。,"on %s run:\nIf ContractID %s 's quot %s，\n%s %s, \nthan %s price，\n%s %s QTY:%d。",在%s執行：\n當合約 %s 的行情 %s %s %s 時，\n按 %s 價格，\n%s %s %d手。
+OIP_PARK_TRIGGER,设置预埋单触发条件,Set parking  condition for trigger,設置預埋單觸發條件
+SELECT_BATCH_MODE,请选择批量下单价格模式,"Select a batch price mode, Please",請選擇批量下單價格模式
+BATCH_QTY_BIG_ZERO,每批手数必须大于0,Each batch PTY must >= 0,每批手數必須大於0
+BATCH_TIME_BIG_ZERO,批次间隔[秒]必须大于0,Each timer interval[second] must >= 0,批次間隔[秒]必須大於0
+BATCH_ORDER_INVALIDPRICE,批量单指定的价格当前无效，下单推迟,"Sale price or the latest price is invalid, the orders to postpone",批量單指定的價格當前無效，下單推遲
+SELECT_CONDITION_MODE,请选择条件单价格模式,"Select price condition mode, please",請選擇條件單價格模式
+SELECT_CONDI_OPERATOR,请选择大于还是小于条件,Select condition '>=' or '<=' or '>' or '<',請選擇大於還是小於條件
+SEND_BACTH_ORDER,批量委托发送,Send bacth order,批量委託發送
+BATCH_PRCQTY_FORMAT,以价格:%s %s %s %s %d手 %s\n按每%d秒批 每批%d手 %s 发送,Order price:%s %s %s %s QTY:%d %s\nfor each %d second send %d QTY with %s,以價格:%s %s %s %s %d手 %s\n按每%d秒批 每批%d手 %s 發送
+BTN_CLOSE_TEXT,关闭,Close,關閉
+BTN_YES_TEXT,是(&Y),&YES,是(&Y)
+BTN_NO_TEXT,否(&N),&NO,否(&N)
+USE_MKT,以 市价,use MKT,以 市價
+USE_PRICE,以 价格,use LMT,以 價格
+BATCH_NUM_OK_FORMAT,第 %d 批发送成功,The %d send OK,第 %d 批發送成功
+BATCH_NUM_FAIL_FORMAT,"第 %d 批发送失败, %s""","The %d send fail, %s","第 %d 批發送失敗, %s"""
+BATCH_ALL_SEND_FINISH,全部发送完毕,All send complete,全部發送完畢
+QTY_COUNT,手,,手
+LOG_LEVEL,级别,Level,級別
+LOG_TYPE,类别,Type,類別
+LOG_TIME,时间,Time,時間
+LOG_MSG,信息,Information,信息
+LOG_DLG_TITLE,日志记录,Log Information,日誌記錄
+RECONNECT,重连,ReConnect,重連
+MOVE_POSITION,移仓,Move Position,移倉
+SWAP_POSITION,换仓,Swap Position,換倉
+SUBMIT_CONFIRM,操作确认,Submit confirm,操作確認
+OPEN_ORDER,挂单,Open Order,掛單
+ALL_ORDER,全部单,All Order,全部單
+CANCEL_FAIL_ORDER,已撤单/错单,Cancel/Fail,已撤單/錯單
+FILL_MESSAGE,成交通知,Fill message,成交通知
+CBSOCQP_FORMAT,合约： %s\n买卖： %s\n[[开平： %s\n]]成交量： %s\n成交价： %s\n,Contract: %s\nBuySell: %s\n[[OpenClose: %s\n]]Volume: %s\nPrice: %s\n,合約： %s\n買賣： %s\n[[開平： %s\n]]成交量： %s\n成交價： %s\n
+SEND_ORDER_OK,下单成功,Send order success,下單成功
+CANCEL_ORDER_OK,撤单成功,Cancel success,撤單成功
+REACH_UPPER_LIMIT,达到上限,Reach upper limit,達到上限
+CONDITION_ORDER_CONVENT_SUCCESS,转化成功,Convent success,轉化成功
+CONDITION_ORDER_CONVENT_FAILED,转化失败,Convent failed,轉化失敗
+PLDETAIL_ERROR_MESSAGE,当前盈损明细状态不适合本次操作。,The details of state surplus loss is not suitable for this operation.,當前盈損明細狀態不適合本次操作。
+PLDETAIL_ERROR_MESSAGE_SERVNOTOUCH,服务器条件单不允许编辑,Server conditions of a single allowed to edit,服務器條件單不允許編輯
+CVOLPRC_FORMAT,合约： %s\n委托量： %s\n委托价： %s\n,Contract: %s\nVolume: %s\nPrice: %s\n,合約： %s\n委託量： %s\n委託價： %s\n
+PASSWORD_ERROR,密码错误,Password error,密碼錯誤
+LAYOUT_STANDARD,1.标准(类似金仕达),1.Standard,1.標準
+LAYOUT_CLASSICS,2.经典(类似快期),2.Classics,2.經典
+LAYOUT_SIMPLE,3.精简,3.Simple,3.精簡
+LAYOUT_QUICK,4.快速,4.Quick,4.快速
+STATUS_STANDARD,标准,Standard,標準
+STATUS_CLASSICS,经典,Classics,經典
+STATUS_SIMPLE,精简,Simple,精簡
+STATUS_QUICK,快速,Quick,快速
+RECONNECT_SERVER,是否要重新连接服务器?,Disconnect and reconnect Server?,是否要重新連接伺服器?
+STATUS_DISCONNECTED,未连接,Disconnected,未連接
+STATUS_CONNECTING,正在连接,Connecting,正在連接
+STATUS_LOGINING,正在登录,Logining,正在登錄
+STATUS_LOGINFAILURE,登录失败,LoginFailure,登錄失敗
+STATUS_TRADESETTLEMENTINFOCONFIRMING,正在进行交易结算结果确认,TradeSettlementInfoConfirming,正在進行交易結算結果確認
+STATUS_TRADESETTLEMENTINFOCONFIRMFAILURE,交易结算结果确认失败,TradeSettlementInfoConfirmFailure,交易結算結果確認失敗
+STATUS_CONNECTED,连接登录成功,Connected,連接登錄成功
+STATUS_DISCONNECTING,正在断开连接,disconnecting,正在斷開連接
+QUERY_COMMODITY,查询商品,Query Commodity,查詢商品
+QUERY_CONTRACT,查询合约,Query Contract,查詢合約
+QUERY_EXCHANGE,查询交易所,Query Exchange,查詢交易所
+QUERY_ORDER_TYPE,查询报单类型,Query Order Type,查詢報單類型
+QUERY_POSITION,查询账户持仓,Query Position,查詢帳戶持倉
+QUERY_TRADER,查询可用账户,Query Trader,查詢可用帳戶
+ID_INFODLG_PREV,上一条,Previouse,上一條
+ID_INFODLG_NEXT,下一条,Next,下一條
+SAVE_CURRENT_STYLE,是否保存当前风格,Save Current Style？,是否保存當前風格
+CONFIG_IS_CHANGED,"配置已更改,放弃保存？",Configuration is changed.But not save it?,"配置已更改,放棄保存？"
+CONFIG_TITLE,选项设置,Configuration,選項設置
+DUPLICATE_FIELD,合约组名重复，不能修改或添加,"Duplicate group name,can not modify or add.",合約組名重複，不能修改或添加
+STOP_PROFIT_PRICE_OFFSET,止盈价偏移,Stop Profit Price Offset,止盈價偏移
+STOP_LOSE_PRICE_OFFSET,止损价偏移,Stop Lose Price Offset,止損價偏移
+REVERSE_LIMIT_PRICE_OFFSET,限价反向偏移,Reverse Limit Price Offset,限價反向偏移
+DEFAULT_VOLUME,默认手数,Default Volume,默認手數
+ACCELERATOR,快捷键,Accelerator,快捷鍵
+CONTRACT_CODE,合约代码,Contract Code,合約代碼
+SET_DEFAULT_PARAMETER,"设置默认参数,可以按合约设置",Set default parameter,"設置默認參數,可以按合約設置"
+SELECT_FONT_AND_COLOR,设置表格字体颜色...,Select Font And Color,設置表格字體顏色...
+TITLE,标题,Title,標題
+LIST_PANEL,板块,List Panel,板塊
+FIX_LIST_POS,固定板块位置,Fix List Pos,固定板塊位置
+SHOW_SHORTCUTKEY_ON_TITLE,板块标题上显示快捷键,Show shortcutkey On Title,板塊標題上顯示快捷鍵
+LIST_NAME,板块名称,List Name,板塊名稱
+ANOTHER_NAME,标题别名,Another Name,標題別名
+OTHER,其它,Other,其他
+MINIMIZE_TO_TRAY,最小化到托盘,Minimize To Tray,最小化到託盤
+MKT_PRICE_BUYSELL_PRICE,买卖价,B/S Price,買賣價
+MKT_PRICE_LAST_PRICE,最新价,Last Price,最新價
+MKT_PRICE_USE,市价时，可开手数使用:,"When MKT Order,Open QTY Use:",市價時，可開手數使用:
+CHOOSE_SHORTCUTKEY,快捷键选择,Choose shortcutkey,快捷鍵選擇
+DEFAULT_GROUP_CANNOT_EDIT,固定合约组不能添加或删除合约,Default Group can not edit.,固定合約組不能添加或刪除合約
+DEFAULT_GROUP_CANNOT_SORT,固定合约组不能改变顺序,Default Group can not sort.,固定合約組不能改變順序
+INVALID_CONTRACT_CODE,无效的合约代码！,Invalid Contract Code!,無效的合約代碼！
+SELF_CONTRACT_CODE,自选合约代码,Self Contract Code,自選合約代碼
+CONTRACT_NAME,合约名称,Contract Name,合約名稱
+CONTRACT_PROMPOT_BEFORE_END_TRADE,有持仓的合约交易结束前,If Have Positions Sound Prompt at,有持倉的合約交易結束前
+EXCHANGE_DOT,交易所:,Exchange:,交易所:
+EXCHANGE,交易所,Exchange,交易所
+SETUP,设置,Setup,設置
+GROUP_DOT,合约组:,Group:,合約組:
+INPUT_DOT,输入合约:,Input: ,輸入合約:
+ORDER_LIMIT,下单限制,Order Limit,下單限制
+VOLUME_LIMIT,单笔手数限制,Volume Limit,單筆手數限制
+VOLUME_S,手,Volume(s),手
+PRICE_LIMIT_PROMPT_CANNOT_OVER,"价格限制提示,不偏离最新价","Price Limit Prompt, Can't Over","價格限制提示,不偏離最新價"
+TICKER_SIZE,个最小变动价位,Ticker Size,個最小變動價位
+CLEAR_ORDER_AREA,清空下单板,Clear Order Area,清空下單板
+CLEAR_ORDER_AREA_AFTER_ORDER,下单后是否清空下单板,Clear Order Area After Order,下單後是否清空下單板
+DO_NOT_CLEAR,不清空,Do Not Clear,不清空
+CLEAR_ALL,全部清空,Clear All,全部清空
+CLEAR_PRICE_AND_VOLUME,清空价格和手数,Clear Price And Volume,清空價格和手數
+ONLY_CLEAR_VOLUME,只清空手数,Only Clear Volume,只清空手數
+ORDER_PROMPT,下单反馈,Order Prompt,下單回饋
+ORDER_DEALED,挂单成交,Order dealed,掛單成交
+SELFFROUP_SET,自选合约设置,Self Group Set,自選合約設置
+DELETE_SELFGROUP_INSTRUMENT,删除合约,Delete Instrument,删除合约
+DELETE_INSTRUMENT_CONFIRM,确定要删除合约？,Sure you want to delete it?,確定要刪除合約？
+POP_UP_PROMPT_DIALOG,弹出提示框,Pop up Prompt Dialog,彈出提示框
+CANCEL_ORDER_PROMPT,撤单反馈,Cancel Order Prompt,撤單回饋
+CONDITION_ORDER_PROMPT,条件单反馈,Condition Order Prompt,條件單回饋
+DUPLICATE_SHORTCUTKEY_CONTINUE_TO_SAVE,快捷键有重复，确认保存?,"Duplicate shortcutkey, Continue To Save?",快捷鍵有重複，確認保存?
+SEND_ORDER_WITH__CONFIRM,发出报单(带确认),Send Order(Need Confirm),發出報單(帶確認)
+SEND_ORDER_NOT_WITH__CONFIRM,发出报单(不带确认),Send Order(Not Need Confirm),發出報單(不帶確認)
+DO_NOT_MOVE_FOCUS_AFTER_ORDER_SEND,填单后光标不动,Do not move focus after order send,填單後游標不動
+FOCUS_MOVE_TO_CONTRACTID_FIELD_AFTER_ORDER_SEND,填单后光标到合约代码,Focus move to 'ContractID' field after order send,填單後游標到合約代碼
+FOCUS_MOVE_TO_BUYSELL_FIELD_AFTER_ORDER_SEND,填单后光标到买卖,Focus move to 'BuySell' field after order send,填單後游標到買賣
+FOCUS_MOVE_TO_OPENCLOSE_FIELD_AFTER_ORDER_SEND,填单后光标到开平,Focus move to 'OpenClose' field after order send,填單後游標到開平
+FOCUS_MOVE_TO_VOLUMN_FIELD_AFTER_ORDER_SEND,填单后光标到数量,Focus move to 'Volumn' field after order send,填單後游標到數量
+FOCUS_MOVE_TO_PRICE_FIELD_AFTER_ORDER_SEND,填单后光标到价格,Focus move to 'Price' field after order send,填單後游標到價格
+FOCUS_MOVE_TO_OPEN_ORDER_BUTTON_AFTER_ORDER_SEND,填单后光标到下单按钮,Focus move to 'Open Order' button after order send,填單後游標到下單按鈕
+MOUSE_CLICK_QUOTE,鼠标点报价,Mouse Click Quote,滑鼠點報價
+MOUSE_CLICK_POSITION,鼠标点持仓,Mouse Click Position,滑鼠點持倉
+CLICK,单击时,Click,單擊時
+DBCLICK,双击时,DBClick,雙擊時
+MOUSE_CLICK_TO_CHANGE_PRICE,鼠标下单价格调整,Mouse Click To Change Price,滑鼠下單價格調整
+ORDER_DIRECTION,下单方向,Order Direction,下單方向
+REVERSE,"反向,点卖价下买单,点买价下卖单",Reverse,"反向,點賣價下買單,點買價下賣單"
+NORMAL,"同向,点买价下买单，点卖价下卖单",Normal,"同向,點買價下買單，點賣價下賣單"
+PRESS_CTRL_TO_REVERSE_OPEN_ORDER,允许Ctrl点击临时反转方向,Press Ctrl To Reverse Open Order,允許Ctrl點擊臨時反轉方向
+MOUSE_CLICK_QUOTE_ALWAYS_OPEN_ORDER,鼠标点击报价总是开仓,"Mouse Click Quote, Always Open Order",滑鼠點擊報價總是開倉
+CLICK_QUOTE_OR_POSITION_PRICE_CHANGE,鼠标点击报价或持仓时调整,"Click Quote Or Position, Price Change",滑鼠點擊報價或持倉時調整
+DUPLICATE_SHORTCUTKEY_PLEASE_CHOOSE_AGAIN,"快捷键重复,请重新选择！","Duplicate shortcutkey, Please Choose Again!","快捷鍵重複,請重新選擇！"
+DUPLICATE_SHORTCUTKEY,快捷键重复!,Duplicate shortcutkey,快捷鍵重複!
+DUPLICATE_SHORTCUTKEY_PROMPT,如下快捷键重复，已被清空：,These dulplicate shortcutkeys have been cleaned :,如下快捷鍵重複，已被清空：
+GLOBAL,全局,Global,全局
+ACTION,动作,Action,動作
+ACTIONZONE,作用区域,ActionZone,作用區域
+OVER_PRICE,超价,Over Price,超價
+DEFAULE_MULTIPLE,默认手数倍率,Defaule Multiple,默認手數倍率
+IF_CHOOSE_LOTS,"如果需要以默认手数的几倍下单,可以用下快捷键切换手数倍率","If you need to order times of default lots,choose lots by the following shortcut keys","如果需要以默認手數的幾倍下單,可以用下快捷鍵切換手數倍率"
+CAUTION_THIS_FUNCTION,"注意:此功能会影响下单手数,请务必仔细阅读说明书后再使用！","Caution: this function may effct the quantity of order, please take care!","注意:此功能會影響下單手數,請務必仔細閱讀說明書後再使用！"
+MULTIPLE,数量乘数,Multiple,數量乘數
+BY_MOUSE_KEYBOARD_USE_OPTIONS,"自动开平是指使用键盘或鼠标快捷下单时,按下面的选项自动控制开平及手数","When open order by mouse or keyboard, use these flowing options:","自動開平是指使用鍵盤或滑鼠快捷下單時,按下麵的選項自動控制開平及手數"
+NO_POSITION_DEFAULT_VOLUME,"如果没有持仓,按默认手数发开仓单","If have no position, use default Volume","如果沒有持倉,按默認手數發開倉單"
+NO_SOUND,不发声,No Sound,不發聲
+HAVE_POSITION_USE_OPTION,"如果有持仓,则:","If have position, use the flowing option:","如果有持倉,則:"
+CLOSE_ALL_POSITION,按持仓量全平,Close all position,按持倉量全平
+CLOSE_BY_DEFAULT_DO_NOT_DEAL,"按默认手数平仓,超出可平量部分不处理","Close by default Volumes, do not deal with the excess","按默認手數平倉,超出可平量部分不處理"
+CLOSE_BY_DEFAULT_REVERSE,"按默认手数平仓,超出可平量部分反向开仓","Close by default Volumes, reverse for the excess","按默認手數平倉,超出可平量部分反向開倉"
+SET_DEFAULT_VOLUMES,设置默认手数...,Set Default Volumes...,設置默認手數...
+COLOR_PLAN,列表配色方案:,Color Plan:,列表配色方案:
+CURRENT_PLAN,当前配置,Current,當前配置
+DEFAULT_PLAN,默认配置,Default,默認配置
+BLACK_QUOTE_1,黑色报价表1,Black Quote 1,黑色報價表1
+BLACK_QUOTE_2,黑色报价表2,Black Quote 2,黑色報價表2
+Q7_DEFAULT,快期默认方案,Q7 Default,快期默認方案
+QUOTE_TABLE_FC,报价表字体颜色设置,Quote Table Font And Color Set,報價表字體顏色設置
+OTHER_TABLE_FC,其他列表字体颜色,Other Table Font And Color Set,其他列表字體顏色
+FONT_MAOHAO,字体：,Font:,字體：
+TEXT_COLOR,文字,Text Color,文字
+BG_COLOR,底色,BG Color,底色
+ODD_BG,奇行底色,Odd BG,奇行底色
+EVEN_BG,偶行底色,Even BG,偶行底色
+TITLE_TEXT,标题文字,Title Text,標題文字
+TITLE_BG,标题底色,Title BG,標題底色
+CONTRACTID2,合约,Contract ID,合約
+DEFAULT_FONT,宋体,Arial,宋體
+CHANGE_ORDER,常规改单,Change Order,常規改單
+MOUSE_DOUBLE_CLICK_CANCEL_ORDER,鼠标双击撤单,Mouse Double Click Cancel Order,滑鼠雙擊撤單
+CONFIRM_BEFORE_CANCEL_ORDER,撤单前确认,Confirm Before Cancel Order,撤單前確認
+HIDE_CANCEL_BUTTON,隐藏撤单按钮,Hide Cancel Button,隱藏撤單按鈕
+ENABLE_CHANGE_ORDER,启用改单功能,Enable Change Order,啟用改單功能
+CONFIRM_BEFORE_CHANGE_ORDER,改单前确认,Confirm Before Change Order,改單前確認
+CANCEL_BTN_SHORTCUTKEY,撤单按钮快捷键,Cancel Btn shortcutkey,撤單按鈕快捷鍵
+CANCEL_ALL_BTN_SHORTCUTKEY,全撤按钮快捷键,Cancel All Btn shortcutkey,全撤按鈕快捷鍵
+CONSTRACT_INPUT,合约代码输入框,Constract Input,合約代碼輸入框
+ENABLE_MOUSE_INPUT_CONSTRACT,可以用鼠标输入合约代码,Enable Mouse Input Constract,可以用滑鼠輸入合約代碼
+ENABLE_INPUT_SIMPLE_SPELL,可以输入缩写和拼音,Enable Input Simple Spell,可以輸入縮寫和拼音
+CONFIRM_BEFORE_ORDER,下单前确认,Confirm Before Order,下單前確認
+AUTO_OPEN_CLOSE_AS_DEFAULT,默认使用自动开平,Auto Open Close As Default,默認使用自動開平
+KEEP_TRACK,在跟盘状态下单后继续跟盘,Keep Track After Send Order On Track,在跟盤狀態下單後繼續跟盤
+LMT_PRICE_WHILE_NO_MKT,不支持市价的品种用涨跌停限价模拟,Use LMT Price While MKT Not Supplied,不支援市價的品種用漲跌停限價模擬
+POPUP_DIALOG_STYLE,弹出框风格,Popup Dialog Style,彈出框風格
+INPUT_PRICE_BOX,价格输入框,Input Price Box,價格輸入框
+ENABLE_MOUSE_INPUT_PRICE,可以用鼠标输入价格,Enable Mouse Input Price,可以用滑鼠輸入價格
+VOLUME_INPUT_BOX,手数输入框,Volume Input Box,手數輸入框
+ENABLE_MOUSE_INPUT_FREQUENTLY,可以用鼠标输入常用手数,Enable Mouse Input frequently-used Volumes,可以用滑鼠輸入常用手數
+ORDER_BUTTON,下单按钮,Order Button,下單按鈕
+PARK_BUTTON,预埋单按钮,Park Button,預埋單按鈕
+Q7_NAME,快期,Q7,快期
+SUNGARD_NAME,金士达,SunGard,金士達
+GROUP,合约组,Group,合約組
+GROUP_NAME,合约组名,Group Name,合約組名
+SHOW_OR_NOT,是否显示,Show Or Not,是否顯示
+MAX_GROUP_IS_EIGHT,最多允许有8个合约组,Max group count is 8.,最多允許有8個合約組
+GROUP_NAME_CANNOT_BE_EMPTY,名字不能为空,Group Name Can't Be Empty,名字不能為空
+CANNOT_DELETE_SYSTEM_GROUP,不能删除系统组合约,Can't Delete System Group,不能刪除系統組合約
+SYSTEM_GROUP_CANNOT_BE_RENAME,系统合约组不能改名,System Group Can't Be Rename,系統合約組不能改名
+SYSTEM_PROMPT,系统提示,System Prompt,系統提示
+CAUTION_USE_QUICK_ORDER,"风险警示:使用快速下单,下单前无确认提示,使用需谨慎!","Caution: Use quick order, there is no confirm prompt before order!","風險警示:使用快速下單,下單前無確認提示,使用需謹慎!"
+ENABLE_KEYBOARD_QUICK_ORDER,启用键盘快速下单,Enable KeyBoard Quick Order,啟用鍵盤快速下單
+OPERATE_STEP,操作步骤:,Operate Step:,操作步驟:
+PRESS_F1_TO_ENTER_QUOTE,1.按 F1  键进入报价表(光标已经在报价表则可省略此步),"1.Press F1 to enter quote(If cursor is in quote, skip this step)",1.按 F1  鍵進入報價表(游標已經在報價表則可省略此步)
+USE_KC_SELECT_A_CONSTRACT,2.用上下键移动光标选中合约,2.Use Up and Down to move cursor and select a constract,2.用上下鍵移動游標選中合約
+USE_THE_KEYS_ORDER,3.按下表中的键下单,3.Use the keys in the list to order,3.按下表中的鍵下單
+WTO_AFTER_ORDER_SEND,发出报单时填充下单板,Write to order input panel after order send,發出報單時填充下單板
+SFTQL_AFTER_ORDER_SEND,下单后光标回报价表,Set focus to quot list after order send,下單後游標回報價表
+SETTLEMENT,结算单,Settlement,結算單
+SETTLEMENT_FOR_DATE,日结单,Settlement for Date,日結單
+EXCHANGE_CENTER_SETTLEMENT,监控中心结算,EXCH Center Settlement,監控中心結算
+SAVE_AS_FILE,另存文件,Save as File,另存文件
+PRINT,打印,Print,列印
+PREVIEW,预览,Preview,預覽
+TRANSFER_FUNDS,出入金,Transfer Funds,出入金
+OUTPORT_FUNDS,出金,Outport Funds,出金
+IMPORT_FUNDS,入金,Import Funds,入金
+DIRCTION,方向,Dirction,方向
+QUERY_TODAY_ONLY,注意：只能查询当天出入金,CAUTION:Query today's transfer funds only.,注意：只能查詢當天出入金
+CURRENCY_NAME,币种名称,Currency Name,幣種名稱
+FUNDS_TYPE,资金类型,Funds Type,資金類型
+SUMMARY,摘要,Summary ,摘要
+DATE,日期,Date,日期
+SEQUENCE_NUMBER,流水号,Sequence Number,流水號
+TRANSFER_DIRECTION,出入金方向,Transfer Direction,出入金方向
+BANK_CODE,银行代码,Bank Code,銀行代碼
+FAILED_TO_QUERY,查询转帐流水操作失败,Failed to Query,查詢轉帳流水操作失敗
+QUERY_TRANSFER_FUNDS,查询出入金,Query Transfer Funds,查詢出入金
+SAVE_AND_RETURN,保存并返回主界面,Save and Return,保存並返回主介面
+SORT,排序,Sort,排序
+SOUND_PROMPT,声音提示:,Sound Prompt:,聲音提示:
+ALERT_MESSAGE,用户消息,Alert Message,用戶消息
+ALERT_MESSAGE_TEXT,序号: %s\n\n正文: %s\n\n警告: %s,MsgID: %s\n\nMsgText: %s\n\nIsAlert: %s,序號: %s\n\n正文: %s\n\n警告: %s
+YES_TEXT,是,Yes,是
+NO_TEXT,否,No,否
+STATUS_PENDING,挂起,Pending,掛起
+STATUS_CLEARED,清除,Cleared,清除
+GUI_LOAD_CONFIG_ERROR,配置文件损坏或丢失,Can't find cfg.xml or config file damaged,配置檔損壞或丟失
+CHURUJIN_TRADE_SUCCESS,交易成功,Trade Success,交易成功
+RMB,人民币,RMB,人民幣
+CASH,现金,Cash,現金
+ICBC,工商银行,ICBC,工商銀行
+ABC,农业银行,ABC,農業銀行
+CBC,中国银行,CBC,中國銀行
+CCB,建设银行,CCB,建設銀行
+BC,交通银行,BC,交通銀行
+OTHER_BANK,其他银行,Other Bank,其他銀行
+CONFIG_PWD_TYPE,密码类型,PWD Type,密碼類型
+CONFIG_TRADE_PWD,1.交易密码,1.Trade PWD,1.交易密碼
+CONFIG_ACCOUNT_PWD,2.资金密码,2.Account PWD,2.資金密碼
+CONFIG_CLEAR,清空,Clear,清空
+CONFIG_MODIFY_PWD_SUCCESSED,修改密码成功,Modify password successed,修改密碼成功
+CONFIG_HISTORY_TRADE,历史成交,History trade,歷史成交
+CONFIG_GROUP_MAX_LEN,组名长度不能超过10个字符,Group name must be less than 10 characters,組名長度不能超過10個字元
+CONFIG_NUMBER_ACCE,数字快捷键,Accelerator,數字快捷鍵
+CONFIG_ACCE_INDICATE,代表字符串,Indicated string,代表字串
+CONFIG_ACCE_INTRODUCTIONS,快捷键说明,Introductions,快捷鍵說明
+CONFIG_ACCE_EG,设置举例,For example,設置舉例
+CONFIG_MODIFY,修改,Modify,修改
+CONFIG_ACCE_EMPTY,快捷键不能为空,Accelerator key can't be empty,快捷鍵不能為空
+CONFIG_ACCE_EMPTY_INDICATE,代表字符串不能为空,Indicated charactes can't be empty,代表字串不能為空
+CONFIG_ORDER_PARAM,委托参数,Order parameter,委託參數
+CONFIG_MODIFY_ORDER_PARAM,委托参数(鼠标点手数直接修改),Order parameter(Click hands to change),委託參數(滑鼠點手數直接修改)
+CONFIG_PERSONALITY_SETUP,个性设置,Personality set up,個性設置
+CONFIG_ORDER_CONFIRM,下单时需确认,Need confirm when order,下單時需確認
+CONFIG_INPUT_ORDER,设置下单输入顺序,Set input order,設置下單輸入順序
+CONFIG_PRICE_TICKER,指定价价位调整,Price ticker,指定價價位調整
+CONFIG_PRICE_METHOD,价格调整=价位调整X最小变动价位,PriceTicker=TickerSize*TickPoint,價格調整=價位調整X最小變動價位
+CONFIG_CLEAR_PRE_SET,清除上次委托设置,Clear previous order set,清除上次委託設置
+CONFIG_ITEM_NAME,项目名,Item name,項目名
+CONFIG_SYSTEM_PARAM,系统参数,System parameter,系統參數
+CONFIG_HIDE_HOTKEY,隐身热键,Hide hotkey,隱身熱鍵
+CONFIG_USE_HIDE_HOTKEY,使用隐身热键,Use hide hotkey,使用隱身熱鍵
+CONFIG_APPLY_DEFAULT_SETTING,恢复默认设置,Apply default setting,恢復默認設置
+CONFIG_DUPLICATE_HOTKEYS,热键冲突,Duplicate hotkeys,熱鍵衝突
+CONFIG_VOICE_PROMPT,提示声,Voice prompt,提示聲
+CONFIG_DONOT_USE,不用,Do not use,不用
+CONFIG_PC_LOUDSPEAKER,PC喇叭,PC loudspeaker box,PC喇叭
+CONFIG_MEDIA_LOUDSPEAKER,多媒体喇叭,Media loudspeaker box,多媒體喇叭
+REPORT_PERIOD,报告范围,Report period,報告範圍
+REPORT_TODAY,今日,Today,今日
+REPORT_RECENT_WEEK,最近一周,Recent week,最近一周
+REPORT_RECENT_MONTH,最近一月,Recent month,最近一月
+REPORT_SCHEDULE_TIME,指定,Schedule time,指定
+REPORT_FROM,从,from,從
+REPORT_TO,到,to,到
+REPORT_PROJECT,报告项目,Report project,報告專案
+REPORT_ACCOUNT_SUMMARY,账户概要,Account summary,帳戶概要
+REPORT_TRADE_STASTISTICS,交易统计,Trade statistics,交易統計
+REPORT_ENDING_POSITION,期末持仓,Ending position,期末持倉
+REPORT_CLOSE_POSITION_RECORD,平仓记录,Close position record,平倉記錄
+REPORT_GENERATE_REPORT,生成报告,Generate report,生成報告
+GUI_SELL,卖,Sell,賣
+GUI_BUY,买,Buy,買
+GUI_SEARCH_DAILY_STATEMENT,查日结算单,Query daily statement,查日結算單
+GUI_SEARCH_MONTHLY_STATEMENT,查月结算单,Query monthly statement,查月結算單
+GUI_SAVE_TO_FILE,保存到文件,Save to file,保存到檔
+GUI_QUERY_INSTRUMENT,查询合约信息:,Query instrument information:,查詢合約資訊:
+GUI_QUERY_ACCOUNT,查询资金:,Query Account:,查詢資金:
+GUI_QUERY_TRADE_RECORD,查询成交:,Query trade record,查詢成交:
+GUI_QUERY_POSITION_DETAIL,查询持仓明细:,Query Position detail:,查詢持倉明細:
+GUI_QUERY_ORDER,查询报单信息:,Query orders,查詢報單資訊:
+GUI_LINK_STATUS,连接状态,Link status,連接狀態
+GUI_TYPE,类型,Device Type,類型
+HARDDISK_SOUND,PC喇叭发声,PC Speaker Voice,PC喇叭發聲
+GUI_NAME,名称,Device Name,名稱
+GUI_COMMEN,注释,Commentary,注釋
+GUI_STATUS,状况,Status,狀況
+GUI_SERVERITY,严重程度,Severity,嚴重程度
+GUI_INSTRUCTION_FOR_USE,不能打开使用说明,Can't open instruction for use,不能打開使用說明
+GUI_QUOTE,行情:,Quote:,行情:
+GUI_TRADE,\n交易:,\nTrade:,\n交易:
+GUI_PLUSIN_MANAGER,插件管理,Plus-in Manager,插件管理
+GUI_REGISRTERED_PLUSIN,已注册的插件：,Registered plus-ins:,已註冊的插件：
+GUI_PLUSIN_REGISTER,注册,Register,註冊
+GUI_PLUSIN_UNREGISTER,卸载,Unregister,卸載
+GUI_PLUSIN_NAME,插件名称,Plus-in name,插件名稱
+GUI_PLUSIN_PATH,插件路径,Plus-in path,插件路徑
+GUI_PLUSIN_STATUS,启动状态,Plus-in status,啟動狀態
+GUI_PLUSIN_STATUS_STARTED,已启动,Started,已啟動
+GUI_PLUSIN_STATUS_NOT_STARTED,未启动,Not Started,未啟動
+GUI_PLUSIN_CANNOT_DEL_SYS_PLUSIN,无法删除系统插件！,Can not delete system plusin,無法刪除系統插件！
+GUI_CHOOSE_FILE,选择文件,Choose file,選擇檔
+GUI_LOAD_FAILED,加载 %s 失败,Failed to load file %s,載入 %s 失敗
+GUI_GET_SERVER_ADDRESS_ERROR,"服务器地址读取失败,程序无法启动，请重新安装来修复","Failed to get server addresses, application can not start, please reinstall to repair it","伺服器位址讀取失敗,程式無法啟動，請重新安裝來修復"
+GUI_INVALID_HANDLE,无效的窗口句柄！,Invalid Window Handle!,無效的窗口控制碼！
+GUI_PERMISSION_DENIED,权限错误！,Permission Denied!,許可權錯誤！
+GUI_PLUSIN_ALREADY_START,该插件已经启动！,This plus-in has already started! ,該插件已經啟動！
+GUI_PLUSIN_API_VERSION_ERROR,插件API版本过低！,Plusin API version is too low!,插件API版本過低！
+LOG_TYPE_ORDER,委托单,Order,委託單
+LOG_TYPE_SYSTEM,系统,System,系統
+LOG_TYPE_GLOBAL,全局,Global,全局
+LOG_STR_HOST_SERVER_LOGON,交易服务器登录成功,Host Server Logon,交易伺服器登錄成功
+LOG_STR_QUOTE_SERVER_LOGON,行情服务器登录成功,Quote Server Logon,行情伺服器登錄成功
+LOG_STR_HOST_SERVER_DISCONNECTED,交易服务器连接中断,Host Server Disconnected,交易伺服器連接中斷
+LOG_STR_QUOTE_SERVER_DISCONNECTED,行情服务器连接中断,Quote Server Disconnected,行情伺服器連接中斷
+LOG_STR_HOST_SERVER_CONNECTED,交易服务器连接成功,Host Server Connected,交易伺服器連接成功
+LOG_STR_QUOTE_SERVER_CONNECTED,行情服务器连接成功,Quote Server Connected,行情伺服器連接成功
+LOG_STR_BEFORE_TRADE,开盘前,Before trading,開盤前
+LOG_STR_NO_TRADE,非交易,No trading,非交易
+LOG_STR_CONTINOUS,连续交易,Continous,連續交易
+LOG_STR_AUCTION_ORDERING,集合竞价报单,Auction ordering,集合競價報單
+LOG_STR_AUCTION_BALANCE,集合竞价价格平衡,Auction balance,集合競價價格平衡
+LOG_STR_AUCTION_MATCH,集合竞价撮合,Auction match,集合競價撮合
+LOG_STR_CLOSE,收盘,Close,收盤
+ID_SYSTEM_READ_MSG,消息查看,Read Message,消息查看
+,,,
+ORDERTYPE_LIMIT,限价,LIMIT,限價
+ORDERTYPE_MARKET,市价,MARKET,市價
+ORDERTYPE_STOP,停止,STOP,停止
+ORDERTYPE_STOPLIMIT,停止限价,STOP LIMIT,停止限價
+,,,
+GUI_LOADCONFIGAPP,设置下浮面板打开时不能使用选项设置,Function cannot used when config panel open.,設置下浮面板打開時不能使用選項設置
+GUI_APPLYDEFAULT,是否要放弃当前全部配置，应用默认配置?,Are you sure spply default config?,是否要放棄當前全部配置，應用默認配置?
+GUI_MODIFY_TRADE_PWD,修改交易密码,Modify trade PWD,修改交易密碼
+GUI_MODIFY_ACCOUNT_PWD,修改资金密码,Modify account PWD,修改資金密碼
+GUI_OLD_PWD,旧密码,Old PWD,舊密碼
+GUI_NEW_PWD,新密码,New PWD,新密碼
+ID_ORDERPARKEDSELECTDLG_LOCAL_HANDY,预埋(本地)，手动发出,"Park(local), Manual send",預埋(本地)，手動發出
+ID_ORDERPARKEDSELECTDLG_LOCAL_AUTO,预埋(本地)，当重新进入交易状态时,"Park(local), Auto send",預埋(本地)，當重新進入交易狀態時
+ID_ORDERPARKEDSELECTDLG_SERVER,预埋(服务器),Park(Server),預埋(伺服器)
+DONOT_DELCUR,不能删除当前布局文件,Can not delete current layout,不能刪除當前佈局檔
+TITLE_PRICE,价格: ,Pric: ,價格: 
+TITLE_QTY,手数: ,QTY: ,手數: 
+TITLE_PRICE2,价二: ,Prc2: ,價二: 
+TITLE_ACCOUNT,帐号: ,Acct: ,帳號: 
+BATCHDLG_SUM,共,Sum,共
+BATCHDLG_BATCH,批,,批
+BATCHDLG_ATNUM,到第,at,到第
+BATCHDLG_REMIAN,发送还有,Remain,發送還有
+BATCHDLG_SECOND,秒,S,秒
+ORDER_CE_CHANGEFAILMSG,    下单失败！子单[%d]处下单失败。\n原因：\n    %s,    Order Fail! Entity[%d] is fail.\nCause: \n    %s,    下單失敗！子單[%d]處下單失敗。\n原因：\n    %s
+ORDER_CE_CHANGEOK,下单成功！\n,Order Success!\n,下單成功！\n
+ORDER_CE_REVOKEMSG,    撤单失败！子单[%d]处撤单失败。\n原因：\n    %s,    Cancel Fail! Entity[%d] is fail.\nCause: \n    %s,    撤單失敗！子單[%d]處撤單失敗。\n原因：\n    %s
+ORDER_CE_REVOKEOK,撤单成功！\n,Cancel Success!\n,撤單成功！\n
+ORDER_CE_CHANGEMSG,以价格:%s %s %s %s %s %d手 %s\n,Price:%s %s %s %s %s QTY:%d %s\n,以價格:%s %s %s %s %s %d手 %s\n
+ORDER_CE_CHANGECOMFIRM,是否确认?,Confirm?,是否確認?
+ORDER_IE_CHANGEFAILMSG,    下单失败！子单[%d]处下单失败。\n原因：\n    %s,    Order Fail! Entity[%d] is fail.\nCause: \n    %s,    下單失敗！子單[%d]處下單失敗。\n原因：\n    %s
+ORDER_IE_CHANGEOK,下单成功！\n,Order Success!\n,下單成功！\n
+ORDER_IE_REVOKEMSG,    撤单失败！子单[%d]处撤单失败。\n原因：\n    %s,    Cancel Fail! Entity[%d] is fail.\nCause: \n    %s,    撤單失敗！子單[%d]處撤單失敗。\n原因：\n    %s
+ORDER_IE_REVOKEOK,撤单成功！\n,Cancel Success!\n,撤單成功！\n
+ORDER_IE_TITLE,下单: \n,Order: \n,下單: \n
+ORDER_IE_CHANGEMSG,以价格:%s %s %s %s %s %d手 %s\n,Price:%s %s %s %s %s QTY:%d %s\n,以價格:%s %s %s %s %s %d手 %s\n
+ORDER_IE_CHANGECOMFIRM,是否确认?,Confirm?,是否確認?
+ID_ORDERPARKEDSELECTDLG_LOCAL_HANDY,预埋(本地)，手动发出,"Park(local), Manual send",預埋(本地)，手動發出
+ID_ORDERPARKEDSELECTDLG_LOCAL_AUTO,预埋(本地)，当重新进入交易状态时,"Park(local), Auto send",預埋(本地)，當重新進入交易狀態時
+ID_ORDERPARKEDSELECTDLG_SERVER,预埋(服务器),Park(Server),預埋(伺服器)
+CFieldValueTool_Buy,买　,Buy,買　
+CFieldValueTool_Sell,卖,Sell,賣
+CFieldValueTool_Open,开仓,Open,開倉
+CFieldValueTool_Close,平仓,Close,平倉
+CFieldValueTool_ForceClose,强平,ForceClose,強平
+CFieldValueTool_CloseToday,平今,CloseToday,平今
+CFieldValueTool_CloseYesterday,平昨,CloseYesterday,平昨
+CFieldValueTool_Speculation,投机,Speculation,投機
+CFieldValueTool_Hedge,套保,Hedge,套保
+CFieldValueTool_AllTraded,全部成交,AllTraded,全部成交
+CFieldValueTool_PartTradedQueueing,部分成交还在队列中,PartTradedQueueing,部分成交還在佇列中
+CFieldValueTool_PartTradedNotQueueing,部分成交不在队列中,PartTradedNotQueueing,部分成交不在佇列中
+CFieldValueTool_NoTradeQueueing,未成交还在队列中,NoTradeQueueing,未成交還在佇列中
+CFieldValueTool_NoTradeNotQueueing,未成交不在队列中,NoTradeNotQueueing,未成交不在佇列中
+CFieldValueTool_Canceled,撤单,Canceled,撤單
+CFieldValueTool_NotTouched,条件未触发,NotTouched,條件未觸發
+CFieldValueTool_Touched,条件已触发,Touched,條件已觸發
+CFieldValueTool_Error,错误,Error,錯誤
+CFieldValueTool_InsertSubmitted,已经提交,InsertSubmitted,已經提交
+CFieldValueTool_CancelSubmitted,撤单已经提交,CancelSubmitted,撤單已經提交
+CFieldValueTool_ModifySubmitted,修改已经提交,ModifySubmitted,修改已經提交
+CFieldValueTool_Accepted,已经接受,Accepted,已經接受
+CFieldValueTool_InsertRejected,报单已经被拒绝,InsertRejected,報單已經被拒絕
+CFieldValueTool_CancelRejected,撤单已经被拒绝,CancelRejected,撤單已經被拒絕
+CFieldValueTool_ModifyRejected,改单已经被拒绝,ModifyRejected,改單已經被拒絕
+CFieldValueTool_AnyPrice,市价,Maket,市價
+CFieldValueTool_LimitPrice,限价,Limit,限價
+CFieldValueTool_BestPrice,最优价,BestPrice,最優價
+CFieldValueTool_LastPrice,最新价,LastPrice,最新價
+CFieldValueTool_LastPricePlusOneTicks,最新价浮动上浮1个ticks,LastPricePlusOneTicks,最新價浮動上浮1個ticks
+CFieldValueTool_LastPricePlusTwoTicks,最新价浮动上浮2个ticks,LastPricePlusTwoTicks,最新價浮動上浮2個ticks
+CFieldValueTool_LastPricePlusThreeTicks,最新价浮动上浮3个ticks,LastPricePlusThreeTicks,最新價浮動上浮3個ticks
+CFieldValueTool_AskPrice1,卖一价,AskPrice1,賣一價
+CFieldValueTool_AskPrice1PlusOneTicks,卖一价浮动上浮1个ticks,AskPrice1PlusOneTicks,賣一價浮動上浮1個ticks
+CFieldValueTool_AskPrice1PlusTwoTicks,卖一价浮动上浮2个ticks,AskPrice1PlusTwoTicks,賣一價浮動上浮2個ticks
+CFieldValueTool_AskPrice1PlusThreeTicks,卖一价浮动上浮3个ticks,AskPrice1PlusThreeTicks,賣一價浮動上浮3個ticks
+CFieldValueTool_BidPrice1,买一价,BidPrice1,買一價
+CFieldValueTool_BidPrice1PlusOneTicks,买一价浮动上浮1个ticks,BidPrice1PlusOneTicks,買一價浮動上浮1個ticks
+CFieldValueTool_BidPrice1PlusTwoTicks,买一价浮动上浮2个ticks,BidPrice1PlusTwoTicks,買一價浮動上浮2個ticks
+CFieldValueTool_BidPrice1PlusThreeTicks,买一价浮动上浮3个ticks,BidPrice1PlusThreeTicks,買一價浮動上浮3個ticks
+CFieldValueTool_Net,净,Net,淨
+CFieldValueTool_Long,买　,Long,買　
+CFieldValueTool_Short,卖,Short,賣
+CFieldValueTool_YES,是,Yes,是
+CFieldValueTool_NO,否,No,否
+CFieldValueTool_Common,普通成交,Common,普通成交
+CFieldValueTool_OptionsExecution,期权执行,OptionsExecution,期權執行
+CFieldValueTool_OTC,OTC成交,OTC,OTC成交
+CFieldValueTool_EFPDerived,期转现衍生成交,EFPDerived,期轉現衍生成交
+CFieldValueTool_CombinationDerived,组合衍生成交,CombinationDerived,組合衍生成交
+CFieldValueTool_NotForceClose,非强平,NotForceClose,非強平
+CFieldValueTool_LackDeposit,资金不足,LackDeposit,資金不足
+CFieldValueTool_ClientOverPositionLimit,客户超仓,ClientOverPositionLimit,客戶超倉
+CFieldValueTool_MemberOverPositionLimit,会员超仓,MemberOverPositionLimit,會員超倉
+CFieldValueTool_NotMultiple,持仓非整数倍,NotMultiple,持倉非整數倍
+CFieldValueTool_Violation,违规,Violation,違規
+CFieldValueTool_Other,其它,Other,其他
+CFieldValueTool_Normal,正常,Normal,正常
+CFieldValueTool_DeriveFromQuote,报价衍生,DeriveFromQuote,報價衍生
+CFieldValueTool_DeriveFromCombination,组合衍生,DeriveFromCombination,組合衍生
+CFieldValueTool_Combination,组合报单,Combination,組合報單
+CFieldValueTool_ConditionalOrder,条件单,ConditionalOrder,條件單
+CFieldValueTool_Swap,互换单,Swap,互換單
+CFieldValueTool_IOC,立即完成，否则撤销,IOC,立即完成，否則撤銷
+CFieldValueTool_GFS,本节有效,GFS,本節有效
+CFieldValueTool_GFD,当日有效,GFD,當日有效
+CFieldValueTool_GTD,指定日期前有效,GTD,指定日期前有效
+CFieldValueTool_GTC,撤销前有效,GTC,撤銷前有效
+CFieldValueTool_GFA,集合竞价有效,GFA,集合競價有效
+CFieldValueTool_AV,任何数量,Any Volume,任何數量
+CFieldValueTool_MV,最小数量,Minimum Volume,最小數量
+CFieldValueTool_CV,全部数量,Complete Volume,全部數量
+CFieldValueTool_code0,成功,Success,成功
+CFieldValueTool_code1,网络连接失败,Network connection fails,網路連接失敗
+CFieldValueTool_code2,未处理请求超过许可数,The number of pending requests exceeds the approved,未處理請求超過許可數
+CFieldValueTool_code3,每秒发送请求数超过许可数,The number of requests sent per second over permits,每秒發送請求數超過許可數
+CFieldValueTool_code98,帐号无交易权限,Account have not trading privileges,帳號無交易許可權
+CFieldValueTool_code99,无效的交易帐号,Invalid Account,無效的交易帳號
+CFieldValueTool_code999,其它原因失败,Other reasons for failure,其他原因失敗
+CFieldValueTool_Futures,期货,Futures,期貨
+CFieldValueTool_Options,期权,Options,期權
+CFieldValueTool_Spot,即期,Spot,即期
+CFieldValueTool_EFP,期转现,EFP,期轉現
+CFieldValueTool_PrePositon,昨仓,Pre Position,昨倉
+CFieldValueTool_TodayPositon,今仓,Today Position,今倉
+CFieldValueTool_Queued,报单已提交,Submitted to PATSAPI,報單已提交
+CFieldValueTool_Sent,系统已接收报单,"Received by Patsystems server, order is in transit",系統已接收報單
+CFieldValueTool_Working,交易所已接收报单,Accepted by exchange as a valid order,交易所已接收報單
+CFieldValueTool_Rejected,报单被拒绝,"Rejected, either by Patsystems or by the exchange",報單被拒絕
+CFieldValueTool_Cancelled,已撤单,Order has been cancelled,已撤單
+CFieldValueTool_BalCancelled,未结余额已撤销,The outstanding balance has been cancelled,未結餘額已撤銷
+CFieldValueTool_PartFilled,部分成交,Order has been partly filled,部分成交
+CFieldValueTool_Filled,全部成交,Order has been completely filled,全部成交
+CFieldValueTool_CancelPending,系统撤单,"The requested cancel received by Patsystems server, order is in transit",系統撤單
+CFieldValueTool_AmendPending,系统改单,"The requested amend received by Patsystems server, order is in transit",系統改單
+CFieldValueTool_UnconfirmedFilled,不确定的全部成交,The order has filled but the fills have not yet reached PATS,不確定的全部成交
+CFieldValueTool_UnconfirmedPartFilled,不确定的部分成交,The order has part filled but the fills have not reached PATS,不確定的部分成交
+CFieldValueTool_Unknown,-,-,-
+CFieldValueTool_HeldOrder,组合单等待触发,Order is a synthetic order waiting for price to trigger,組合單等待觸發
+CFieldValueTool_CancelHeldOrder,组合单撤单,Synthetic order has been cancelled,組合單撤單
+CFieldValueTool_Transferred,非用户账户下单,Transferred the order to a trader account not in the user's Trader Account Group,非用戶帳戶下單
+CFieldValueTool_ExternalCancelled,交易所闭市撤单,The order was cancelled because the exchange has closed,交易所閉市撤單
+CFieldValueTool_ExchangeName_SHFE,上期所,SHFE,上期所
+CFieldValueTool_ExchangeName_CFFEX,中金所,SHFE,中金所
+CFieldValueTool_ExchangeName_DCE,大商所,SHFE,大商所
+CFieldValueTool_ExchangeName_CZCE,郑商所,SHFE,鄭商所
+,,,
+BT_SELECT_BANK,点击选择银行列表,Please select bank,點擊選擇銀行列表
+BT_NO_QUERY_BANK,无法查询到签约银行,Can not Query Bank,無法查詢到簽約銀行
+BT_BTN_SEND,发送,Send,發送
+BT_BTN_TRANS,查询转账,Query Transfer,查詢轉賬
+BT_STA_BANKPSW,银行密码,Bank Password,銀行密碼
+BT_STA_TANSAMNT,转账金额,Tansfer Amount,轉賬金額
+BT_STA_ACCPSW,资金密码,Account Password,資金密碼
+BT_CMB_TYPE_QUERY,查询银行余额,Query Bank Balance,查詢銀行餘額
+BT_CMB_TYPE_B2M,银行卡->保证金,Bank Card -> Margin,銀行卡->保證金
+BT_CMB_TYPE_M2B,保证金->银行卡,Margin -> Bank Card ,保證金->銀行卡
+BT_STA_TANSTYPE,转账类别,Tansfer Type,轉賬類別
+BT_STA_USEAMOUNT,可转资金,Available,可轉資金
+BT_DETAIL_INDEX,流水号,Index,流水號
+BT_DETAIL_ACCOUNT,银行账号,Bank Account,銀行帳號
+BT_DETAIL_TYPE,操作类别,Operate Type,操作類別
+BT_DETAIL_AMOUNT,金额,Amount,金額
+BT_DETAIL_RESULT,处理结果,Result,處理結果
+BT_DETAIL_DATETIME,操作时间,Operate Time,操作時間
+BT_DETAIL_BANKNAME,银行简称,Bank Name,銀行簡稱
+BT_DETAIL_BANKID,银行代码,Bank ID,銀行代碼
+BT_DETAIL_CURENCY,币种名称,Currency ,幣種名稱
+BT_ERROR_SELECTBANK,请先选择银行!,Please select bank!,請先選擇銀行!
+BT_ERROR_AMOUNT,错误的转账金额,Tansfer Amount is Error.,錯誤的轉賬金額
+,,,
+,,,
+,,,
+,,,
+,,,
+BankTransfer_NoType,请选择转账类别,No transfer type is selected.,請選擇轉賬類別
+BankTransfer_DLGTitle,银期转账,Bank Future Transfer,銀期轉賬
+BankTransfer_SelectBank,选择银行,Select Bank,選擇銀行
+BankTransfer_FundAccountPasswd,资金账户密码,Fund Account Password,資金帳戶密碼
+BankTransfer_BankAccountPasswd,银行账户密码,Bank Account Password,銀行帳戶密碼
+BankTransfer_TransferFunds,转账金额,Transfer Funds,轉賬金額
+BankTransfer_CurrencySelect,币种选择,Currency Select,幣種選擇
+BankTransfer_QueryBankAccount,查询银行账户,Query Bank Account,查詢銀行帳戶
+BankTransfer_QueryFundAccount,查询期货账户,Query Fund Account,查詢期貨帳戶
+BankTransfer_FundToBank,期货账户资金转银行,Fund To Bank,期貨帳戶資金轉銀行
+BankTransfer_BankToFund,银行资金转期货账户,Bank To Fund,銀行資金轉期貨帳戶
+BankTransfer_QueryTransferDetail,查询转账明细,Query Transfer Detail,查詢轉賬明細
+BankTransfer_Cancel,关闭,Close,關閉
+BankTransfer_BankDetail,银行交易明细:,Bank Detail:,銀行交易明細:
+BankTransfer_Hide,隐藏<<,Hide<<,隱藏<<
+BankTransfer_FuntureSeqNum,期货流水号,Funture SeqNum,期貨流水號
+BankTransfer_BankAccount,银行账号,Bank Account,銀行帳號
+BankTransfer_TradeType,交易类型,Trade Type,交易類型
+BankTransfer_AmountIncurred,发生金额,Amount incurred,發生金額
+BankTransfer_TradingHours,交易时间,Trading hours,交易時間
+BankTransfer_Information,信息,Information,信息
+BankTransfer_MSG1,请输入资金账户密码!,Please Input Fund Account Password!,請輸入資金帳戶密碼!
+BankTransfer_MSGERROR,错误,Error,錯誤
+BankTransfer_MSG2,银期操作失败,Operate fail,銀期操作失敗
+BankTransfer_MSG3,查询转帐流水操作失败,Query transfer fail,查詢轉帳流水操作失敗
+BankTransfer_MSG4,查询转账明细,Query Transfer Detail,查詢轉賬明細
+BankTransfer_MSG5,期货资金转银行,Fund to Bank,期貨資金轉銀行
+BankTransfer_MSG6,转账成功，转账金额：%.2f,"Transfer Success, Amount: %.2f",轉賬成功，轉賬金額：%.2f
+BankTransfer_MSG7,银行资金转期货,Bank To Fund,銀行資金轉期貨
+BankTransfer_MSG8,银行资金转期货失败,Bank To Fund fail,銀行資金轉期貨失敗
+BankTransfer_MSG9,期货资金转银行失败,Fund to Bank fail,期貨資金轉銀行失敗
+BankTransfer_BankRsp1,银行账号： %s\n银行可用金额： %s\n银行可取金额： %s\n币种： %s\n,Bank Account: %s\nBank Remain Amount of: %s\nBank Available Amount of: %s\nCurrency： %s\n,銀行帳號： %s\n銀行可用金額： %s\n銀行可取金額： %s\n幣種： %s\n
+BankTransfer_BankRsp2,银行账号： %s\n银行可取金额： %s\n,Bank Account: %s\nBank Available Amount of: %s\n,銀行帳號： %s\n銀行可取金額： %s\n
+BankTransfer_BankRsp1Title,银行账户详情,Bank Account Detail,銀行帳戶詳情
+BankTransfer_MSG10,查银行资金失败,Query Bank Account fail,查銀行資金失敗
+OVER_LIMIT_OF_GROUP,每个合约组合约数量必须少于20.,instrument limit is 20. ,每個合約組合約數量必須少於20.
+CANNOT_LAST_GROUP,不能删除全部合约组,Can not delete all groups.,不能刪除全部合約組
+DATA_LENGTH_ERROR,数据长度错误,Data Length is Vailid,資料長度錯誤
+SENT_SERVER_SUCCESS,向服务器发送数据成功,Send Successfully,向伺服器發送資料成功
+LOCAL_CURRENCY,本地货币:,Local Currency:,本地貨幣:
+QUERYCOMMODITYDLG_COL1,交易所,ExchangeName,交易所
+QUERYCOMMODITYDLG_COL2,合约名称,ContractName,合約名稱
+QUERYCOMMODITYDLG_COL3,货币,Currency,貨幣
+QUERYCOMMODITYDLG_COL4,Group,Group,Group
+QUERYCOMMODITYDLG_COL5,One point,One point,One point
+QUERYCOMMODITYDLG_COL6,TicksPerPoint,TicksPerPoint,TicksPerPoint
+QUERYCOMMODITYDLG_COL7,TickSize,TickSize,TickSize
+QUERYCOMMODITYDLG_COL8,GTStatus,GTStatus,GTStatus
+QUERYCONTRACTDLG_COL1,ContractName,ContractName,ContractName
+QUERYCONTRACTDLG_COL2,ContractDate,ContractDate,ContractDate
+QUERYCONTRACTDLG_COL3,ExchangeName,ExchangeName,ExchangeName
+QUERYCONTRACTDLG_COL4,ExpiryDate,ExpiryDate,ExpiryDate
+QUERYCONTRACTDLG_COL5,LastTradeDate,LastTradeDate,LastTradeDate
+QUERYCONTRACTDLG_COL6,NumberOfLegs,NumberOfLegs,NumberOfLegs
+QUERYCONTRACTDLG_COL7,TicksPerPoint,TicksPerPoint,TicksPerPoint
+QUERYCONTRACTDLG_COL8,TickSize,TickSize,TickSize
+QUERYCONTRACTDLG_COL9,Tradable,Tradable,Tradable
+QUERYCONTRACTDLG_COL10,GTStatus,GTStatus,GTStatus
+QUERYCONTRACTDLG_COL11,Margin,Margin,Margin
+QUERYCONTRACTDLG_COL12,ESATemplate,ESATemplate,ESATemplate
+QUERYCONTRACTDLG_COL13,MarketRef,MarketRef,MarketRef
+QUERYCONTRACTDLG_COL14,lnExchangeName,lnExchangeName,lnExchangeName
+QUERYCONTRACTDLG_COL15,lnContractName,lnContractName,lnContractName
+QUERYCONTRACTDLG_COL16,lnContractDate,lnContractDate,lnContractDate
+QUERYEXCHANGEDLG_COL1,Name,Name,Name
+QUERYEXCHANGEDLG_COL2,QueryEnabled,QueryEnabled,QueryEnabled
+QUERYEXCHANGEDLG_COL3,AmendEnabled,AmendEnabled,AmendEnabled
+QUERYEXCHANGEDLG_COL4,Strategy,Strategy,Strategy
+QUERYEXCHANGEDLG_COL5,CustomDecs,CustomDecs,CustomDecs
+QUERYEXCHANGEDLG_COL6,Decimals,Decimals,Decimals
+QUERYEXCHANGEDLG_COL7,TicketType,TicketType,TicketType
+QUERYEXCHANGEDLG_COL8,RFQA,RFQA,RFQA
+QUERYEXCHANGEDLG_COL9,RFQT,RFQT,RFQT
+QUERYEXCHANGEDLG_COL10,EnableBlock,EnableBlock,EnableBlock
+QUERYEXCHANGEDLG_COL11,EnableBasis,EnableBasis,EnableBasis
+QUERYEXCHANGEDLG_COL12,EnableAA,EnableAA,EnableAA
+QUERYEXCHANGEDLG_COL13,EnableCross,EnableCross,EnableCross
+QUERYEXCHANGEDLG_COL14,GTStatus,GTStatus,GTStatus
+QUERYORDERTYPEDLG_COL1,OrderType,OrderType,OrderType
+QUERYORDERTYPEDLG_COL2,Exchange,Exchange,Exchange
+QUERYORDERTYPEDLG_COL3,OrderTypeId,OrderTypeId,OrderTypeId
+QUERYORDERTYPEDLG_COL4,NumPricesReqd,NumPricesReqd,NumPricesReqd
+QUERYORDERTYPEDLG_COL5,NumVolumesReqd,NumVolumesReqd,NumVolumesReqd
+QUERYORDERTYPEDLG_COL6,NumDatesReqd,NumDatesReqd,NumDatesReqd
+QUERYORDERTYPEDLG_COL7,AutoCreated,AutoCreated,AutoCreated
+QUERYORDERTYPEDLG_COL8,TimeTriggered,TimeTriggered,TimeTriggered
+QUERYORDERTYPEDLG_COL9,RealSynthetic,RealSynthetic,RealSynthetic
+QUERYORDERTYPEDLG_COL10,GTCFlag,GTCFlag,GTCFlag
+QUERYORDERTYPEDLG_COL11,TicketType,TicketType,TicketType
+QUERYORDERTYPEDLG_COL12,PatsOrderType,PatsOrderType,PatsOrderType
+QUERYORDERTYPEDLG_COL13,AmendOTCount,AmendOTCount,AmendOTCount
+QUERYORDERTYPEDLG_COL14,AlgoXML,AlgoXML,AlgoXML
+QUERYORDERTYPEDLG_COL15,AmendTypesArray,AmendTypesArray,AmendTypesArray
+QUERYTRADERDLG_COL1,账号,TraderAccount,帳號
+QUERYTRADERDLG_COL2,可交易性,Tradeable,可交易性
+QUERYTRADERDLG_COL3,损耗限制,LossLimit,損耗限制
+QUERYPOSITION_COL1,交易所,ExchangeName,交易所
+QUERYPOSITION_COL2,合约名称,ContractName,合約名稱
+QUERYPOSITION_COL3,合约时间,ContractDate,合約時間
+QUERYPOSITION_COL4,账号,TraderAccount,帳號
+QUERYPOSITION_COL5,盈亏,Profit,盈虧
+QUERYPOSITION_COL6,买,Buy,買
+QUERYPOSITION_COL7,卖,Sell,賣
+QUERYPOSITION_TAB1,总持仓,Total,總持倉
+QUERYPOSITION_TAB2,未平持仓,Open,未平持倉
+QUERYPOSITION_TAB3,合约持仓,Contract,合約持倉
+CURSORPOS,光标定位,Cursor position,游標定位
+CURSORPOS_TITLE,下单成功后光标定位到,Cursor position after order success,下單成功後游標定位到
+CURSORPOS_BUYSEL,买卖,Direction,買賣
+CURSORPOS_DEFAULT,默认,Default,默認
+,,,
+CHECKSUM_PRICE_NORMAL,输入的价格不符合最小变动价位,Input price does not meet the minimum change in price,輸入的價格不符合最小變動價位
+CHECKSUM_PRICE_CONDITION,输入的条件价格不符合最小变动价位,Input price does not meet the conditions of tick,輸入的條件價格不符合最小變動價位
+CHECKSUM_PRICE_LOSE,输入的止损价差不符合最小变动价位,Input the stop-loss does not meet the minimum change in price spreads,輸入的止損價差不符合最小變動價位
+CHECKSUM_PRICE_GAIN,输入的止盈价差不符合最小变动价位,Input only the profit does not meet the minimum change in price spreads,輸入的止盈價差不符合最小變動價位
+CHECKSUM_PRICE_CLOSEREVERSE,输入的平仓加减价差不符合最小变动价位,Input the open addition and subtraction do not meet the minimum change in price spreads,輸入的平倉加減價差不符合最小變動價位
+,,,
+CANCELORDER_ERROE_SINGLE,当前报单状态已不适合撤单,The order's status is not just for CANCEL ,當前報單狀態已不適合撤單
+CANCELORDER_ERROE_MULTI,没有可以撤单的项,Nothing for CANCEL,沒有可以撤單的項
+,,,
+CONDITION_EDIT_TITLE,条件单编辑,Condition Edit,條件單編輯
+CONDITION_EDIT_MESSAGE,条件单修改成功，新条件将在下一次行情到达时判断。,"Conditions to modify a single success, the new conditions is the next market to reach judgment.",條件單修改成功，新條件將在下一次行情到達時判斷。
+CONDITION_ERROR_MESSAGE,当前本地条件单状态不适合本次操作。,Single state of the current local conditions not suitable for this operation.,當前本地條件單狀態不適合本次操作。
+CONDITION_ERROR_TITLE,错误提示,Error,错误提示
+BUTTON_REQRY_CAPTION,重新查询,ReQry,重新查詢
+,,,
+,,,
+CONDS2L_OverBoundFailMSG,合约 %s 的%s，因为服务器条件单数量达到上限，下单失败。\n您是否需要将此服务器条件单转化为本地条件单？,"Contract for %s %s, because the number of single-server conditions limit is reached, the next single failure. \ n if you need this server conditions single single local conditions?",合約%s 的%s，因為服務器條件單數量達到上限，下單失敗。 \n您是否需要將此服務器條件單轉化為本地條件單？
+CONDS2L_OverBoundFailTitle,转换提示,Conversion prompted,轉換提示
+CONDS2L_OverBoundFail_COND,条件单,Conditions for single,條件單
+CONDS2L_OverBoundFail_SP,止盈单,Take profit order,止盈單
+CONDS2L_OverBoundFail_SL,止损单,Stop-loss orders,止損單
+CONDS2L_OverBoundFail_DLG_CHECKMSG,不再提示自动转化,No longer prompted to automatically translate,不再提示自動轉化
+CONDS2L_OverBoundFail_DLG_TIMEMSG,剩余%u秒,Remaining %u seconds,剩餘%u秒
+CONDS2L_OverBoundFail_LOG_AUTOCONV,因为服务器条件单数量达到上限，下单失败。\n自动转化为本地单,"Limit is reached because the number of single-server conditions, under a single failure. \ n is automatically converted to the local single",因為服務器條件單數量達到上限，下單失敗。 \n自動轉化為本地單
+CONDS2L_OverBoundFail_LOG_MANUALCONV,因为服务器条件单数量达到上限，手动转化为本地条件单，成功。,"Because the number of single-server conditions limit is reached, manually converted to local conditions a single success.",因為服務器條件單數量達到上限，手動轉化為本地條件單，成功。
+CONDS2L_OverBoundFail_LOG_MANUALCANCEL,因为服务器条件单数量达到上限，下单失败。\n手动取消转化为本地单,"Limit is reached because the number of single-server conditions, under a single failure.\ n manually canceled into local single",因為服務器條件單數量達到上限，下單失敗。 \n手動取消轉化為本地單
+CONDS2L_OverBoundFail_LOG_NOTCONV,对应的止盈/止损已触发，转化失败。,"Corresponding to the take profit / stop loss is triggered, the conversion failed.",對應的止盈/止損已觸發，轉化失敗。
+CONDS2L_OverBoundFail_LOG_TITLE,转换提示,Conversion prompted,轉換提示
+CONDS2L_OverBoundFail_LOGCANCEL_TITLE,取消转换,Cancel the conversion,取消轉換
+,,,
+SaveFail_Title,文件保存失败,Save the file failed,文件保存失敗
+SaveFail_DataFile_MESSAGE,userdata目录.Dat文件写失败，可能会导致本地单丢失,"userdata directory. Dat file write failure, may result in the local single lost",userdata目錄.Dat文件寫失敗，可能會導致本地單丟失
+SaveFail_PKSFile_MESSAGE,userdata目录.Pks文件写失败，可能会导致服务器预埋单转换无提示,"userdata directory. the Pks file write failure, may cause the server embedded single conversion silent",userdata目錄.Pks文件寫失敗，可能會導致服務器預埋單轉換無提示
+,,,
+,,,
+SELECT_TITLE,错误,Error,錯誤
+SELECT_NOTHING,操作无效：未选择或无符合操作对象。,The operation is invalid: not selected with or without the operation object.,操作無效：未選擇或無符合操作對象。
+,,,
+,,,
+MARKETTYPE_CONFIRM_MESSAGE,如您使用市价下单，请确认该合约是否支持市价类型，否则可能导致下单失败。,"If you use the market price of a single, make sure that the contract to support the market price type, otherwise it may lead to under a single failure",如您使用市價下單，請確認該合約是否支持市價類型，否則可能導致下單失敗
+MARKETTYPE_CONFIRM_MESSAGE_ENTER,如您使用市价下单，\n请确认该合约是否支持市价类型，\n否则可能导致下单失败。,"If you use the market price of a single, \nmake sure that the contract to support the market price type, \notherwise it may lead to under a single failure",如您使用市價下單，\n請確認該合約是否支持市價類型，\n否則可能導致下單失敗
+,,,
+,,,
+QUERY_LOCALORDER_CONDITION,条件,Condition,條件
+QUERY_LOCALORDER_PROFIT,盈损,Profit,盈損
+QUERY_LOCALORDER_PARKED,预埋,Parked,預埋
+QUERY_LOCALORDER_BATCH,批量,Batch,批量
+USERLOGINDLG_WEBCIFCO,网上中期,Cifco.net,網上中期
+USERLOGINDLG_VERSTR_FONT,微软雅黑,微软雅黑,微软雅黑
+ULD_VERSTR_STD,标准版,Standard,標準版
+ULD_VERSTR_SIMU,模拟版,Simulate,模擬版
+ULD_VERSTR_SIMU_CFFEX,股指仿真版,Stock Index,股指仿真版
+ULD_VERSTR_STD_EXTRA,标准增强版,Standard Extra,標準增強版
+ULD_VERSTR_SIMU_EXTRA,模拟增强版,Simulate Extra,模擬增強版
+ULD_VERSTR_STD_PLUGINS,标准插件版,Standard Plugins,標準插件版
+ULD_VERSTR_SIMU_PLUGINS,模拟插件版,Simulate Plugins,模擬插件版
+ULD_VERSTR_PATS,Pats,Pats,Pats
+ULD_VERSTR_MULTI,多账号,Multi,多帳號
+PLUGIN_POS_QUOTE_NOT_ONE,位置在POS_QUOTE只能容许存在一个,There must be only one Plugin in POS_QUOTE,位置在POS_QUOTE只能容許存在一個
+MHIP_DIGITS,1#2#3#4#5#6#7#8#9#0#-#.#<-#清零#市价#买一#卖一#最新,1#2#3#4#5#6#7#8#9#0#-#.#<-#Zero#Market# Bid #Ask#Last,1#2#3#4#5#6#7#8#9#0#-#.#<-#清零#市價#買一#賣一#最新
+,,,
+,,,
+ID_INFODLG_CONFIG,不再显示,no longer appear,不再顯示
+ID_CONFIRMDLG_CONFIG,以后不再确认,Will no longer be recognized,以後不再確認
+ID_BUTTON_OK,确定,&OK,確定
+ID_BUTTON_CANCEL,取消,&Cancel,取消
+ID_BUTTON_YES,是(&Y),&Yes,是(&Y)
+ID_BUTTON_NO,否(&N),&No,否(&N)
+TITLE_DELETE_INSTRUMENTID,删除确认,Delete Confirmation,刪除確認
+TITLE_CANCELORDER_CONFIRM,撤单确认,Cancel Confirmation,撤單確認
+,,,
+,,,
+PLDETAILDLG_TITLE,盈损单号: %d 的明细,P&L Number: %d Detail,盈損單號: %d 的明細
+,,,
+PL_conPLPause,暂停,Pause,暫停
+PL_conPLActive,下单等待,Comfirm,下單等待
+PL_conPLDelete,已撤销,Delete,已撤銷
+PL_conPLNoTrade,未成交,NoFill,未成交
+PL_conPLPartTraded,部分成交,PartFill,部分成交
+PL_conPLAllTraded,全部成交,AllFill,全部成交
+PL_conPLCancelNoTrade,未成交已撤单,Cancel NoFill,未成交已撤單
+PL_conPLCancelPartTraded,部分成交已撤单,Cancel PartFill,部分成交已撤單
+PL_conPLFail,下单失败,Fail,下單失敗
+,,,
+,,,
+MSG_CANCELPLORDER_TITLE,撤单警告,Cancel Warning,撤單警告
+MSG_CANCELPLORDER_CONTENT,此挂单属于盈损单，撤单会使未成交部分止盈止损失效，是否确认？,"This pending order to belong to the profit-loss orders, withdrawals, will make not only the turnover part of the surplus stop failure to confirm?",此掛單屬於盈損單，撤單會使未成交部分止盈止損失效，是否確認？
+,,,
+,,,
+8100000,合约,Contract ID,合約
+8100001,最新价,Last Price,最新價
+8100002,买价,Bid Price,買價
+8100003,买量,Bid Volume,買量
+8100004,卖价,Ask Price,賣價
+8100005,卖量,Ask Volume,賣量
+8100006,涨跌,Price Change,漲跌
+8100007,成交量,Volume,成交量
+8100008,今开盘,Open Price,今開盤
+8100009,持仓量,Open Interest,持倉量
+8100010,涨停价,Upper Limit Price,漲停價
+8100011,跌停价,Lower Limit Price,跌停價
+8100012,昨结算,Pre Settlement Price,昨結算
+8100013,最高价,High,最高價
+8100014,最低价,Low,最低價
+8100015,现量,Last Volumn,現量
+8100016,合约名,Contract Name,合約名
+8100017,行情更新时间,Last Update Time,行情更新時間
+8100018,交易所,Exchange,交易所
+8100019,涨跌幅,Price Change Percent,漲跌幅
+8100020,昨收盘,Pre Close,昨收盤
+8100021,昨持仓量,Pre Open Interest,昨持倉量
+8100022,今收盘,Close,今收盤
+8100023,结算价,Settlement Price,結算價
+8100024,成交额,Turnover,成交額
+8100025,买二价,Bid Price2,買二價
+8100026,买二量,Bid Volumn2,買二量
+8100027,卖二价,Ask Price2,賣二價
+8100028,卖二量,Ask Volumn2,賣二量
+8100029,买三价,Bid Price3,買三價
+8100030,买三量,Bid Volumn3,買三量
+8100031,卖三价,Ask Price3,賣三價
+8100032,卖三量,Ask Volumn3,賣三量
+8100033,买四价,Bid Price4,買四價
+8100034,买四量,Bid Volumn4,買四量
+8100035,卖四价,Ask Price4,賣四價
+8100036,卖四量,Ask Volumn4,賣四量
+8100037,买五价,Bid Price5,買五價
+8100038,买五量,Bid Volumn5,買五量
+8100039,卖五价,Ask Price5,賣五價
+8100040,卖五量,Ask Volumn5,賣五量
+8100041,买六价,Bid Price6,買六價
+8100042,买六量,Bid Volumn6,買六量
+8100043,卖六价,Ask Price6,賣六價
+8100044,卖六量,Ask Volumn6,賣六量
+8100045,买七价,Bid Price7,買七價
+8100046,买七量,Bid Volumn7,買七量
+8100047,卖七价,Ask Price7,賣七價
+8100048,卖七量,Ask Volumn7,賣七量
+8100049,买八价,Bid Price8,買八價
+8100050,买八量,Bid Volumn8,買八量
+8100051,卖八价,Ask Price8,賣八價
+8100052,卖八量,Ask Volumn8,賣八量
+8100053,买九价,Bid Price9,買九價
+8100054,买九量,Bid Volumn9,買九量
+8100055,卖九价,Ask Price9,賣九價
+8100056,卖九量,Ask Volumn9,賣九量
+8100057,买十价,Bid Price10,買十價
+8100058,买十量,Bid Volumn10,買十量
+8100059,卖十价,Ask Price10,賣十價
+8100060,卖十量,Ask Volumn10,賣十量
+8100061,货币,Currency,貨幣
+8100062,最新量,Last Volume,最新量
+8101001,合约,Contract ID,合約
+8101002,买卖方向,Direction,買賣方向
+8101003,开平,Open/Close,開平
+8101004,价格,Price,價格
+8101005,手数,Volumn,手數
+8101006,交易账号,Account,交易帳號
+,,,
+8102000,合约,Contract ID,合約
+8102001,买卖,Direction,買賣
+8102002,开平,Open/Close,開平
+8102003,成交价格,Trading Price,成交價格
+8102004,成交手数,Trading Volumn,成交手數
+8102005,手续费,Commission,手續費
+8102006,成交时间,Trading Time,成交時間
+8102007,成交类型,Trading Type,成交類型
+8102008,投保,Hedge,投保
+8102009,成交编号,Trading ID,成交編號
+8102010,报单编号,Order SysID,報單編號
+8102011,交易所,Exchange,交易所
+8102013,交易账号,Account,交易帳號
+,,,
+8103000,合约,Contract ID,合約
+8103001,买卖,Direction,買賣
+8103002,开平,Open/Close,開平
+8103012,成交均价,Avg Price,成交均價
+8103004,成交手数,Trading Volumn,成交手數
+8103005,手续费,Commission,手續費
+,,,
+8104000,合约,Contract ID,合約
+8104001,买卖,Direction,買賣
+8104002,投保,Hedge,投保
+8104003,总持仓,Position,總持倉
+8104004,可平量,Enable Close Volumn,可平量
+8104005,现价,Last Price,現價
+8104006,持仓均价,Avg Price,持倉均價
+8104007,开仓均价,Open Avg Price,開倉均價
+8104008,持仓盈亏,Position Profit,持倉盈虧
+8104009,浮动盈亏,Float Profit,浮動盈虧
+8104010,盯市总盈亏,Position Profit By Date,盯市總盈虧
+8104011,占用保证金,Current Margin,佔用保證金
+8104012,昨仓,Pre Position,昨倉
+8104013,今仓,Today Position,今倉
+8104014,多头开仓价,Buy Open Price,多頭開倉價
+8104015,空头开仓价,Sell Open Price,空頭開倉價
+8104016,今开仓量,Today Open Volume Sum,今開倉量
+8104017,今平仓量,Today Close Volume Sum,今平倉量
+8104018,总多仓,Open Buy Position Sum,總多倉
+8104019,总空仓,Open Sell Position Sum,總空倉
+8104020,今多仓,Today Open Buy Position Sum,今多倉
+8104021,今空仓,Today Open Sell Position Sum,今空倉
+8104022,总可平今量,Today May Close Position Total,總可平今量
+8104023,总可平昨量,Pre May Close Position Total,總可平昨量
+8104024,平今挂单量,Today Close Order Volume Sum,平今掛單量
+8104025,平仓挂单量,Close Order Volume Sum,平倉掛單量
+8104026,可平今量,Today May Close Position Sum,可平今量
+8104027,可平昨量,Pre May Close Position Sum,可平昨量
+8104028,交易所,Exchange,交易所
+8104029,货币,Currency,貨幣
+8104030,持仓盈亏,Position Profit,持倉盈虧
+8104031,平均价,Avg Price,平均價
+8104032,买入,Buy,買入
+8104033,卖出,Sell,賣出
+8104034,总盈亏,Total Profit,總盈虧
+8104035,每手保证金,Margin Per Lot,每手保證金
+8104036,资金消耗率,Burn Rate,資金消耗率
+8104037,持仓占用,Open Position Exposure,持倉佔用
+8104038,剩余购买力,BPRemaining,剩餘購買力
+8104039,已占用购买力,BPUsed,已佔用購買力
+8104040,缴付保证金,Margin Paid,繳付保證金
+8104041,交易账号,Account,交易帳號
+8104042,平仓盈亏,Close Profit,平倉盈虧
+,,,
+8105000,成交编号,Trading ID,成交編號
+8105001,合约,Contract ID,合約
+8105002,买卖,Direction,買賣
+8105003,手数,Trading Volumn,手數
+8105004,开仓价,Position Open Price,開倉價
+8105005,占用保证金,Current Margin,佔用保證金
+8105006,持仓类型,Position Type,持倉類型
+8105007,投保,Hedge,投保
+8105008,交易所,Exchange,交易所
+8105009,开仓时间,Position Open Time,開倉時間
+8105010,昨结算,Pre Settlement Price,昨結算
+8105011,平仓量,Close Volume,平倉量
+8105012,持仓盈亏,Position Profit,持倉盈虧
+8105013,平仓盈亏,Close Profit,平倉盈虧
+8105014,浮动盈亏,Unrealized Profit,浮動盈虧
+8105015,最新价,Last Price,最新價
+8105016,组合状态,Combo Status,組合狀態
+8105017,组合合约代码,Combo Contract ID,組合合約代碼
+8105018,账号,Account,帳號
+8106000,品种代码,Product ID,品種代碼
+8106001,合约,Contract ID,合約
+8106002,合约名,Contract Name,合約名
+8106003,交易所,Exchange,交易所
+8106004,合约乘数,Multiple,合約乘數
+8106005,最小价格变动单位,Tick Price,最小價格變動單位
+8106006,品种类型,Contract Type,品種類型
+8106007,最后日期,Expire Date,最後日期
+8106008,多头保证金率,Long Margin Ratio,多頭保證金率
+8106009,空头保证金率,Short Margin Ratio,空頭保證金率
+8106010,开仓手续费,Open Ratio By Volume,開倉手續費
+8106011,平仓手续费,Close Ratio By Volume,平倉手續費
+8106012,平今手续费,Close Today Ratio By Volume,平今手續費
+8106013,开仓手续费率,Open Ratio By Money,開倉手續費率
+8106014,平仓手续费率,Close Ratio By Money,平倉手續費率
+8106015,平今手续费率,Close Today Ratio By Money,平今手續費率
+8106016,多头保证金费,Long Margin Ratio By Volume,多頭保證金費
+8106017,空头保证金费,Short Margin Ratio By Money,空頭保證金費
+8106018,货币,Currency,貨幣
+8106019,TicksPerPoint,TicksPerPoint,TicksPerPoint
+8106020,价格变动单位,TickSize,價格變動單位
+,,,
+8110000,静态权益,Static Profit,靜態權益
+8110001,持仓盈亏,Position Profit,持倉盈虧
+8110002,平仓盈亏,Close Profit,平倉盈虧
+8110003,动态权益,Dynamic Profit,動態權益
+8110004,占用保证金,Current Margin,佔用保證金
+8110005,手续费,Commission,手續費
+8110006,冻结保证金,Frozen Margin,凍結保證金
+8110007,冻结手续费,Frozen Commission,凍結手續費
+8110008,上次结算准备金,Pre Balance,上次結算準備金
+8110009,上次信用额度,Pre Credit,上次信用額度
+8110010,质押金额,Mortgage,質押金額
+8110011,上次质押金额,Pre Mortgage,上次質押金額
+8110012,冻结资金,Frozen Cash,凍結資金
+8110013,可用资金,Available,可用資金
+8110014,可取资金,Withdraw Quota,可取資金
+8110015,风险度,Risk Degree,風險度
+8110016,信用金额,Credit,信用金額
+8110017,今日入金,Today Deposit,今日入金
+8110018,今日出金,Today Withdraw,今日出金
+8110019,剩余购买力,BPRemaining,剩餘購買力
+8110020,已占用购买力,BPUsed,已佔用購買力
+8110021,持仓占用,OpenPositionExposure,持倉佔用
+8110022,盈亏比例,Burn Rate,盈虧比例
+8110023,账号,Account,帳號
+8110024,缴付保证金,Margin Paid,繳付保證金
+8110025,总盈亏,Total Profit,總盈虧
+,,,
+8113000,报单编号,Order SysID,報單編號
+8113001,合约,Contract ID,合約
+8113002,买卖,Direction,買賣
+8113003,开平,Open/Close,開平
+8113004,报单手数,Order Volume,報單手數
+8113005,未成交手数,Remain Volume,未成交手數
+8113006,报单价格,Send Price,報單價格
+8113007,报单时间,Order Time,報單時間
+8113008,冻结保证金,Frozen Margin,凍結保證金
+8113009,冻结手续费,Frozen Commission,凍結手續費
+8113010,序列号,Sequence ID,序列號
+8113011,交易所,Exchange,交易所
+8113012,投保,Hedge,投保
+8113013,成交手数,Fill Volume,成交手數
+8113014,报单价格条件,Price Condition,報單價格條件
+8113015,有效期类型,Time In Force,有效期類型
+8113016,报单类型,Order Type,報單類型
+8113017,最后成交时间,Last Filling Time,最後成交時間
+8113018,成交均价,Avg Price,成交均價
+8113019,是否强平,Force Close,是否強平
+8113020,强平原因,Force Close Reason,強平原因
+8113021,指令结果,Command Result,指令結果
+8113022,挂单状态,Order status,掛單狀態
+8113023,详细状态,Detail Status,詳細狀態
+8113024,客户端信息,Client Message,用戶端信息
+8113026,交易账号,Account,交易帳號
+,,,
+8114000,报单编号,Order SysID,報單編號
+8114001,合约,Contract ID,合約
+8114002,买卖,Direction,買賣
+8114003,开平,Open/Close,開平
+8114004,挂单状态,Order status,掛單狀態
+8114005,报单价格,Send Price,報單價格
+8114006,报单手数,Order Volume,報單手數
+8114007,未成交手数,Remain Volume,未成交手數
+8114008,成交手数,Fill Volume,成交手數
+8114009,详细状态,Detail Status,詳細狀態
+8114010,报单时间,Order Time,報單時間
+8114011,最后成交时间,Last Filling Time,最後成交時間
+8114012,成交均价,Avg Price,成交均價
+8114013,冻结保证金,Frozen Margin,凍結保證金
+8114014,冻结手续费,Frozen Commission,凍結手續費
+8114015,投保,Hedge,投保
+8114016,交易所,Exchange,交易所
+8114017,序列号,Sequence ID,序列號
+8114018,报单价格条件,Price Condition,報單價格條件
+8114019,有效期类型,Time In Force,有效期類型
+8114020,报单类型,Order Type,報單類型
+8114021,是否强平,Force Close,是否強平
+8114022,强平信息,Force Close Reason,強平信息
+8114023,指令结果,Command Result,指令結果
+8114024,客户端信息,Client Message,用戶端信息
+8114025,交易账号,Account,交易帳號
+,,,
+8119001,组号,Group ID,組號
+8119002,组内号,Group Sub ID,組內號
+8119003,委托号,Order Send SysID,委託號
+8119004,委托状态,Order Status,委託狀態
+8119005,合约,Contract ID,合約
+8119006,买卖,Direction,買賣
+8119007,开平,Open/Close,開平
+8119008,投保,Hedge,投保
+8119009,委托手数,Order Open Volume,委託手數
+8119010,委托价格,Order Open Price,委託價格
+,,,
+8120001,条件单号,Condition ID,條件單號
+8120002,状态,Status,狀態
+8120003,委托号,Order Send SysID,委託號
+8120004,委托状态,Order Status,委託狀態
+8120005,合约,Contract ID,合約
+8120006,买卖,Direction,買賣
+8120007,开平,Open/Close,開平
+8120008,投保,Hedge,投保
+8120009,委托手数,Order Open Volume,委託手數
+8120010,委托价格,Order Open Price,委託價格
+8120011,触发价格,Trigger Price,觸發價格
+8120012,触发条件,Trigger Condition,觸發條件
+8120013,预埋时间,Delete Time,預埋時間
+8120014,信息,Message,資訊
+,,,
+8121001,止盈止损单号,Stop ID,止盈止損單號
+8121002,开仓委托号,Open Order SysID,開倉委託號
+8121003,状态,Status,狀態
+8121004,条件单号,Condition ID,條件單號
+8121005,合约,Contract ID,合約
+8121006,开仓方向,Open Direction,開倉方向
+8121007,委托手数,Order Open Volume,委託手數
+8121008,委托价格,Order Open Price,委託價格
+8121009,成交价偏移,Trading Price Offset,成交價偏移
+8121010,止盈价,Stop Profit Price,止盈價
+8121011,止损价,Stop Lose Price,止損價
+8121012,止盈预测,Stop Profit,止盈預測
+8121013,止损预测,Stop Lose,止損預測
+8121014,触发价格类型,Trigger Condition Type,觸發價格類型
+8121015,平仓方式,Close Mode,平倉方式
+8121016,平仓反向差,Close Offset,平倉反向差
+8121017,委托状态,Entrust State,委託狀態
+8121018,止盈价差,Stop profit spreads,止盈價差
+8121019,止损价差,Stop the spread,止損價差
+,,,
+8124001,预埋单号,Parking ID,預埋單號
+8124002,状态,Status,狀態
+8124003,合约,Contract ID,合約
+8124004,买卖,Direction,買賣
+8124005,开平,Open/Close,開平
+8124006,投保,Hedge,投保
+8124007,委托手数,Order Open Volume,委託手數
+8124008,委托价格,Order Open Price,委託價格
+8124009,预埋时间,Parking Time,預埋時間
+8124010,结束时间,Delete Time,結束時間
+8124011,信息,Message,資訊
+,,,
+8133001,盈损明细号,P&L Detail ID,盈損明細號
+8133002,盈损单号,P&L ID,盈損單號
+8133003,开仓委托号,Open Order SysID,開倉委託號
+8133004,成交编号,Trade ID,成交編號
+8133005,状态,Status,狀態
+8133006,条件单号,Condition ID,條件單號
+8133007,止盈状态,Stop Profit Status,止盈狀態
+8133008,止损状态,Stop Lose Status,止損狀態
+8133009,合约,Contract ID,合約
+8133010,买卖,Direction,買賣
+8133011,平仓方向,Close Direction,平倉方向
+8133012,委托手数,QTY,委託手數
+8133013,委托价格,Price,委託價格
+8133014,成交价偏移,Trading Price Offset,成交價偏移
+8133015,止盈价,Stop Profit Price,止盈價
+8133016,止损价,Stop Lose price,止損價
+8133017,止盈平仓价,profit Open price,止盈平倉價
+8133018,止损平仓价,Lose Open price,止損平倉價
+8133019,止盈平仓价,profit Open price,止盈平倉價
+8133020,止损平仓价,Lose Open price,止損平倉價
+8133021,触发价格类型,Trigger Condition Type,觸發價格類型
+8133022,平仓方式,Close Mode,平倉方式
+8133023,平仓反向差,Close Offset,平倉反向差
+,,,
+8109000,合约,Contract ID,合約
+8109001,买卖,Direction,手數
+8109002,手数,volume,買賣
+8109003,开仓价,Open Price,開倉價
+8109004,投保,Hedge,投保
+,,,
+8131000,合约,Contract ID,合約
+8131001,买卖,Direction,買賣
+8131002,投保,Hedge,投保
+8131003,总持仓,Position,總持倉
+8131004,可平量,Enable Close Volumn,可平量
+8131005,现价,Last Price,現價
+8131006,持仓均价,Avg Price,持倉均價
+8131007,开仓均价,Open Avg Price,開倉均價
+8131008,持仓盈亏,Position Profit,持倉盈虧
+8131009,浮动盈亏,Float Profit,浮動盈虧
+8131010,盯市总盈亏,Position Profit By Date,盯市總盈虧
+8131011,占用保证金,Current Margin,佔用保證金
+8131012,昨仓,Pre Position,昨倉
+8131013,今仓,Today Position,今倉
+8131014,多头开仓价,Buy Open Price,多頭開倉價
+8131015,空头开仓价,Sell Open Price,空頭開倉價
+8131016,今开仓量,Today Open Volume Sum,今開倉量
+8131017,今平仓量,Today Close Volume Sum,今平倉量
+8131018,总多仓,Open Buy Position Sum,總多倉
+8131019,总空仓,Open Sell Position Sum,總空倉
+8131020,今多仓,Today Open Buy Position Sum,今多倉
+8131021,今空仓,Today Open Sell Position Sum,今空倉
+8131022,总可平今量,Today May Close Position Total,總可平今量
+8131023,总可平昨量,Pre May Close Position Total,總可平昨量
+8131024,平今挂单量,Today Close Order Volume Sum,平今掛單量
+8131025,平仓挂单量,Close Order Volume Sum,平倉掛單量
+8131026,可平今量,Today May Close Position Sum,可平今量
+8131027,可平昨量,Pre May Close Position Sum,可平昨量
+8131028,交易所,Exchange,交易所
+8131029,货币,Currency,貨幣
+8131030,持仓盈亏,Position Profit,持倉盈虧
+8131031,平均价,Avg Price,平均價
+8131032,买入,Buy,買入
+8131033,卖出,Sell,賣出
+8131034,总盈亏,Total Profit,總盈虧
+8131035,每手保证金,Margin Per Lot,每手保證金
+8131036,资金消耗率,Burn Rate,資金消耗率
+8131037,持仓占用,Open Position Exposure,持倉佔用
+8131038,剩余购买力,BPRemaining,剩餘購買力
+8131039,已占用购买力,BPUsed,已佔用購買力
+8131040,缴付保证金,Margin Paid,繳付保證金
+8131041,账号,Account,帳號
+8131042,平仓盈亏,Close Profit,平倉盈虧
+,,,
+8126001,有效,Valid,
+8126002,ID,ID,ID
+8126003,投资者,Investor,投資者
+8126004,投资者账号,Account,投資者帳號
+8126005,登陆状态,Logon Status,登陸狀態
+8126006,行情,Use Quote,行情
+8126007,可用资金,Avaliable,可用資金
+8126008,上次结算准备金,PreBalance,上次結算準備金
+8126009,静态权益,Static Profit,靜態權益
+8126010,动态权益,Dynamic Profit,動態權益
+8126011,持仓盈亏,Position Profit,持倉盈虧
+8126012,平仓盈亏,Close Profit,平倉盈虧
+8126013,风险度,Risk Degree,風險度
+,,,
+Name_Position,持仓,Position,持倉
+Name_PositionDetail,持仓明细,Position Detail,持倉明細
+Name_PositionComb,组合持仓,Position Combine,組合持倉
+STATISTICSOFNUMBER_PositionDetail,持仓明细记录总数为：,Statistics of position detail number is:,持倉明細記錄總數為：
+UPDATEAPP_NEW_VER_PMT,中国国际期货交易终端有新版本，版本号为：,New Version(,中國國際期貨交易終端有新版本，版本號為：
+UPDATEAPP_LCL_VER_PMT,(本地版本号为:,)is available.your local version( ,(本地版本號為:
+UPDATEAPP_REPLACE_PMT,)\n是否进行替代安装?\n\n(备注：安装前会关闭正在运行的交易终端)\n\n,)is out of date.Are you Install the new version?\n\n,)\n是否進行替代安裝?\n\n(備註：安裝前會關閉正在運行的交易終端)\n\n
+INSTALL_DIR_READ_ONLY,安装目录为只读，系统无法启动！,The install directory is read only.Application can not start.,安裝目錄為唯讀，系統無法啟動！
+USEROPERATE_CLICK_PMT,鼠标单击价格，合约[%s]，方向[%c]\n,"Left Click price column,instrument is %s,direction is %c\n",滑鼠單擊價格，合約[%s]，方向[%c]\n
+OBP_INPUT_BEGIN,批量单数据：\n,Batch order:\n,批量單數據：\n
+OBP_INPUT_BEGIN1,条件单数据：\n,Condition order:\n,條件單數據：\n
+OBP_INPUT_MIDDLE,价格类型=[,Price Type is,價格類型=[
+OBP_INPUT_END,"],\t ",",\t","],\t "
+OBP_INPUT_MIDDLE1,每批数量=[,account per batch is ,每批數量=[
+OBP_INPUT_MIDDLE2,发送间隔=[,time interval per batch is ,發送間隔=[
+FUNDACCOUNTQRYDLG_TEXT,期货资金账户详情,Detail of Fund Account,期貨資金帳戶詳情
+SVR_SH_CTP_SIMU,上海综合交易模拟,Shanghai CTP simulation,上海綜合交易類比
+SVR_ST_INX_SIMU,股指期货模拟,Stock index simulation,股指期貨模擬
+SVR_SH_TELE_INET,上海电信互联网,Shanghai Telecom Internet,上海電信互聯網
+SVR_SH_UNI_INET,上海联通互联网,Shanghai Unicom Internet,上海聯通互聯網
+SVR_BJ_TELE_INET,北京电信互联网,Beijing Telecom Internet,北京電信互聯網
+SVR_BJ_UNI_INET,北京联通互联网,Beijing Unicom Internet,北京聯通互聯網
+SVR_SZ_TELE_INET,深圳电信互联网,Shenzhen Telecom Internet,深圳電信互聯網
+SVR_SZ_UNI_INET,深圳联通互联网,Shenzhen Unicom Internet,深圳聯通互聯網
+SVR_BJ_BACKUP_TELETRON,北京灾备(电信通),Beijing disaster recovery(Teletron),北京災備(電信通)
+SVR_BJ_BACKUP_UNICOM,北京灾备(联通),Beijing disaster recovery (Unicom),北京災備(聯通)
+SVR_PATS_TEST,PATS远程测试服务器,PATS Testting Server,PATS遠端測試伺服器
+SVR_CIFCO_HK1,中期香港PATS服务器1,CIFCOHK PATS Server 1,中期香港PATS伺服器1
+USERLOGINDLG_DLDOWNLOADING,"下载数据中,请耐心等待…","Data Donloading,Please wait…","下載數據中,請耐心等待…"
+PROXY_SVR_SETUP,代理及服务器设置...,Proxy And Server Setup…,代理及伺服器設置...
+PROXYSVRSETUP_TITLE ,代理及服务器设置,Proxy And Server Setup,代理及伺服器設置
+SOCKS_TYPE ,类型,Type,類型
+SOCKS_USESOCKS ,使用代理,Using Proxy,使用代理
+SOCKS_NOSOCKS ,不使用代理,Not Using Proxy,不使用代理
+SOCKS_ADDR ,地址,Address,地址
+SOCKS_PORT ,端口,Port,埠
+SOCKS_USER ,用户名,User,用戶名
+SOCKS_PWD ,密码,Password,密碼
+SOCKS_SETUP ,服务器设置,Server Setup,伺服器設置
+SOCKS_SVRLIST ,服务器组,Servers List,伺服器組
+SOCKS_SVRCODE ,公司代码,Broker Code,公司代碼
+SOCKS_ADDR_TRADE ,交易服务器地址,Trade Server Address,交易伺服器位址
+SOCKS_ADDR_QUOT ,行情服务器地址,Quot Server Address,行情伺服器地址
+SOCKS_ADD,添加,Add,添加
+SOCKS_DEL,删除,Delete,刪除
+SOCKS_OK,确定,OK,確定
+SOCKS_CANCEL,取消,Cancel,取消

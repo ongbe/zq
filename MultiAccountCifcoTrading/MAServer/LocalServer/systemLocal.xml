@@ -1,0 +1,103 @@
+<system>
+    <Port>8999</Port>
+    <DataBase>
+        <SID>orcl</SID>
+        <User>maaccount</User>
+        <Password>maaccount</Password>
+    </DataBase>
+    <TimeOutSec>180</TimeOutSec>
+    <MAAccount ID="1" Account="admin" Password="21218cca77804d2ba1922c33e0151105" />
+    <BrokerList>
+        <BrokerInfo BrokerID="1" BrokerCode="8090" Company="中国国际期货">
+            <ServerGroup ServerNo="1" ServerName="上海电信互联网">
+                <Trading>
+                    <item AddrID="1">cifco-front1.financial-trading-platform.com:41205</item>
+                    <item AddrID="2">cifco-front3.financial-trading-platform.com:41205</item>
+                    <item AddrID="3">cifco-front4.financial-trading-platform.com:41205</item>
+                    <item AddrID="4">cifco-front5.financial-trading-platform.com:41205</item>
+                    <item AddrID="5">cifco-front7.financial-trading-platform.com:41205</item>
+                    <item AddrID="6">cifco-front8.financial-trading-platform.com:41205</item>
+                    <item AddrID="7">cifco-front9.financial-trading-platform.com:41205</item>
+                </Trading>
+                <MarketData>
+                    <item AddrID="8">cifco-md1.financial-trading-platform.com:41213</item>
+                    <item AddrID="9">cifco-md3.financial-trading-platform.com:41213</item>
+                    <item AddrID="10">cifco-md4.financial-trading-platform.com:41213</item>
+                    <item AddrID="11">cifco-md5.financial-trading-platform.com:41213</item>
+                    <item AddrID="12">cifco-md7.financial-trading-platform.com:41213</item>
+                    <item AddrID="13">cifco-md8.financial-trading-platform.com:41213</item>
+                    <item AddrID="14">cifco-md9.financial-trading-platform.com:41213</item>
+                </MarketData>
+            </ServerGroup>
+            <ServerGroup ServerNo="2" ServerName="上海联通互联网">
+                <Trading>
+                    <item AddrID="15">cifco-front2.financial-trading-platform.com:41205</item>
+                    <item AddrID="16">cifco-front6.financial-trading-platform.com:41205</item>
+                    <item AddrID="17">cifco-front9.financial-trading-platform.com:41205</item>
+                </Trading>
+                <MarketData>
+                    <item AddrID="18">cifco-md2.financial-trading-platform.com:41213</item>
+                    <item AddrID="19">cifco-md6.financial-trading-platform.com:41213</item>
+                    <item AddrID="20">cifco-md9.financial-trading-platform.com:41213</item>
+                </MarketData>
+            </ServerGroup>
+            <ServerGroup ServerNo="3" ServerName="北京电信互联网">
+                <Trading>
+                    <item AddrID="21">218.241.197.56:41205</item>
+                    <item AddrID="22">218.241.197.55:41205</item>
+                </Trading>
+                <MarketData>
+                    <item AddrID="23">218.241.197.56:41213</item>
+                    <item AddrID="24">218.241.197.55:41213</item>
+                </MarketData>
+            </ServerGroup>
+            <ServerGroup ServerNo="4" ServerName="北京联通互联网">
+                <Trading>
+                    <item AddrID="25">123.127.45.138:41205</item>
+                    <item AddrID="26">123.127.45.137:41205</item>
+                    <item AddrID="27">123.127.45.139:41205</item>
+                </Trading>
+                <MarketData>
+                    <item AddrID="28">123.127.45.138:41213</item>
+                    <item AddrID="29">123.127.45.137:41213</item>
+                    <item AddrID="30">123.127.45.139:41213</item>
+                </MarketData>
+            </ServerGroup>
+            <ServerGroup ServerNo="5" ServerName="北京电信(灾备）">
+                <Trading>
+                    <item AddrID="31">218.241.197.52:41205</item>
+                    <item AddrID="32">218.241.197.53:41205</item>
+                    <item AddrID="33">218.241.197.54:41205</item>
+                    <item AddrID="34">123.127.45.145:41205</item>
+                    <item AddrID="35">218.241.197.59:41205</item>
+                </Trading>
+                <MarketData>
+                    <item AddrID="36">218.241.197.52:41213</item>
+                    <item AddrID="37">218.241.197.53:41213</item>
+                    <item AddrID="38">218.241.197.54:41213</item>
+                    <item AddrID="39">123.127.45.145:41213</item>
+                    <item AddrID="40">218.241.197.59:41213</item>
+                </MarketData>
+            </ServerGroup>
+            <ServerGroup ServerNo="6" ServerName="北京联通(灾备)">
+                <Trading>
+                    <item AddrID="41">123.127.45.141:41205</item>
+                    <item AddrID="42">123.127.45.144:41205</item>
+                    <item AddrID="43">123.127.45.142:41205</item>
+                    <item AddrID="44">123.127.45.143:41205</item>
+                    <item AddrID="45">123.127.45.145:41205</item>
+                </Trading>
+                <MarketData>
+                    <item AddrID="46">123.127.45.141:41213</item>
+                    <item AddrID="47">123.127.45.144:41213</item>
+                    <item AddrID="48">123.127.45.142:41213</item>
+                    <item AddrID="49">123.127.45.143:41213</item>
+                    <item AddrID="50">123.127.45.145:41213</item>
+                </MarketData>
+            </ServerGroup>
+        </BrokerInfo>
+    </BrokerList>
+    <TradeAccountList>
+        <TradeAccount Account="630917" Password="123456" BrokerID="1" ServerNo="1" NickName="123456" ID="1" RowNo="0" />
+    </TradeAccountList>
+</system>

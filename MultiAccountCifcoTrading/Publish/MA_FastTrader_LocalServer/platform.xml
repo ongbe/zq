@@ -1,0 +1,16 @@
+<platform>
+	<OnRtnTrade>
+		<IsCalculate>1</IsCalculate>
+		<IsReq>1</IsReq>
+		<DelayBefReq>2</DelayBefReq>
+		<MaxRecordReqPositionDetail>500</MaxRecordReqPositionDetail>
+	</OnRtnTrade>
+	<ListCtrl>
+		//列表框自动排序时，最大行数。超过这个行数，停止自动排序，以免影响速度
+		<MaxItemCountForAutoResort>300</MaxItemCountForAutoResort>
+	</ListCtrl>
+	<ExtraFunction>
+		//是否启用CifcoServicesHall功能，1启用，0不启用
+		<CifcoServicesHall>0</CifcoServicesHall>
+	</ExtraFunction>
+</platform>

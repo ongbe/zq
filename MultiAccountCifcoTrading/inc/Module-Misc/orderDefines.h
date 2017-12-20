@@ -1,0 +1,252 @@
+#pragma once
+
+// 下单使用的数据结构
+
+
+typedef struct {
+	LPVOID		pWin;
+	int			left;
+	int			top;
+	int			width;
+	int			height;
+	bool		isShow;
+	bool		isEnable;
+} UIENTITY, *PUIENTITY;
+
+enum {
+	conSubStyle_Std,
+	conSubStyle_Batch,
+	conSubStyle_Condition,
+	conSubStyle_Position,
+	conSubStyle_Stop
+};
+
+enum {
+	conUI_WDList,					// 五档行情列表块
+	conUI_StdInput,					// 标准输入块
+	conUI_Command,					// 按钮集成块
+	conUI_RealMsg,					// 信息提示框块
+	conUI_Batch,					// 批量单块
+	conUI_Condition,				// 条件单块
+	conUI_Stop,						// 停止单块
+	conUI_Position,					// 盈损单块
+	conUI_CheckWD,					// Check五档行情
+	conUI_CheckTopMost,				// Check前端窗口
+	conUI_CheckPosition,			// Check止盈止损
+	conUI_CheckCondition,			// Check条件委托
+	conUI_PatsInput,				// Pats输入块
+	conUI_MAX
+};
+
+// 下单类型
+enum {
+	OrderType_FT_Unknow,
+	OrderType_FT_Immediately,						// 立即
+	OrderType_FT_Touch,								// 止损
+	OrderType_FT_TouchProfit,						// 止赢
+	OrderType_FT_ParkedOrder,						// 预埋单
+	OrderType_FT_LastPriceGreaterThanStopPrice=50,	///最新价大于条件价
+	OrderType_FT_LastPriceGreaterEqualStopPrice,	///最新价大于等于条件价
+	OrderType_FT_LastPriceLesserThanStopPrice,		///最新价小于条件价
+	OrderType_FT_LastPriceLesserEqualStopPrice,		///最新价小于等于条件价
+	OrderType_FT_AskPriceGreaterThanStopPrice,		///卖一价大于条件价
+	OrderType_FT_AskPriceGreaterEqualStopPrice,		///卖一价大于等于条件价
+	OrderType_FT_AskPriceLesserThanStopPrice,		///卖一价小于条件价
+	OrderType_FT_AskPriceLesserEqualStopPrice,		///卖一价小于等于条件价
+	OrderType_FT_BidPriceGreaterThanStopPrice,		///买一价大于条件价
+	OrderType_FT_BidPriceGreaterEqualStopPrice,		///买一价大于等于条件价
+	OrderType_FT_BidPriceLesserThanStopPrice,		///买一价小于条件价
+	OrderType_FT_BidPriceLesserEqualStopPrice		///买一价小于等于条件价
+};
+
+
+// PATS下单类型
+enum {
+	OrderType_PATS_LIMIT,							// 限价
+	OrderType_PATS_MARKET,							// 市价
+	OrderType_PATS_STOP,							// 停止单
+	OrderType_PATS_STOPLIMIT						// 停止限价单
+};
+
+
+#define VK_TAB		0x09  //TAB key  
+#define VK_RETURN	0x0D  //ENTER key  
+#define VK_LEFT		0x25  //LEFT ARROW key  
+#define VK_UP		0x26  //UP ARROW key  
+#define VK_RIGHT	0x27  //RIGHT ARROW key  
+#define VK_DOWN		0x28  //DOWN ARROW key  
+
+
+// 标准单板块UIID
+enum
+{
+    ID_OISTD_FIRST=31000,
+	ID_OISTD_INSTRUMENTID_TEXT,
+	ID_OISTD_INSTRUMENTID_COMBOCTRL,
+	ID_OISTD_ACCOUNT_COMBOCTRL,
+    ID_OISTD_PRICE_TEXT,
+    ID_OISTD_VOLUME_TEXT,
+	ID_OISTD_BUYSELL_COMBOBOX,
+	ID_OISTD_OPENCLOSE_COMBOBOX,
+    ID_OISTD_PRICE_SPINCTRL,
+	ID_OISTD_VOLUME_SPINCTRL,
+	ID_OISTD_STATIC1,
+	ID_OISTD_STATIC2,
+	ID_OISTD_STATIC3,
+	ID_OISTD_STATIC4,
+    ID_OISTD_AUTOOPENCLOSE_STATIC,
+    ID_OISTD_AUTOTRACKPRICE_STATIC,
+    ID_OISTD_HEDGE_CHECKBOX,
+	SUMNUM_OISTD_ID	// 标志ID号的数量
+};
+
+
+// 下单板块的按钮UIID
+enum
+{
+	ID_BUTTON_OK=31100,
+	ID_BUTTON_CANCEL,
+	ID_BUTTON_MARKETPRICE,
+	ID_BUTTON_BATCHORDER,
+	ID_BUTTON_CONDITIONORDER,
+	ID_BUTTON_POSITIONORDER,
+	ID_BUTTON_PARKEDORDER,
+	ID_BUTTON_STOPORDER,
+	ID_BUTTON_PATSORDER,
+	ID_BUTTON_MAX
+};
+
+
+// 下单板块的其他UIID
+enum
+{
+	ID_STATIC1=31200,
+	ID_CTL_WDSHOW,
+	ID_CHECK_WDSHOW,
+	ID_CHECK_WINDOWTOPALWAYS,
+	ID_DOSTOPPOSITION_CHECK,
+	ID_DOCONDITION_CHECK,
+	ID_QUOTTIMER,
+	SUMNUM_ID	// 标志ID号的数量
+};
+
+
+// 实时信息板块UIID
+enum
+{
+	ID_LISTORDERREALMSG=31300
+};
+
+
+// 批量单板块UIID
+enum
+{
+	ID_OBATCH_RADIOINPUTPRICE=31400,
+	ID_OBATCH_RADIONEWPRICE,
+	ID_OBATCH_RADIOBSPRICE,
+	ID_OBATCH_SPINCTRLVOLUME,
+	ID_OBATCH_SPINCTRLTIMER,
+	ID_OBATCH_STATICE1,
+	ID_OBATCH_STATICE2,
+	OBATCHSUMNUM_ID	// 标志ID号的数量
+};
+
+
+// 条件单板块UIID
+enum
+{
+	ID_CONDITION_RADIONEWPRICE=31500,
+	ID_CONDITION_RADIOBUYPRICE,
+	ID_CONDITION_RADIOSELLPRICE,
+	ID_CONDITION_COMBOCONDITION,
+	ID_CONDITION_TEXTPRICE,
+	ID_CONDITION_SPINCTRLBUTTON,
+	ID_CONDITION_CHECKTOSERVER,
+	OCONDITIONSUMNUM_ID	// 标志ID号的数量
+};
+
+
+// 盈损单板块UIID
+enum
+{
+	ID_POSITION_CHECKSTOPLOSE=31600,
+	ID_POSITION_CHECKSTOPGAIN,
+	ID_POSITION_COMBOPRICETYPE,
+	ID_POSITION_RADIONEWPRICE,
+	ID_POSITION_RADIOBSPRICE,
+	ID_POSITION_RADIOTOPRICELIMIT,
+	ID_POSITION_RADIOTOPRICEOFFSET,
+	ID_POSITION_TEXTSTOPLOSEPRICEOFFSET,
+	ID_POSITION_TEXTSTOPGAINPRICEOFFSET,
+	ID_POSITION_TEXTDOPRICEOFFSET,
+	ID_POSITION_SPINCTRLSTOPLOSEPRICEOFFSET,
+	ID_POSITION_SPINCTRLSTOPGAINPRICEOFFSET,
+	ID_POSITION_SPINCTRLDOPRICEOFFSET,
+	ID_POSITION_CHECKTOSERVER,
+	ID_POSITION_STATIC1,
+	ID_POSITION_STATIC2,
+	ID_POSITION_STATIC3,
+	ID_POSITION_STATIC4,
+	OPOSITIONSUMNUM_ID	// 标志ID号的数量
+};
+
+
+// 停止单板块UIID
+enum
+{
+	ID_STOP_RADIOSTOP=31700,
+	ID_STOP_RADIOSTOPLIMIT,
+	ID_STOP_TEXTPRICE,
+	ID_STOP_SPINPRICE,
+	ID_STOP_TEXTTRIGGERPRICE,
+	ID_STOP_SPINTRIGGERPRICE,
+	ID_STOP_STATICPRICE,
+	ID_STOP_STATICTRIGGERPRICE,
+	OSTOPSUMNUM_ID	// 标志ID号的数量
+};
+
+
+// PATS标准单板块UIID
+enum
+{
+    ID_OIPATS_FIRST=31800,
+	ID_OIPATS_INSTRUMENTID_TEXT,
+	ID_OIPATS_INSTRUMENTID_COMBOCTRL,
+	ID_OIPATS_ACCOUNT_COMBOCTRL,
+    ID_OIPATS_PRICE_TEXT,
+    ID_OIPATS_LIMITPRICE_TEXT,
+    ID_OIPATS_VOLUME_TEXT,
+	ID_OIPATS_ORDERTYPE_COMBOBOX,
+	ID_OIPATS_BUYSELL_COMBOBOX,
+	ID_OIPATS_OPENCLOSE_COMBOBOX,
+    ID_OIPATS_PRICE_SPINCTRL,
+    ID_OIPATS_LIMITPRICE_SPINCTRL,
+	ID_OIPATS_VOLUME_SPINCTRL,
+	ID_OIPATS_INSTRUMENTID_STATIC,
+	ID_OIPATS_ORDERTYPE_STATIC,
+	ID_OIPATS_ACCOUNT_STATIC,
+	ID_OIPATS_BUYSELL_STATIC,
+    ID_OIPATS_AUTOOPENCLOSE_STATIC,
+    ID_OIPATS_AUTOTRACKPRICE_STATIC,
+	ID_OIPATS_AUTOTRACKLIMITPRICE_STATIC,
+	ID_OIPATS_VOLUME_STATIC,
+    ID_OIPATS_HEDGE_CHECKBOX,
+	SUMNUM_OIPATS_ID	// 标志ID号的数量
+};
+
+
+#define KEYDOWN(vk_code) ((GetAsyncKeyState(vk_code) & 0x8000) ? 1 : 0) 
+#define KEYUP(vk_code) ((GetAsyncKeyState(vk_code) & 0x8000) ? 0 : 1) 
+
+
+#define ROW_HEIGHT			14
+#define ROW_WIDTH			12
+#define WDPANEL_WIDTH		160
+#define ORDERPANEL_WIDTH	180
+
+
+#define HWND_TOPMOST		((HWND)-1)
+#define HWND_NOTOPMOST		((HWND)-2)
+#define SWP_NOSIZE			0x0001
+#define SWP_NOMOVE			0x0002
+

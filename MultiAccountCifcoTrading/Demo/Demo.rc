@@ -1,0 +1,233 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Demo.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Demo.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG  0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 App"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "App 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2012",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_APP_DIALOG DIALOGEX 0, 0, 709, 292
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "PlusinAPI Demo"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LIST_BOX,23,19,182,250,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "查询交易所列表",IDC_BUTTON1,219,145,82,14
+    PUSHBUTTON      "查询交易所当前时间",IDC_BUTTON2,305,145,82,14
+    PUSHBUTTON      "查询交易所交易时间",IDC_BUTTON3,219,163,82,14
+    PUSHBUTTON      "查询合约列表",IDC_BUTTON4,219,98,82,14
+    PUSHBUTTON      "查询合约详情",IDC_BUTTON5,305,98,82,14
+    PUSHBUTTON      "行情订阅",IDC_BUTTON6,219,194,82,14
+    PUSHBUTTON      "行情退订",IDC_BUTTON7,305,194,82,14
+    PUSHBUTTON      "清空列表",IDC_BUTTON8,212,19,50,14
+    PUSHBUTTON      "返回",IDC_BUTTON10,270,19,50,14
+    GROUPBOX        "账户相关命令",IDC_STATIC,213,39,182,45
+    PUSHBUTTON      "查询所有子账户列表",IDC_BUTTON11,219,51,82,14
+    PUSHBUTTON      "查询子账户资金信息",IDC_BUTTON12,305,51,82,14
+    GROUPBOX        "合约相关命令",IDC_STATIC,213,88,182,45
+    GROUPBOX        "交易所相关命令",IDC_STATIC,214,136,182,46
+    GROUPBOX        "行情相关命令",IDC_STATIC,214,183,182,47
+    PUSHBUTTON      "获取行情快照",IDC_BUTTON9,219,212,82,14
+    PUSHBUTTON      "查询当前账号",IDC_BUTTON13,219,68,82,14
+    PUSHBUTTON      "查询当前子账号",IDC_BUTTON14,305,68,82,14
+    GROUPBOX        "持仓相关命令",IDC_STATIC,403,39,182,45
+    PUSHBUTTON      "查询持仓ID列表",IDC_BUTTON15,409,51,82,14
+    PUSHBUTTON      "查询持仓详情1",IDC_BUTTON16,409,67,82,14
+    PUSHBUTTON      "查询持仓详情2",IDC_BUTTON17,496,67,82,14
+    GROUPBOX        "组合持仓相关命令",IDC_STATIC,403,88,182,45
+    PUSHBUTTON      "查询组合持仓ID列表",IDC_BUTTON18,409,100,82,14
+    PUSHBUTTON      "查询组合持仓详情1",IDC_BUTTON19,409,116,82,14
+    PUSHBUTTON      "查询组合持仓详情2",IDC_BUTTON20,495,116,82,14
+    GROUPBOX        "委托单相关命令",IDC_STATIC,403,136,182,45
+    PUSHBUTTON      "查询委托单ID列表",IDC_BUTTON21,409,148,82,14
+    PUSHBUTTON      "查询委托单详情1",IDC_BUTTON22,409,164,82,14
+    PUSHBUTTON      "查询委托单详情2",IDC_BUTTON23,495,164,82,14
+    PUSHBUTTON      "下单",IDC_BUTTON24,409,193,82,14
+    PUSHBUTTON      "撤单",IDC_BUTTON25,495,193,82,14
+    GROUPBOX        "下单相关命令",IDC_STATIC,403,183,182,29
+    PUSHBUTTON      "查询是否模拟盘",IDC_BUTTON26,305,212,82,14
+    PUSHBUTTON      "查询合约简称表",IDC_BUTTON27,219,114,82,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "FileDescription", "App Microsoft 基础类应用程序"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "App"
+            VALUE "LegalCopyright", "版权所有 (C) 2012"
+            VALUE "OriginalFilename", "App.EXE"
+            VALUE "ProductName", "App 应用程序"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_APP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 702
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 285
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 App(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\Demo.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

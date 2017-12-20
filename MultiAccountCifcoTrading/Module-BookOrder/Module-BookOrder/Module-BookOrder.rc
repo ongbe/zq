@@ -1,0 +1,410 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\ModuleBookOrder.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""          // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Module-BookOrder.ico"
+IDR_MOUSELEFT           ICON                    "res\\idr_mouseleft.ico"
+IDR_MOUSERIGHT          ICON                    "res\\idr_mouseright.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "退出(&X)",                      ID_APP_EXIT
+    END
+    POPUP "编辑(&E)"
+    BEGIN
+        MENUITEM "撤消(&U)\tCtrl+Z",              ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "剪切(&T)\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "粘贴(&P)\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于 Module-BookOrder(&A)...",  ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 Module-BookOrder"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "Module-BookOrder, Version 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2012",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_BOOKORDER DIALOGEX 0, 0, 332, 446
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_SYSMENU | WS_THICKFRAME
+FONT 9, "宋体", 400, 0, 0x86
+BEGIN
+    CONTROL         "",IDC_FRAME_ORDER,"Static",SS_GRAYFRAME | NOT WS_VISIBLE,6,112,316,326
+    CONTROL         "价格列固定",IDC_CHECK_FIXPRICE,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,16,417,56,10
+    CONTROL         "快速改单",IDC_CHECK_CHANGEORDER,"Button",BS_AUTOCHECKBOX | BS_FLAT | NOT WS_VISIBLE | WS_TABSTOP,16,424,48,10
+    CONTROL         "刷新价格",ID_REFLASHPRICE,"Button",BS_OWNERDRAW | WS_TABSTOP,124,409,60,19
+    CONTROL         "批量撤单",ID_CANCELALL,"Button",BS_OWNERDRAW | WS_TABSTOP,188,409,60,19
+    CONTROL         "关闭",ID_CLOSE,"Button",BS_OWNERDRAW | WS_TABSTOP,252,409,60,19
+    CONTROL         "Custom1",IDC_GRIDACCOUNT,"MFCGridCtrl",WS_DISABLED | WS_TABSTOP,6,25,316,32
+    CONTROL         "Custom1",IDC_GRIDPOSITION,"MFCGridCtrl",WS_TABSTOP,6,63,315,43
+    CONTROL         "一键下单/撤单",IDC_CHECK_ALLOW_ORDER,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,17,124,67,10
+    EDITTEXT        IDC_EDIT_INSTRUMENTID,36,138,46,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_OC_LEFT,141,122,57,91,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_QTY_LEFT,141,138,57,13,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SPIN_QTY_LEFT,"msctls_updown32",UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,188,138,10,12
+    COMBOBOX        IDC_COMBO_OC_RIGHT,257,122,57,77,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_QTY_RIGHT,257,138,57,13,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SPIN_QTY_RIGHT,"msctls_updown32",UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,304,138,10,12
+    CONTROL         "Custom1",IDC_GRIDPRICE,"MFCGridCtrl",WS_TABSTOP,12,156,304,241
+    LTEXT           "持仓情况",IDC_STATIC,10,57,34,8,NOT WS_VISIBLE,WS_EX_TRANSPARENT
+    CONTROL         "置顶",IDC_CHECK_TOMOSTTOP,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,278,8,28,10
+    CONTROL         "",IDC_BTN_COLOR1,"Button",BS_OWNERDRAW | WS_TABSTOP,220,7,11,11
+    CONTROL         "",IDC_BTN_COLOR2,"Button",BS_OWNERDRAW | WS_TABSTOP,234,7,11,11
+    CONTROL         "",IDC_BTN_COLOR3,"Button",BS_OWNERDRAW | WS_TABSTOP,248,7,11,11
+    CONTROL         "",IDC_BTN_COLOR4,"Button",BS_OWNERDRAW | WS_TABSTOP,262,7,11,11
+    LTEXT           "一键下单 -- ",IDC_LABEL_TITLE,6,8,178,13
+    LTEXT           "开平",IDC_STATIC,121,125,17,8
+    LTEXT           "开平",IDC_STATIC,236,125,17,8
+    LTEXT           "手数",IDC_STATIC,121,140,17,8
+    LTEXT           "手数",IDC_STATIC,236,140,17,8
+    CONTROL         "",IDC_MOUSELEFT,"Static",SS_OWNERDRAW | SS_NOTIFY,96,126,21,21,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_MOUSERIGHT,"Static",SS_OWNERDRAW | SS_NOTIFY,211,126,20,20,WS_EX_TRANSPARENT
+    LTEXT           "合约",IDC_STATIC,17,140,17,8
+END
+
+IDD_INSTRUMENTIDLIST DIALOGEX 0, 0, 124, 186
+STYLE DS_SETFONT | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP
+EXSTYLE WS_EX_STATICEDGE | WS_EX_NOACTIVATE
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LISTBOX         IDC_INSTRUMENTIDLIST,15,36,84,98,LBS_SORT | LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Button4",IDC_INSTRUMENTID_GROUP,11,9,50,14,NOT WS_VISIBLE
+END
+
+IDD_QTYLIST DIALOGEX 0, 0, 116, 82
+STYLE DS_SETFONT | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP
+EXSTYLE WS_EX_STATICEDGE | WS_EX_NOACTIVATE
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Cancel",ID_QTY_GROUP,9,10,50,14,NOT WS_VISIBLE
+END
+
+IDD_CANCELORDERS DIALOGEX 0, 0, 215, 108
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "批量撤单"
+FONT 10, "宋体", 400, 0, 0x86
+BEGIN
+    PUSHBUTTON      "确定",IDOK,60,89,40,14
+    PUSHBUTTON      "取消",IDCANCEL,114,89,40,14
+    CONTROL         "",IDC_LISTORDERS,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,2,14,210,72
+    LTEXT           "可撤挂单列表：",IDC_STATIC,4,5,53,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,7
+ PRODUCTVERSION 1,0,0,7
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "Comments", "一键下单"
+            VALUE "CompanyName", "中期信息技术服务有限公司"
+            VALUE "FileDescription", "一键下单"
+            VALUE "FileVersion", "1.0.0.7"
+            VALUE "InternalName", "Module-BookOrder.exe"
+            VALUE "LegalCopyright", "(C) 中期信息技术服务有限公司。保留所有权利。"
+            VALUE "OriginalFilename", "Module-BookOrder.exe"
+            VALUE "ProductName", "FastTrader 系列"
+            VALUE "ProductVersion", "1.0.0.7"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_BOOKORDER, DIALOG
+    BEGIN
+        RIGHTMARGIN, 331
+        BOTTOMMARGIN, 445
+    END
+
+    IDD_INSTRUMENTIDLIST, DIALOG
+    BEGIN
+        RIGHTMARGIN, 123
+        BOTTOMMARGIN, 185
+    END
+
+    IDD_QTYLIST, DIALOG
+    BEGIN
+        RIGHTMARGIN, 115
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BTNCOLOR1           BITMAP                  "res\\bmp0001.bmp"
+IDB_BTNCOLOR2           BITMAP                  "res\\bmp0002.bmp"
+IDB_BTNCOLOR3           BITMAP                  "res\\bmp0003.bmp"
+IDB_BTNCOLOR4           BITMAP                  "res\\bmp0004.bmp"
+IDB_BTNCLR1             BITMAP                  "res\\btnclr1.bmp"
+IDB_BTNCLR2             BITMAP                  "res\\btnclr2.bmp"
+IDB_BTNCLR3             BITMAP                  "res\\btnclr3.bmp"
+IDB_BTNCLR4             BITMAP                  "res\\btnclr4.bmp"
+IDB_BTNCLR1_DOWN        BITMAP                  "res\\btnclr1_down.bmp"
+IDB_BTNCLR2_DOWN        BITMAP                  "res\\btnclr2_down.bmp"
+IDB_BTNCLR3_DOWN        BITMAP                  "res\\btnclr3_down.bmp"
+IDB_BTNCLR4_DOWN        BITMAP                  "res\\btnclr4_down.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+1                       RT_MANIFEST             "Module-BookOrder.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE 初始化失败。请确保 OLE 库是正确的版本。"
+END
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "Module-BookOrder"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Module-BookOrder"
+    AFX_IDS_IDLEMESSAGE     "就绪"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "显示程序信息、版本号和版权\n关于"
+    ID_APP_EXIT             "退出应用程序；提示保存文档\n退出"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回上一个窗格\n上一窗格"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "将活动窗口拆分为多个窗格\n拆分"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "清除选定内容\n清除"
+    ID_EDIT_CLEAR_ALL       "清除全部内容\n全部清除"
+    ID_EDIT_COPY            "复制选定内容并将其放到剪贴板上\n复制"
+    ID_EDIT_CUT             "剪切选定内容并将其放到剪贴板上\n剪切"
+    ID_EDIT_FIND            "查找指定的文本\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复上一操作\n重复"
+    ID_EDIT_REPLACE         "用其他文本替换特定的文本\n替换"
+    ID_EDIT_SELECT_ALL      "选定整个文档\n全选"
+    ID_EDIT_UNDO            "撤消上一操作\n撤消"
+    ID_EDIT_REDO            "恢复上次撤消的操作\n重做"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "更改窗口大小"
+    AFX_IDS_SCMOVE          "更改窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小为图标"
+    AFX_IDS_SCMAXIMIZE      "使窗口最大化显示"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到前一个文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动窗口并提示保存文档"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "将窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务列表"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\ModuleBookOrder.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"          // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

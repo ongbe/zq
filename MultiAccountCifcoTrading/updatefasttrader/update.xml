@@ -1,0 +1,55 @@
+<update>   
+   <version>1.0.1.9</version>        
+   <datetime>2011-3-31 </datetime>          
+   <filelist filescount="5" itemcount="11" sourcepath="http://10.11.121.174/UpdateServ/">   
+  
+   <file filesname="" >    
+   <item name="xiaxia.txt" size="">    
+    </item>   
+   </file>   
+    
+  <file filesname="UpFile">    
+    <item name="2222.dll" size="">    
+    </item>    
+    <item name="1162193918505.doc" size="">     
+    </item>    
+    <item name="xd.doc" size="">    
+    </item>    
+    <item name="s2.txt" size="">    
+    </item>   
+    <item name="a.dll" size="">    
+    </item>   
+    <item name="WebUPFILE.dll" size="">    
+    </item>   
+  </file>   
+  
+  
+<file filesname="test">    
+  
+<item name="aa.txt" size="">     
+</item>    
+<item name="2.txt" size="">     
+</item>    
+</file>   
+  
+  
+<file filesname="Copy">   
+  
+  
+<item name="bb.doc" size="">     
+</item>   
+<item name="b.dll" size="">    
+</item>   
+</file>    
+  
+  
+<file filesname="hehe">   
+  
+<item name="hehe.txt" size="">    
+</item>   
+<item name="WebUPFILE.dll" size="">    
+</item>   
+</file>    
+  
+</filelist>    
+</update>   

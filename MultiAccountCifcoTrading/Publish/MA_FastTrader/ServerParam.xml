@@ -1,0 +1,21 @@
+<ServerParam current="0" language="2">
+    <UniServer></UniServer>
+    <VersionStr>multi</VersionStr>
+    <ProxyType></ProxyType>
+    <ProxyAddr></ProxyAddr>
+    <ProxyPort></ProxyPort>
+    <ProxyUser></ProxyUser>
+    <ProxyPwd></ProxyPwd>
+    <Server>
+        <Name>¶àÕËºÅ·þÎñÆ÷</Name>
+        <CTPSimulate>1</CTPSimulate>
+        <BrokerID></BrokerID>
+        <InvestorID></InvestorID>
+        <Trading>
+            <item>115.182.37.147:8999</item>
+        </Trading>
+        <MarketData>
+            <item>115.182.37.147:8999</item>
+        </MarketData>
+    </Server>
+</ServerParam>

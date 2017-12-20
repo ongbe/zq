@@ -1,0 +1,38 @@
+<InstrumentGroup id="568">
+    <Group name="我的合约" id="568" Visibility="1" />
+    <Group name="郑商所合约" id="564" Visibility="1">
+        <Instrument id="CF301" />
+        <Instrument id="ER301" />
+        <Instrument id="ME301" />
+        <Instrument id="PM301" />
+        <Instrument id="RO301" />
+        <Instrument id="SR301" />
+        <Instrument id="TA301" />
+        <Instrument id="WS301" />
+        <Instrument id="WT209" />
+    </Group>
+    <Group name="大商所合约" id="565" Visibility="1">
+        <Instrument id="a1301" />
+        <Instrument id="b1209" />
+        <Instrument id="c1301" />
+        <Instrument id="m1301" />
+        <Instrument id="p1301" />
+        <Instrument id="l1301" />
+        <Instrument id="y1301" />
+        <Instrument id="j1301" />
+        <Instrument id="v1301" />
+    </Group>
+    <Group name="上期所合约" id="566" Visibility="1">
+        <Instrument id="al1211" />
+        <Instrument id="au1212" />
+        <Instrument id="ag1209" />
+        <Instrument id="cu1211" />
+        <Instrument id="fu1301" />
+        <Instrument id="pb1210" />
+        <Instrument id="rb1301" />
+        <Instrument id="ru1301" />
+        <Instrument id="wr1210" />
+        <Instrument id="zn1211" />
+    </Group>
+    <Group name="中金所合约" id="567" Visibility="1" />
+</InstrumentGroup>

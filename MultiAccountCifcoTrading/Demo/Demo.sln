@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlusinAPI", "..\PlusinAPI\PlusinDll.vcproj", "{1AA8A44F-3F29-475D-85D6-19FE49E9F497}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Demo", "Demo.vcproj", "{69E8522B-C842-4BAB-B3D7-8BEF280399F6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1AA8A44F-3F29-475D-85D6-19FE49E9F497} = {1AA8A44F-3F29-475D-85D6-19FE49E9F497}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AA8A44F-3F29-475D-85D6-19FE49E9F497}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1AA8A44F-3F29-475D-85D6-19FE49E9F497}.Debug|Win32.Build.0 = Debug|Win32
+		{1AA8A44F-3F29-475D-85D6-19FE49E9F497}.Release|Win32.ActiveCfg = Release|Win32
+		{1AA8A44F-3F29-475D-85D6-19FE49E9F497}.Release|Win32.Build.0 = Release|Win32
+		{69E8522B-C842-4BAB-B3D7-8BEF280399F6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{69E8522B-C842-4BAB-B3D7-8BEF280399F6}.Debug|Win32.Build.0 = Debug|Win32
+		{69E8522B-C842-4BAB-B3D7-8BEF280399F6}.Release|Win32.ActiveCfg = Release|Win32
+		{69E8522B-C842-4BAB-B3D7-8BEF280399F6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

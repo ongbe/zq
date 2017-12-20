@@ -1,0 +1,7 @@
+服务器部署步骤：
+1.安装oracle数据库。
+2.打开PLSQL，以system用户连接到oracle，并执行"Create User.sql"脚本
+3.导入maaccount.dump文件。打开命令窗口，执行如下命令："imp maaccount/maaccount@orcl file="d:\maaccount.dump" fromuser=maaccount touser=maaccount"，其中，file为存放dump文件的路径，touser为步骤2中脚本文件创建的用户。
+4.打开system.xml文件，填写好服务程序运行的端口号，数据库SID、用户名、密码。
+5.打开function.ini文件，修改ip_TcpSvr及ip_UdpSvr的地址为将要运行服务程序的机器的IP地址。
+6.在命令行中运行uniServer.exe程序，参数为"run"。

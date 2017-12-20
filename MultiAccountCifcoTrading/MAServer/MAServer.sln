@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultiAccountServer", "MultiAccountServer\MultiAccountServer.vcproj", "{EC31A463-7460-4663-A472-1D7AB0C3A4FE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LicenceVarify", "LicenceVarify\LicenceVarify.vcproj", "{B5401DD1-4B57-4C1C-A901-B1E3FED946E9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultiAccountServerLocal", "MultiAccountServerLocal\MultiAccountServerLocal.vcproj", "{3DE34739-1518-447F-8D75-A9870BFA219B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MAServerDeploy", "Setup\Setup.vcproj", "{E332A832-DB73-4C23-B1E6-AC629A711A1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC31A463-7460-4663-A472-1D7AB0C3A4FE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EC31A463-7460-4663-A472-1D7AB0C3A4FE}.Debug|Win32.Build.0 = Debug|Win32
+		{EC31A463-7460-4663-A472-1D7AB0C3A4FE}.Release|Win32.ActiveCfg = Release|Win32
+		{EC31A463-7460-4663-A472-1D7AB0C3A4FE}.Release|Win32.Build.0 = Release|Win32
+		{B5401DD1-4B57-4C1C-A901-B1E3FED946E9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B5401DD1-4B57-4C1C-A901-B1E3FED946E9}.Debug|Win32.Build.0 = Debug|Win32
+		{B5401DD1-4B57-4C1C-A901-B1E3FED946E9}.Release|Win32.ActiveCfg = Release|Win32
+		{B5401DD1-4B57-4C1C-A901-B1E3FED946E9}.Release|Win32.Build.0 = Release|Win32
+		{3DE34739-1518-447F-8D75-A9870BFA219B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3DE34739-1518-447F-8D75-A9870BFA219B}.Debug|Win32.Build.0 = Debug|Win32
+		{3DE34739-1518-447F-8D75-A9870BFA219B}.Release|Win32.ActiveCfg = Release|Win32
+		{3DE34739-1518-447F-8D75-A9870BFA219B}.Release|Win32.Build.0 = Release|Win32
+		{E332A832-DB73-4C23-B1E6-AC629A711A1C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E332A832-DB73-4C23-B1E6-AC629A711A1C}.Debug|Win32.Build.0 = Debug|Win32
+		{E332A832-DB73-4C23-B1E6-AC629A711A1C}.Release|Win32.ActiveCfg = Release|Win32
+		{E332A832-DB73-4C23-B1E6-AC629A711A1C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

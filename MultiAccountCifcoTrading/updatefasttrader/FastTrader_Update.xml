@@ -1,0 +1,38 @@
+<update>   
+   <version>1,5,0,6</version> 
+   <version_min>1,2,0,1</version_min> 
+   <versionInfo>1.o&#x0D;&#x0A;2.oo&#x0D;&#x0A;3.ooo</versionInfo> 
+   <url>http://10.10.11.35/special/updatefile</url> 
+   <AppendFiles>
+   </AppendFiles>
+   <ReplaceFiles>	 
+   		 <FileName name ="1.layout" Path="layout"          MD5 ="f661a85634888e580079884ea0670020"/> 
+   		 <FileName name ="2.layout" Path="layout"          MD5 ="f661a85634888e580079884ea0670020"/>
+   		 <FileName name ="3.layout" Path="layout"          MD5 ="f661a85634888e580079884ea0670020"/>
+   		 <FileName name ="4.layout" Path="layout"          MD5 ="f661a85634888e580079884ea0670020"/>
+			 <FileName name ="AutoUpdate.xml" Path=""          MD5 ="f661a85634888e580079884ea0670020"/> 	
+			 <FileName name ="FastTrader.exe" Path=""          MD5 ="f661a85634888e580079884ea0670020"/>
+			 <FileName name ="help.chm" Path=""          			 MD5 ="f661a85634888e580079884ea0670020"/>
+			 <FileName name ="HypertextNotice.exe" Path=""     MD5 ="f661a85634888e580079884ea0670020"/>
+			 <FileName name ="InstrumentGroup.xml" Path=""     MD5 ="f661a85634888e580079884ea0670020"/>			 
+			 <FileName name ="language.csv" Path=""            MD5 ="f661a85634888e580079884ea0670020"/>
+			 <FileName name ="layout.txt" Path=""              MD5 ="f661a85634888e580079884ea0670020"/>				
+			 <FileName name ="platform.xml" Path=""              MD5 ="f661a85634888e580079884ea0670020"/>				 
+			 <FileName name ="ServerParam.xml" Path=""              MD5 ="f661a85634888e580079884ea0670020"/>	
+			 <FileName name ="syscfg.xml" Path=""              MD5 ="f661a85634888e580079884ea0670020"/>
+			 <FileName name ="system.plusin" Path=""              MD5 ="f661a85634888e580079884ea0670020"/>
+			 <FileName name ="thostmduserapi.dll" Path=""              MD5 ="f661a85634888e580079884ea0670020"/>
+			 <FileName name ="thosttraderapi.dll" Path=""              MD5 ="f661a85634888e580079884ea0670020"/>			
+			 <FileName name ="updatefasttrader.exe" Path=""              MD5 ="f661a85634888e580079884ea0670020"/>
+			 <FileName name ="PlusinAPI.dll" Path="plusin"              MD5 ="f661a85634888e580079884ea0670020"/>	
+			  <FileName name ="Module-BookOrder.exe" Path="plusin"              MD5 ="f661a85634888e580079884ea0670020"/>		
+			 <FileName name ="Module-BookOrder.xml" Path="plusin"              MD5 ="f661a85634888e580079884ea0670020"/>		
+			 <FileName name ="ZqQuotation.exe" Path="plusin"              MD5 ="f661a85634888e580079884ea0670020"/>
+			 <FileName name ="ZqQuotation.xml" Path="plusin"              MD5 ="f661a85634888e580079884ea0670020"/>	
+			 <FileName name ="hqCfg.xml" Path="plusin\hqData"              MD5 ="f661a85634888e580079884ea0670020"/>			 
+   </ReplaceFiles >  
+   <ExeFiles>
+   	   <FileName name ="FastTraderSetup.exe" Path=""         MD5 ="f661a85634888e580079884ea0670020"/>
+   </ExeFiles>
+   <datetime>2012-06-10</datetime>          
+</update>  

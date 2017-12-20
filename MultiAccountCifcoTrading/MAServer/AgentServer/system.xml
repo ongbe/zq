@@ -1,0 +1,9 @@
+<system>
+    <Port>8999</Port>
+    <TimeOutSec>180</TimeOutSec>
+    <DataBase>
+        <SID>115.182.37.143:8998/fasttrade</SID>
+        <User>maaccount1</User>
+        <Password>maaccount1</Password>
+    </DataBase>
+</system>

@@ -1,0 +1,6 @@
+; PlusinDll.def : Declares the module parameters for the DLL.
+
+LIBRARY      "PlusinAPI"
+
+EXPORTS
+    ; Explicit exports can go here
