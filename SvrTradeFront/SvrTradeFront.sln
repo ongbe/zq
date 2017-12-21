@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SvrTradeFront", "SvrTradeFront\SvrTradeFront.vcproj", "{DE173EE3-240F-4DFB-A34C-5E63EC471614}"
+	ProjectSection(ProjectDependencies) = postProject
+		{819EEF35-7E8F-4168-9501-9C325AA1CF54} = {819EEF35-7E8F-4168-9501-9C325AA1CF54}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uniServerLib", "..\Miscellaneous\uniServer\uniServerLib\uniServerLib.vcproj", "{9D70E99D-54AA-4A1A-A3AF-210FBBD0FEC0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tools", "..\Miscellaneous\Tools\Tools.vcproj", "{86E881CD-82F6-46C9-B10F-E05A7E43D14D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tools4dll", "..\Miscellaneous\Tools\Tools4dll.vcproj", "{55F970AD-BE1D-4BB3-9FAD-A0BA3BBD7451}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SvrTcp", "..\InstitutionalTrading\Server\SvrTcp\SvrTcp.vcproj", "{819EEF35-7E8F-4168-9501-9C325AA1CF54}"
+	ProjectSection(ProjectDependencies) = postProject
+		{55F970AD-BE1D-4BB3-9FAD-A0BA3BBD7451} = {55F970AD-BE1D-4BB3-9FAD-A0BA3BBD7451}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uniServer", "..\Miscellaneous\uniServer\uniServer\uniServer.vcproj", "{76917DE1-1F86-4D31-8F34-70558A1DDD98}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9D70E99D-54AA-4A1A-A3AF-210FBBD0FEC0} = {9D70E99D-54AA-4A1A-A3AF-210FBBD0FEC0}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE173EE3-240F-4DFB-A34C-5E63EC471614}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DE173EE3-240F-4DFB-A34C-5E63EC471614}.Debug|Win32.Build.0 = Debug|Win32
+		{DE173EE3-240F-4DFB-A34C-5E63EC471614}.Release|Win32.ActiveCfg = Release|Win32
+		{DE173EE3-240F-4DFB-A34C-5E63EC471614}.Release|Win32.Build.0 = Release|Win32
+		{9D70E99D-54AA-4A1A-A3AF-210FBBD0FEC0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9D70E99D-54AA-4A1A-A3AF-210FBBD0FEC0}.Debug|Win32.Build.0 = Debug|Win32
+		{9D70E99D-54AA-4A1A-A3AF-210FBBD0FEC0}.Release|Win32.ActiveCfg = Release|Win32
+		{9D70E99D-54AA-4A1A-A3AF-210FBBD0FEC0}.Release|Win32.Build.0 = Release|Win32
+		{86E881CD-82F6-46C9-B10F-E05A7E43D14D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{86E881CD-82F6-46C9-B10F-E05A7E43D14D}.Debug|Win32.Build.0 = Debug|Win32
+		{86E881CD-82F6-46C9-B10F-E05A7E43D14D}.Release|Win32.ActiveCfg = Release|Win32
+		{86E881CD-82F6-46C9-B10F-E05A7E43D14D}.Release|Win32.Build.0 = Release|Win32
+		{55F970AD-BE1D-4BB3-9FAD-A0BA3BBD7451}.Debug|Win32.ActiveCfg = Debug|Win32
+		{55F970AD-BE1D-4BB3-9FAD-A0BA3BBD7451}.Debug|Win32.Build.0 = Debug|Win32
+		{55F970AD-BE1D-4BB3-9FAD-A0BA3BBD7451}.Release|Win32.ActiveCfg = Release|Win32
+		{55F970AD-BE1D-4BB3-9FAD-A0BA3BBD7451}.Release|Win32.Build.0 = Release|Win32
+		{819EEF35-7E8F-4168-9501-9C325AA1CF54}.Debug|Win32.ActiveCfg = Debug|Win32
+		{819EEF35-7E8F-4168-9501-9C325AA1CF54}.Debug|Win32.Build.0 = Debug|Win32
+		{819EEF35-7E8F-4168-9501-9C325AA1CF54}.Release|Win32.ActiveCfg = Release|Win32
+		{819EEF35-7E8F-4168-9501-9C325AA1CF54}.Release|Win32.Build.0 = Release|Win32
+		{76917DE1-1F86-4D31-8F34-70558A1DDD98}.Debug|Win32.ActiveCfg = Debug|Win32
+		{76917DE1-1F86-4D31-8F34-70558A1DDD98}.Debug|Win32.Build.0 = Debug|Win32
+		{76917DE1-1F86-4D31-8F34-70558A1DDD98}.Release|Win32.ActiveCfg = Release|Win32
+		{76917DE1-1F86-4D31-8F34-70558A1DDD98}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

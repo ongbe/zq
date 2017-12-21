@@ -1,0 +1,8 @@
+LIBRARY
+
+EXPORTS
+	InitFunc
+	ReleaseFunc	
+	UdpRecvFunc
+	UdpOntimeFunc
+	

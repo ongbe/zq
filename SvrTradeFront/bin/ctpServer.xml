@@ -1,0 +1,10 @@
+<Server>
+	<Name>SVR_ST_INX_SIMU</Name>
+	<BrokerID>8090</BrokerID>
+	<Trading>
+		<item>58.246.40.180:26205</item>
+	</Trading>
+	<MarketData>
+		<item>58.246.40.180:26213</item>
+	</MarketData>
+</Server>

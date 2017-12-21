@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="GB2312"?>
+<root>
+	<Server>
+		<IP>10.11.112.152</IP>
+		<Port>1111</Port>
+	</Server>
+	<TimeSpan>09:00-11:30 13:00-15:15</TimeSpan>		
+</root>

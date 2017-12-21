@@ -1,0 +1,102 @@
+2015-01-10 10:48:34.812 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=16d0
+2015-01-10 10:48:34.812 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(127.0.0.1/9003)=0
+2015-01-10 10:48:34.812 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(16d0,16)=0
+2015-01-10 10:48:34.812 : CTcpServerWorker,02,CTcpServerWorker(127.0.0.1/9003,16,...)
+2015-01-10 16:09:05.250 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=16c0
+2015-01-10 16:09:05.250 : CUdpSimpleWorker,02,CreateSocket_Internal - bind(127.0.0.1/9010)=0
+2015-01-10 16:09:05.265 : CUdpSimpleWorker,02,CUdpSimpleWorker(127.0.0.1/9010,...)
+2015-01-10 16:09:05.281 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=16b0
+2015-01-10 16:09:05.281 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(127.0.0.1/9003)=0
+2015-01-10 16:09:05.281 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(16b0,16)=0
+2015-01-10 16:09:05.281 : CTcpServerWorker,02,CTcpServerWorker(127.0.0.1/9003,16,...)
+2015-01-14 09:11:49.000 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=16c0
+2015-01-14 09:11:49.000 : CUdpSimpleWorker,02,CreateSocket_Internal - bind(127.0.0.1/9010)=0
+2015-01-14 09:11:49.015 : CUdpSimpleWorker,02,CUdpSimpleWorker(127.0.0.1/9010,...)
+2015-01-14 09:11:49.031 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=16b4
+2015-01-14 09:11:49.031 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(127.0.0.1/9003)=0
+2015-01-14 09:11:49.031 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(16b4,16)=0
+2015-01-14 09:11:49.031 : CTcpServerWorker,02,CTcpServerWorker(127.0.0.1/9003,16,...)
+2015-01-14 09:33:17.843 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=127.0.0.1/3471)=1690
+2015-01-14 09:54:09.640 : CUdpSimpleWorker,02,CUdpSimpleWorker(127.0.0.1/9010,...)
+2015-01-14 09:54:09.656 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=16b8
+2015-01-14 09:54:09.656 : CUdpSimpleWorker,02,CreateSocket_Internal - bind(127.0.0.1/9010)=0
+2015-01-14 09:54:09.687 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=16a8
+2015-01-14 09:54:09.687 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(127.0.0.1/9003)=0
+2015-01-14 09:54:09.687 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(16a8,16)=0
+2015-01-14 09:54:09.687 : CTcpServerWorker,02,CTcpServerWorker(127.0.0.1/9003,16,...)
+2015-01-14 09:54:37.031 : CUdpSimpleWorker,02,CUdpSimpleWorker(127.0.0.1/9010,...)
+2015-01-14 09:54:37.046 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=16b4
+2015-01-14 09:54:37.046 : CUdpSimpleWorker,02,CreateSocket_Internal - bind(127.0.0.1/9010)=0
+2015-01-14 09:54:37.046 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=16bc
+2015-01-14 09:54:37.046 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/9003)=0
+2015-01-14 09:54:37.046 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(16bc,16)=0
+2015-01-14 09:54:37.046 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/9003,16,...)
+2015-01-14 09:57:26.937 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.178/4999)=1668
+2015-01-14 10:05:09.765 : TryRead_Internal,02,数据连接的远端正常或不正常的关闭。释放该数据连接 (RemoteAddr=10.11.112.178/4999 hSocket=1668 ReadLen=0 ErrCode=0)
+2015-01-14 10:05:09.765 : CTcpServerWorker,02,OffLineOneDataSocket_Internal(1668),Addr=10.11.112.178/4999
+2015-01-14 11:28:38.875 : CUdpSimpleWorker,02,CUdpSimpleWorker(127.0.0.1/9010,...)
+2015-01-14 11:28:38.890 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=16c0
+2015-01-14 11:28:38.890 : CUdpSimpleWorker,02,CreateSocket_Internal - bind(127.0.0.1/9010)=0
+2015-01-14 11:28:38.890 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=16b4
+2015-01-14 11:28:38.890 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/9003)=0
+2015-01-14 11:28:38.890 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(16b4,16)=0
+2015-01-14 11:28:38.890 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/9003,16,...)
+2015-01-14 11:29:23.953 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.178/3960)=1670
+2015-01-14 11:32:37.906 : TryRead_Internal,02,数据连接的远端正常或不正常的关闭。释放该数据连接 (RemoteAddr=10.11.112.178/3960 hSocket=1670 ReadLen=0 ErrCode=0)
+2015-01-14 11:32:37.906 : CTcpServerWorker,02,OffLineOneDataSocket_Internal(1670),Addr=10.11.112.178/3960
+2015-01-14 11:32:59.656 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.178/4385)=15a8
+2015-01-14 11:33:02.875 : TryRead_Internal,02,数据连接的远端正常或不正常的关闭。释放该数据连接 (RemoteAddr=10.11.112.178/4385 hSocket=15a8 ReadLen=0 ErrCode=0)
+2015-01-14 11:33:02.875 : CTcpServerWorker,02,OffLineOneDataSocket_Internal(15a8),Addr=10.11.112.178/4385
+2015-01-14 11:33:19.921 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.178/4423)=15a8
+2015-01-14 11:33:29.296 : TryRead_Internal,02,数据连接的远端正常或不正常的关闭。释放该数据连接 (RemoteAddr=10.11.112.178/4423 hSocket=15a8 ReadLen=0 ErrCode=0)
+2015-01-14 11:33:29.296 : CTcpServerWorker,02,OffLineOneDataSocket_Internal(15a8),Addr=10.11.112.178/4423
+2015-01-14 11:44:09.515 : CUdpSimpleWorker,02,CUdpSimpleWorker(127.0.0.1/9010,...)
+2015-01-14 11:44:09.531 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=16b0
+2015-01-14 11:44:09.531 : CUdpSimpleWorker,02,CreateSocket_Internal - bind(127.0.0.1/9010)=0
+2015-01-14 11:44:09.531 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=16ac
+2015-01-14 11:44:09.531 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/9003)=0
+2015-01-14 11:44:09.531 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(16ac,16)=0
+2015-01-14 11:44:09.531 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/9003,16,...)
+2015-01-14 11:44:52.984 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.178/1885)=1668
+2015-01-14 11:45:01.562 : TryRead_Internal,02,数据连接的远端正常或不正常的关闭。释放该数据连接 (RemoteAddr=10.11.112.178/1885 hSocket=1668 ReadLen=0 ErrCode=0)
+2015-01-14 11:45:17.000 : CTcpServerWorker,02,OffLineOneDataSocket_Internal(1668),Addr=10.11.112.178/1885
+2015-01-14 11:45:30.828 : CUdpSimpleWorker,02,CUdpSimpleWorker(127.0.0.1/9010,...)
+2015-01-14 11:45:30.843 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=16ac
+2015-01-14 11:45:30.843 : CUdpSimpleWorker,02,CreateSocket_Internal - bind(127.0.0.1/9010)=0
+2015-01-14 11:45:30.843 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=16b4
+2015-01-14 11:45:30.843 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/9003)=0
+2015-01-14 11:45:30.843 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(16b4,16)=0
+2015-01-14 11:45:30.843 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/9003,16,...)
+2015-01-14 15:17:49.625 : CUdpSimpleWorker,02,CUdpSimpleWorker(127.0.0.1/9010,...)
+2015-01-14 15:17:49.656 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=16c4
+2015-01-14 15:17:49.656 : CUdpSimpleWorker,02,CreateSocket_Internal - bind(127.0.0.1/9010)=0
+2015-01-14 15:17:49.656 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=16ac
+2015-01-14 15:17:49.656 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/9003)=0
+2015-01-14 15:17:49.656 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(16ac,16)=0
+2015-01-14 15:17:49.671 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/9003,16,...)
+2015-01-14 15:19:14.984 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.108/8810)=1670
+2015-01-14 15:19:41.718 : TryRead_Internal,02,数据连接的远端正常或不正常的关闭。释放该数据连接 (RemoteAddr=10.11.112.108/8810 hSocket=1670 ReadLen=0 ErrCode=0)
+2015-01-14 15:19:41.718 : CTcpServerWorker,02,OffLineOneDataSocket_Internal(1670),Addr=10.11.112.108/8810
+2015-01-14 15:21:18.203 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.108/8845)=1640
+2015-01-14 15:21:31.984 : TryRead_Internal,02,数据连接的远端正常或不正常的关闭。释放该数据连接 (RemoteAddr=10.11.112.108/8845 hSocket=1640 ReadLen=0 ErrCode=0)
+2015-01-14 15:21:31.984 : CTcpServerWorker,02,OffLineOneDataSocket_Internal(1640),Addr=10.11.112.108/8845
+2015-01-14 15:22:48.703 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.108/8871)=1630
+2015-01-14 15:26:28.875 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.108/8939)=15a8
+2015-01-14 15:29:33.828 : CUdpSimpleWorker,02,CUdpSimpleWorker(127.0.0.1/9010,...)
+2015-01-14 15:29:33.859 : CUdpSimpleWorker,02,CreateSocket_Internal - CreateUdpSocket()=16c0
+2015-01-14 15:29:33.859 : CUdpSimpleWorker,02,CreateSocket_Internal - bind(127.0.0.1/9010)=0
+2015-01-14 15:29:33.875 : CTcpServerWorker,02,CreateServerSocket_Internal - CreateTcpSocket()=16b4
+2015-01-14 15:29:33.875 : CTcpServerWorker,02,CreateServerSocket_Internal - bind(10.11.112.140/9003)=0
+2015-01-14 15:29:33.875 : CTcpServerWorker,02,CreateServerSocket_Internal - listen(16b4,16)=0
+2015-01-14 15:29:33.875 : CTcpServerWorker,02,CTcpServerWorker(10.11.112.140/9003,16,...)
+2015-01-14 15:30:00.906 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.108/9002)=1674
+2015-01-14 15:30:49.796 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.108/9019)=15b4
+2015-01-14 15:32:15.843 : TryRead_Internal,02,数据连接的远端正常或不正常的关闭。释放该数据连接 (RemoteAddr=10.11.112.108/9019 hSocket=15b4 ReadLen=0 ErrCode=0)
+2015-01-14 15:32:15.843 : CTcpServerWorker,02,OffLineOneDataSocket_Internal(15b4),Addr=10.11.112.108/9019
+2015-01-14 15:34:45.593 : TryRead_Internal,02,数据连接的远端正常或不正常的关闭。释放该数据连接 (RemoteAddr=10.11.112.108/9002 hSocket=1674 ReadLen=0 ErrCode=0)
+2015-01-14 15:34:45.593 : CTcpServerWorker,02,OffLineOneDataSocket_Internal(1674),Addr=10.11.112.108/9002
+2015-01-14 15:37:06.890 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/34994)=1640
+2015-01-14 15:40:17.625 : TryRead_Internal,02,数据连接的远端正常或不正常的关闭。释放该数据连接 (RemoteAddr=10.11.112.140/34994 hSocket=1640 ReadLen=0 ErrCode=0)
+2015-01-14 15:40:17.640 : CTcpServerWorker,02,OffLineOneDataSocket_Internal(1640),Addr=10.11.112.140/34994
+2015-01-14 15:40:55.875 : TryAccept_Internal,02,Accept一个数据连接 (RemoteAddr=10.11.112.140/35462)=1638
+2015-01-15 08:55:58.593 : CUdpSimpleWorker,02,CUdpSimpleWorker(127.0.0.1/9010,...)

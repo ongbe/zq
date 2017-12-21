@@ -1,0 +1,5 @@
+项目名称：SvrTradeFront
+目标文件：SvrTradeFront.dll
+运行环境：uniServer.exe
+功能：作为交易前置服务器，将客户端的交易指令转发到CTP，再将CTP返回的数据转发给客户端。
+典型用户：移动客户端 
